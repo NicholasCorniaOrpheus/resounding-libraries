@@ -1,0 +1,22 @@
+{
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": false
+    },
+    "physics": {
+        "forceAtlas2Based": {
+            "gravitationalConstant": -20,
+            "springLength": 1,
+            "springConstant": 1.0,
+            "avoidOverlap": 0,
+            "damping": 0
+        },
+        "maxVelocity": 1,
+        "minVelocity": 0.25
+    }
+}
