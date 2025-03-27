@@ -14,6 +14,12 @@ credentials = json2dict("../credentials/credentials.json")
 
 # TESTING
 
+"""Report test, working!
 report_id = 48
-
 report2json(credentials["koha"]["koha_public_report_url"], report_id)
+"""
+
+"""API test"""
+# print(get_authority_marc(1))
+
+print(get_biblionumber_marc(1))

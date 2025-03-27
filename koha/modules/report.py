@@ -3,6 +3,7 @@ Reports scripts
 '''
 
 import sys
+import os
 import requests
 sys.path.append("./modules")  # importing custom functions in modules
 from modules.utilities import *
@@ -18,7 +19,7 @@ def report2json(public_report_url,report_id):
 		reportfields = query[0]
 	else:
 		print("Report ID not found")
-		break
+		return []
 
 	# convert response into JSON
 	response = requests.get(public_report_url+"id="+str(report_id))
@@ -32,7 +33,7 @@ def report2json(public_report_url,report_id):
 		pretty_results.append(pretty_result)
 
 	# export result in data folder
-	output_filename = os.path.join(data_dir,"reports",f"{get_current_date()}_{reportfields["name"]}.json"
+	output_filename = os.path.join(data_dir,"reports",f"{get_current_date()}_{reportfields["name"]}.json")
 	dict2json(pretty_results,output_filename)
 
 

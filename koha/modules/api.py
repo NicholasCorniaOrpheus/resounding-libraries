@@ -18,7 +18,8 @@ oauth_credentials = credentials["koha"]["oauth_credentials"]
 
 basic_credentials = credentials["koha"]["basic_credentials"]
 
-fields = {"biblioitems": "biblios"}
+# Import mapping
+mapping_marc_fields = json2dict("./data/mapping_marc_fields.json")
 
 
 def oauth2_session(client_id, client_secret, base_url, scope="all"):
@@ -43,33 +44,80 @@ def basicAuth():
 
 # create Oath2 session
 my_session = oauth2_session(
-    client_id=OauthCredentials["client_id"],
-    client_secret=OauthCredentials["secret_key"],
+    client_id=oauth_credentials["client_id"],
+    client_secret=oauth_credentials["secret_key"],
     base_url=base_url,
 )
 
-# Testing API with Oauth
-# FULL MARC RECORD
-# headers = {"Accept": "application/marc-in-json"}
-# Only Koha Database parameters
-headers = {"Accept": "application/json"}
 
-query_parameters = {"author": {"-like": "Jean%"}}
+def convert_authority_marc_response(
+    response_json,
+):  # returns a more readable version of the MARC response of a API query according to a given mapping
+    # check authority type
+    authority_type = list(
+        filter(lambda x: list(x.keys())[0] == "942", response_json["fields"])
+    )[0]["942"]["subfields"][0]["a"]
+    query = list(
+        filter(lambda x: x["type"] == authority_type, mapping_marc_fields["authority"])
+    )
+    if len(query) > 0:
+        mapping = query[0]
+        # print("Mapping:", mapping)
+        pretty_response = {}
+        for key in mapping.keys():
+            if key != "type":
+                pretty_response[key] = {}
+                for element in mapping[key]:  # search through all subkeys
+                    # print("Element:", element)
+                    field_key = list(element.keys())[0]
+                    field_number = element[field_key][0]
+                    # print("Field to query:", field)
+                    query_field = list(
+                        filter(
+                            lambda x: list(x.keys())[0] == field_number,
+                            response_json["fields"],
+                        )
+                    )
 
-# query_parameters = {}
+                    subfield_number = element[field_key][1]
+                    if subfield_number == "":  # case no subfields, like in auth_id
+                        pretty_response[key][field_key] = query_field[0][field_number]
+                    else:
+                        # consider multiple entries of same field
+                        pretty_response[key][field_key] = []
+                        for entry in query_field:
+                            # search for right subfield
+                            query_subfield = list(
+                                filter(
+                                    lambda x: list(x.keys())[0] == subfield_number,
+                                    entry[field_number]["subfields"],
+                                )
+                            )
 
-# get authority by id
-auth_id = 1
-response = my_session.get(f"{base_url}/authorities/{auth_id}", headers=headers)
-# print(response.json())
-# get biblionumber by id
-biblio_id = 1
-response = my_session.get(f"{base_url}/biblios/{auth_id}", headers=headers)
-print(response.json())
+                            pretty_response[key][field_key].append(
+                                query_subfield[0][subfield_number]
+                            )
 
-# filter biblios based on author NOT WORKING
-response = my_session.get(
-    f"{base_url}/biblios", headers=headers, params=query_parameters
-)
-print("Request URL: ", response.url)
-print("Response: \n", response.json())
+    else:
+        print("Error")
+        return {}
+
+    return pretty_response
+
+
+def get_authority_koha(auth_id):  # returns a JSON response according to Koha fields
+    headers = {"Accept": "application/json"}
+    response = my_session.get(f"{base_url}/authorities/{str(auth_id)}", headers=headers)
+    return response.json()
+
+
+def get_authority_marc(auth_id):  # returns a JSON response with MARC fields.
+    headers = {"Accept": "application/marc-in-json"}
+    response = my_session.get(f"{base_url}/authorities/{str(auth_id)}", headers=headers)
+    return convert_authority_marc_response(response.json())
+
+
+def get_biblionumber_marc(biblio_id):  # returns a JSON response with MARC fields.
+    headers = {"Accept": "application/marc-in-json"}
+    response = my_session.get(f"{base_url}/biblios/{str(biblio_id)}", headers=headers)
+    return response.json()
