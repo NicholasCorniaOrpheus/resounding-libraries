@@ -1,0 +1,3004 @@
+{
+  "language_codes" : [
+    {
+      "Abbreviation" : "aar",
+      "Description" : "Afar",
+      "wd_qid" : "Q27811",
+      "wd_label" : "Afar"
+    },
+    {
+      "Abbreviation" : "abk",
+      "Description" : "Abkhaz",
+      "wd_qid" : "Q5111",
+      "wd_label" : "Abkhaz"
+    },
+    {
+      "Abbreviation" : "ace",
+      "Description" : "Achinese",
+      "wd_qid" : "Q27683",
+      "wd_label" : "Acehnese"
+    },
+    {
+      "Abbreviation" : "ach",
+      "Description" : "Acoli",
+      "wd_qid" : "Q34926",
+      "wd_label" : "Acholi"
+    },
+    {
+      "Abbreviation" : "ada",
+      "Description" : "Adangme",
+      "wd_qid" : "Q35141",
+      "wd_label" : "Dangme"
+    },
+    {
+      "Abbreviation" : "ady",
+      "Description" : "Adygei",
+      "wd_qid" : "Q27776",
+      "wd_label" : "Adyghe"
+    },
+    {
+      "Abbreviation" : "afa",
+      "Description" : "Afroasiatic (Other)",
+      "wd_qid" : "Q25268",
+      "wd_label" : "Afroasiatic"
+    },
+    {
+      "Abbreviation" : "afh",
+      "Description" : "Afrihili (Artificial language)",
+      "wd_qid" : "Q384707",
+      "wd_label" : "Afrihili"
+    },
+    {
+      "Abbreviation" : "afr",
+      "Description" : "Afrikaans",
+      "wd_qid" : "Q14196",
+      "wd_label" : "Afrikaans"
+    },
+    {
+      "Abbreviation" : "ain",
+      "Description" : "Ainu",
+      "wd_qid" : "Q27969",
+      "wd_label" : "Ainu"
+    },
+    {
+      "Abbreviation" : "-ajm",
+      "Description" : "Aljamía",
+      "wd_qid" : "Q36652",
+      "wd_label" : "aljamiado"
+    },
+    {
+      "Abbreviation" : "aka",
+      "Description" : "Akan",
+      "wd_qid" : "Q28026",
+      "wd_label" : "Akan"
+    },
+    {
+      "Abbreviation" : "akk",
+      "Description" : "Akkadian",
+      "wd_qid" : "Q35518",
+      "wd_label" : "Akkadian"
+    },
+    {
+      "Abbreviation" : "alb",
+      "Description" : "Albanian",
+      "wd_qid" : "Q8748",
+      "wd_label" : "Albanian"
+    },
+    {
+      "Abbreviation" : "ale",
+      "Description" : "Aleut",
+      "wd_qid" : "Q27210",
+      "wd_label" : "Aleut"
+    },
+    {
+      "Abbreviation" : "alg",
+      "Description" : "Algonquian (Other)",
+      "wd_qid" : "Q33392",
+      "wd_label" : "Algonquian"
+    },
+    {
+      "Abbreviation" : "alt",
+      "Description" : "Altai",
+      "wd_qid" : "Q28176",
+      "wd_label" : "Altai"
+    },
+    {
+      "Abbreviation" : "amh",
+      "Description" : "Amharic",
+      "wd_qid" : "Q28244",
+      "wd_label" : "Amharic"
+    },
+    {
+      "Abbreviation" : "ang",
+      "Description" : "English, Old (ca. 450-1100)",
+      "wd_qid" : "Q42365",
+      "wd_label" : "Old English"
+    },
+    {
+      "Abbreviation" : "anp",
+      "Description" : "Angika",
+      "wd_qid" : "Q28378",
+      "wd_label" : "Angika"
+    },
+    {
+      "Abbreviation" : "apa",
+      "Description" : "Apache languages",
+      "wd_qid" : "Q28060",
+      "wd_label" : "Western Apache"
+    },
+    {
+      "Abbreviation" : "ara",
+      "Description" : "Arabic",
+      "wd_qid" : "Q13955",
+      "wd_label" : "Arabic"
+    },
+    {
+      "Abbreviation" : "arc",
+      "Description" : "Aramaic",
+      "wd_qid" : "Q3398392",
+      "wd_label" : "Old Aramaic"
+    },
+    {
+      "Abbreviation" : "arg",
+      "Description" : "Aragonese",
+      "wd_qid" : "Q8765",
+      "wd_label" : "Aragonese"
+    },
+    {
+      "Abbreviation" : "arm",
+      "Description" : "Armenian",
+      "wd_qid" : "Q8785",
+      "wd_label" : "Armenian"
+    },
+    {
+      "Abbreviation" : "arn",
+      "Description" : "Mapuche",
+      "wd_qid" : "Q33730",
+      "wd_label" : "Mapudungun"
+    },
+    {
+      "Abbreviation" : "arp",
+      "Description" : "Arapaho",
+      "wd_qid" : "Q56417",
+      "wd_label" : "Arapaho"
+    },
+    {
+      "Abbreviation" : "art",
+      "Description" : "Artificial (Other)",
+      "wd_qid" : "Q3247505",
+      "wd_label" : "artificial language"
+    },
+    {
+      "Abbreviation" : "arw",
+      "Description" : "Arawak",
+      "wd_qid" : "Q2655664",
+      "wd_label" : "Arawak"
+    },
+    {
+      "Abbreviation" : "asm",
+      "Description" : "Assamese",
+      "wd_qid" : "Q29401",
+      "wd_label" : "Assamese"
+    },
+    {
+      "Abbreviation" : "ast",
+      "Description" : "Bable",
+      "wd_qid" : "Q29507",
+      "wd_label" : "Asturian"
+    },
+    {
+      "Abbreviation" : "ath",
+      "Description" : "Athapascan (Other)",
+      "wd_qid" : "Q27475",
+      "wd_label" : "Athabaskan"
+    },
+    {
+      "Abbreviation" : "aus",
+      "Description" : "Australian languages",
+      "wd_qid" : "Q205143",
+      "wd_label" : "Australian Aboriginal languages"
+    },
+    {
+      "Abbreviation" : "ava",
+      "Description" : "Avaric",
+      "wd_qid" : "Q29561",
+      "wd_label" : "Avar"
+    },
+    {
+      "Abbreviation" : "ave",
+      "Description" : "Avestan",
+      "wd_qid" : "Q29572",
+      "wd_label" : "Avestan"
+    },
+    {
+      "Abbreviation" : "awa",
+      "Description" : "Awadhi",
+      "wd_qid" : "Q29579",
+      "wd_label" : "Awadhi"
+    },
+    {
+      "Abbreviation" : "aym",
+      "Description" : "Aymara",
+      "wd_qid" : "Q4627",
+      "wd_label" : "Aymara"
+    },
+    {
+      "Abbreviation" : "aze",
+      "Description" : "Azerbaijani",
+      "wd_qid" : "Q9292",
+      "wd_label" : "Azerbaijani"
+    },
+    {
+      "Abbreviation" : "bad",
+      "Description" : "Banda languages",
+      "wd_qid" : "Q3504147",
+      "wd_label" : "Banda"
+    },
+    {
+      "Abbreviation" : "bai",
+      "Description" : "Bamileke languages",
+      "wd_qid" : "Q806005",
+      "wd_label" : "Bamileke"
+    },
+    {
+      "Abbreviation" : "bak",
+      "Description" : "Bashkir",
+      "wd_qid" : "Q13389",
+      "wd_label" : "Bashkir"
+    },
+    {
+      "Abbreviation" : "bal",
+      "Description" : "Baluchi",
+      "wd_qid" : "Q33049",
+      "wd_label" : "Balochi"
+    },
+    {
+      "Abbreviation" : "bam",
+      "Description" : "Bambara",
+      "wd_qid" : "Q33243",
+      "wd_label" : "Bambara"
+    },
+    {
+      "Abbreviation" : "ban",
+      "Description" : "Balinese",
+      "wd_qid" : "Q33070",
+      "wd_label" : "Balinese"
+    },
+    {
+      "Abbreviation" : "baq",
+      "Description" : "Basque",
+      "wd_qid" : "Q8752",
+      "wd_label" : "Basque"
+    },
+    {
+      "Abbreviation" : "bas",
+      "Description" : "Basa",
+      "wd_qid" : "Q33093",
+      "wd_label" : "Basaa"
+    },
+    {
+      "Abbreviation" : "bat",
+      "Description" : "Baltic (Other)",
+      "wd_qid" : "Q33136",
+      "wd_label" : "Baltic"
+    },
+    {
+      "Abbreviation" : "bej",
+      "Description" : "Beja",
+      "wd_qid" : "Q33025",
+      "wd_label" : "Beja"
+    },
+    {
+      "Abbreviation" : "bel",
+      "Description" : "Belarusian",
+      "wd_qid" : "Q9091",
+      "wd_label" : "Belarusian"
+    },
+    {
+      "Abbreviation" : "bem",
+      "Description" : "Bemba",
+      "wd_qid" : "Q33052",
+      "wd_label" : "Bemba"
+    },
+    {
+      "Abbreviation" : "ben",
+      "Description" : "Bengali",
+      "wd_qid" : "Q9610",
+      "wd_label" : "Bangla"
+    },
+    {
+      "Abbreviation" : "ber",
+      "Description" : "Berber (Other)",
+      "wd_qid" : "Q25448",
+      "wd_label" : "Berber"
+    },
+    {
+      "Abbreviation" : "bho",
+      "Description" : "Bhojpuri",
+      "wd_qid" : "Q33268",
+      "wd_label" : "Bhojpuri"
+    },
+    {
+      "Abbreviation" : "bih",
+      "Description" : "Bihari (Other)",
+      "wd_qid" : "Q135305",
+      "wd_label" : "Bihari"
+    },
+    {
+      "Abbreviation" : "bik",
+      "Description" : "Bikol",
+      "wd_qid" : "Q35455",
+      "wd_label" : "Bikol"
+    },
+    {
+      "Abbreviation" : "bin",
+      "Description" : "Edo",
+      "wd_qid" : "Q35375",
+      "wd_label" : "Edo"
+    },
+    {
+      "Abbreviation" : "bis",
+      "Description" : "Bislama",
+      "wd_qid" : "Q35452",
+      "wd_label" : "Bislama"
+    },
+    {
+      "Abbreviation" : "bla",
+      "Description" : "Siksika",
+      "wd_qid" : "Q33060",
+      "wd_label" : "Blackfoot"
+    },
+    {
+      "Abbreviation" : "bnt",
+      "Description" : "Bantu (Other)",
+      "wd_qid" : "Q33146",
+      "wd_label" : "Bantu"
+    },
+    {
+      "Abbreviation" : "bos",
+      "Description" : "Bosnian",
+      "wd_qid" : "Q9301",
+      "wd_label" : "Serbo-Croatian"
+    },
+    {
+      "Abbreviation" : "bra",
+      "Description" : "Braj",
+      "wd_qid" : "Q35243",
+      "wd_label" : "Braj Bhasha"
+    },
+    {
+      "Abbreviation" : "bre",
+      "Description" : "Breton",
+      "wd_qid" : "Q12107",
+      "wd_label" : "Breton"
+    },
+    {
+      "Abbreviation" : "btk",
+      "Description" : "Batak",
+      "wd_qid" : "Q1998595",
+      "wd_label" : "Batak"
+    },
+    {
+      "Abbreviation" : "bua",
+      "Description" : "Buriat",
+      "wd_qid" : "Q33120",
+      "wd_label" : "Buryat"
+    },
+    {
+      "Abbreviation" : "bug",
+      "Description" : "Bugis",
+      "wd_qid" : "Q33190",
+      "wd_label" : "Bugis"
+    },
+    {
+      "Abbreviation" : "bul",
+      "Description" : "Bulgarian",
+      "wd_qid" : "Q7918",
+      "wd_label" : "Bulgarian"
+    },
+    {
+      "Abbreviation" : "bur",
+      "Description" : "Burmese",
+      "wd_qid" : "Q9228",
+      "wd_label" : "Burmese"
+    },
+    {
+      "Abbreviation" : "byn",
+      "Description" : "Bilin",
+      "wd_qid" : "Q56491",
+      "wd_label" : "Blin"
+    },
+    {
+      "Abbreviation" : "cad",
+      "Description" : "Caddo",
+      "wd_qid" : "Q56756",
+      "wd_label" : "Caddo"
+    },
+    {
+      "Abbreviation" : "cai",
+      "Description" : "Central American Indian (Other)",
+      "wd_qid" : "Q12642598",
+      "wd_label" : "Central American Indian languages"
+    },
+    {
+      "Abbreviation" : "-cam",
+      "Description" : "Khmer",
+      "wd_qid" : "Q9205",
+      "wd_label" : "Khmer"
+    },
+    {
+      "Abbreviation" : "car",
+      "Description" : "Carib",
+      "wd_qid" : "Q56611",
+      "wd_label" : "Carib"
+    },
+    {
+      "Abbreviation" : "cat",
+      "Description" : "Catalan",
+      "wd_qid" : "Q7026",
+      "wd_label" : "Catalan"
+    },
+    {
+      "Abbreviation" : "cau",
+      "Description" : "Caucasian (Other)",
+      "wd_qid" : "Q169921",
+      "wd_label" : "Ibero-Caucasian"
+    },
+    {
+      "Abbreviation" : "ceb",
+      "Description" : "Cebuano",
+      "wd_qid" : "Q33239",
+      "wd_label" : "Cebuano"
+    },
+    {
+      "Abbreviation" : "cel",
+      "Description" : "Celtic (Other)",
+      "wd_qid" : "Q25293",
+      "wd_label" : "Celtic"
+    },
+    {
+      "Abbreviation" : "cha",
+      "Description" : "Chamorro",
+      "wd_qid" : "Q33262",
+      "wd_label" : "Chamorro"
+    },
+    {
+      "Abbreviation" : "chb",
+      "Description" : "Chibcha",
+      "wd_qid" : "Q2356431",
+      "wd_label" : "Chibcha"
+    },
+    {
+      "Abbreviation" : "che",
+      "Description" : "Chechen",
+      "wd_qid" : "Q33350",
+      "wd_label" : "Chechen"
+    },
+    {
+      "Abbreviation" : "chg",
+      "Description" : "Chagatai",
+      "wd_qid" : "Q36831",
+      "wd_label" : "Chagatai"
+    },
+    {
+      "Abbreviation" : "chi",
+      "Description" : "Chinese",
+      "wd_qid" : "Q7850",
+      "wd_label" : "Chinese"
+    },
+    {
+      "Abbreviation" : "chk",
+      "Description" : "Chuukese",
+      "wd_qid" : "Q33161",
+      "wd_label" : "Chuukese"
+    },
+    {
+      "Abbreviation" : "chm",
+      "Description" : "Mari",
+      "wd_qid" : "Q973685",
+      "wd_label" : "Mari"
+    },
+    {
+      "Abbreviation" : "chn",
+      "Description" : "Chinook jargon",
+      "wd_qid" : "Q35173",
+      "wd_label" : "Chinook Jargon"
+    },
+    {
+      "Abbreviation" : "cho",
+      "Description" : "Choctaw",
+      "wd_qid" : "Q32979",
+      "wd_label" : "Choctaw"
+    },
+    {
+      "Abbreviation" : "chp",
+      "Description" : "Chipewyan",
+      "wd_qid" : "Q27692",
+      "wd_label" : "Chipewyan"
+    },
+    {
+      "Abbreviation" : "chr",
+      "Description" : "Cherokee",
+      "wd_qid" : "Q33388",
+      "wd_label" : "Cherokee"
+    },
+    {
+      "Abbreviation" : "chu",
+      "Description" : "Church Slavic",
+      "wd_qid" : "Q33251",
+      "wd_label" : "Church Slavonic"
+    },
+    {
+      "Abbreviation" : "chv",
+      "Description" : "Chuvash",
+      "wd_qid" : "Q33348",
+      "wd_label" : "Chuvash"
+    },
+    {
+      "Abbreviation" : "chy",
+      "Description" : "Cheyenne",
+      "wd_qid" : "Q33265",
+      "wd_label" : "Cheyenne"
+    },
+    {
+      "Abbreviation" : "cmc",
+      "Description" : "Chamic languages",
+      "wd_qid" : "Q2997506",
+      "wd_label" : "Chamic"
+    },
+    {
+      "Abbreviation" : "cnr",
+      "Description" : "Montenegrin",
+      "wd_qid" : "Q8821",
+      "wd_label" : "Montenegrin"
+    },
+    {
+      "Abbreviation" : "cop",
+      "Description" : "Coptic",
+      "wd_qid" : "Q36155",
+      "wd_label" : "Coptic"
+    },
+    {
+      "Abbreviation" : "cor",
+      "Description" : "Cornish",
+      "wd_qid" : "Q25289",
+      "wd_label" : "Cornish"
+    },
+    {
+      "Abbreviation" : "cos",
+      "Description" : "Corsican",
+      "wd_qid" : "Q33111",
+      "wd_label" : "Corsican"
+    },
+    {
+      "Abbreviation" : "cre",
+      "Description" : "Cree",
+      "wd_qid" : "Q33390",
+      "wd_label" : "Cree"
+    },
+    {
+      "Abbreviation" : "crh",
+      "Description" : "Crimean Tatar",
+      "wd_qid" : "Q33357",
+      "wd_label" : "Crimean Tatar"
+    },
+    {
+      "Abbreviation" : "csb",
+      "Description" : "Kashubian",
+      "wd_qid" : "Q33690",
+      "wd_label" : "Kashubian"
+    },
+    {
+      "Abbreviation" : "cze",
+      "Description" : "Czech",
+      "wd_qid" : "Q9056",
+      "wd_label" : "Czech"
+    },
+    {
+      "Abbreviation" : "dak",
+      "Description" : "Dakota",
+      "wd_qid" : "Q530384",
+      "wd_label" : "Dakota"
+    },
+    {
+      "Abbreviation" : "dan",
+      "Description" : "Danish",
+      "wd_qid" : "Q9035",
+      "wd_label" : "Danish"
+    },
+    {
+      "Abbreviation" : "dar",
+      "Description" : "Dargwa",
+      "wd_qid" : "Q32332",
+      "wd_label" : "Dargwa"
+    },
+    {
+      "Abbreviation" : "day",
+      "Description" : "Dayak",
+      "wd_qid" : "Q3057743",
+      "wd_label" : "Dayak"
+    },
+    {
+      "Abbreviation" : "del",
+      "Description" : "Delaware",
+      "wd_qid" : "Q2665761",
+      "wd_label" : "Delaware"
+    },
+    {
+      "Abbreviation" : "den",
+      "Description" : "Slavey",
+      "wd_qid" : "Q13272",
+      "wd_label" : "Slavey"
+    },
+    {
+      "Abbreviation" : "dgr",
+      "Description" : "Dogrib",
+      "wd_qid" : "Q20979",
+      "wd_label" : "Dogrib"
+    },
+    {
+      "Abbreviation" : "din",
+      "Description" : "Dinka",
+      "wd_qid" : "Q56466",
+      "wd_label" : "Dinka"
+    },
+    {
+      "Abbreviation" : "div",
+      "Description" : "Divehi",
+      "wd_qid" : "Q32656",
+      "wd_label" : "Maldivian"
+    },
+    {
+      "Abbreviation" : "doi",
+      "Description" : "Dogri",
+      "wd_qid" : "Q32730",
+      "wd_label" : "Dogri"
+    },
+    {
+      "Abbreviation" : "dra",
+      "Description" : "Dravidian (Other)",
+      "wd_qid" : "Q33311",
+      "wd_label" : "Dravidian"
+    },
+    {
+      "Abbreviation" : "dsb",
+      "Description" : "Lower Sorbian",
+      "wd_qid" : "Q13286",
+      "wd_label" : "Lower Sorbian"
+    },
+    {
+      "Abbreviation" : "dua",
+      "Description" : "Duala",
+      "wd_qid" : "Q33013",
+      "wd_label" : "Duala"
+    },
+    {
+      "Abbreviation" : "dum",
+      "Description" : "Dutch, Middle (ca. 1050-1350)",
+      "wd_qid" : "Q178806",
+      "wd_label" : "Middle Dutch"
+    },
+    {
+      "Abbreviation" : "dut",
+      "Description" : "Dutch",
+      "wd_qid" : "Q7411",
+      "wd_label" : "Dutch"
+    },
+    {
+      "Abbreviation" : "dyu",
+      "Description" : "Dyula",
+      "wd_qid" : "Q32706",
+      "wd_label" : "Dioula"
+    },
+    {
+      "Abbreviation" : "dzo",
+      "Description" : "Dzongkha",
+      "wd_qid" : "Q33081",
+      "wd_label" : "Dzongkha"
+    },
+    {
+      "Abbreviation" : "efi",
+      "Description" : "Efik",
+      "wd_qid" : "Q35377",
+      "wd_label" : "Efik"
+    },
+    {
+      "Abbreviation" : "egy",
+      "Description" : "Egyptian",
+      "wd_qid" : "Q50868",
+      "wd_label" : "Egyptian"
+    },
+    {
+      "Abbreviation" : "eka",
+      "Description" : "Ekajuk",
+      "wd_qid" : "Q35250",
+      "wd_label" : "Ekajuk"
+    },
+    {
+      "Abbreviation" : "elx",
+      "Description" : "Elamite",
+      "wd_qid" : "Q35470",
+      "wd_label" : "Elamite"
+    },
+    {
+      "Abbreviation" : "eng",
+      "Description" : "English",
+      "wd_qid" : "Q1860",
+      "wd_label" : "English"
+    },
+    {
+      "Abbreviation" : "enm",
+      "Description" : "English, Middle (1100-1500)",
+      "wd_qid" : "Q36395",
+      "wd_label" : "Middle English"
+    },
+    {
+      "Abbreviation" : "epo",
+      "Description" : "Esperanto",
+      "wd_qid" : "Q143",
+      "wd_label" : "Esperanto"
+    },
+    {
+      "Abbreviation" : "-esk",
+      "Description" : "Eskimo languages",
+      "wd_qid" : "Q20736",
+      "wd_label" : "Eskimo languages"
+    },
+    {
+      "Abbreviation" : "-esp",
+      "Description" : "Esperanto",
+      "wd_qid" : "Q143",
+      "wd_label" : "Esperanto"
+    },
+    {
+      "Abbreviation" : "est",
+      "Description" : "Estonian",
+      "wd_qid" : "Q9072",
+      "wd_label" : "Estonian"
+    },
+    {
+      "Abbreviation" : "-eth",
+      "Description" : "Ethiopic",
+      "wd_qid" : "Q163629",
+      "wd_label" : "Ethiopian Semitic"
+    },
+    {
+      "Abbreviation" : "ewe",
+      "Description" : "Ewe",
+      "wd_qid" : "Q30005",
+      "wd_label" : "Ewe"
+    },
+    {
+      "Abbreviation" : "ewo",
+      "Description" : "Ewondo",
+      "wd_qid" : "Q35459",
+      "wd_label" : "Ewondo"
+    },
+    {
+      "Abbreviation" : "fan",
+      "Description" : "Fang",
+      "wd_qid" : "Q33484",
+      "wd_label" : "Fang"
+    },
+    {
+      "Abbreviation" : "fao",
+      "Description" : "Faroese",
+      "wd_qid" : "Q25258",
+      "wd_label" : "Faroese"
+    },
+    {
+      "Abbreviation" : "-far",
+      "Description" : "Faroese",
+      "wd_qid" : "Q25258",
+      "wd_label" : "Faroese"
+    },
+    {
+      "Abbreviation" : "fat",
+      "Description" : "Fanti",
+      "wd_qid" : "Q35570",
+      "wd_label" : "Fante"
+    },
+    {
+      "Abbreviation" : "fij",
+      "Description" : "Fijian",
+      "wd_qid" : "Q33295",
+      "wd_label" : "Fijian"
+    },
+    {
+      "Abbreviation" : "fil",
+      "Description" : "Filipino",
+      "wd_qid" : "Q33298",
+      "wd_label" : "Filipino"
+    },
+    {
+      "Abbreviation" : "fin",
+      "Description" : "Finnish",
+      "wd_qid" : "Q1412",
+      "wd_label" : "Finnish"
+    },
+    {
+      "Abbreviation" : "fiu",
+      "Description" : "Finno-Ugrian (Other)",
+      "wd_qid" : "Q79890",
+      "wd_label" : "Finno-Ugric"
+    },
+    {
+      "Abbreviation" : "fon",
+      "Description" : "Fon",
+      "wd_qid" : "Q33291",
+      "wd_label" : "Fon"
+    },
+    {
+      "Abbreviation" : "fre",
+      "Description" : "French",
+      "wd_qid" : "Q150",
+      "wd_label" : "French"
+    },
+    {
+      "Abbreviation" : "-fri",
+      "Description" : "Frisian",
+      "wd_qid" : "Q27175",
+      "wd_label" : "West Frisian"
+    },
+    {
+      "Abbreviation" : "frm",
+      "Description" : "French, Middle (ca. 1300-1600)",
+      "wd_qid" : "Q1473289",
+      "wd_label" : "Middle French"
+    },
+    {
+      "Abbreviation" : "fro",
+      "Description" : "French, Old (ca. 842-1300)",
+      "wd_qid" : "Q35222",
+      "wd_label" : "Old French"
+    },
+    {
+      "Abbreviation" : "frr",
+      "Description" : "North Frisian",
+      "wd_qid" : "Q28224",
+      "wd_label" : "North Frisian"
+    },
+    {
+      "Abbreviation" : "frs",
+      "Description" : "East Frisian",
+      "wd_qid" : "Q494355",
+      "wd_label" : "East Frisian language"
+    },
+    {
+      "Abbreviation" : "fry",
+      "Description" : "Frisian",
+      "wd_qid" : "Q27175",
+      "wd_label" : "West Frisian"
+    },
+    {
+      "Abbreviation" : "ful",
+      "Description" : "Fula",
+      "wd_qid" : "Q33454",
+      "wd_label" : "Fula"
+    },
+    {
+      "Abbreviation" : "fur",
+      "Description" : "Friulian",
+      "wd_qid" : "Q33441",
+      "wd_label" : "Friulian"
+    },
+    {
+      "Abbreviation" : "gaa",
+      "Description" : "Gã",
+      "wd_qid" : "Q33287",
+      "wd_label" : "Ga"
+    },
+    {
+      "Abbreviation" : "-gae",
+      "Description" : "Scottish Gaelix",
+      "wd_qid" : "Q9314",
+      "wd_label" : "Scottish Gaelic"
+    },
+    {
+      "Abbreviation" : "-gag",
+      "Description" : "Galician",
+      "wd_qid" : "Q9307",
+      "wd_label" : "Galician"
+    },
+    {
+      "Abbreviation" : "-gal",
+      "Description" : "Oromo",
+      "wd_qid" : "Q33864",
+      "wd_label" : "Oromo"
+    },
+    {
+      "Abbreviation" : "gay",
+      "Description" : "Gayo",
+      "wd_qid" : "Q33286",
+      "wd_label" : "Gayo"
+    },
+    {
+      "Abbreviation" : "gba",
+      "Description" : "Gbaya",
+      "wd_qid" : "Q3099986",
+      "wd_label" : "Gbaya"
+    },
+    {
+      "Abbreviation" : "gem",
+      "Description" : "Germanic (Other)",
+      "wd_qid" : "Q21200",
+      "wd_label" : "Germanic"
+    },
+    {
+      "Abbreviation" : "geo",
+      "Description" : "Georgian",
+      "wd_qid" : "Q8108",
+      "wd_label" : "Georgian"
+    },
+    {
+      "Abbreviation" : "ger",
+      "Description" : "German",
+      "wd_qid" : "Q188",
+      "wd_label" : "German"
+    },
+    {
+      "Abbreviation" : "gez",
+      "Description" : "Ethiopic",
+      "wd_qid" : "Q163629",
+      "wd_label" : "Ethiopian Semitic"
+    },
+    {
+      "Abbreviation" : "gil",
+      "Description" : "Gilbertese",
+      "wd_qid" : "Q30898",
+      "wd_label" : "Gilbertese"
+    },
+    {
+      "Abbreviation" : "gla",
+      "Description" : "Scottish Gaelic",
+      "wd_qid" : "Q9314",
+      "wd_label" : "Scottish Gaelic"
+    },
+    {
+      "Abbreviation" : "gle",
+      "Description" : "Irish",
+      "wd_qid" : "Q9142",
+      "wd_label" : "Irish"
+    },
+    {
+      "Abbreviation" : "glg",
+      "Description" : "Galician",
+      "wd_qid" : "Q9307",
+      "wd_label" : "Galician"
+    },
+    {
+      "Abbreviation" : "glv",
+      "Description" : "Manx",
+      "wd_qid" : "Q12175",
+      "wd_label" : "Manx"
+    },
+    {
+      "Abbreviation" : "gmh",
+      "Description" : "German, Middle High (ca. 1050-1500)",
+      "wd_qid" : "Q837985",
+      "wd_label" : "Middle High German"
+    },
+    {
+      "Abbreviation" : "goh",
+      "Description" : "German, Old High (ca. 750-1050)",
+      "wd_qid" : "Q35218",
+      "wd_label" : "Old High German"
+    },
+    {
+      "Abbreviation" : "gon",
+      "Description" : "Gondi",
+      "wd_qid" : "Q1775361",
+      "wd_label" : "Gondi"
+    },
+    {
+      "Abbreviation" : "gor",
+      "Description" : "Gorontalo",
+      "wd_qid" : "Q2501174",
+      "wd_label" : "Gorontalo"
+    },
+    {
+      "Abbreviation" : "got",
+      "Description" : "Gothic",
+      "wd_qid" : "Q35722",
+      "wd_label" : "Gothic"
+    },
+    {
+      "Abbreviation" : "grb",
+      "Description" : "Grebo",
+      "wd_qid" : "Q35257",
+      "wd_label" : "Grebo"
+    },
+    {
+      "Abbreviation" : "grc",
+      "Description" : "Greek, Ancient (to 1453)",
+      "wd_qid" : "Q35497",
+      "wd_label" : "Ancient Greek"
+    },
+    {
+      "Abbreviation" : "gre",
+      "Description" : "Greek, Modern (1453-)",
+      "wd_qid" : "Q9129",
+      "wd_label" : "Greek"
+    },
+    {
+      "Abbreviation" : "grn",
+      "Description" : "Guarani",
+      "wd_qid" : "Q35876",
+      "wd_label" : "Guarani"
+    },
+    {
+      "Abbreviation" : "gsw",
+      "Description" : "Swiss German",
+      "wd_qid" : "Q387066",
+      "wd_label" : "Swiss German"
+    },
+    {
+      "Abbreviation" : "-gua",
+      "Description" : "Guarani",
+      "wd_qid" : "Q35876",
+      "wd_label" : "Guarani"
+    },
+    {
+      "Abbreviation" : "guj",
+      "Description" : "Gujarati",
+      "wd_qid" : "Q5137",
+      "wd_label" : "Gujarati"
+    },
+    {
+      "Abbreviation" : "gwi",
+      "Description" : "Gwich'in",
+      "wd_qid" : "Q21057",
+      "wd_label" : "Gwich’in"
+    },
+    {
+      "Abbreviation" : "hai",
+      "Description" : "Haida",
+      "wd_qid" : "Q33303",
+      "wd_label" : "Haida"
+    },
+    {
+      "Abbreviation" : "hat",
+      "Description" : "Haitian French Creole",
+      "wd_qid" : "Q33491",
+      "wd_label" : "Haitian Creole"
+    },
+    {
+      "Abbreviation" : "hau",
+      "Description" : "Hausa",
+      "wd_qid" : "Q56475",
+      "wd_label" : "Hausa"
+    },
+    {
+      "Abbreviation" : "haw",
+      "Description" : "Hawaiian",
+      "wd_qid" : "Q33569",
+      "wd_label" : "Hawaiian"
+    },
+    {
+      "Abbreviation" : "heb",
+      "Description" : "Hebrew",
+      "wd_qid" : "Q9288",
+      "wd_label" : "Hebrew"
+    },
+    {
+      "Abbreviation" : "her",
+      "Description" : "Herero",
+      "wd_qid" : "Q33315",
+      "wd_label" : "Herero"
+    },
+    {
+      "Abbreviation" : "hil",
+      "Description" : "Hiligaynon",
+      "wd_qid" : "Q35978",
+      "wd_label" : "Hiligaynon"
+    },
+    {
+      "Abbreviation" : "him",
+      "Description" : "Western Pahari languages",
+      "wd_qid" : "Q10939493",
+      "wd_label" : "Western Pahari"
+    },
+    {
+      "Abbreviation" : "hin",
+      "Description" : "Hindi",
+      "wd_qid" : "Q1568",
+      "wd_label" : "Hindi"
+    },
+    {
+      "Abbreviation" : "hit",
+      "Description" : "Hittite",
+      "wd_qid" : "Q35668",
+      "wd_label" : "Hittite"
+    },
+    {
+      "Abbreviation" : "hmn",
+      "Description" : "Hmong",
+      "wd_qid" : "Q3307894",
+      "wd_label" : "Hmong"
+    },
+    {
+      "Abbreviation" : "hmo",
+      "Description" : "Hiri Motu",
+      "wd_qid" : "Q33617",
+      "wd_label" : "Hiri Motu"
+    },
+    {
+      "Abbreviation" : "hrv",
+      "Description" : "Croatian",
+      "wd_qid" : "Q6654",
+      "wd_label" : "Croatian"
+    },
+    {
+      "Abbreviation" : "hsb",
+      "Description" : "Upper Sorbian",
+      "wd_qid" : "Q13248",
+      "wd_label" : "Upper Sorbian"
+    },
+    {
+      "Abbreviation" : "hun",
+      "Description" : "Hungarian",
+      "wd_qid" : "Q9067",
+      "wd_label" : "Hungarian"
+    },
+    {
+      "Abbreviation" : "hup",
+      "Description" : "Hupa",
+      "wd_qid" : "Q28058",
+      "wd_label" : "Hupa"
+    },
+    {
+      "Abbreviation" : "iba",
+      "Description" : "Iban",
+      "wd_qid" : "Q33424",
+      "wd_label" : "Iban"
+    },
+    {
+      "Abbreviation" : "ibo",
+      "Description" : "Igbo",
+      "wd_qid" : "Q33578",
+      "wd_label" : "Igbo"
+    },
+    {
+      "Abbreviation" : "ice",
+      "Description" : "Icelandic",
+      "wd_qid" : "Q294",
+      "wd_label" : "Icelandic"
+    },
+    {
+      "Abbreviation" : "ido",
+      "Description" : "Ido",
+      "wd_qid" : "Q35224",
+      "wd_label" : "Ido"
+    },
+    {
+      "Abbreviation" : "iii",
+      "Description" : "Sichuan Yi",
+      "wd_qid" : "Q34235",
+      "wd_label" : "Nuosu"
+    },
+    {
+      "Abbreviation" : "ijo",
+      "Description" : "Ijo",
+      "wd_qid" : "Q3915854",
+      "wd_label" : "Nembe"
+    },
+    {
+      "Abbreviation" : "iku",
+      "Description" : "Inuktitut",
+      "wd_qid" : "Q29921",
+      "wd_label" : "Inuktitut"
+    },
+    {
+      "Abbreviation" : "ile",
+      "Description" : "Interlingue",
+      "wd_qid" : "Q35850",
+      "wd_label" : "Interlingue"
+    },
+    {
+      "Abbreviation" : "ilo",
+      "Description" : "Iloko",
+      "wd_qid" : "Q35936",
+      "wd_label" : "Ilocano"
+    },
+    {
+      "Abbreviation" : "ina",
+      "Description" : "Interlingua (International Auxiliary Language Association)",
+      "wd_qid" : "Q35934",
+      "wd_label" : "Interlingua"
+    },
+    {
+      "Abbreviation" : "inc",
+      "Description" : "Indic (Other)",
+      "wd_qid" : "Q33577",
+      "wd_label" : "Indo-Aryan"
+    },
+    {
+      "Abbreviation" : "ind",
+      "Description" : "Indonesian",
+      "wd_qid" : "Q9240",
+      "wd_label" : "Indonesian"
+    },
+    {
+      "Abbreviation" : "ine",
+      "Description" : "Indo-European (Other)",
+      "wd_qid" : "Q19860",
+      "wd_label" : "Indo-European"
+    },
+    {
+      "Abbreviation" : "inh",
+      "Description" : "Ingush",
+      "wd_qid" : "Q33509",
+      "wd_label" : "Ingush"
+    },
+    {
+      "Abbreviation" : "-int",
+      "Description" : "Interlingua (International Auxiliary Language Association)",
+      "wd_qid" : "Q35934",
+      "wd_label" : "Interlingua"
+    },
+    {
+      "Abbreviation" : "ipk",
+      "Description" : "Inupiaq",
+      "wd_qid" : "Q27183",
+      "wd_label" : "Iñupiaq"
+    },
+    {
+      "Abbreviation" : "ira",
+      "Description" : "Iranian (Other)",
+      "wd_qid" : "Q9168",
+      "wd_label" : "Persian"
+    },
+    {
+      "Abbreviation" : "-iri",
+      "Description" : "Irish",
+      "wd_qid" : "Q9142",
+      "wd_label" : "Irish"
+    },
+    {
+      "Abbreviation" : "iro",
+      "Description" : "Iroquoian (Other)",
+      "wd_qid" : "Q33623",
+      "wd_label" : "Iroquoian"
+    },
+    {
+      "Abbreviation" : "ita",
+      "Description" : "Italian",
+      "wd_qid" : "Q652",
+      "wd_label" : "Italian"
+    },
+    {
+      "Abbreviation" : "jav",
+      "Description" : "Javanese",
+      "wd_qid" : "Q33549",
+      "wd_label" : "Javanese"
+    },
+    {
+      "Abbreviation" : "jbo",
+      "Description" : "Lojban (Artificial language)",
+      "wd_qid" : "Q36350",
+      "wd_label" : "Lojban"
+    },
+    {
+      "Abbreviation" : "jpn",
+      "Description" : "Japanese",
+      "wd_qid" : "Q5287",
+      "wd_label" : "Japanese"
+    },
+    {
+      "Abbreviation" : "jpr",
+      "Description" : "Judeo-Persian",
+      "wd_qid" : "Q33367",
+      "wd_label" : "Judæo-Persian"
+    },
+    {
+      "Abbreviation" : "jrb",
+      "Description" : "Judeo-Arabic",
+      "wd_qid" : "Q37733",
+      "wd_label" : "Judeo-Arabic"
+    },
+    {
+      "Abbreviation" : "kaa",
+      "Description" : "Kara-Kalpak",
+      "wd_qid" : "Q33541",
+      "wd_label" : "Karakalpak"
+    },
+    {
+      "Abbreviation" : "kab",
+      "Description" : "Kabyle",
+      "wd_qid" : "Q35853",
+      "wd_label" : "Kabyle"
+    },
+    {
+      "Abbreviation" : "kac",
+      "Description" : "Kachin",
+      "wd_qid" : "Q33332",
+      "wd_label" : "Jingpho"
+    },
+    {
+      "Abbreviation" : "kam",
+      "Description" : "Kamba",
+      "wd_qid" : "Q2574767",
+      "wd_label" : "Kamba"
+    },
+    {
+      "Abbreviation" : "kan",
+      "Description" : "Kannada",
+      "wd_qid" : "Q33673",
+      "wd_label" : "Kannada"
+    },
+    {
+      "Abbreviation" : "kar",
+      "Description" : "Karen languages",
+      "wd_qid" : "Q1364815",
+      "wd_label" : "Karenic"
+    },
+    {
+      "Abbreviation" : "kas",
+      "Description" : "Kashmiri",
+      "wd_qid" : "Q33552",
+      "wd_label" : "Kashmiri"
+    },
+    {
+      "Abbreviation" : "kau",
+      "Description" : "Kanuri",
+      "wd_qid" : "Q36094",
+      "wd_label" : "Kanuri"
+    },
+    {
+      "Abbreviation" : "kaw",
+      "Description" : "Kawi",
+      "wd_qid" : "Q49341",
+      "wd_label" : "Kawi"
+    },
+    {
+      "Abbreviation" : "kaz",
+      "Description" : "Kazakh",
+      "wd_qid" : "Q9252",
+      "wd_label" : "Kazakh"
+    },
+    {
+      "Abbreviation" : "kbd",
+      "Description" : "Kabardian",
+      "wd_qid" : "Q33522",
+      "wd_label" : "Kabardian"
+    },
+    {
+      "Abbreviation" : "kha",
+      "Description" : "Khasi",
+      "wd_qid" : "Q33584",
+      "wd_label" : "Khasi"
+    },
+    {
+      "Abbreviation" : "khi",
+      "Description" : "Khoisan (Other)",
+      "wd_qid" : "Q33614",
+      "wd_label" : "Khoisan"
+    },
+    {
+      "Abbreviation" : "khm",
+      "Description" : "Khmer",
+      "wd_qid" : "Q9205",
+      "wd_label" : "Khmer"
+    },
+    {
+      "Abbreviation" : "kho",
+      "Description" : "Khotanese",
+      "wd_qid" : "Q6583551",
+      "wd_label" : "Khotanese"
+    },
+    {
+      "Abbreviation" : "kik",
+      "Description" : "Kikuyu",
+      "wd_qid" : "Q33587",
+      "wd_label" : "Gikuyu"
+    },
+    {
+      "Abbreviation" : "kin",
+      "Description" : "Kinyarwanda",
+      "wd_qid" : "Q33573",
+      "wd_label" : "Kinyarwanda"
+    },
+    {
+      "Abbreviation" : "kir",
+      "Description" : "Kyrgyz",
+      "wd_qid" : "Q9255",
+      "wd_label" : "Kyrgyz"
+    },
+    {
+      "Abbreviation" : "kmb",
+      "Description" : "Kimbundu",
+      "wd_qid" : "Q35891",
+      "wd_label" : "Kimbundu"
+    },
+    {
+      "Abbreviation" : "kok",
+      "Description" : "Konkani",
+      "wd_qid" : "Q34239",
+      "wd_label" : "Konkani"
+    },
+    {
+      "Abbreviation" : "kom",
+      "Description" : "Komi",
+      "wd_qid" : "Q36126",
+      "wd_label" : "Komi"
+    },
+    {
+      "Abbreviation" : "kon",
+      "Description" : "Kongo",
+      "wd_qid" : "Q33702",
+      "wd_label" : "Kongo"
+    },
+    {
+      "Abbreviation" : "kor",
+      "Description" : "Korean",
+      "wd_qid" : "Q9176",
+      "wd_label" : "Korean"
+    },
+    {
+      "Abbreviation" : "kos",
+      "Description" : "Kosraean",
+      "wd_qid" : "Q33464",
+      "wd_label" : "Kosraean"
+    },
+    {
+      "Abbreviation" : "kpe",
+      "Description" : "Kpelle",
+      "wd_qid" : "Q35673",
+      "wd_label" : "Kpelle"
+    },
+    {
+      "Abbreviation" : "krc",
+      "Description" : "Karachay-Balkar",
+      "wd_qid" : "Q33714",
+      "wd_label" : "Karachay-Balkar"
+    },
+    {
+      "Abbreviation" : "krl",
+      "Description" : "Karelian",
+      "wd_qid" : "Q33557",
+      "wd_label" : "Karelian"
+    },
+    {
+      "Abbreviation" : "kro",
+      "Description" : "Kru (Other)",
+      "wd_qid" : "Q33535",
+      "wd_label" : "Kru"
+    },
+    {
+      "Abbreviation" : "kru",
+      "Description" : "Kurukh",
+      "wd_qid" : "Q33492",
+      "wd_label" : "Kurukh"
+    },
+    {
+      "Abbreviation" : "kua",
+      "Description" : "Kuanyama",
+      "wd_qid" : "Q1405077",
+      "wd_label" : "Kwanyama"
+    },
+    {
+      "Abbreviation" : "kum",
+      "Description" : "Kumyk",
+      "wd_qid" : "Q36209",
+      "wd_label" : "Kumyk"
+    },
+    {
+      "Abbreviation" : "kur",
+      "Description" : "Kurdish",
+      "wd_qid" : "Q36368",
+      "wd_label" : "Kurdish"
+    },
+    {
+      "Abbreviation" : "-kus",
+      "Description" : "Kusaie",
+      "wd_qid" : "Q33464",
+      "wd_label" : "Kosraean"
+    },
+    {
+      "Abbreviation" : "kut",
+      "Description" : "Kootenai",
+      "wd_qid" : "Q33434",
+      "wd_label" : "Kutenai"
+    },
+    {
+      "Abbreviation" : "lad",
+      "Description" : "Ladino",
+      "wd_qid" : "Q36202",
+      "wd_label" : "Ladin"
+    },
+    {
+      "Abbreviation" : "lah",
+      "Description" : "Lahndā",
+      "wd_qid" : "Q112670533",
+      "wd_label" : "Lahnda"
+    },
+    {
+      "Abbreviation" : "lam",
+      "Description" : "Lamba (Zambia and Congo)",
+      "wd_qid" : "Q2365491",
+      "wd_label" : "Lamba"
+    },
+    {
+      "Abbreviation" : "-lan",
+      "Description" : "Occitan (post 1500)",
+      "wd_qid" : "Q14185",
+      "wd_label" : "Occitan"
+    },
+    {
+      "Abbreviation" : "lao",
+      "Description" : "Lao",
+      "wd_qid" : "Q9211",
+      "wd_label" : "Lao"
+    },
+    {
+      "Abbreviation" : "-lap",
+      "Description" : "Sami",
+      "wd_qid" : "Q56593",
+      "wd_label" : "Levantine Arabic"
+    },
+    {
+      "Abbreviation" : "lat",
+      "Description" : "Latin",
+      "wd_qid" : "Q397",
+      "wd_label" : "Latin"
+    },
+    {
+      "Abbreviation" : "lav",
+      "Description" : "Latvian",
+      "wd_qid" : "Q9078",
+      "wd_label" : "Latvian"
+    },
+    {
+      "Abbreviation" : "lez",
+      "Description" : "Lezgian",
+      "wd_qid" : "Q31746",
+      "wd_label" : "Lezgian"
+    },
+    {
+      "Abbreviation" : "lim",
+      "Description" : "Limburgish",
+      "wd_qid" : "Q102172",
+      "wd_label" : "Limburgish"
+    },
+    {
+      "Abbreviation" : "lin",
+      "Description" : "Lingala",
+      "wd_qid" : "Q36217",
+      "wd_label" : "Lingala"
+    },
+    {
+      "Abbreviation" : "lit",
+      "Description" : "Lithuanian",
+      "wd_qid" : "Q9083",
+      "wd_label" : "Lithuanian"
+    },
+    {
+      "Abbreviation" : "lol",
+      "Description" : "Mongo-Nkundu",
+      "wd_qid" : "Q112893",
+      "wd_label" : "Mongo"
+    },
+    {
+      "Abbreviation" : "loz",
+      "Description" : "Lozi",
+      "wd_qid" : "Q33628",
+      "wd_label" : "Lozi"
+    },
+    {
+      "Abbreviation" : "ltz",
+      "Description" : "Luxembourgish",
+      "wd_qid" : "Q9051",
+      "wd_label" : "Luxembourgish"
+    },
+    {
+      "Abbreviation" : "lua",
+      "Description" : "Luba-Lulua",
+      "wd_qid" : "Q34173",
+      "wd_label" : "Luba-Kasai"
+    },
+    {
+      "Abbreviation" : "lub",
+      "Description" : "Luba-Katanga",
+      "wd_qid" : "Q36157",
+      "wd_label" : "Luba-Katanga"
+    },
+    {
+      "Abbreviation" : "lug",
+      "Description" : "Ganda",
+      "wd_qid" : "Q56245",
+      "wd_label" : "Ga'anda"
+    },
+    {
+      "Abbreviation" : "lui",
+      "Description" : "Luiseño",
+      "wd_qid" : "Q56236",
+      "wd_label" : "Luiseño"
+    },
+    {
+      "Abbreviation" : "lun",
+      "Description" : "Lunda",
+      "wd_qid" : "Q33607",
+      "wd_label" : "Lunda"
+    },
+    {
+      "Abbreviation" : "luo",
+      "Description" : "Luo (Kenya and Tanzania)",
+      "wd_qid" : "Q5414796",
+      "wd_label" : "Dholuo"
+    },
+    {
+      "Abbreviation" : "lus",
+      "Description" : "Lushai",
+      "wd_qid" : "Q36147",
+      "wd_label" : "Mizo"
+    },
+    {
+      "Abbreviation" : "mac",
+      "Description" : "Macedonian",
+      "wd_qid" : "Q9296",
+      "wd_label" : "Macedonian"
+    },
+    {
+      "Abbreviation" : "mad",
+      "Description" : "Madurese",
+      "wd_qid" : "Q36213",
+      "wd_label" : "Madurese"
+    },
+    {
+      "Abbreviation" : "mag",
+      "Description" : "Magahi",
+      "wd_qid" : "Q33728",
+      "wd_label" : "Magahi"
+    },
+    {
+      "Abbreviation" : "mah",
+      "Description" : "Marshallese",
+      "wd_qid" : "Q36280",
+      "wd_label" : "Marshallese"
+    },
+    {
+      "Abbreviation" : "mai",
+      "Description" : "Maithili",
+      "wd_qid" : "Q36109",
+      "wd_label" : "Maithili"
+    },
+    {
+      "Abbreviation" : "mak",
+      "Description" : "Makasar",
+      "wd_qid" : "Q33643",
+      "wd_label" : "Makassar"
+    },
+    {
+      "Abbreviation" : "mal",
+      "Description" : "Malayalam",
+      "wd_qid" : "Q36236",
+      "wd_label" : "Malayalam"
+    },
+    {
+      "Abbreviation" : "man",
+      "Description" : "Mandingo",
+      "wd_qid" : "Q35772",
+      "wd_label" : "Manding"
+    },
+    {
+      "Abbreviation" : "mao",
+      "Description" : "Maori",
+      "wd_qid" : "Q36451",
+      "wd_label" : "Māori"
+    },
+    {
+      "Abbreviation" : "map",
+      "Description" : "Austronesian (Other)",
+      "wd_qid" : "Q49228",
+      "wd_label" : "Austronesian"
+    },
+    {
+      "Abbreviation" : "mar",
+      "Description" : "Marathi",
+      "wd_qid" : "Q1571",
+      "wd_label" : "Marathi"
+    },
+    {
+      "Abbreviation" : "mas",
+      "Description" : "Maasai",
+      "wd_qid" : "Q35787",
+      "wd_label" : "Maasai"
+    },
+    {
+      "Abbreviation" : "-max",
+      "Description" : "Manx",
+      "wd_qid" : "Q12175",
+      "wd_label" : "Manx"
+    },
+    {
+      "Abbreviation" : "may",
+      "Description" : "Malay",
+      "wd_qid" : "Q9237",
+      "wd_label" : "Malay"
+    },
+    {
+      "Abbreviation" : "mdf",
+      "Description" : "Moksha",
+      "wd_qid" : "Q13343",
+      "wd_label" : "Moksha"
+    },
+    {
+      "Abbreviation" : "mdr",
+      "Description" : "Mandar",
+      "wd_qid" : "Q35995",
+      "wd_label" : "Mandar"
+    },
+    {
+      "Abbreviation" : "men",
+      "Description" : "Mende",
+      "wd_qid" : "Q1478672",
+      "wd_label" : "Mende"
+    },
+    {
+      "Abbreviation" : "mga",
+      "Description" : "Irish, Middle (ca. 1100-1550)",
+      "wd_qid" : "Q36116",
+      "wd_label" : "Middle Irish"
+    },
+    {
+      "Abbreviation" : "mic",
+      "Description" : "Micmac",
+      "wd_qid" : "Q13321",
+      "wd_label" : "Mi'kmaq"
+    },
+    {
+      "Abbreviation" : "min",
+      "Description" : "Minangkabau",
+      "wd_qid" : "Q13324",
+      "wd_label" : "Minangkabau"
+    },
+    {
+      "Abbreviation" : "mis",
+      "Description" : "Miscellaneous languages",
+      "wd_qid" : "Q124796501",
+      "wd_label" : "uncoded language"
+    },
+    {
+      "Abbreviation" : "-mla",
+      "Description" : "Malagasy",
+      "wd_qid" : "Q7930",
+      "wd_label" : "Malagasy"
+    },
+    {
+      "Abbreviation" : "mlg",
+      "Description" : "Malagasy",
+      "wd_qid" : "Q7930",
+      "wd_label" : "Malagasy"
+    },
+    {
+      "Abbreviation" : "mlt",
+      "Description" : "Maltese",
+      "wd_qid" : "Q9166",
+      "wd_label" : "Maltese"
+    },
+    {
+      "Abbreviation" : "mnc",
+      "Description" : "Manchu",
+      "wd_qid" : "Q33638",
+      "wd_label" : "Manchu"
+    },
+    {
+      "Abbreviation" : "mni",
+      "Description" : "Manipuri",
+      "wd_qid" : "Q33868",
+      "wd_label" : "Meitei"
+    },
+    {
+      "Abbreviation" : "mno",
+      "Description" : "Manobo languages",
+      "wd_qid" : "Q3217483",
+      "wd_label" : "Manobo"
+    },
+    {
+      "Abbreviation" : "moh",
+      "Description" : "Mohawk",
+      "wd_qid" : "Q13339",
+      "wd_label" : "Mohawk"
+    },
+    {
+      "Abbreviation" : "-mol",
+      "Description" : "Moldavian",
+      "wd_qid" : "Q36392",
+      "wd_label" : "Moldovan"
+    },
+    {
+      "Abbreviation" : "mon",
+      "Description" : "Mongolian",
+      "wd_qid" : "Q9246",
+      "wd_label" : "Mongolian"
+    },
+    {
+      "Abbreviation" : "mos",
+      "Description" : "Mooré",
+      "wd_qid" : "Q36096",
+      "wd_label" : "Mooré"
+    },
+    {
+      "Abbreviation" : "mul",
+      "Description" : "Multiple languages",
+      "wd_qid" : "Q90470657",
+      "wd_label" : "any / multiple languages"
+    },
+    {
+      "Abbreviation" : "mus",
+      "Description" : "Creek",
+      "wd_qid" : "Q523014",
+      "wd_label" : "Muscogee"
+    },
+    {
+      "Abbreviation" : "mwl",
+      "Description" : "Mirandese",
+      "wd_qid" : "Q13330",
+      "wd_label" : "Mirandese"
+    },
+    {
+      "Abbreviation" : "mwr",
+      "Description" : "Marwari",
+      "wd_qid" : "Q56312",
+      "wd_label" : "Marwari"
+    },
+    {
+      "Abbreviation" : "myn",
+      "Description" : "Mayan languages",
+      "wd_qid" : "Q33738",
+      "wd_label" : "Mayan"
+    },
+    {
+      "Abbreviation" : "myv",
+      "Description" : "Erzya",
+      "wd_qid" : "Q29952",
+      "wd_label" : "Erzya"
+    },
+    {
+      "Abbreviation" : "nah",
+      "Description" : "Nahuatl",
+      "wd_qid" : "Q13300",
+      "wd_label" : "Nahuatl"
+    },
+    {
+      "Abbreviation" : "nai",
+      "Description" : "North American Indian (Other)",
+      "wd_qid" : "Q4200688",
+      "wd_label" : "indigenous language of North America"
+    },
+    {
+      "Abbreviation" : "nap",
+      "Description" : "Neapolitan Italian",
+      "wd_qid" : "Q33845",
+      "wd_label" : "Neapolitan"
+    },
+    {
+      "Abbreviation" : "nau",
+      "Description" : "Nauru",
+      "wd_qid" : "Q13307",
+      "wd_label" : "Nauruan"
+    },
+    {
+      "Abbreviation" : "nav",
+      "Description" : "Navajo",
+      "wd_qid" : "Q13310",
+      "wd_label" : "Navajo"
+    },
+    {
+      "Abbreviation" : "nbl",
+      "Description" : "Ndebele (South Africa)",
+      "wd_qid" : "Q36785",
+      "wd_label" : "Southern Ndebele"
+    },
+    {
+      "Abbreviation" : "nde",
+      "Description" : "Ndebele (Zimbabwe)",
+      "wd_qid" : "Q35613",
+      "wd_label" : "Northern Ndebele"
+    },
+    {
+      "Abbreviation" : "ndo",
+      "Description" : "Ndonga",
+      "wd_qid" : "Q33900",
+      "wd_label" : "Ndonga"
+    },
+    {
+      "Abbreviation" : "nds",
+      "Description" : "Low German",
+      "wd_qid" : "Q25433",
+      "wd_label" : "Low German"
+    },
+    {
+      "Abbreviation" : "nep",
+      "Description" : "Nepali",
+      "wd_qid" : "Q33823",
+      "wd_label" : "Nepali"
+    },
+    {
+      "Abbreviation" : "new",
+      "Description" : "Newari",
+      "wd_qid" : "Q33979",
+      "wd_label" : "Newar"
+    },
+    {
+      "Abbreviation" : "nia",
+      "Description" : "Nias",
+      "wd_qid" : "Q2407831",
+      "wd_label" : "Nias"
+    },
+    {
+      "Abbreviation" : "niu",
+      "Description" : "Niuean",
+      "wd_qid" : "Q33790",
+      "wd_label" : "Niuean"
+    },
+    {
+      "Abbreviation" : "nno",
+      "Description" : "Norwegian (Nynorsk)",
+      "wd_qid" : "Q25164",
+      "wd_label" : "Nynorsk"
+    },
+    {
+      "Abbreviation" : "nob",
+      "Description" : "Norwegian (Bokmål)",
+      "wd_qid" : "Q25167",
+      "wd_label" : "Bokmål"
+    },
+    {
+      "Abbreviation" : "nog",
+      "Description" : "Nogai",
+      "wd_qid" : "Q33871",
+      "wd_label" : "Nogai"
+    },
+    {
+      "Abbreviation" : "non",
+      "Description" : "Old Norse",
+      "wd_qid" : "Q35505",
+      "wd_label" : "Old Norse"
+    },
+    {
+      "Abbreviation" : "nor",
+      "Description" : "Norwegian",
+      "wd_qid" : "Q9043",
+      "wd_label" : "Norwegian"
+    },
+    {
+      "Abbreviation" : "nqo",
+      "Description" : "N'Ko",
+      "wd_qid" : "Q18546266",
+      "wd_label" : "NKo"
+    },
+    {
+      "Abbreviation" : "nso",
+      "Description" : "Northern Sotho",
+      "wd_qid" : "Q33890",
+      "wd_label" : "Northern Sotho"
+    },
+    {
+      "Abbreviation" : "nub",
+      "Description" : "Nubian languages",
+      "wd_qid" : "Q1517194",
+      "wd_label" : "Nubian"
+    },
+    {
+      "Abbreviation" : "nwc",
+      "Description" : "Newari, Old",
+      "wd_qid" : "Q5128301",
+      "wd_label" : "Classical Newari"
+    },
+    {
+      "Abbreviation" : "nya",
+      "Description" : "Nyanja",
+      "wd_qid" : "Q11732537",
+      "wd_label" : "Nyanja language"
+    },
+    {
+      "Abbreviation" : "nym",
+      "Description" : "Nyamwezi",
+      "wd_qid" : "Q4121131",
+      "wd_label" : "Nyamwezi"
+    },
+    {
+      "Abbreviation" : "nyn",
+      "Description" : "Nyankole",
+      "wd_qid" : "Q13207",
+      "wd_label" : "Runyankole"
+    },
+    {
+      "Abbreviation" : "nyo",
+      "Description" : "Nyoro",
+      "wd_qid" : "Q33794",
+      "wd_label" : "Nyoro"
+    },
+    {
+      "Abbreviation" : "nzi",
+      "Description" : "Nzima",
+      "wd_qid" : "Q36337",
+      "wd_label" : "Nzema"
+    },
+    {
+      "Abbreviation" : "oci",
+      "Description" : "Occitan (post-1500)",
+      "wd_qid" : "Q14185",
+      "wd_label" : "Occitan"
+    },
+    {
+      "Abbreviation" : "oji",
+      "Description" : "Ojibwa",
+      "wd_qid" : "Q33875",
+      "wd_label" : "Ojibwe"
+    },
+    {
+      "Abbreviation" : "ori",
+      "Description" : "Oriya",
+      "wd_qid" : "Q33810",
+      "wd_label" : "Odia"
+    },
+    {
+      "Abbreviation" : "orm",
+      "Description" : "Oromo",
+      "wd_qid" : "Q33864",
+      "wd_label" : "Oromo"
+    },
+    {
+      "Abbreviation" : "osa",
+      "Description" : "Osage",
+      "wd_qid" : "Q2600085",
+      "wd_label" : "Osage"
+    },
+    {
+      "Abbreviation" : "oss",
+      "Description" : "Ossetic",
+      "wd_qid" : "Q33968",
+      "wd_label" : "Ossetian"
+    },
+    {
+      "Abbreviation" : "ota",
+      "Description" : "Turkish, Ottoman",
+      "wd_qid" : "Q36730",
+      "wd_label" : "Ottoman Turkish"
+    },
+    {
+      "Abbreviation" : "oto",
+      "Description" : "Otomian languages",
+      "wd_qid" : "Q116773252",
+      "wd_label" : "Proto-Otomian"
+    },
+    {
+      "Abbreviation" : "paa",
+      "Description" : "Papuan (Other)",
+      "wd_qid" : "Q236425",
+      "wd_label" : "Papuan"
+    },
+    {
+      "Abbreviation" : "pag",
+      "Description" : "Pangasinan",
+      "wd_qid" : "Q33879",
+      "wd_label" : "Pangasinan"
+    },
+    {
+      "Abbreviation" : "pal",
+      "Description" : "Pahlavi",
+      "wd_qid" : "Q120186224",
+      "wd_label" : "Pahlavi"
+    },
+    {
+      "Abbreviation" : "pam",
+      "Description" : "Pampanga",
+      "wd_qid" : "Q36121",
+      "wd_label" : "Kapampangan"
+    },
+    {
+      "Abbreviation" : "pan",
+      "Description" : "Panjabi",
+      "wd_qid" : "Q58635",
+      "wd_label" : "Punjabi"
+    },
+    {
+      "Abbreviation" : "pap",
+      "Description" : "Papiamento",
+      "wd_qid" : "Q33856",
+      "wd_label" : "Papiamento"
+    },
+    {
+      "Abbreviation" : "pau",
+      "Description" : "Palauan",
+      "wd_qid" : "Q33776",
+      "wd_label" : "Palauan"
+    },
+    {
+      "Abbreviation" : "peo",
+      "Description" : "Old Persian (ca. 600-400 B.C.)",
+      "wd_qid" : "Q35225",
+      "wd_label" : "Old Persian"
+    },
+    {
+      "Abbreviation" : "per",
+      "Description" : "Persian",
+      "wd_qid" : "Q9168",
+      "wd_label" : "Persian"
+    },
+    {
+      "Abbreviation" : "phi",
+      "Description" : "Philippine (Other)",
+      "wd_qid" : "Q947858",
+      "wd_label" : "Philippine"
+    },
+    {
+      "Abbreviation" : "phn",
+      "Description" : "Phoenician",
+      "wd_qid" : "Q36734",
+      "wd_label" : "Phoenician"
+    },
+    {
+      "Abbreviation" : "pol",
+      "Description" : "Polish",
+      "wd_qid" : "Q809",
+      "wd_label" : "Polish"
+    },
+    {
+      "Abbreviation" : "pon",
+      "Description" : "Pohnpeian",
+      "wd_qid" : "Q28422",
+      "wd_label" : "Pohnpeian"
+    },
+    {
+      "Abbreviation" : "por",
+      "Description" : "Portuguese",
+      "wd_qid" : "Q5146",
+      "wd_label" : "Portuguese"
+    },
+    {
+      "Abbreviation" : "pra",
+      "Description" : "Prakrit languages",
+      "wd_qid" : "Q192170",
+      "wd_label" : "Prakrit"
+    },
+    {
+      "Abbreviation" : "pro",
+      "Description" : "Provençal (to 1500)",
+      "wd_qid" : "Q241243",
+      "wd_label" : "Provençal"
+    },
+    {
+      "Abbreviation" : "pus",
+      "Description" : "Pushto",
+      "wd_qid" : "Q58680",
+      "wd_label" : "Pashto"
+    },
+    {
+      "Abbreviation" : "que",
+      "Description" : "Quechua",
+      "wd_qid" : "Q5218",
+      "wd_label" : "Quechua"
+    },
+    {
+      "Abbreviation" : "raj",
+      "Description" : "Rajasthani",
+      "wd_qid" : "Q13196",
+      "wd_label" : "Rajasthani"
+    },
+    {
+      "Abbreviation" : "rap",
+      "Description" : "Rapanui",
+      "wd_qid" : "Q36746",
+      "wd_label" : "Rapa Nui"
+    },
+    {
+      "Abbreviation" : "rar",
+      "Description" : "Rarotongan",
+      "wd_qid" : "Q36745",
+      "wd_label" : "Cook Islands Maori"
+    },
+    {
+      "Abbreviation" : "roa",
+      "Description" : "Romance (Other)",
+      "wd_qid" : "Q19814",
+      "wd_label" : "Romance languages"
+    },
+    {
+      "Abbreviation" : "roh",
+      "Description" : "Raeto-Romance",
+      "wd_qid" : "Q33441",
+      "wd_label" : "Friulian"
+    },
+    {
+      "Abbreviation" : "rom",
+      "Description" : "Romani",
+      "wd_qid" : "Q13201",
+      "wd_label" : "Romani"
+    },
+    {
+      "Abbreviation" : "rum",
+      "Description" : "Romanian",
+      "wd_qid" : "Q7913",
+      "wd_label" : "Romanian"
+    },
+    {
+      "Abbreviation" : "run",
+      "Description" : "Rundi",
+      "wd_qid" : "Q33583",
+      "wd_label" : "Kirundi"
+    },
+    {
+      "Abbreviation" : "rup",
+      "Description" : "Aromanian",
+      "wd_qid" : "Q29316",
+      "wd_label" : "Aromanian"
+    },
+    {
+      "Abbreviation" : "rus",
+      "Description" : "Russian",
+      "wd_qid" : "Q7737",
+      "wd_label" : "Russian"
+    },
+    {
+      "Abbreviation" : "sad",
+      "Description" : "Sandawe",
+      "wd_qid" : "Q34016",
+      "wd_label" : "Sandawe"
+    },
+    {
+      "Abbreviation" : "sah",
+      "Description" : "Yakut",
+      "wd_qid" : "Q34299",
+      "wd_label" : "Yakut"
+    },
+    {
+      "Abbreviation" : "sai",
+      "Description" : "South American Indian (Other)",
+      "wd_qid" : "Q54801970",
+      "wd_label" : "indigenous language of South America"
+    },
+    {
+      "Abbreviation" : "sal",
+      "Description" : "Salishan languages",
+      "wd_qid" : "Q33985",
+      "wd_label" : "Salishan"
+    },
+    {
+      "Abbreviation" : "sam",
+      "Description" : "Samaritan Aramaic",
+      "wd_qid" : "Q56612",
+      "wd_label" : "Samaritan Aramaic"
+    },
+    {
+      "Abbreviation" : "san",
+      "Description" : "Sanskrit",
+      "wd_qid" : "Q11059",
+      "wd_label" : "Sanskrit"
+    },
+    {
+      "Abbreviation" : "-sao",
+      "Description" : "Samoan",
+      "wd_qid" : "Q34011",
+      "wd_label" : "Samoan"
+    },
+    {
+      "Abbreviation" : "sas",
+      "Description" : "Sasak",
+      "wd_qid" : "Q1294047",
+      "wd_label" : "Sasak"
+    },
+    {
+      "Abbreviation" : "sat",
+      "Description" : "Santali",
+      "wd_qid" : "Q33965",
+      "wd_label" : "Santali"
+    },
+    {
+      "Abbreviation" : "-scc",
+      "Description" : "Serbian",
+      "wd_qid" : "Q9301",
+      "wd_label" : "Serbo-Croatian"
+    },
+    {
+      "Abbreviation" : "scn",
+      "Description" : "Sicilian Italian",
+      "wd_qid" : "Q33973",
+      "wd_label" : "Sicilian"
+    },
+    {
+      "Abbreviation" : "sco",
+      "Description" : "Scots",
+      "wd_qid" : "Q14549",
+      "wd_label" : "Scots"
+    },
+    {
+      "Abbreviation" : "-scr",
+      "Description" : "Croatian",
+      "wd_qid" : "Q6654",
+      "wd_label" : "Croatian"
+    },
+    {
+      "Abbreviation" : "sem",
+      "Description" : "Semitic (Other)",
+      "wd_qid" : "Q34049",
+      "wd_label" : "Semitic"
+    },
+    {
+      "Abbreviation" : "sga",
+      "Description" : "Irish, Old (to 1100)",
+      "wd_qid" : "Q35308",
+      "wd_label" : "Old Irish"
+    },
+    {
+      "Abbreviation" : "sgn",
+      "Description" : "Sign languages",
+      "wd_qid" : "Q34228",
+      "wd_label" : "sign language"
+    },
+    {
+      "Abbreviation" : "shn",
+      "Description" : "Shan",
+      "wd_qid" : "Q56482",
+      "wd_label" : "Shan"
+    },
+    {
+      "Abbreviation" : "-sho",
+      "Description" : "Shona",
+      "wd_qid" : "Q34004",
+      "wd_label" : "Shona"
+    },
+    {
+      "Abbreviation" : "sid",
+      "Description" : "Sidamo",
+      "wd_qid" : "Q33786",
+      "wd_label" : "Sidamo"
+    },
+    {
+      "Abbreviation" : "sin",
+      "Description" : "Sinhalese",
+      "wd_qid" : "Q13267",
+      "wd_label" : "Sinhala"
+    },
+    {
+      "Abbreviation" : "sla",
+      "Description" : "Slavic (Other)",
+      "wd_qid" : "Q33251",
+      "wd_label" : "Church Slavonic"
+    },
+    {
+      "Abbreviation" : "slo",
+      "Description" : "Slovak",
+      "wd_qid" : "Q9058",
+      "wd_label" : "Slovak"
+    },
+    {
+      "Abbreviation" : "slv",
+      "Description" : "Slovenian",
+      "wd_qid" : "Q9063",
+      "wd_label" : "Slovene"
+    },
+    {
+      "Abbreviation" : "sma",
+      "Description" : "Southern Sami",
+      "wd_qid" : "Q13293",
+      "wd_label" : "Southern Sami"
+    },
+    {
+      "Abbreviation" : "sme",
+      "Description" : "Northern Sami",
+      "wd_qid" : "Q33947",
+      "wd_label" : "Northern Sami"
+    },
+    {
+      "Abbreviation" : "smi",
+      "Description" : "Sami",
+      "wd_qid" : "Q56593",
+      "wd_label" : "Levantine Arabic"
+    },
+    {
+      "Abbreviation" : "smj",
+      "Description" : "Lule Sami",
+      "wd_qid" : "Q56322",
+      "wd_label" : "Lule Sami"
+    },
+    {
+      "Abbreviation" : "smn",
+      "Description" : "Inari Sami",
+      "wd_qid" : "Q33462",
+      "wd_label" : "Inari Sami"
+    },
+    {
+      "Abbreviation" : "smo",
+      "Description" : "Samoan",
+      "wd_qid" : "Q34011",
+      "wd_label" : "Samoan"
+    },
+    {
+      "Abbreviation" : "sms",
+      "Description" : "Skolt Sami",
+      "wd_qid" : "Q13271",
+      "wd_label" : "Skolt Sami"
+    },
+    {
+      "Abbreviation" : "sna",
+      "Description" : "Shona",
+      "wd_qid" : "Q34004",
+      "wd_label" : "Shona"
+    },
+    {
+      "Abbreviation" : "snd",
+      "Description" : "Sindhi",
+      "wd_qid" : "Q33997",
+      "wd_label" : "Sindhi"
+    },
+    {
+      "Abbreviation" : "-snh",
+      "Description" : "Sinhalese",
+      "wd_qid" : "Q13267",
+      "wd_label" : "Sinhala"
+    },
+    {
+      "Abbreviation" : "snk",
+      "Description" : "Soninke",
+      "wd_qid" : "Q36660",
+      "wd_label" : "Soninke"
+    },
+    {
+      "Abbreviation" : "sog",
+      "Description" : "Sogdian",
+      "wd_qid" : "Q205979",
+      "wd_label" : "Sogdian"
+    },
+    {
+      "Abbreviation" : "som",
+      "Description" : "Somali",
+      "wd_qid" : "Q13275",
+      "wd_label" : "Somali"
+    },
+    {
+      "Abbreviation" : "son",
+      "Description" : "Songhai",
+      "wd_qid" : "Q505198",
+      "wd_label" : "Songhay"
+    },
+    {
+      "Abbreviation" : "sot",
+      "Description" : "Sotho",
+      "wd_qid" : "Q34340",
+      "wd_label" : "Sesotho"
+    },
+    {
+      "Abbreviation" : "spa",
+      "Description" : "Spanish",
+      "wd_qid" : "Q1321",
+      "wd_label" : "Spanish"
+    },
+    {
+      "Abbreviation" : "srd",
+      "Description" : "Sardinian",
+      "wd_qid" : "Q33976",
+      "wd_label" : "Sardinian"
+    },
+    {
+      "Abbreviation" : "srn",
+      "Description" : "Sranan",
+      "wd_qid" : "Q33989",
+      "wd_label" : "Sranan Tongo"
+    },
+    {
+      "Abbreviation" : "srp",
+      "Description" : "Serbian",
+      "wd_qid" : "Q9301",
+      "wd_label" : "Serbo-Croatian"
+    },
+    {
+      "Abbreviation" : "srr",
+      "Description" : "Serer",
+      "wd_qid" : "Q36284",
+      "wd_label" : "Serer"
+    },
+    {
+      "Abbreviation" : "-sso",
+      "Description" : "Sotho",
+      "wd_qid" : "Q34340",
+      "wd_label" : "Sesotho"
+    },
+    {
+      "Abbreviation" : "ssw",
+      "Description" : "Swazi",
+      "wd_qid" : "Q34014",
+      "wd_label" : "Swazi"
+    },
+    {
+      "Abbreviation" : "suk",
+      "Description" : "Sukuma",
+      "wd_qid" : "Q2638144",
+      "wd_label" : "Sukuma"
+    },
+    {
+      "Abbreviation" : "sun",
+      "Description" : "Sundanese",
+      "wd_qid" : "Q34002",
+      "wd_label" : "Sundanese"
+    },
+    {
+      "Abbreviation" : "sus",
+      "Description" : "Susu",
+      "wd_qid" : "Q33990",
+      "wd_label" : "Susu"
+    },
+    {
+      "Abbreviation" : "sux",
+      "Description" : "Sumerian",
+      "wd_qid" : "Q36790",
+      "wd_label" : "Sumerian"
+    },
+    {
+      "Abbreviation" : "swa",
+      "Description" : "Swahili",
+      "wd_qid" : "Q7838",
+      "wd_label" : "Swahili"
+    },
+    {
+      "Abbreviation" : "swe",
+      "Description" : "Swedish",
+      "wd_qid" : "Q9027",
+      "wd_label" : "Swedish"
+    },
+    {
+      "Abbreviation" : "-swz",
+      "Description" : "Swazi",
+      "wd_qid" : "Q34014",
+      "wd_label" : "Swazi"
+    },
+    {
+      "Abbreviation" : "syc",
+      "Description" : "Syriac",
+      "wd_qid" : "Q33538",
+      "wd_label" : "Syriac"
+    },
+    {
+      "Abbreviation" : "syr",
+      "Description" : "Syriac, Modern",
+      "wd_qid" : "Q33538",
+      "wd_label" : "Syriac"
+    },
+    {
+      "Abbreviation" : "-tag",
+      "Description" : "Tagalog",
+      "wd_qid" : "Q34057",
+      "wd_label" : "Tagalog"
+    },
+    {
+      "Abbreviation" : "tah",
+      "Description" : "Tahitian",
+      "wd_qid" : "Q34128",
+      "wd_label" : "Tahitian"
+    },
+    {
+      "Abbreviation" : "tai",
+      "Description" : "Tai (Other)",
+      "wd_qid" : "Q749720",
+      "wd_label" : "Tai"
+    },
+    {
+      "Abbreviation" : "-taj",
+      "Description" : "Tajik",
+      "wd_qid" : "Q9260",
+      "wd_label" : "Tajik"
+    },
+    {
+      "Abbreviation" : "tam",
+      "Description" : "Tamil",
+      "wd_qid" : "Q5885",
+      "wd_label" : "Tamil"
+    },
+    {
+      "Abbreviation" : "-tar",
+      "Description" : "Tatar",
+      "wd_qid" : "Q25285",
+      "wd_label" : "Tatar"
+    },
+    {
+      "Abbreviation" : "tat",
+      "Description" : "Tatar",
+      "wd_qid" : "Q25285",
+      "wd_label" : "Tatar"
+    },
+    {
+      "Abbreviation" : "tel",
+      "Description" : "Telugu",
+      "wd_qid" : "Q8097",
+      "wd_label" : "Telugu"
+    },
+    {
+      "Abbreviation" : "tem",
+      "Description" : "Temne",
+      "wd_qid" : "Q36613",
+      "wd_label" : "Temne"
+    },
+    {
+      "Abbreviation" : "ter",
+      "Description" : "Terena",
+      "wd_qid" : "Q3314742",
+      "wd_label" : "Terêna"
+    },
+    {
+      "Abbreviation" : "tet",
+      "Description" : "Tetum",
+      "wd_qid" : "Q34125",
+      "wd_label" : "Tetum"
+    },
+    {
+      "Abbreviation" : "tgk",
+      "Description" : "Tajik",
+      "wd_qid" : "Q9260",
+      "wd_label" : "Tajik"
+    },
+    {
+      "Abbreviation" : "tgl",
+      "Description" : "Tagalog",
+      "wd_qid" : "Q34057",
+      "wd_label" : "Tagalog"
+    },
+    {
+      "Abbreviation" : "tha",
+      "Description" : "Thai",
+      "wd_qid" : "Q9217",
+      "wd_label" : "Thai"
+    },
+    {
+      "Abbreviation" : "tib",
+      "Description" : "Tibetan",
+      "wd_qid" : "Q34271",
+      "wd_label" : "Tibetan"
+    },
+    {
+      "Abbreviation" : "tig",
+      "Description" : "Tigré",
+      "wd_qid" : "Q34129",
+      "wd_label" : "Tigre"
+    },
+    {
+      "Abbreviation" : "tir",
+      "Description" : "Tigrinya",
+      "wd_qid" : "Q34124",
+      "wd_label" : "Tigrinya"
+    },
+    {
+      "Abbreviation" : "tiv",
+      "Description" : "Tiv",
+      "wd_qid" : "Q34131",
+      "wd_label" : "Tiv"
+    },
+    {
+      "Abbreviation" : "tkl",
+      "Description" : "Tokelauan",
+      "wd_qid" : "Q34097",
+      "wd_label" : "Tokelauan"
+    },
+    {
+      "Abbreviation" : "tlh",
+      "Description" : "Klingon (Artificial language)",
+      "wd_qid" : "Q10134",
+      "wd_label" : "Klingon"
+    },
+    {
+      "Abbreviation" : "tli",
+      "Description" : "Tlingit",
+      "wd_qid" : "Q27792",
+      "wd_label" : "Tlingit"
+    },
+    {
+      "Abbreviation" : "tmh",
+      "Description" : "Tamashek",
+      "wd_qid" : "Q4670066",
+      "wd_label" : "Tamasheq"
+    },
+    {
+      "Abbreviation" : "tog",
+      "Description" : "Tonga (Nyasa)",
+      "wd_qid" : "Q3847648",
+      "wd_label" : "Tonga"
+    },
+    {
+      "Abbreviation" : "ton",
+      "Description" : "Tongan",
+      "wd_qid" : "Q34094",
+      "wd_label" : "Tongan"
+    },
+    {
+      "Abbreviation" : "tpi",
+      "Description" : "Tok Pisin",
+      "wd_qid" : "Q34159",
+      "wd_label" : "Tok Pisin"
+    },
+    {
+      "Abbreviation" : "-tru",
+      "Description" : "Truk",
+      "wd_qid" : "Q33161",
+      "wd_label" : "Chuukese"
+    },
+    {
+      "Abbreviation" : "tsi",
+      "Description" : "Tsimshian",
+      "wd_qid" : "Q20085721",
+      "wd_label" : "Tsimshian"
+    },
+    {
+      "Abbreviation" : "tsn",
+      "Description" : "Tswana",
+      "wd_qid" : "Q34137",
+      "wd_label" : "Tswana"
+    },
+    {
+      "Abbreviation" : "tso",
+      "Description" : "Tsonga",
+      "wd_qid" : "Q34327",
+      "wd_label" : "Tsonga"
+    },
+    {
+      "Abbreviation" : "-tsw",
+      "Description" : "Tswana",
+      "wd_qid" : "Q34137",
+      "wd_label" : "Tswana"
+    },
+    {
+      "Abbreviation" : "tuk",
+      "Description" : "Turkmen",
+      "wd_qid" : "Q9267",
+      "wd_label" : "Turkmen"
+    },
+    {
+      "Abbreviation" : "tum",
+      "Description" : "Tumbuka",
+      "wd_qid" : "Q34138",
+      "wd_label" : "Tumbuka"
+    },
+    {
+      "Abbreviation" : "tup",
+      "Description" : "Tupi languages",
+      "wd_qid" : "Q56944",
+      "wd_label" : "Tupi"
+    },
+    {
+      "Abbreviation" : "tur",
+      "Description" : "Turkish",
+      "wd_qid" : "Q256",
+      "wd_label" : "Turkish"
+    },
+    {
+      "Abbreviation" : "tvl",
+      "Description" : "Tuvaluan",
+      "wd_qid" : "Q34055",
+      "wd_label" : "Tuvaluan"
+    },
+    {
+      "Abbreviation" : "twi",
+      "Description" : "Twi",
+      "wd_qid" : "Q36850",
+      "wd_label" : "Twi"
+    },
+    {
+      "Abbreviation" : "tyv",
+      "Description" : "Tuvinian",
+      "wd_qid" : "Q34119",
+      "wd_label" : "Tuvan"
+    },
+    {
+      "Abbreviation" : "udm",
+      "Description" : "Udmurt",
+      "wd_qid" : "Q13238",
+      "wd_label" : "Udmurt"
+    },
+    {
+      "Abbreviation" : "uga",
+      "Description" : "Ugaritic",
+      "wd_qid" : "Q36928",
+      "wd_label" : "Ugaritic"
+    },
+    {
+      "Abbreviation" : "uig",
+      "Description" : "Uighur",
+      "wd_qid" : "Q13263",
+      "wd_label" : "Uyghur"
+    },
+    {
+      "Abbreviation" : "ukr",
+      "Description" : "Ukrainian",
+      "wd_qid" : "Q8798",
+      "wd_label" : "Ukrainian"
+    },
+    {
+      "Abbreviation" : "umb",
+      "Description" : "Umbundu",
+      "wd_qid" : "Q36983",
+      "wd_label" : "Umbundu"
+    },
+    {
+      "Abbreviation" : "und",
+      "Description" : "Undetermined",
+      "wd_qid" : "Q22282914",
+      "wd_label" : "undetermined language"
+    },
+    {
+      "Abbreviation" : "urd",
+      "Description" : "Urdu",
+      "wd_qid" : "Q1617",
+      "wd_label" : "Urdu"
+    },
+    {
+      "Abbreviation" : "uzb",
+      "Description" : "Uzbek",
+      "wd_qid" : "Q9264",
+      "wd_label" : "Uzbek"
+    },
+    {
+      "Abbreviation" : "vai",
+      "Description" : "Vai",
+      "wd_qid" : "Q36939",
+      "wd_label" : "Vai"
+    },
+    {
+      "Abbreviation" : "ven",
+      "Description" : "Venda",
+      "wd_qid" : "Q32704",
+      "wd_label" : "Venda"
+    },
+    {
+      "Abbreviation" : "vie",
+      "Description" : "Vietnamese",
+      "wd_qid" : "Q9199",
+      "wd_label" : "Vietnamese"
+    },
+    {
+      "Abbreviation" : "vol",
+      "Description" : "Volapük",
+      "wd_qid" : "Q36986",
+      "wd_label" : "Volapük"
+    },
+    {
+      "Abbreviation" : "vot",
+      "Description" : "Votic",
+      "wd_qid" : "Q32858",
+      "wd_label" : "Votic"
+    },
+    {
+      "Abbreviation" : "wak",
+      "Description" : "Wakashan languages",
+      "wd_qid" : "Q60069",
+      "wd_label" : "Wakashan"
+    },
+    {
+      "Abbreviation" : "wal",
+      "Description" : "Wolayta",
+      "wd_qid" : "Q36943",
+      "wd_label" : "Wolayttattuwa"
+    },
+    {
+      "Abbreviation" : "war",
+      "Description" : "Waray",
+      "wd_qid" : "Q34279",
+      "wd_label" : "Waray"
+    },
+    {
+      "Abbreviation" : "was",
+      "Description" : "Washoe",
+      "wd_qid" : "Q34198",
+      "wd_label" : "Washo"
+    },
+    {
+      "Abbreviation" : "wel",
+      "Description" : "Welsh",
+      "wd_qid" : "Q9309",
+      "wd_label" : "Welsh"
+    },
+    {
+      "Abbreviation" : "wen",
+      "Description" : "Sorbian (Other)",
+      "wd_qid" : "Q25442",
+      "wd_label" : "Sorbian"
+    },
+    {
+      "Abbreviation" : "wln",
+      "Description" : "Walloon",
+      "wd_qid" : "Q34219",
+      "wd_label" : "Walloon"
+    },
+    {
+      "Abbreviation" : "wol",
+      "Description" : "Wolof",
+      "wd_qid" : "Q34257",
+      "wd_label" : "Wolof"
+    },
+    {
+      "Abbreviation" : "xal",
+      "Description" : "Oirat",
+      "wd_qid" : "Q56959",
+      "wd_label" : "Oirat"
+    },
+    {
+      "Abbreviation" : "xho",
+      "Description" : "Xhosa",
+      "wd_qid" : "Q13218",
+      "wd_label" : "Xhosa"
+    },
+    {
+      "Abbreviation" : "yao",
+      "Description" : "Yao (Africa)",
+      "wd_qid" : "Q36902",
+      "wd_label" : "Yao"
+    },
+    {
+      "Abbreviation" : "yap",
+      "Description" : "Yapese",
+      "wd_qid" : "Q34029",
+      "wd_label" : "Yapese"
+    },
+    {
+      "Abbreviation" : "yid",
+      "Description" : "Yiddish",
+      "wd_qid" : "Q8641",
+      "wd_label" : "Yiddish"
+    },
+    {
+      "Abbreviation" : "yor",
+      "Description" : "Yoruba",
+      "wd_qid" : "Q34311",
+      "wd_label" : "Yoruba"
+    },
+    {
+      "Abbreviation" : "ypk",
+      "Description" : "Yupik languages",
+      "wd_qid" : "Q27970",
+      "wd_label" : "Yupik"
+    },
+    {
+      "Abbreviation" : "zap",
+      "Description" : "Zapotec",
+      "wd_qid" : "Q13214",
+      "wd_label" : "Zapotec"
+    },
+    {
+      "Abbreviation" : "zbl",
+      "Description" : "Blissymbolics",
+      "wd_qid" : "Q609817",
+      "wd_label" : "Blissymbols"
+    },
+    {
+      "Abbreviation" : "zen",
+      "Description" : "Zenaga",
+      "wd_qid" : "Q37005",
+      "wd_label" : "Zenaga"
+    },
+    {
+      "Abbreviation" : "zha",
+      "Description" : "Zhuang",
+      "wd_qid" : "Q13216",
+      "wd_label" : "Zhuang"
+    },
+    {
+      "Abbreviation" : "znd",
+      "Description" : "Zande languages",
+      "wd_qid" : "Q35015",
+      "wd_label" : "Zande"
+    },
+    {
+      "Abbreviation" : "zul",
+      "Description" : "Zulu",
+      "wd_qid" : "Q10179",
+      "wd_label" : "Zulu"
+    },
+    {
+      "Abbreviation" : "zun",
+      "Description" : "Zuni",
+      "wd_qid" : "Q10188",
+      "wd_label" : "Zuni"
+    },
+    {
+      "Abbreviation" : "zxx",
+      "Description" : "No linguistic content",
+      "wd_qid" : "Q22282939",
+      "wd_label" : "no linguistic content"
+    },
+    {
+      "Abbreviation" : "zza",
+      "Description" : "Zaza",
+      "wd_qid" : "Q10199",
+      "wd_label" : "Zazaki"
+    }
+  ]
+}

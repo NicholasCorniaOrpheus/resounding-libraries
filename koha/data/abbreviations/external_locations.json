@@ -1,0 +1,177 @@
+{
+  "external_locations": [
+    {
+      "Name": "Gallica",
+      "Abbreviation": "",
+      "url_bases": ["https://gallica.bnf.fr"]
+    },
+    {
+      "Name": "International Music Score Library Project",
+      "Abbreviation": "IMSLP",
+      "url_bases": [
+        "https://imslp.org","https://s9.imslp.org",
+        "https://ks.imslp.net"
+      ]
+    },
+    {
+      "Name": "Google Books",
+      "Abbreviation": "",
+      "url_bases": [
+        "https://books.google.be",
+        "https://books.google.fm",
+        "https://books.google.de",
+        "https://books.google.it",
+        "https://books.google.ca",
+        "https://books.google.mu"
+        ]
+    },
+  
+    {
+      "Name": "Project Gutenberg",
+      "Abbreviation": "",
+      "url_bases": [
+        "https://www.gutenberg.org"
+      ]
+    },
+    {
+      "Name": "Internet Archive",
+      "Abbreviation": "",
+      "url_bases": [
+        "https://archive.org"
+      ]
+    },
+    {
+      "Name": "Bavarian State Library",
+      "Abbreviation": "MDZ",
+      "url_bases": [
+        "www.mdz-nbn-resolving.de",
+        "https://reader.digitale-sammlungen.de",
+        "https://bildsuche.digitale-sammlungen.de",
+        "https://daten.digitale-sammlungen.de",
+        "https://api.digitale-sammlungen.de",
+        "https://www.digitale-sammlungen.de"
+      ]
+    },
+    {
+      "Name": "University of Michigan Library",
+      "Abbreviation": "",
+      "url_bases": ["https://quod.lib.umich.edu"]
+    },
+    {
+      "Name": "University of Li\u00e8ge",
+      "Abbreviation": "DONum",
+      "url_bases": ["https://donum.uliege.be"]
+    },
+    {
+      "Name": "Royal Library of Belgium",
+      "Abbreviation": "KBR",
+      "url_bases": ["https://opac.kbr.be"]
+    },
+    {
+      "Name": "Orpheus Instituut - Shared Canvas viewer",
+      "Abbreviation": "",
+      "url_bases": ["https://uv-v4.netlify.app"]
+    },
+    {
+      "Name": "Orpheus Instituut - Shared Canvas manifest",
+      "Abbreviation": "",
+      "url_bases": ["https://sharedcanvas.be"]
+    },
+    {
+      "Name": "Orpheus Instituut - Koopman Digital",
+      "Abbreviation": "",
+      "url_bases": ["https://drive.google.com"]
+    },
+    {
+      "Name": "University of Utrecht",
+      "Abbreviation": "",
+      "url_bases": ["objects.library.uu.nl"]
+    },
+    {
+      "Name": "Open Data University of Halle",
+      "Abbreviation": "",
+      "url_bases": ["https://opendata.uni-halle.de"]
+    },
+    {
+      "Name": "Digital Library for Dutch Literature (DBNL)",
+      "Abbreviation": "DBNL",
+      "url_bases": ["https://www.dbnl.org"]
+    },
+    {
+      "Name": "Library of Congress",
+      "Abbreviation": "",
+      "url_bases": ["https://www.loc.gov"]
+    },
+    {
+      "Name": "University of Leiden",
+      "Abbreviation": "",
+      "url_bases": ["https://www.let.leidenuniv.nl"]
+    },
+    {
+      "Name": "Municipality of Gen\u00e8ve",
+      "Abbreviation": "Musinfo",
+      "url_bases": ["http://www.ville-ge.ch"]
+    },
+
+    {
+      "Name": "National Library of the Netherlands",
+      "Abbreviation": "KB",
+      "url_bases": ["https://geheugen.delpher.nl"]
+    },
+    {
+      "Name": "Wikisource",
+      "Abbreviation": "",
+      "url_bases": ["https://nl.wikisource.org"]
+    },
+    {
+      "Name": "University Library Heidelberg",
+      "Abbreviation": "",
+      "url_bases": ["https://digi.ub.uni-heidelberg.de"]
+    },
+    {
+      "Name": "Universiteitsbibliotheek UGent",
+      "Abbreviation": "",
+      "url_bases": ["https://lib.ugent.be"]
+    },
+    {
+      "Name": "Institut National d'Histoire de l'Art",
+      "Abbreviation": "INHA",
+      "url_bases": ["https://bibliotheque-numerique.inha.fr"]
+    },
+    {
+      "Name": "Hathi Trust",
+      "Abbreviation": "",
+      "url_bases": ["https://babel.hathitrust.org"]
+    },
+    {
+      "Name": "Saxon State and University Library, Dresden",
+      "Abbreviation": "SLUB",
+      "url_bases": ["https://digital.slub-dresden.de"]
+    },
+    {
+      "Name": "Lester S. Levy Collection of Sheet Music",
+      "Abbreviation": "",
+      "url_bases": ["https://levysheetmusic.mse.jhu.edu"]
+    },
+    {
+      "Name": "Numelyo",
+      "Abbreviation": "",
+      "url_bases": ["https://numelyo.bm-lyon.fr"]
+    },
+    {
+      "Name": "National Library of the Netherlands",
+      "Abbreviation": "KB",
+      "url_bases": ["https://www.delpher.nl"]
+    },
+    {
+      "Name": "Biblioteca Digital Hisp\u00e1nica",
+      "Abbreviation": "BDH",
+      "url_bases": ["http://bdh-rd.bne.es"]
+    },
+    {
+      "Name": "University of Amsterdam",
+      "Abbreviation": "UVA",
+      "url_bases": ["https://cf.hum.uva.nl"]
+    }
+  ]
+}
