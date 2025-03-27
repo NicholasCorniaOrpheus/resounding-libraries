@@ -115,7 +115,7 @@ def apiQuery(credentials, query, parameters):
     # query = query.replace(":", "%3A")  # turn : in ASCII
     # query = query.replace(",", "%2C")  # turn comma into ASCII
     # query = query.replace(" ", "+")  # turn ASCII space into +
-    sign = "&sign=" + sha2hexa(credentials["privateKey"] + query)
+    sign = "&sign=" + sha2hexa(credentials["private_key"] + query)
     print("Signature:", sign, "\n")
     print("Query: ", query, "\n")
     # setting headers for security issues
@@ -124,7 +124,7 @@ def apiQuery(credentials, query, parameters):
         "Accept": "application/json",
     }
     response = requests.get(
-        credentials["rsApiUrl"] + "?" + query + sign, headers=headers
+        credentials["rs_api_url"] + "?" + query + sign, headers=headers
     )
     print(response.status_code)
     return response
