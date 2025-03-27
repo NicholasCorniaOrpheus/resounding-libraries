@@ -3,19 +3,20 @@ from requests_oauth2client import OAuth2Client, OAuth2ClientCredentialsAuth
 import json
 import os
 
-base_url = "https://koha.orpheusinstituut.be/api/v1"
+import sys
 
-# Credentials for Nicholas Cornia
-OauthCredentials = {
-    "description": "nicholas_cornia",
-    "clientID": "303cc27c-aed5-4987-be10-b484a2122723",
-    "secretKey": "5b39ae64-b3d5-4b01-b439-92f580c44356",
-}
+sys.path.append("./modules")  # importing custom functions in modules
 
-BasicCredentials = {
-    "user": "cornia.nicholas@orpheusinstituut.be",
-    "password": "koopMan%8899",
-}
+from modules.utilities import *
+
+# Import credentials, assuming you are running the code from the `koha` directory
+credentials = json2dict("../credentials/credentials.json")
+
+base_url = credentials["koha"]["koha_api_url"]
+
+oauth_credentials = credentials["koha"]["oauth_credentials"]
+
+basic_credentials = credentials["koha"]["basic_credentials"]
 
 fields = {"biblioitems": "biblios"}
 
@@ -40,13 +41,10 @@ def basicAuth():
     requests.get(base_url, auth=basic)
 
 
-# test basic authorization : Response 200 is positive
-# basicAuth()
-
 # create Oath2 session
 my_session = oauth2_session(
-    client_id=OauthCredentials["clientID"],
-    client_secret=OauthCredentials["secretKey"],
+    client_id=OauthCredentials["client_id"],
+    client_secret=OauthCredentials["secret_key"],
     base_url=base_url,
 )
 

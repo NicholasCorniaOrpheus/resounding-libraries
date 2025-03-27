@@ -1,0 +1,7 @@
+[
+	{
+		"id": 48,
+		"name": "FRIS",
+		"fields": ["biblionumber","control_field","main_author","title"]
+	}
+]
