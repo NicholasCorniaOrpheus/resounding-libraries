@@ -20,18 +20,32 @@ biblioitems_json_dir = os.path.join("data", "biblioitems", "json")
 authorities_marc_dir = os.path.join("data", "authorities", "marc")
 authorities_json_dir = os.path.join("data", "authorities", "json")
 
+# Mappings
+
+marc2json_mapping = os.path.join("data", "mapping_marc_fields.json")
+
+# Calling functions
+
 
 # TESTING
 
 """Report test, working!
-report_id = 48
+report_id = 71
 report2json(credentials["koha"]["koha_public_report_url"], report_id)
 """
+
+# report_id = 71
+# koha_biblioitems2json(credentials["koha"]["koha_public_report_url"], report_id)
 
 """API test"""
 # print(get_authority_marc(1))
 
 # print(get_biblionumber_marc(1))
 
-"""MARC test"""
-# get_last_biblioitems_marc()
+"""MARC biblio test: works!
+biblio_marc2json(
+    biblioitems_marc_dir, marc2json_mapping, biblioitems_json_dir
+)
+"""
+"""MARC auth test"""
+auth_marc2json(authorities_marc_dir, marc2json_mapping, authorities_json_dir)
