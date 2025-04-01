@@ -18,9 +18,6 @@ oauth_credentials = credentials["koha"]["oauth_credentials"]
 
 basic_credentials = credentials["koha"]["basic_credentials"]
 
-# Import mapping
-mapping_marc_fields = json2dict("./data/mapping_marc_fields.json")
-
 
 def oauth2_session(client_id, client_secret, base_url, scope="all"):
     token_url = f"{base_url}/oauth/token"  # This may be different for your endpoint
@@ -51,14 +48,16 @@ my_session = oauth2_session(
 
 
 def convert_authority_marc_response(
-    response_json,
+    response_json, mapping_marc_fields_dict
 ):  # returns a more readable version of the MARC response of a API query according to a given mapping
     # check authority type
     authority_type = list(
         filter(lambda x: list(x.keys())[0] == "942", response_json["fields"])
     )[0]["942"]["subfields"][0]["a"]
     query = list(
-        filter(lambda x: x["type"] == authority_type, mapping_marc_fields["authority"])
+        filter(
+            lambda x: x["type"] == authority_type, mapping_marc_fields_dict["authority"]
+        )
     )
     if len(query) > 0:
         mapping = query[0]

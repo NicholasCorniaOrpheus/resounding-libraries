@@ -1,94 +1,92 @@
-{
-  "item_type_abbreviations" : [
+[
     {
-      "Abbreviation" : "REC",
-      "Description" : "Audio and video recording",
+      "code" : "REC",
+      "label" : "Audio and video recording",
       "wd_label" : "record",
       "wd_qid" : "Q107435521"
     },
     {
-      "Abbreviation" : "BOO",
-      "Description" : "Book",
+      "code" : "BOO",
+      "label" : "Book",
       "wd_label" : "book",
       "wd_qid" : "Q571"
     },
     {
-      "Abbreviation" : "CHA",
-      "Description" : "Book chapter",
+      "code" : "CHA",
+      "label" : "Book chapter",
       "wd_label" : "chapter",
       "wd_qid" : "Q1980247"
     },
     {
-      "Abbreviation" : "DIS",
-      "Description" : "Dissertation",
+      "code" : "DIS",
+      "label" : "Dissertation",
       "wd_label" : "thesis",
       "wd_qid" : "Q1266946"
     },
     {
-      "Abbreviation" : "EPH",
-      "Description" : "Ephemera",
+      "code" : "EPH",
+      "label" : "Ephemera",
       "wd_label" : "ephemera",
       "wd_qid" : "Q1523267"
     },
     {
-      "Abbreviation" : "EQU",
-      "Description" : "Equipment",
+      "code" : "EQU",
+      "label" : "Equipment",
       "wd_label" : "equipment",
       "wd_qid" : "Q10273457"
     },
     {
-      "Abbreviation" : "ART",
-      "Description" : "Journal article",
+      "code" : "ART",
+      "label" : "Journal article",
       "wd_label" : "article",
       "wd_qid" : "Q191067"
     },
     {
-      "Abbreviation" : "MS",
-      "Description" : "Manuscript",
+      "code" : "MS",
+      "label" : "Manuscript",
       "wd_label" : "manuscript",
       "wd_qid" : "Q87167"
     },
     {
-      "Abbreviation" : "MIC",
-      "Description" : "Microfilm",
+      "code" : "MIC",
+      "label" : "Microfilm",
       "wd_label" : "microfilm",
       "wd_qid" : "Q12498524"
     },
     {
-      "Abbreviation" : "SCO",
-      "Description" : "Music score",
+      "code" : "SCO",
+      "label" : "Music score",
       "wd_label" : "sheet music",
       "wd_qid" : "Q187947"
     },
     {
-      "Abbreviation" : "NWO",
-      "Description" : "Non-written output",
+      "code" : "NWO",
+      "label" : "Non-written output",
       "wd_label" : "non-written output",
       "wd_qid" : null
     },
     {
-      "Abbreviation" : "DAT",
-      "Description" : "Open data set",
+      "code" : "DAT",
+      "label" : "Open data set",
       "wd_label" : "data set",
       "wd_qid" : "Q1172284"
     },
     {
-      "Abbreviation" : "PER",
-      "Description" : "Periodical",
+      "code" : "PER",
+      "label" : "Periodical",
       "wd_label" : "periodical",
       "wd_qid" : "Q1002697"
     },
     {
-      "Abbreviation" : "RAR",
-      "Description" : "Special collections",
+      "code" : "RAR",
+      "label" : "Special collections",
       "wd_label" : "special collection",
       "wd_qid" : null
     },
     {
-      "Abbreviation" : "TYPE_UNK",
-      "Description" : "Unknown type",
+      "code" : "TYPE_UNK",
+      "label" : "Unknown type",
       "wd_label" : "unknown type",
       "wd_qid" : null
     }
-  ]
-}
+]

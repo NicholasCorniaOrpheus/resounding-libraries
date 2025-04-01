@@ -47,3 +47,23 @@ def get_latest_file(basepath):  # returns latest file path in a directory
     files = os.listdir(basepath)
     paths = [os.path.join(basepath, basename) for basename in files]
     return max(paths, key=os.path.getctime)
+
+
+# Given a URL, from the MARC 856$u field, returns the source authority for subfield 856$3
+def get_external_source_authority(url, external_source_list):
+    for source in external_source_list:
+        print(source)
+        for base_url in source["base_url"]:
+            if base_url in url:
+                return source["label"]
+
+    return ""
+
+
+def get_abbreviation_code_data(code, abbreviation_list):
+    query = list(filter(lambda x: x["code"] == code, abbreviation_list))
+    if len(query) > 0:
+        # return the found abbreviation, assuming unique codes
+        return query[0]
+    else:
+        return {"code": code, "label": "", "wd_label": "", "wd_qid": ""}

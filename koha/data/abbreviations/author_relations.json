@@ -1,1798 +1,1796 @@
-{
-  "relation_abbreviations": [
+[
     {
-      "name": "expert",
-      "Abbreviation": "exp",
+      "label": "expert",
+      "code": "exp",
       "wd_label": "expert",
       "wd_qid": "Q381160"
     },
     {
-      "name": "Abridger",
-      "Abbreviation": "abr",
+      "label": "Abridger",
+      "code": "abr",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "actor",
-      "Abbreviation": "act",
+      "label": "actor",
+      "code": "act",
       "wd_label": "actor",
       "wd_qid": "Q33999"
     },
     {
-      "name": "adapter",
-      "Abbreviation": "adp",
+      "label": "adapter",
+      "code": "adp",
       "wd_label": "adapter",
       "wd_qid": "Q61875042"
     },
     {
-      "name": "Addressee",
-      "Abbreviation": "rcp",
+      "label": "Addressee",
+      "code": "rcp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "analyst",
-      "Abbreviation": "anl",
+      "label": "analyst",
+      "code": "anl",
       "wd_label": "analyst",
       "wd_qid": "Q485178"
     },
     {
-      "name": "animator",
-      "Abbreviation": "anm",
+      "label": "animator",
+      "code": "anm",
       "wd_label": "animator",
       "wd_qid": "Q266569"
     },
     {
-      "name": "annotator",
-      "Abbreviation": "ann",
+      "label": "annotator",
+      "code": "ann",
       "wd_label": "annotator",
       "wd_qid": "Q105842399"
     },
     {
-      "name": "announcer",
-      "Abbreviation": "anc",
+      "label": "announcer",
+      "code": "anc",
       "wd_label": "announcer",
       "wd_qid": "Q1371925"
     },
     {
-      "name": "Appellant",
-      "Abbreviation": "apl",
+      "label": "Appellant",
+      "code": "apl",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Appellee",
-      "Abbreviation": "ape",
+      "label": "Appellee",
+      "code": "ape",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Applicant",
-      "Abbreviation": "app",
+      "label": "Applicant",
+      "code": "app",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "architect",
-      "Abbreviation": "arc",
+      "label": "architect",
+      "code": "arc",
       "wd_label": "architect",
       "wd_qid": "Q42973"
     },
     {
-      "name": "music arranger",
-      "Abbreviation": "arr",
+      "label": "music arranger",
+      "code": "arr",
       "wd_label": "music arranger",
       "wd_qid": "Q1643514"
     },
     {
-      "name": "Art copyist",
-      "Abbreviation": "acp",
+      "label": "Art copyist",
+      "code": "acp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Art director",
-      "Abbreviation": "adi",
+      "label": "Art director",
+      "code": "adi",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "artist",
-      "Abbreviation": "art",
+      "label": "artist",
+      "code": "art",
       "wd_label": "artist",
       "wd_qid": "Q483501"
     },
     {
-      "name": "artistic director",
-      "Abbreviation": "ard",
+      "label": "artistic director",
+      "code": "ard",
       "wd_label": "artistic director",
       "wd_qid": "Q1797162"
     },
     {
-      "name": "Assignee",
-      "Abbreviation": "asg",
+      "label": "Assignee",
+      "code": "asg",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Associated name",
-      "Abbreviation": "asn",
+      "label": "Associated name",
+      "code": "asn",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Attributed name",
-      "Abbreviation": "att",
+      "label": "Attributed name",
+      "code": "att",
       "wd_label": "attribution",
       "wd_qid": "Q230768"
     },
     {
-      "name": "auctioneer",
-      "Abbreviation": "auc",
+      "label": "auctioneer",
+      "code": "auc",
       "wd_label": "auctioneer",
       "wd_qid": "Q2743689"
     },
     {
-      "name": "audio engineer",
-      "Abbreviation": "aue",
+      "label": "audio engineer",
+      "code": "aue",
       "wd_label": "audio engineer",
       "wd_qid": "Q128124"
     },
     {
-      "name": "Audio producer",
-      "Abbreviation": "aup",
+      "label": "Audio producer",
+      "code": "aup",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "author",
-      "Abbreviation": "aut",
+      "label": "author",
+      "code": "aut",
       "wd_label": "author",
       "wd_qid": "Q482980"
     },
     {
-      "name": "Author in quotations or text abstracts",
-      "Abbreviation": "aqt",
+      "label": "Author in quotations or text abstracts",
+      "code": "aqt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Author of afterword, colophon, etc.",
-      "Abbreviation": "aft",
+      "label": "Author of afterword, colophon, etc.",
+      "code": "aft",
       "wd_label": "author of afterword",
       "wd_qid": "Q230768"
     },
     {
-      "name": "Author of dialog",
-      "Abbreviation": "aud",
+      "label": "Author of dialog",
+      "code": "aud",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Author of introduction, etc.",
-      "Abbreviation": "aui",
+      "label": "Author of introduction, etc.",
+      "code": "aui",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Autographer",
-      "Abbreviation": "ato",
+      "label": "Autographer",
+      "code": "ato",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Bibliographic antecedent",
-      "Abbreviation": "ant",
+      "label": "Bibliographic antecedent",
+      "code": "ant",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "bookbinder",
-      "Abbreviation": "bnd",
+      "label": "bookbinder",
+      "code": "bnd",
       "wd_label": "bookbinder",
       "wd_qid": "Q1413170"
     },
     {
-      "name": "book binding designer",
-      "Abbreviation": "bdd",
+      "label": "book binding designer",
+      "code": "bdd",
       "wd_label": "book binding designer",
       "wd_qid": "Q2496261"
     },
     {
-      "name": "Blurb writer",
-      "Abbreviation": "blw",
+      "label": "Blurb writer",
+      "code": "blw",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "book artist",
-      "Abbreviation": "bka",
+      "label": "book artist",
+      "code": "bka",
       "wd_label": "book artist",
       "wd_qid": "Q56884373"
     },
     {
-      "name": "book designer",
-      "Abbreviation": "bkd",
+      "label": "book designer",
+      "code": "bkd",
       "wd_label": "book designer",
       "wd_qid": "Q28933278"
     },
     {
-      "name": "Book producer",
-      "Abbreviation": "bkp",
+      "label": "Book producer",
+      "code": "bkp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Bookjacket designer",
-      "Abbreviation": "bjd",
+      "label": "Bookjacket designer",
+      "code": "bjd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Bookplate designer",
-      "Abbreviation": "bpd",
+      "label": "Bookplate designer",
+      "code": "bpd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "bookseller",
-      "Abbreviation": "bsl",
+      "label": "bookseller",
+      "code": "bsl",
       "wd_label": "bookseller",
       "wd_qid": "Q998550"
     },
     {
-      "name": "Braille embosser",
-      "Abbreviation": "brl",
+      "label": "Braille embosser",
+      "code": "brl",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "broadcaster",
-      "Abbreviation": "brd",
+      "label": "broadcaster",
+      "code": "brd",
       "wd_label": "broadcaster",
       "wd_qid": "Q15958754"
     },
     {
-      "name": "calligrapher",
-      "Abbreviation": "cll",
+      "label": "calligrapher",
+      "code": "cll",
       "wd_label": "calligrapher",
       "wd_qid": "Q3303330"
     },
     {
-      "name": "camera operator",
-      "Abbreviation": "cop",
+      "label": "camera operator",
+      "code": "cop",
       "wd_label": "camera operator",
       "wd_qid": "Q1208175"
     },
     {
-      "name": "cartographer",
-      "Abbreviation": "ctg",
+      "label": "cartographer",
+      "code": "ctg",
       "wd_label": "cartographer",
       "wd_qid": "Q1734662"
     },
     {
-      "name": "caster",
-      "Abbreviation": "cas",
+      "label": "caster",
+      "code": "cas",
       "wd_label": "caster",
       "wd_qid": "Q47004910"
     },
     {
-      "name": "casting director",
-      "Abbreviation": "cad",
+      "label": "casting director",
+      "code": "cad",
       "wd_label": "casting director",
       "wd_qid": "Q1049296"
     },
     {
-      "name": "censor",
-      "Abbreviation": "cns",
+      "label": "censor",
+      "code": "cns",
       "wd_label": "censor",
       "wd_qid": "Q12377291"
     },
     {
-      "name": "choreographer",
-      "Abbreviation": "chr",
+      "label": "choreographer",
+      "code": "chr",
       "wd_label": "choreographer",
       "wd_qid": "Q2490358"
     },
     {
-      "name": "cinematographer",
-      "Abbreviation": "cng",
+      "label": "cinematographer",
+      "code": "cng",
       "wd_label": "cinematographer",
       "wd_qid": "Q222344"
     },
     {
-      "name": "client",
-      "Abbreviation": "cli",
+      "label": "client",
+      "code": "cli",
       "wd_label": "client",
       "wd_qid": "Q108325200"
     },
     {
-      "name": "museum registrar",
-      "Abbreviation": "cor",
+      "label": "museum registrar",
+      "code": "cor",
       "wd_label": "museum registrar",
       "wd_qid": "Q3931989"
     },
     {
-      "name": "collector",
-      "Abbreviation": "col",
+      "label": "collector",
+      "code": "col",
       "wd_label": "collector",
       "wd_qid": "Q3243461"
     },
     {
-      "name": "Collotyper",
-      "Abbreviation": "clt",
+      "label": "Collotyper",
+      "code": "clt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "colorist",
-      "Abbreviation": "clr",
+      "label": "colorist",
+      "code": "clr",
       "wd_label": "colorist",
       "wd_qid": "Q1111648"
     },
     {
-      "name": "commentator",
-      "Abbreviation": "cmm",
+      "label": "commentator",
+      "code": "cmm",
       "wd_label": "commentator",
       "wd_qid": "Q106313281"
     },
     {
-      "name": "Commentator for written text",
-      "Abbreviation": "cwt",
+      "label": "Commentator for written text",
+      "code": "cwt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "compiler",
-      "Abbreviation": "com",
+      "label": "compiler",
+      "code": "com",
       "wd_label": "compiler",
       "wd_qid": "Q29514511"
     },
     {
-      "name": "Complainant",
-      "Abbreviation": "cpl",
+      "label": "Complainant",
+      "code": "cpl",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Complainant-appellant",
-      "Abbreviation": "cpt",
+      "label": "Complainant-appellant",
+      "code": "cpt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Complainant-appellee",
-      "Abbreviation": "cpe",
+      "label": "Complainant-appellee",
+      "code": "cpe",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "composer",
-      "Abbreviation": "cmp",
+      "label": "composer",
+      "code": "cmp",
       "wd_label": "composer",
       "wd_qid": "Q36834"
     },
     {
-      "name": "Compositor",
-      "Abbreviation": "cmt",
+      "label": "Compositor",
+      "code": "cmt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Conceptor",
-      "Abbreviation": "ccp",
+      "label": "Conceptor",
+      "code": "ccp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "conductor",
-      "Abbreviation": "cnd",
+      "label": "conductor",
+      "code": "cnd",
       "wd_label": "conductor",
       "wd_qid": "Q158852"
     },
     {
-      "name": "Conservator",
-      "Abbreviation": "con",
+      "label": "Conservator",
+      "code": "con",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "consultant",
-      "Abbreviation": "csl",
+      "label": "consultant",
+      "code": "csl",
       "wd_label": "consultant",
       "wd_qid": "Q15978655"
     },
     {
-      "name": "Consultant to a project",
-      "Abbreviation": "csp",
+      "label": "Consultant to a project",
+      "code": "csp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestant",
-      "Abbreviation": "cos",
+      "label": "Contestant",
+      "code": "cos",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestant-appellant",
-      "Abbreviation": "cot",
+      "label": "Contestant-appellant",
+      "code": "cot",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestant-appellee",
-      "Abbreviation": "coe",
+      "label": "Contestant-appellee",
+      "code": "coe",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestee",
-      "Abbreviation": "cts",
+      "label": "Contestee",
+      "code": "cts",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestee-appellant",
-      "Abbreviation": "ctt",
+      "label": "Contestee-appellant",
+      "code": "ctt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Contestee-appellee",
-      "Abbreviation": "cte",
+      "label": "Contestee-appellee",
+      "code": "cte",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "building contractor",
-      "Abbreviation": "ctr",
+      "label": "building contractor",
+      "code": "ctr",
       "wd_label": "building contractor",
       "wd_qid": "Q63755054"
     },
     {
-      "name": "contributor",
-      "Abbreviation": "ctb",
+      "label": "contributor",
+      "code": "ctb",
       "wd_label": "contributor",
       "wd_qid": "Q20204892"
     },
     {
-      "name": "Copyright claimant",
-      "Abbreviation": "cpc",
+      "label": "Copyright claimant",
+      "code": "cpc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "copyright holder",
-      "Abbreviation": "cph",
+      "label": "copyright holder",
+      "code": "cph",
       "wd_label": "copyright holder",
       "wd_qid": "Q29014674"
     },
     {
-      "name": "corrector",
-      "Abbreviation": "crr",
+      "label": "corrector",
+      "code": "crr",
       "wd_label": "corrector",
       "wd_qid": "Q539371"
     },
     {
-      "name": "correspondent",
-      "Abbreviation": "crp",
+      "label": "correspondent",
+      "code": "crp",
       "wd_label": "correspondent",
       "wd_qid": "Q3589290"
     },
     {
-      "name": "costume designer",
-      "Abbreviation": "cst",
+      "label": "costume designer",
+      "code": "cst",
       "wd_label": "costume designer",
       "wd_qid": "Q1323191"
     },
     {
-      "name": "Court governed",
-      "Abbreviation": "cou",
+      "label": "Court governed",
+      "code": "cou",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "court reporter",
-      "Abbreviation": "crt",
+      "label": "court reporter",
+      "code": "crt",
       "wd_label": "court reporter",
       "wd_qid": "Q15812002"
     },
     {
-      "name": "cover artist",
-      "Abbreviation": "cov",
+      "label": "cover artist",
+      "code": "cov",
       "wd_label": "cover artist",
       "wd_qid": "Q27472738"
     },
     {
-      "name": "creator",
-      "Abbreviation": "cre",
+      "label": "creator",
+      "code": "cre",
       "wd_label": "creator",
       "wd_qid": "Q2500638"
     },
     {
-      "name": "curator",
-      "Abbreviation": "cur",
+      "label": "curator",
+      "code": "cur",
       "wd_label": "curator",
       "wd_qid": "Q674426"
     },
     {
-      "name": "dancer",
-      "Abbreviation": "dnc",
+      "label": "dancer",
+      "code": "dnc",
       "wd_label": "dancer",
       "wd_qid": "Q5716684"
     },
     {
-      "name": "data entry clerk",
-      "Abbreviation": "dtc",
+      "label": "data entry clerk",
+      "code": "dtc",
       "wd_label": "data entry clerk",
       "wd_qid": "Q918751"
     },
     {
-      "name": "data manager",
-      "Abbreviation": "dtm",
+      "label": "data manager",
+      "code": "dtm",
       "wd_label": "data manager",
       "wd_qid": "Q48357783"
     },
     {
-      "name": "dedicatee",
-      "Abbreviation": "dte",
+      "label": "dedicatee",
+      "code": "dte",
       "wd_label": "dedicatee",
       "wd_qid": "Q28008298"
     },
     {
-      "name": "Dedicator",
-      "Abbreviation": "dto",
+      "label": "Dedicator",
+      "code": "dto",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Defendant",
-      "Abbreviation": "dfd",
+      "label": "Defendant",
+      "code": "dfd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Defendant-appellant",
-      "Abbreviation": "dft",
+      "label": "Defendant-appellant",
+      "code": "dft",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Defendant-appellee",
-      "Abbreviation": "dfe",
+      "label": "Defendant-appellee",
+      "code": "dfe",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Degree committee member",
-      "Abbreviation": "dgc",
+      "label": "Degree committee member",
+      "code": "dgc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Degree granting institution",
-      "Abbreviation": "dgg",
+      "label": "Degree granting institution",
+      "code": "dgg",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Degree supervisor",
-      "Abbreviation": "dgs",
+      "label": "Degree supervisor",
+      "code": "dgs",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "drawer",
-      "Abbreviation": "dln",
+      "label": "drawer",
+      "code": "dln",
       "wd_label": "drawer",
       "wd_qid": "Q15296811"
     },
     {
-      "name": "Depicted",
-      "Abbreviation": "dpc",
+      "label": "Depicted",
+      "code": "dpc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Depositor",
-      "Abbreviation": "dpt",
+      "label": "Depositor",
+      "code": "dpt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "designer",
-      "Abbreviation": "dsr",
+      "label": "designer",
+      "code": "dsr",
       "wd_label": "designer",
       "wd_qid": "Q5322166"
     },
     {
-      "name": "director",
-      "Abbreviation": "drt",
+      "label": "director",
+      "code": "drt",
       "wd_label": "director",
       "wd_qid": "Q1162163"
     },
     {
-      "name": "Dissertant",
-      "Abbreviation": "dis",
+      "label": "Dissertant",
+      "code": "dis",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Distribution place",
-      "Abbreviation": "dbp",
+      "label": "Distribution place",
+      "code": "dbp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "authorized dealer",
-      "Abbreviation": "dst",
+      "label": "authorized dealer",
+      "code": "dst",
       "wd_label": "authorized dealer",
       "wd_qid": "Q328365"
     },
     {
-      "name": "disc jockey",
-      "Abbreviation": "djo",
+      "label": "disc jockey",
+      "code": "djo",
       "wd_label": "disc jockey",
       "wd_qid": "Q130857"
     },
     {
-      "name": "donor",
-      "Abbreviation": "dnr",
+      "label": "donor",
+      "code": "dnr",
       "wd_label": "donor",
       "wd_qid": "Q1968442"
     },
     {
-      "name": "drafter",
-      "Abbreviation": "drm",
+      "label": "drafter",
+      "code": "drm",
       "wd_label": "drafter",
       "wd_qid": "Q683754"
     },
     {
-      "name": "dub director",
-      "Abbreviation": "dbd",
+      "label": "dub director",
+      "code": "dbd",
       "wd_label": "dub director",
       "wd_qid": "Q1298794"
     },
     {
-      "name": "dubious author",
-      "Abbreviation": "dub",
+      "label": "dubious author",
+      "code": "dub",
       "wd_label": "dubious author",
       "wd_qid": "Q126392278"
     },
     {
-      "name": "editor",
-      "Abbreviation": "edt",
+      "label": "editor",
+      "code": "edt",
       "wd_label": "editor",
       "wd_qid": "Q1607826"
     },
     {
-      "name": "Editor of compilation",
-      "Abbreviation": "edc",
+      "label": "Editor of compilation",
+      "code": "edc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Editor of moving image work",
-      "Abbreviation": "edm",
+      "label": "Editor of moving image work",
+      "code": "edm",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "editorial director",
-      "Abbreviation": "edd",
+      "label": "editorial director",
+      "code": "edd",
       "wd_label": "editorial director",
       "wd_qid": "Q109827921"
     },
     {
-      "name": "electrician",
-      "Abbreviation": "elg",
+      "label": "electrician",
+      "code": "elg",
       "wd_label": "electrician",
       "wd_qid": "Q165029"
     },
     {
-      "name": "electrotyper",
-      "Abbreviation": "elt",
+      "label": "electrotyper",
+      "code": "elt",
       "wd_label": "electrotyper",
       "wd_qid": "Q124314308"
     },
     {
-      "name": "Enacting jurisdiction",
-      "Abbreviation": "enj",
+      "label": "Enacting jurisdiction",
+      "code": "enj",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "engineer",
-      "Abbreviation": "eng",
+      "label": "engineer",
+      "code": "eng",
       "wd_label": "engineer",
       "wd_qid": "Q81096"
     },
     {
-      "name": "engraver",
-      "Abbreviation": "egr",
+      "label": "engraver",
+      "code": "egr",
       "wd_label": "engraver",
       "wd_qid": "Q329439"
     },
     {
-      "name": "etcher",
-      "Abbreviation": "etr",
+      "label": "etcher",
+      "code": "etr",
       "wd_label": "etcher",
       "wd_qid": "Q10862983"
     },
     {
-      "name": "Event place",
-      "Abbreviation": "evp",
+      "label": "Event place",
+      "code": "evp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "color commentator",
-      "Abbreviation": "exp",
+      "label": "color commentator",
+      "code": "exp",
       "wd_label": "color commentator",
       "wd_qid": "Q3276037"
     },
     {
-      "name": "Facsimilist",
-      "Abbreviation": "fac",
+      "label": "Facsimilist",
+      "code": "fac",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Field director",
-      "Abbreviation": "fld",
+      "label": "Field director",
+      "code": "fld",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "film director",
-      "Abbreviation": "fmd",
+      "label": "film director",
+      "code": "fmd",
       "wd_label": "film director",
       "wd_qid": "Q2526255"
     },
     {
-      "name": "film distributor",
-      "Abbreviation": "fds",
+      "label": "film distributor",
+      "code": "fds",
       "wd_label": "film distributor",
       "wd_qid": "Q58623063"
     },
     {
-      "name": "film editor",
-      "Abbreviation": "flm",
+      "label": "film editor",
+      "code": "flm",
       "wd_label": "film editor",
       "wd_qid": "Q7042855"
     },
     {
-      "name": "film producer",
-      "Abbreviation": "fmp",
+      "label": "film producer",
+      "code": "fmp",
       "wd_label": "film producer",
       "wd_qid": "Q3282637"
     },
     {
-      "name": "filmmaker",
-      "Abbreviation": "fmk",
+      "label": "filmmaker",
+      "code": "fmk",
       "wd_label": "filmmaker",
       "wd_qid": "Q1414443"
     },
     {
-      "name": "First party",
-      "Abbreviation": "fpy",
+      "label": "First party",
+      "code": "fpy",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "counterfeiter",
-      "Abbreviation": "frg",
+      "label": "counterfeiter",
+      "code": "frg",
       "wd_label": "counterfeiter",
       "wd_qid": "Q3738757"
     },
     {
-      "name": "Former owner",
-      "Abbreviation": "fmo",
+      "label": "Former owner",
+      "code": "fmo",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "bell founder",
-      "Abbreviation": "fon",
+      "label": "bell founder",
+      "code": "fon",
       "wd_label": "bell founder",
       "wd_qid": "Q12031226"
     },
     {
-      "name": "Funder",
-      "Abbreviation": "fnd",
+      "label": "Funder",
+      "code": "fnd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "video game developer",
-      "Abbreviation": "gdv",
+      "label": "video game developer",
+      "code": "gdv",
       "wd_label": "video game developer",
       "wd_qid": "Q58287519"
     },
     {
-      "name": "Geographic information specialist",
-      "Abbreviation": "gis",
+      "label": "Geographic information specialist",
+      "code": "gis",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Honoree",
-      "Abbreviation": "hnr",
+      "label": "Honoree",
+      "code": "hnr",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Host",
-      "Abbreviation": "hst",
+      "label": "Host",
+      "code": "hst",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Host institution",
-      "Abbreviation": "his",
+      "label": "Host institution",
+      "code": "his",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "illuminator",
-      "Abbreviation": "ilu",
+      "label": "illuminator",
+      "code": "ilu",
       "wd_label": "illuminator",
       "wd_qid": "Q998628"
     },
     {
-      "name": "illustrator",
-      "Abbreviation": "ill",
+      "label": "illustrator",
+      "code": "ill",
       "wd_label": "illustrator",
       "wd_qid": "Q644687"
     },
     {
-      "name": "Inscriber",
-      "Abbreviation": "ins",
+      "label": "Inscriber",
+      "code": "ins",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "instrumentalist",
-      "Abbreviation": "itr",
+      "label": "instrumentalist",
+      "code": "itr",
       "wd_label": "instrumentalist",
       "wd_qid": "Q1278335"
     },
     {
-      "name": "Interviewee",
-      "Abbreviation": "ive",
+      "label": "Interviewee",
+      "code": "ive",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "interviewer",
-      "Abbreviation": "ivr",
+      "label": "interviewer",
+      "code": "ivr",
       "wd_label": "interviewer",
       "wd_qid": "Q46034607"
     },
     {
-      "name": "inventor",
-      "Abbreviation": "inv",
+      "label": "inventor",
+      "code": "inv",
       "wd_label": "inventor",
       "wd_qid": "Q205375"
     },
     {
-      "name": "Issuing body",
-      "Abbreviation": "isb",
+      "label": "Issuing body",
+      "code": "isb",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "judge",
-      "Abbreviation": "jud",
+      "label": "judge",
+      "code": "jud",
       "wd_label": "judge",
       "wd_qid": "Q16533"
     },
     {
-      "name": "Jurisdiction governed",
-      "Abbreviation": "jug",
+      "label": "Jurisdiction governed",
+      "code": "jug",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Laboratory",
-      "Abbreviation": "lbr",
+      "label": "Laboratory",
+      "code": "lbr",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "laboratory director",
-      "Abbreviation": "ldr",
+      "label": "laboratory director",
+      "code": "ldr",
       "wd_label": "laboratory director",
       "wd_qid": "Q87770683"
     },
     {
-      "name": "landscape architect",
-      "Abbreviation": "lsa",
+      "label": "landscape architect",
+      "code": "lsa",
       "wd_label": "landscape architect",
       "wd_qid": "Q2815948"
     },
     {
-      "name": "Lead",
-      "Abbreviation": "led",
+      "label": "Lead",
+      "code": "led",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Lender",
-      "Abbreviation": "len",
+      "label": "Lender",
+      "code": "len",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelant",
-      "Abbreviation": "lil",
+      "label": "Libelant",
+      "code": "lil",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelant-appellant",
-      "Abbreviation": "lit",
+      "label": "Libelant-appellant",
+      "code": "lit",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelant-appellee",
-      "Abbreviation": "lie",
+      "label": "Libelant-appellee",
+      "code": "lie",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelee",
-      "Abbreviation": "lel",
+      "label": "Libelee",
+      "code": "lel",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelee-appellant",
-      "Abbreviation": "let",
+      "label": "Libelee-appellant",
+      "code": "let",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Libelee-appellee",
-      "Abbreviation": "lee",
+      "label": "Libelee-appellee",
+      "code": "lee",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "librettist",
-      "Abbreviation": "lbt",
+      "label": "librettist",
+      "code": "lbt",
       "wd_label": "librettist",
       "wd_qid": "Q8178443"
     },
     {
-      "name": "Licensee",
-      "Abbreviation": "lse",
+      "label": "Licensee",
+      "code": "lse",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Licensor",
-      "Abbreviation": "lso",
+      "label": "Licensor",
+      "code": "lso",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "lighting designer",
-      "Abbreviation": "lgd",
+      "label": "lighting designer",
+      "code": "lgd",
       "wd_label": "lighting designer",
       "wd_qid": "Q1823479"
     },
     {
-      "name": "lithographer",
-      "Abbreviation": "ltg",
+      "label": "lithographer",
+      "code": "ltg",
       "wd_label": "lithographer",
       "wd_qid": "Q16947657"
     },
     {
-      "name": "lyricist",
-      "Abbreviation": "lyr",
+      "label": "lyricist",
+      "code": "lyr",
       "wd_label": "lyricist",
       "wd_qid": "Q822146"
     },
     {
-      "name": "Makeup artist",
-      "Abbreviation": "mka",
+      "label": "Makeup artist",
+      "code": "mka",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Manufacture place",
-      "Abbreviation": "mfp",
+      "label": "Manufacture place",
+      "code": "mfp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "manufacturer",
-      "Abbreviation": "mfr",
+      "label": "manufacturer",
+      "code": "mfr",
       "wd_label": "manufacturer",
       "wd_qid": "Q13235160"
     },
     {
-      "name": "Marbler",
-      "Abbreviation": "mrb",
+      "label": "Marbler",
+      "code": "mrb",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Markup editor",
-      "Abbreviation": "mrk",
+      "label": "Markup editor",
+      "code": "mrk",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Medium",
-      "Abbreviation": "med",
+      "label": "Medium",
+      "code": "med",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Metadata contact",
-      "Abbreviation": "mdc",
+      "label": "Metadata contact",
+      "code": "mdc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "metal engraver",
-      "Abbreviation": "mte",
+      "label": "metal engraver",
+      "code": "mte",
       "wd_label": "metal engraver",
       "wd_qid": "Q114049711"
     },
     {
-      "name": "Minute taker",
-      "Abbreviation": "mtk",
+      "label": "Minute taker",
+      "code": "mtk",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "mixing engineer",
-      "Abbreviation": "mxe",
+      "label": "mixing engineer",
+      "code": "mxe",
       "wd_label": "mixing engineer",
       "wd_qid": "Q6884071"
     },
     {
-      "name": "discussion moderator",
-      "Abbreviation": "mod",
+      "label": "discussion moderator",
+      "code": "mod",
       "wd_label": "discussion moderator",
       "wd_qid": "Q16961937"
     },
     {
-      "name": "monitor",
-      "Abbreviation": "mon",
+      "label": "monitor",
+      "code": "mon",
       "wd_label": "monitor",
       "wd_qid": "Q120929613"
     },
     {
-      "name": "music typesetter",
-      "Abbreviation": "mcp",
+      "label": "music typesetter",
+      "code": "mcp",
       "wd_label": "music typesetter",
       "wd_qid": "Q100605727"
     },
     {
-      "name": "music programmer",
-      "Abbreviation": "mup",
+      "label": "music programmer",
+      "code": "mup",
       "wd_label": "music programmer",
       "wd_qid": "Q57999368"
     },
     {
-      "name": "music director",
-      "Abbreviation": "msd",
+      "label": "music director",
+      "code": "msd",
       "wd_label": "music director",
       "wd_qid": "Q1198887"
     },
     {
-      "name": "musician",
-      "Abbreviation": "mus",
+      "label": "musician",
+      "code": "mus",
       "wd_label": "musician",
       "wd_qid": "Q639669"
     },
     {
-      "name": "narrator",
-      "Abbreviation": "nrt",
+      "label": "narrator",
+      "code": "nrt",
       "wd_label": "narrator",
       "wd_qid": "Q755070"
     },
     {
-      "name": "news presenter",
-      "Abbreviation": "nan",
+      "label": "news presenter",
+      "code": "nan",
       "wd_label": "news presenter",
       "wd_qid": "Q270389"
     },
     {
-      "name": "Onscreen participant",
-      "Abbreviation": "onp",
+      "label": "Onscreen participant",
+      "code": "onp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Onscreen presenter",
-      "Abbreviation": "osp",
+      "label": "Onscreen presenter",
+      "code": "osp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "opponent",
-      "Abbreviation": "opn",
+      "label": "opponent",
+      "code": "opn",
       "wd_label": "opponent",
       "wd_qid": "Q2027160"
     },
     {
-      "name": "Organizer",
-      "Abbreviation": "orm",
+      "label": "Organizer",
+      "code": "orm",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Originator",
-      "Abbreviation": "org",
+      "label": "Originator",
+      "code": "org",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Other",
-      "Abbreviation": "oth",
+      "label": "Other",
+      "code": "oth",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "possessor",
-      "Abbreviation": "own",
+      "label": "possessor",
+      "code": "own",
       "wd_label": "possessor",
       "wd_qid": "Q18574339"
     },
     {
-      "name": "Panelist",
-      "Abbreviation": "pan",
+      "label": "Panelist",
+      "code": "pan",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "papermaker",
-      "Abbreviation": "ppm",
+      "label": "papermaker",
+      "code": "ppm",
       "wd_label": "papermaker",
       "wd_qid": "Q3362826"
     },
     {
-      "name": "Patent applicant",
-      "Abbreviation": "pta",
+      "label": "Patent applicant",
+      "code": "pta",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Patent holder",
-      "Abbreviation": "pth",
+      "label": "Patent holder",
+      "code": "pth",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "patron of the arts",
-      "Abbreviation": "pat",
+      "label": "patron of the arts",
+      "code": "pat",
       "wd_label": "patron of the arts",
       "wd_qid": "Q15472169"
     },
     {
-      "name": "performing artist",
-      "Abbreviation": "prf",
+      "label": "performing artist",
+      "code": "prf",
       "wd_label": "performing artist",
       "wd_qid": "Q713200"
     },
     {
-      "name": "Permitting agency",
-      "Abbreviation": "pma",
+      "label": "Permitting agency",
+      "code": "pma",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "professional photographer",
-      "Abbreviation": "pht",
+      "label": "professional photographer",
+      "code": "pht",
       "wd_label": "professional photographer",
       "wd_qid": "Q98084799"
     },
     {
-      "name": "Place of address",
-      "Abbreviation": "pad",
+      "label": "Place of address",
+      "code": "pad",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Plaintiff",
-      "Abbreviation": "ptf",
+      "label": "Plaintiff",
+      "code": "ptf",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Plaintiff-appellant",
-      "Abbreviation": "ptt",
+      "label": "Plaintiff-appellant",
+      "code": "ptt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Plaintiff-appellee",
-      "Abbreviation": "pte",
+      "label": "Plaintiff-appellee",
+      "code": "pte",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Platemaker",
-      "Abbreviation": "plt",
+      "label": "Platemaker",
+      "code": "plt",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Praeses",
-      "Abbreviation": "pra",
+      "label": "Praeses",
+      "code": "pra",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "presenter",
-      "Abbreviation": "pre",
+      "label": "presenter",
+      "code": "pre",
       "wd_label": "presenter",
       "wd_qid": "Q13590141"
     },
     {
-      "name": "printer",
-      "Abbreviation": "prt",
+      "label": "printer",
+      "code": "prt",
       "wd_label": "printer",
       "wd_qid": "Q175151"
     },
     {
-      "name": "Printer of plates",
-      "Abbreviation": "pop",
+      "label": "Printer of plates",
+      "code": "pop",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "printmaker",
-      "Abbreviation": "prm",
+      "label": "printmaker",
+      "code": "prm",
       "wd_label": "printmaker",
       "wd_qid": "Q11569986"
     },
     {
-      "name": "Process contact",
-      "Abbreviation": "prc",
+      "label": "Process contact",
+      "code": "prc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "producer",
-      "Abbreviation": "pro",
+      "label": "producer",
+      "code": "pro",
       "wd_label": "producer",
       "wd_qid": "Q47541952"
     },
     {
-      "name": "Production company",
-      "Abbreviation": "prn",
+      "label": "Production company",
+      "code": "prn",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Production designer",
-      "Abbreviation": "prs",
+      "label": "Production designer",
+      "code": "prs",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Production manager",
-      "Abbreviation": "pmn",
+      "label": "Production manager",
+      "code": "pmn",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Production personnel",
-      "Abbreviation": "prd",
+      "label": "Production personnel",
+      "code": "prd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Production place",
-      "Abbreviation": "prp",
+      "label": "Production place",
+      "code": "prp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "programmer",
-      "Abbreviation": "prg",
+      "label": "programmer",
+      "code": "prg",
       "wd_label": "programmer",
       "wd_qid": "Q5482740"
     },
     {
-      "name": "project director",
-      "Abbreviation": "pdr",
+      "label": "project director",
+      "code": "pdr",
       "wd_label": "project director",
       "wd_qid": "Q3029431"
     },
     {
-      "name": "proofreader",
-      "Abbreviation": "pfr",
+      "label": "proofreader",
+      "code": "pfr",
       "wd_label": "proofreader",
       "wd_qid": "Q356139"
     },
     {
-      "name": "Provider",
-      "Abbreviation": "prv",
+      "label": "Provider",
+      "code": "prv",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "place of publication",
-      "Abbreviation": "pup",
+      "label": "place of publication",
+      "code": "pup",
       "wd_label": "place of publication",
       "wd_qid": "Q1361759"
     },
     {
-      "name": "publisher",
-      "Abbreviation": "pbl",
+      "label": "publisher",
+      "code": "pbl",
       "wd_label": "publisher",
       "wd_qid": "Q2516866"
     },
     {
-      "name": "Publishing director",
-      "Abbreviation": "pbd",
+      "label": "Publishing director",
+      "code": "pbd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "puppeteer",
-      "Abbreviation": "ppt",
+      "label": "puppeteer",
+      "code": "ppt",
       "wd_label": "puppeteer",
       "wd_qid": "Q2629392"
     },
     {
-      "name": "radio director",
-      "Abbreviation": "rdd",
+      "label": "radio director",
+      "code": "rdd",
       "wd_label": "radio director",
       "wd_qid": "Q21234364"
     },
     {
-      "name": "radio producer",
-      "Abbreviation": "rpc",
+      "label": "radio producer",
+      "code": "rpc",
       "wd_label": "radio producer",
       "wd_qid": "Q3406651"
     },
     {
-      "name": "Rapporteur",
-      "Abbreviation": "rap",
+      "label": "Rapporteur",
+      "code": "rap",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "audio engineer",
-      "Abbreviation": "rce",
+      "label": "audio engineer",
+      "code": "rce",
       "wd_label": "audio engineer",
       "wd_qid": "Q128124"
     },
     {
-      "name": "recordist",
-      "Abbreviation": "rcd",
+      "label": "recordist",
+      "code": "rcd",
       "wd_label": "recordist",
       "wd_qid": "Q112791061"
     },
     {
-      "name": "Redaktor",
-      "Abbreviation": "red",
+      "label": "Redaktor",
+      "code": "red",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Remix artist",
-      "Abbreviation": "rxa",
+      "label": "Remix artist",
+      "code": "rxa",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Renderer",
-      "Abbreviation": "ren",
+      "label": "Renderer",
+      "code": "ren",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "reporter",
-      "Abbreviation": "rpt",
+      "label": "reporter",
+      "code": "rpt",
       "wd_label": "reporter",
       "wd_qid": "Q11348441"
     },
     {
-      "name": "repository",
-      "Abbreviation": "rps",
+      "label": "repository",
+      "code": "rps",
       "wd_label": "repository",
       "wd_qid": "Q3133368"
     },
     {
-      "name": "Research team head",
-      "Abbreviation": "rth",
+      "label": "Research team head",
+      "code": "rth",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Research team member",
-      "Abbreviation": "rtm",
+      "label": "Research team member",
+      "code": "rtm",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Researcher",
-      "Abbreviation": "res",
+      "label": "Researcher",
+      "code": "res",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Respondent",
-      "Abbreviation": "rsp",
+      "label": "Respondent",
+      "code": "rsp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Respondent-appellant",
-      "Abbreviation": "rst",
+      "label": "Respondent-appellant",
+      "code": "rst",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Respondent-appellee",
-      "Abbreviation": "rse",
+      "label": "Respondent-appellee",
+      "code": "rse",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Responsible party",
-      "Abbreviation": "rpy",
+      "label": "Responsible party",
+      "code": "rpy",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Restager",
-      "Abbreviation": "rsg",
+      "label": "Restager",
+      "code": "rsg",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Restorationist",
-      "Abbreviation": "rsr",
+      "label": "Restorationist",
+      "code": "rsr",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "reviewer",
-      "Abbreviation": "rev",
+      "label": "reviewer",
+      "code": "rev",
       "wd_label": "reviewer",
       "wd_qid": "Q10650082"
     },
     {
-      "name": "rubricator",
-      "Abbreviation": "rbr",
+      "label": "rubricator",
+      "code": "rbr",
       "wd_label": "rubricator",
       "wd_qid": "Q15881498"
     },
     {
-      "name": "Scenarist",
-      "Abbreviation": "sce",
+      "label": "Scenarist",
+      "code": "sce",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "scientific consultant",
-      "Abbreviation": "sad",
+      "label": "scientific consultant",
+      "code": "sad",
       "wd_label": "scientific consultant",
       "wd_qid": "Q64153541"
     },
     {
-      "name": "screenwriter",
-      "Abbreviation": "aus",
+      "label": "screenwriter",
+      "code": "aus",
       "wd_label": "screenwriter",
       "wd_qid": "Q28389"
     },
     {
-      "name": "Scribe",
-      "Abbreviation": "scr",
+      "label": "Scribe",
+      "code": "scr",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "sculptor",
-      "Abbreviation": "scl",
+      "label": "sculptor",
+      "code": "scl",
       "wd_label": "sculptor",
       "wd_qid": "Q1281618"
     },
     {
-      "name": "Second party",
-      "Abbreviation": "spy",
+      "label": "Second party",
+      "code": "spy",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "secretary",
-      "Abbreviation": "sec",
+      "label": "secretary",
+      "code": "sec",
       "wd_label": "secretary",
       "wd_qid": "Q93521113"
     },
     {
-      "name": "vendor",
-      "Abbreviation": "sll",
+      "label": "vendor",
+      "code": "sll",
       "wd_label": "vendor",
       "wd_qid": "Q104099828"
     },
     {
-      "name": "Set designer",
-      "Abbreviation": "std",
+      "label": "Set designer",
+      "code": "std",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Setting",
-      "Abbreviation": "stg",
+      "label": "Setting",
+      "code": "stg",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "signer",
-      "Abbreviation": "sgn",
+      "label": "signer",
+      "code": "sgn",
       "wd_label": "signer",
       "wd_qid": "Q116943409"
     },
     {
-      "name": "singer",
-      "Abbreviation": "sng",
+      "label": "singer",
+      "code": "sng",
       "wd_label": "singer",
       "wd_qid": "Q177220"
     },
     {
-      "name": "software developer",
-      "Abbreviation": "swd",
+      "label": "software developer",
+      "code": "swd",
       "wd_label": "software developer",
       "wd_qid": "Q183888"
     },
     {
-      "name": "sound designer",
-      "Abbreviation": "sds",
+      "label": "sound designer",
+      "code": "sds",
       "wd_label": "sound designer",
       "wd_qid": "Q3024424"
     },
     {
-      "name": "audio engineer",
-      "Abbreviation": "sde",
+      "label": "audio engineer",
+      "code": "sde",
       "wd_label": "audio engineer",
       "wd_qid": "Q128124"
     },
     {
-      "name": "Speaker",
-      "Abbreviation": "spk",
+      "label": "Speaker",
+      "code": "spk",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Special effects provider",
-      "Abbreviation": "sfx",
+      "label": "Special effects provider",
+      "code": "sfx",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Sponsor",
-      "Abbreviation": "spn",
+      "label": "Sponsor",
+      "code": "spn",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "theatrical director",
-      "Abbreviation": "sgd",
+      "label": "theatrical director",
+      "code": "sgd",
       "wd_label": "theatrical director",
       "wd_qid": "Q3387717"
     },
     {
-      "name": "stage manager",
-      "Abbreviation": "stm",
+      "label": "stage manager",
+      "code": "stm",
       "wd_label": "stage manager",
       "wd_qid": "Q64825422"
     },
     {
-      "name": "Standards body",
-      "Abbreviation": "stn",
+      "label": "Standards body",
+      "code": "stn",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "stereotyper",
-      "Abbreviation": "str",
+      "label": "stereotyper",
+      "code": "str",
       "wd_label": "stereotyper",
       "wd_qid": "Q56612096"
     },
     {
-      "name": "narrator",
-      "Abbreviation": "stl",
+      "label": "narrator",
+      "code": "stl",
       "wd_label": "narrator",
       "wd_qid": "Q755070"
     },
     {
-      "name": "Supporting host",
-      "Abbreviation": "sht",
+      "label": "Supporting host",
+      "code": "sht",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Surveyor",
-      "Abbreviation": "srv",
+      "label": "Surveyor",
+      "code": "srv",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "teacher",
-      "Abbreviation": "tch",
+      "label": "teacher",
+      "code": "tch",
       "wd_label": "teacher",
       "wd_qid": "Q37226"
     },
     {
-      "name": "Technical director",
-      "Abbreviation": "tcd",
+      "label": "Technical director",
+      "code": "tcd",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Television director",
-      "Abbreviation": "tld",
+      "label": "Television director",
+      "code": "tld",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Television guest",
-      "Abbreviation": "tlg",
+      "label": "Television guest",
+      "code": "tlg",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "television presenter",
-      "Abbreviation": "tlh",
+      "label": "television presenter",
+      "code": "tlh",
       "wd_label": "television presenter",
       "wd_qid": "Q947873"
     },
     {
-      "name": "television producer",
-      "Abbreviation": "tlp",
+      "label": "television producer",
+      "code": "tlp",
       "wd_label": "television producer",
       "wd_qid": "Q578109"
     },
     {
-      "name": "television writer",
-      "Abbreviation": "tau",
+      "label": "television writer",
+      "code": "tau",
       "wd_label": "television writer",
       "wd_qid": "Q73306227"
     },
     {
-      "name": "thesis advisor",
-      "Abbreviation": "ths",
+      "label": "thesis advisor",
+      "code": "ths",
       "wd_label": "thesis advisor",
       "wd_qid": "Q101405849"
     },
     {
-      "name": "copyist",
-      "Abbreviation": "trc",
+      "label": "copyist",
+      "code": "trc",
       "wd_label": "copyist",
       "wd_qid": "Q3997704"
     },
     {
-      "name": "translator",
-      "Abbreviation": "trl",
+      "label": "translator",
+      "code": "trl",
       "wd_label": "translator",
       "wd_qid": "Q333634"
     },
     {
-      "name": "type designer",
-      "Abbreviation": "tyd",
+      "label": "type designer",
+      "code": "tyd",
       "wd_label": "type designer",
       "wd_qid": "Q354034"
     },
     {
-      "name": "typographer",
-      "Abbreviation": "tyg",
+      "label": "typographer",
+      "code": "tyg",
       "wd_label": "typographer",
       "wd_qid": "Q1229025"
     },
     {
-      "name": "University place",
-      "Abbreviation": "uvp",
+      "label": "University place",
+      "code": "uvp",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "videographer",
-      "Abbreviation": "vdg",
+      "label": "videographer",
+      "code": "vdg",
       "wd_label": "videographer",
       "wd_qid": "Q2737906"
     },
     {
-      "name": "Visual effects provider",
-      "Abbreviation": "vfx",
+      "label": "Visual effects provider",
+      "code": "vfx",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "voice actor",
-      "Abbreviation": "vac",
+      "label": "voice actor",
+      "code": "vac",
       "wd_label": "voice actor",
       "wd_qid": "Q2405480"
     },
     {
-      "name": "witness",
-      "Abbreviation": "wit",
+      "label": "witness",
+      "code": "wit",
       "wd_label": "witness",
       "wd_qid": "Q196939"
     },
     {
-      "name": "wood engraver",
-      "Abbreviation": "wde",
+      "label": "wood engraver",
+      "code": "wde",
       "wd_label": "wood engraver",
       "wd_qid": "Q47005195"
     },
     {
-      "name": "Woodcutter",
-      "Abbreviation": "wdc",
+      "label": "Woodcutter",
+      "code": "wdc",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of accompanying material",
-      "Abbreviation": "wam",
+      "label": "Writer of accompanying material",
+      "code": "wam",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of added commentary",
-      "Abbreviation": "wac",
+      "label": "Writer of added commentary",
+      "code": "wac",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of added lyrics",
-      "Abbreviation": "wal",
+      "label": "Writer of added lyrics",
+      "code": "wal",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of added text",
-      "Abbreviation": "wat",
+      "label": "Writer of added text",
+      "code": "wat",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of film story",
-      "Abbreviation": "wfs",
+      "label": "Writer of film story",
+      "code": "wfs",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of intertitles",
-      "Abbreviation": "wft",
+      "label": "Writer of intertitles",
+      "code": "wft",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of introduction",
-      "Abbreviation": "win",
+      "label": "Writer of introduction",
+      "code": "win",
       "wd_label": "preface author",
       "wd_qid": "Q19839393"
     },
     {
-      "name": "Writer of preface",
-      "Abbreviation": "wpr",
+      "label": "Writer of preface",
+      "code": "wpr",
       "wd_label": "preface author",
       "wd_qid": "Q19839393"
     },
     {
-      "name": "Writer of supplementary textual content",
-      "Abbreviation": "wst",
+      "label": "Writer of supplementary textual content",
+      "code": "wst",
       "wd_label": "",
       "wd_qid": ""
     },
     {
-      "name": "Writer of television story",
-      "Abbreviation": "wts",
+      "label": "Writer of television story",
+      "code": "wts",
       "wd_label": "",
       "wd_qid": ""
     }
-  ]
-}
+]

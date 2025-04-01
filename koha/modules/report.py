@@ -10,9 +10,9 @@ from modules.utilities import *
 
 data_dir = "./data/"
 
-def report2json(public_report_url,report_id):
+def report2json(public_report_url,mapping_reports_path,report_id):
 	# we are assuming you run the script from the `koha` folder
-	reports = json2dict(os.path.join(data_dir,"reports.json"))
+	reports = json2dict(mapping_reports_path)
 	# get report fields according to id
 	query = list(filter(lambda x: x["id"] == report_id,reports))
 	if len(query) > 0 :

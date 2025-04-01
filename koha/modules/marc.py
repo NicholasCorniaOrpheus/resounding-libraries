@@ -7,6 +7,7 @@ sys.path.append("./modules")  # importing custom functions in modules
 from modules.utilities import *
 import os
 from copy import deepcopy
+import re
 from pymarc import MARCReader, Record, Field, Subfield, Indicators
 
 
@@ -145,11 +146,71 @@ def convert_biblioitem_marc_dict(marc_dict, mapping):
     return pretty_response
 
 
-def biblio_marc2json(marc_path, mapping_path, json_path):
+# extends abbreviations according to ./data/mapping_abbreviation_codes.json
+def convert_abbreviations(pretty_record, abbreviation_dict):
+    for key in abbreviation_dict.keys():
+        if key != "instrumentation":  # instrumentation code has first to be splitted!
+            for entry in pretty_record[key]:
+                try:
+                    entry["code"] = get_abbreviation_code_data(
+                        entry["code"], abbreviation_dict[key]
+                    )
+                except KeyError:
+                    pass
+
+        else:  # instrumentation case
+            # split instrument string according to spaces and / as alternative instruments
+            try:
+                multiple_abbr = re.split(" |/", pretty_record[key][0]["code"])
+                instruments = []
+                for instr_abbr in multiple_abbr:
+                    instruments.append(
+                        get_abbreviation_code_data(instr_abbr, abbreviation_dict[key])
+                    )
+
+                pretty_record[key] = instruments
+            except IndexError:
+                pass
+
+    return pretty_record
+
+
+def retrieve_external_source(pretty_record, external_sources_dict):
+    for entry in pretty_record["external_sources"]:
+        try:
+            if entry["source"] == "":
+                entry["source"] = get_external_source_authority(
+                    entry["url"], external_sources_dict
+                )
+            else:
+                pass
+        except KeyError:
+            entry["source"] = get_external_source_authority(
+                entry["url"], external_sources_dict
+            )
+    return pretty_record
+
+
+def biblio_marc2json(
+    marc_path, mapping_path, json_path, abbreviation_path, external_source_path
+):
     print(f"Getting the latest MARC file of the catalogue from {marc_path} ...")
     latest_marc_file = get_latest_file(marc_path)
+
     print(f"Getting the MARC field mapping from {mapping_path} ...")
     mapping = json2dict(mapping_path)
+
+    # import abbreviations according to files in data folder
+    print(f"Getting the abbreviation code mapping from {abbreviation_path} ...")
+    abbreviations_rules = json2dict(abbreviation_path)
+    abbreviations = {}
+    for rule in abbreviations_rules:
+        abbreviations[rule["field_name"]] = json2dict(rule["mapping_path"])
+
+    # import external sources
+    print(f"Getting the external sources mapping from {external_source_path} ...")
+    external_sources = json2dict(external_source_path)
+
     # import MARC file using PyMARC
     f = open(latest_marc_file, "rb")
     pretty_records = []
@@ -158,6 +219,10 @@ def biblio_marc2json(marc_path, mapping_path, json_path):
     for record in reader:
         dict_record = record.as_dict()
         pretty_record = convert_biblioitem_marc_dict(dict_record, mapping["biblioitem"])
+        # convert abbreviations in record
+        print(pretty_record)
+        pretty_record = convert_abbreviations(pretty_record, abbreviations)
+        pretty_record = retrieve_external_source(pretty_record, external_sources)
         pretty_records.append(pretty_record)
 
     # export pretty record

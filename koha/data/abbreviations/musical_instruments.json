@@ -1,1236 +1,1234 @@
-{
-  "instrumentation_abbreviations": [
+[
     {
-      "Abbreviation": "acc",
-      "English": "accordion",
+      "code": "acc",
+      "label": "accordion",
       "wd_qid": "Q79838",
       "wd_label": "accordion",
       "quantity": ""
     },
     {
-      "Abbreviation": "afl",
-      "English": "alto flute",
+      "code": "afl",
+      "label": "alto flute",
       "wd_qid": "Q544352",
       "wd_label": "alto flute",
       "quantity": ""
     },
     {
-      "Abbreviation": "alt",
-      "English": "alto",
+      "code": "alt",
+      "label": "alto",
       "wd_qid": "Q6983813",
       "wd_label": "alto",
       "quantity": ""
     },
     {
-      "Abbreviation": "A",
-      "English": "alto",
+      "code": "A",
+      "label": "alto",
       "wd_qid": "Q6983813",
       "wd_label": "alto",
       "quantity": ""
     },
     {
-      "Abbreviation": "arp",
-      "English": "arpeggione",
+      "code": "arp",
+      "label": "arpeggione",
       "wd_qid": "Q638182",
       "wd_label": "arpeggione",
       "quantity": ""
     },
     {
-      "Abbreviation": "bag",
-      "English": "bagpipes",
+      "code": "bag",
+      "label": "bagpipes",
       "wd_qid": "Q8347",
       "wd_label": "bagpipes",
       "quantity": ""
     },
     {
-      "Abbreviation": "bar",
-      "English": "baritone",
+      "code": "bar",
+      "label": "baritone",
       "wd_qid": "Q31687",
       "wd_label": "baritone",
       "quantity": ""
     },
     {
-      "Abbreviation": "bass",
-      "English": "bass",
+      "code": "bass",
+      "label": "bass",
       "wd_qid": "Q27911",
       "wd_label": "bass",
       "quantity": ""
     },
     {
-      "Abbreviation": "bbar",
-      "English": "bass-baritone",
+      "code": "bbar",
+      "label": "bass-baritone",
       "wd_qid": "Q810480",
       "wd_label": "bass-baritone",
       "quantity": ""
     },
     {
-      "Abbreviation": "bc",
-      "English": "continuo group",
+      "code": "bc",
+      "label": "continuo group",
       "wd_qid": "Q114237252",
       "wd_label": "continuo group",
       "quantity": ""
     },
     {
-      "Abbreviation": "bcl",
-      "English": "bass clarinet",
+      "code": "bcl",
+      "label": "bass clarinet",
       "wd_qid": "Q8345",
       "wd_label": "bass clarinet",
       "quantity": ""
     },
     {
-      "Abbreviation": "2bcl",
-      "English": "bass clarinet",
+      "code": "2bcl",
+      "label": "bass clarinet",
       "wd_qid": "Q8345",
       "wd_label": "bass clarinet",
       "quantity": "2"
     },
     {
-      "Abbreviation": "bell",
-      "English": "chime",
+      "code": "bell",
+      "label": "chime",
       "wd_qid": "Q123915338",
       "wd_label": "chime",
       "quantity": ""
     },
     {
-      "Abbreviation": "bfl",
-      "English": "bass flute",
+      "code": "bfl",
+      "label": "bass flute",
       "wd_qid": "Q266675",
       "wd_label": "bass flute",
       "quantity": ""
     },
     {
-      "Abbreviation": "bgtr",
-      "English": "bass guitar",
+      "code": "bgtr",
+      "label": "bass guitar",
       "wd_qid": "Q46185",
       "wd_label": "bass guitar",
       "quantity": ""
     },
     {
-      "Abbreviation": "bjo",
-      "English": "banjo",
+      "code": "bjo",
+      "label": "banjo",
       "wd_qid": "Q258896",
       "wd_label": "banjo",
       "quantity": ""
     },
     {
-      "Abbreviation": "bn",
-      "English": "bassoon",
+      "code": "bn",
+      "label": "bassoon",
       "wd_qid": "Q159998",
       "wd_label": "bassoon",
       "quantity": ""
     },
     {
-      "Abbreviation": "2bn",
-      "English": "bassoon",
+      "code": "2bn",
+      "label": "bassoon",
       "wd_qid": "Q159998",
       "wd_label": "bassoon",
       "quantity": "2"
     },
     {
-      "Abbreviation": "bob",
-      "English": "bass oboe",
+      "code": "bob",
+      "label": "bass oboe",
       "wd_qid": "Q808215",
       "wd_label": "bass oboe",
       "quantity": ""
     },
     {
-      "Abbreviation": "br",
-      "English": "brass instrument",
+      "code": "br",
+      "label": "brass instrument",
       "wd_qid": "Q180744",
       "wd_label": "brass instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "bryt",
-      "English": "baryton",
+      "code": "bryt",
+      "label": "baryton",
       "wd_qid": "Q521151",
       "wd_label": "baryton",
       "quantity": ""
     },
     {
-      "Abbreviation": "bstcl",
-      "English": "basset horn",
+      "code": "bstcl",
+      "label": "basset horn",
       "wd_qid": "Q810515",
       "wd_label": "basset horn",
       "quantity": ""
     },
     {
-      "Abbreviation": "bsthn",
-      "English": "basset horn",
+      "code": "bsthn",
+      "label": "basset horn",
       "wd_qid": "Q810515",
       "wd_label": "basset horn",
       "quantity": ""
     },
     {
-      "Abbreviation": "bug",
-      "English": "bugle",
+      "code": "bug",
+      "label": "bugle",
       "wd_qid": "Q1628293",
       "wd_label": "bugle",
       "quantity": ""
     },
     {
-      "Abbreviation": "2bug",
-      "English": "bugle",
+      "code": "2bug",
+      "label": "bugle",
       "wd_qid": "Q1628293",
       "wd_label": "bugle",
       "quantity": "2"
     },
     {
-      "Abbreviation": "cbcl",
-      "English": "contrabass clarinet",
+      "code": "cbcl",
+      "label": "contrabass clarinet",
       "wd_qid": "Q2731509",
       "wd_label": "contrabass clarinet",
       "quantity": ""
     },
     {
-      "Abbreviation": "cbn",
-      "English": "contrabassoon",
+      "code": "cbn",
+      "label": "contrabassoon",
       "wd_qid": "Q83513",
       "wd_label": "contrabassoon",
       "quantity": ""
     },
     {
-      "Abbreviation": "cch",
-      "English": "children's choir",
+      "code": "cch",
+      "label": "children's choir",
       "wd_qid": "Q1753063",
       "wd_label": "children's choir",
       "quantity": ""
     },
     {
-      "Abbreviation": "cel",
-      "English": "celesta",
+      "code": "cel",
+      "label": "celesta",
       "wd_qid": "Q320341",
       "wd_label": "celesta",
       "quantity": ""
     },
     {
-      "Abbreviation": "ch",
-      "English": "mixed choir",
+      "code": "ch",
+      "label": "mixed choir",
       "wd_qid": "Q3276909",
       "wd_label": "mixed choir",
       "quantity": ""
     },
     {
-      "Abbreviation": "SATB",
-      "English": "mixed choir",
+      "code": "SATB",
+      "label": "mixed choir",
       "wd_qid": "Q3276909",
       "wd_label": "mixed choir",
       "quantity": ""
     },
     {
-      "Abbreviation": "cimb",
-      "English": "cimbalom",
+      "code": "cimb",
+      "label": "cimbalom",
       "wd_qid": "Q8374",
       "wd_label": "cimbalom",
       "quantity": ""
     },
     {
-      "Abbreviation": "cit",
-      "English": "cittern",
+      "code": "cit",
+      "label": "cittern",
       "wd_qid": "Q1093290",
       "wd_label": "cittern",
       "quantity": ""
     },
     {
-      "Abbreviation": "cl",
-      "English": "clarinet",
+      "code": "cl",
+      "label": "clarinet",
       "wd_qid": "Q8343",
       "wd_label": "clarinet",
       "quantity": ""
     },
     {
-      "Abbreviation": "clr",
-      "English": "clarinet",
+      "code": "clr",
+      "label": "clarinet",
       "wd_qid": "Q8343",
       "wd_label": "clarinet",
       "quantity": ""
     },
     {
-      "Abbreviation": "2clr",
-      "English": "clarinet",
+      "code": "2clr",
+      "label": "clarinet",
       "wd_qid": "Q8343",
       "wd_label": "clarinet",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3clr",
-      "English": "clarinet",
+      "code": "3clr",
+      "label": "clarinet",
       "wd_qid": "Q8343",
       "wd_label": "clarinet",
       "quantity": "3"
     },
     {
-      "Abbreviation": "4clr",
-      "English": "clarinet",
+      "code": "4clr",
+      "label": "clarinet",
       "wd_qid": "Q8343",
       "wd_label": "clarinet",
       "quantity": "4"
     },
     {
-      "Abbreviation": "clvd",
-      "English": "clavichord",
+      "code": "clvd",
+      "label": "clavichord",
       "wd_qid": "Q191823",
       "wd_label": "clavichord",
       "quantity": ""
     },
     {
-      "Abbreviation": "cm",
-      "English": "chalumeau",
+      "code": "cm",
+      "label": "chalumeau",
       "wd_qid": "Q1060334",
       "wd_label": "chalumeau",
       "quantity": ""
     },
     {
-      "Abbreviation": "conc",
-      "English": "concertina",
+      "code": "conc",
+      "label": "concertina",
       "wd_qid": "Q593050",
       "wd_label": "concertina",
       "quantity": ""
     },
     {
-      "Abbreviation": "crh",
-      "English": "crumhorn",
+      "code": "crh",
+      "label": "crumhorn",
       "wd_qid": "Q930367",
       "wd_label": "crumhorn",
       "quantity": ""
     },
     {
-      "Abbreviation": "crt",
-      "English": "cornet",
+      "code": "crt",
+      "label": "cornet",
       "wd_qid": "Q62006205",
       "wd_label": "cornet",
       "quantity": ""
     },
     {
-      "Abbreviation": "2crt",
-      "English": "cornet",
+      "code": "2crt",
+      "label": "cornet",
       "wd_qid": "Q62006205",
       "wd_label": "cornet",
       "quantity": "2"
     },
     {
-      "Abbreviation": "crtt",
-      "English": "cornett",
+      "code": "crtt",
+      "label": "cornett",
       "wd_qid": "Q204638",
       "wd_label": "cornett",
       "quantity": ""
     },
     {
-      "Abbreviation": "ct",
-      "English": "countertenor",
+      "code": "ct",
+      "label": "countertenor",
       "wd_qid": "Q223166",
       "wd_label": "countertenor",
       "quantity": ""
     },
     {
-      "Abbreviation": "cv",
-      "English": "boy soprano",
+      "code": "cv",
+      "label": "boy soprano",
       "wd_qid": "Q1376492",
       "wd_label": "boy soprano",
       "quantity": ""
     },
     {
-      "Abbreviation": "db",
-      "English": "double bass",
+      "code": "db",
+      "label": "double bass",
       "wd_qid": "Q80019",
       "wd_label": "double bass",
       "quantity": ""
     },
     {
-      "Abbreviation": "dlcn",
-      "English": "dulcian",
+      "code": "dlcn",
+      "label": "dulcian",
       "wd_qid": "Q911038",
       "wd_label": "dulcian",
       "quantity": ""
     },
     {
-      "Abbreviation": "dom",
-      "English": "domra",
+      "code": "dom",
+      "label": "domra",
       "wd_qid": "Q941492",
       "wd_label": "domra",
       "quantity": ""
     },
     {
-      "Abbreviation": "dulc",
-      "English": "dulcimer",
+      "code": "dulc",
+      "label": "dulcimer",
       "wd_qid": "Q341663",
       "wd_label": "dulcimer",
       "quantity": ""
     },
     {
-      "Abbreviation": "egtr",
-      "English": "electric guitar",
+      "code": "egtr",
+      "label": "electric guitar",
       "wd_qid": "Q78987",
       "wd_label": "electric guitar",
       "quantity": ""
     },
     {
-      "Abbreviation": "eh",
-      "English": "cor anglais",
+      "code": "eh",
+      "label": "cor anglais",
       "wd_qid": "Q185041",
       "wd_label": "cor anglais",
       "quantity": ""
     },
     {
-      "Abbreviation": "elec",
-      "English": "electronic musical instrument",
+      "code": "elec",
+      "label": "electronic musical instrument",
       "wd_qid": "Q1327500",
       "wd_label": "electronic musical instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "epf",
-      "English": "electric piano",
+      "code": "epf",
+      "label": "electric piano",
       "wd_qid": "Q1136507",
       "wd_label": "electric piano",
       "quantity": ""
     },
     {
-      "Abbreviation": "eq",
-      "English": "equal voices ensemble",
+      "code": "eq",
+      "label": "equal voices ensemble",
       "wd_qid": "Q21087658",
       "wd_label": "equal voices ensemble",
       "quantity": ""
     },
     {
-      "Abbreviation": "erhu",
-      "English": "erhu",
+      "code": "erhu",
+      "label": "erhu",
       "wd_qid": "Q726306",
       "wd_label": "erhu",
       "quantity": ""
     },
     {
-      "Abbreviation": "euph",
-      "English": "euphonium",
+      "code": "euph",
+      "label": "euphonium",
       "wd_qid": "Q495529",
       "wd_label": "euphonium",
       "quantity": ""
     },
     {
-      "Abbreviation": "fch",
-      "English": "women's chorus",
+      "code": "fch",
+      "label": "women's chorus",
       "wd_qid": "Q1451652",
       "wd_label": "women's chorus",
       "quantity": ""
     },
     {
-      "Abbreviation": "fda",
-      "English": "fl\u00fbte d'amour",
+      "code": "fda",
+      "label": "fl\u00fbte d'amour",
       "wd_qid": "Q1445673",
       "wd_label": "fl\u00fbte d'amour",
       "quantity": ""
     },
     {
-      "Abbreviation": "fgh",
-      "English": "flugelhorn",
+      "code": "fgh",
+      "label": "flugelhorn",
       "wd_qid": "Q382616",
       "wd_label": "flugelhorn",
       "quantity": ""
     },
     {
-      "Abbreviation": "fife",
-      "English": "fife",
+      "code": "fife",
+      "label": "fife",
       "wd_qid": "Q2255516",
       "wd_label": "fife",
       "quantity": ""
     },
     {
-      "Abbreviation": "fl",
-      "English": "flute",
+      "code": "fl",
+      "label": "flute",
       "wd_qid": "Q11405",
       "wd_label": "flute",
       "quantity": ""
     },
     {
-      "Abbreviation": "2fl",
-      "English": "flute",
+      "code": "2fl",
+      "label": "flute",
       "wd_qid": "Q11405",
       "wd_label": "flute",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3fl",
-      "English": "flute",
+      "code": "3fl",
+      "label": "flute",
       "wd_qid": "Q11405",
       "wd_label": "flute",
       "quantity": "3"
     },
     {
-      "Abbreviation": "flag",
-      "English": "flageolet",
+      "code": "flag",
+      "label": "flageolet",
       "wd_qid": "Q1001877",
       "wd_label": "flageolet",
       "quantity": ""
     },
     {
-      "Abbreviation": "ghca",
-      "English": "glass harmonica",
+      "code": "ghca",
+      "label": "glass harmonica",
       "wd_qid": "Q917571",
       "wd_label": "glass harmonica",
       "quantity": ""
     },
     {
-      "Abbreviation": "gl",
-      "English": "glockenspiel",
+      "code": "gl",
+      "label": "glockenspiel",
       "wd_qid": "Q626035",
       "wd_label": "glockenspiel",
       "quantity": ""
     },
     {
-      "Abbreviation": "gtr",
-      "English": "guitar",
+      "code": "gtr",
+      "label": "guitar",
       "wd_qid": "Q6607",
       "wd_label": "guitar",
       "quantity": ""
     },
     {
-      "Abbreviation": "harm",
-      "English": "Indian harmonium",
+      "code": "harm",
+      "label": "Indian harmonium",
       "wd_qid": "Q213461",
       "wd_label": "Indian harmonium",
       "quantity": ""
     },
     {
-      "Abbreviation": "hca",
-      "English": "harmonica",
+      "code": "hca",
+      "label": "harmonica",
       "wd_qid": "Q51290",
       "wd_label": "harmonica",
       "quantity": ""
     },
     {
-      "Abbreviation": "heck",
-      "English": "heckelphone",
+      "code": "heck",
+      "label": "heckelphone",
       "wd_qid": "Q1571002",
       "wd_label": "heckelphone",
       "quantity": ""
     },
     {
-      "Abbreviation": "hn",
-      "English": "horn",
+      "code": "hn",
+      "label": "horn",
       "wd_qid": "Q163759",
       "wd_label": "horn",
       "quantity": ""
     },
     {
-      "Abbreviation": "2hn",
-      "English": "horn",
+      "code": "2hn",
+      "label": "horn",
       "wd_qid": "Q163759",
       "wd_label": "horn",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3hn",
-      "English": "horn",
+      "code": "3hn",
+      "label": "horn",
       "wd_qid": "Q163759",
       "wd_label": "horn",
       "quantity": "3"
     },
     {
-      "Abbreviation": "4hn",
-      "English": "horn",
+      "code": "4hn",
+      "label": "horn",
       "wd_qid": "Q163759",
       "wd_label": "horn",
       "quantity": "4"
     },
     {
-      "Abbreviation": "hrn",
-      "English": "horn",
+      "code": "hrn",
+      "label": "horn",
       "wd_qid": "Q163759",
       "wd_label": "horn",
       "quantity": ""
     },
     {
-      "Abbreviation": "hp ",
-      "English": "harp ",
+      "code": "hp ",
+      "label": "harp ",
       "wd_qid": "Q47369",
       "wd_label": "harp ",
       "quantity": ""
     },
     {
-      "Abbreviation": "hpd",
-      "English": "harpsichord",
+      "code": "hpd",
+      "label": "harpsichord",
       "wd_qid": "Q81982",
       "wd_label": "harpsichord",
       "quantity": ""
     },
     {
-      "Abbreviation": "kbd",
-      "English": "keyboard instrument",
+      "code": "kbd",
+      "label": "keyboard instrument",
       "wd_qid": "Q52954",
       "wd_label": "keyboard instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "lute",
-      "English": "lute",
+      "code": "lute",
+      "label": "lute",
       "wd_qid": "Q180733",
       "wd_label": "lute",
       "quantity": ""
     },
     {
-      "Abbreviation": "lyre",
-      "English": "lyre",
+      "code": "lyre",
+      "label": "lyre",
       "wd_qid": "Q201129",
       "wd_label": "lyre",
       "quantity": ""
     },
     {
-      "Abbreviation": "mand",
-      "English": "mandolin",
+      "code": "mand",
+      "label": "mandolin",
       "wd_qid": "Q302497",
       "wd_label": "mandolin",
       "quantity": ""
     },
     {
-      "Abbreviation": "mar",
-      "English": "marimba",
+      "code": "mar",
+      "label": "marimba",
       "wd_qid": "Q220971",
       "wd_label": "marimba",
       "quantity": ""
     },
     {
-      "Abbreviation": "mch",
-      "English": "men's chorus",
+      "code": "mch",
+      "label": "men's chorus",
       "wd_qid": "Q1684352",
       "wd_label": "men's chorus",
       "quantity": ""
     },
     {
-      "Abbreviation": "mez",
-      "English": "mezzo-soprano",
+      "code": "mez",
+      "label": "mezzo-soprano",
       "wd_qid": "Q186506",
       "wd_label": "mezzo-soprano",
       "quantity": ""
     },
     {
-      "Abbreviation": "mus",
-      "English": "musette de cour",
+      "code": "mus",
+      "label": "musette de cour",
       "wd_qid": "Q13522404",
       "wd_label": "musette de cour",
       "quantity": ""
     },
     {
-      "Abbreviation": "nar",
-      "English": "narrator",
+      "code": "nar",
+      "label": "narrator",
       "wd_qid": "Q58363586",
       "wd_label": "narrator",
       "quantity": ""
     },
     {
-      "Abbreviation": "ob",
-      "English": "oboe",
+      "code": "ob",
+      "label": "oboe",
       "wd_qid": "Q8377",
       "wd_label": "oboe",
       "quantity": ""
     },
     {
-      "Abbreviation": "2ob",
-      "English": "oboe",
+      "code": "2ob",
+      "label": "oboe",
       "wd_qid": "Q8377",
       "wd_label": "oboe",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3ob",
-      "English": "oboe",
+      "code": "3ob",
+      "label": "oboe",
       "wd_qid": "Q8377",
       "wd_label": "oboe",
       "quantity": "3"
     },
     {
-      "Abbreviation": "oca",
-      "English": "ocarina",
+      "code": "oca",
+      "label": "ocarina",
       "wd_qid": "Q187780",
       "wd_label": "ocarina",
       "quantity": ""
     },
     {
-      "Abbreviation": "oda",
-      "English": "oboe d'amore",
+      "code": "oda",
+      "label": "oboe d'amore",
       "wd_qid": "Q8380",
       "wd_label": "oboe d'amore",
       "quantity": ""
     },
     {
-      "Abbreviation": "om",
-      "English": "Ondes Martenot",
+      "code": "om",
+      "label": "Ondes Martenot",
       "wd_qid": "Q862501",
       "wd_label": "Ondes Martenot",
       "quantity": ""
     },
     {
-      "Abbreviation": "oph",
-      "English": "ophicleide",
+      "code": "oph",
+      "label": "ophicleide",
       "wd_qid": "Q200823",
       "wd_label": "ophicleide",
       "quantity": ""
     },
     {
-      "Abbreviation": "orch",
-      "English": "orchestra",
+      "code": "orch",
+      "label": "orchestra",
       "wd_qid": "Q42998",
       "wd_label": "orchestra",
       "quantity": ""
     },
     {
-      "Abbreviation": "org",
-      "English": "organ",
+      "code": "org",
+      "label": "organ",
       "wd_qid": "Q1444",
       "wd_label": "organ",
       "quantity": ""
     },
     {
-      "Abbreviation": "oud",
-      "English": "oud",
+      "code": "oud",
+      "label": "oud",
       "wd_qid": "Q191000",
       "wd_label": "oud",
       "quantity": ""
     },
     {
-      "Abbreviation": "pan",
-      "English": "pan flute",
+      "code": "pan",
+      "label": "pan flute",
       "wd_qid": "Q218802",
       "wd_label": "pan flute",
       "quantity": ""
     },
     {
-      "Abbreviation": "perc",
-      "English": "percussion instrument",
+      "code": "perc",
+      "label": "percussion instrument",
       "wd_qid": "Q133163",
       "wd_label": "percussion instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "pf",
-      "English": "piano",
+      "code": "pf",
+      "label": "piano",
       "wd_qid": "Q5994",
       "wd_label": "piano",
       "quantity": ""
     },
     {
-      "Abbreviation": "2pf",
-      "English": "piano",
+      "code": "2pf",
+      "label": "piano",
       "wd_qid": "Q5994",
       "wd_label": "piano",
       "quantity": "2"
     },
     {
-      "Abbreviation": "pf3h",
-      "English": "keyboard three hands",
+      "code": "pf3h",
+      "label": "keyboard three hands",
       "wd_qid": "Q123436613",
       "wd_label": "keyboard three hands",
       "quantity": ""
     },
     {
-      "Abbreviation": "pf4h",
-      "English": "keyboard four hands",
+      "code": "pf4h",
+      "label": "keyboard four hands",
       "wd_qid": "Q123282445",
       "wd_label": "keyboard four hands",
       "quantity": ""
     },
     {
-      "Abbreviation": "4h",
-      "English": "keyboard four hands",
+      "code": "4h",
+      "label": "keyboard four hands",
       "wd_qid": "Q123282445",
       "wd_label": "keyboard four hands",
       "quantity": ""
     },
     {
-      "Abbreviation": "pf5h",
-      "English": "Piano 5 hands",
+      "code": "pf5h",
+      "label": "Piano 5 hands",
       "wd_qid": "",
       "wd_label": "",
       "quantity": ""
     },
     {
-      "Abbreviation": "pf6h",
-      "English": "Piano 6 hands",
+      "code": "pf6h",
+      "label": "Piano 6 hands",
       "wd_qid": "",
       "wd_label": "",
       "quantity": ""
     },
     {
-      "Abbreviation": "pflh",
-      "English": "Piano left hand",
+      "code": "pflh",
+      "label": "Piano left hand",
       "wd_qid": "",
       "wd_label": "",
       "quantity": ""
     },
     {
-      "Abbreviation": "pfped",
-      "English": "pedal piano",
+      "code": "pfped",
+      "label": "pedal piano",
       "wd_qid": "Q2631948",
       "wd_label": "pedal piano",
       "quantity": ""
     },
     {
-      "Abbreviation": "pfrh",
-      "English": "Piano right hand",
+      "code": "pfrh",
+      "label": "Piano right hand",
       "wd_qid": "",
       "wd_label": "",
       "quantity": ""
     },
     {
-      "Abbreviation": "picc",
-      "English": "piccolo",
+      "code": "picc",
+      "label": "piccolo",
       "wd_qid": "Q83509",
       "wd_label": "piccolo",
       "quantity": ""
     },
     {
-      "Abbreviation": "2picc",
-      "English": "piccolo",
+      "code": "2picc",
+      "label": "piccolo",
       "wd_qid": "Q83509",
       "wd_label": "piccolo",
       "quantity": "2"
     },
     {
-      "Abbreviation": "pipa",
-      "English": "pipa",
+      "code": "pipa",
+      "label": "pipa",
       "wd_qid": "Q6685124",
       "wd_label": "pipa",
       "quantity": ""
     },
     {
-      "Abbreviation": "pk",
-      "English": "timpani",
+      "code": "pk",
+      "label": "timpani",
       "wd_qid": "Q189737",
       "wd_label": "timpani",
       "quantity": ""
     },
     {
-      "Abbreviation": "timp",
-      "English": "timpani",
+      "code": "timp",
+      "label": "timpani",
       "wd_qid": "Q189737",
       "wd_label": "timpani",
       "quantity": ""
     },
     {
-      "Abbreviation": "ptpt",
-      "English": "piccolo trumpet",
+      "code": "ptpt",
+      "label": "piccolo trumpet",
       "wd_qid": "Q1569742",
       "wd_label": "piccolo trumpet",
       "quantity": ""
     },
     {
-      "Abbreviation": "reb",
-      "English": "rebec",
+      "code": "reb",
+      "label": "rebec",
       "wd_qid": "Q737520",
       "wd_label": "rebec",
       "quantity": ""
     },
     {
-      "Abbreviation": "rec",
-      "English": "recorder",
+      "code": "rec",
+      "label": "recorder",
       "wd_qid": "Q187851",
       "wd_label": "recorder",
       "quantity": ""
     },
     {
-      "Abbreviation": "sar",
-      "English": "sarrusophone",
+      "code": "sar",
+      "label": "sarrusophone",
       "wd_qid": "Q901239",
       "wd_label": "sarrusophone",
       "quantity": ""
     },
     {
-      "Abbreviation": "sax",
-      "English": "saxophone",
+      "code": "sax",
+      "label": "saxophone",
       "wd_qid": "Q9798",
       "wd_label": "saxophone",
       "quantity": ""
     },
     {
-      "Abbreviation": "2sax",
-      "English": "saxophone",
+      "code": "2sax",
+      "label": "saxophone",
       "wd_qid": "Q9798",
       "wd_label": "saxophone",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3sax",
-      "English": "saxophone",
+      "code": "3sax",
+      "label": "saxophone",
       "wd_qid": "Q9798",
       "wd_label": "saxophone",
       "quantity": "3"
     },
     {
-      "Abbreviation": "4sax",
-      "English": "saxophone",
+      "code": "4sax",
+      "label": "saxophone",
       "wd_qid": "Q9798",
       "wd_label": "saxophone",
       "quantity": "4"
     },
     {
-      "Abbreviation": "sheng",
-      "English": "sheng",
+      "code": "sheng",
+      "label": "sheng",
       "wd_qid": "Q849052",
       "wd_label": "sheng",
       "quantity": ""
     },
     {
-      "Abbreviation": "shw",
-      "English": "shawm",
+      "code": "shw",
+      "label": "shawm",
       "wd_qid": "Q677921",
       "wd_label": "shawm",
       "quantity": ""
     },
     {
-      "Abbreviation": "sit",
-      "English": "sitar",
+      "code": "sit",
+      "label": "sitar",
       "wd_qid": "Q229205",
       "wd_label": "sitar",
       "quantity": ""
     },
     {
-      "Abbreviation": "skbt",
-      "English": "sackbut",
+      "code": "skbt",
+      "label": "sackbut",
       "wd_qid": "Q808573",
       "wd_label": "sackbut",
       "quantity": ""
     },
     {
-      "Abbreviation": "sop",
-      "English": "soprano",
+      "code": "sop",
+      "label": "soprano",
       "wd_qid": "Q30903",
       "wd_label": "soprano",
       "quantity": ""
     },
     {
-      "Abbreviation": "S",
-      "English": "soprano",
+      "code": "S",
+      "label": "soprano",
       "wd_qid": "Q30903",
       "wd_label": "soprano",
       "quantity": ""
     },
     {
-      "Abbreviation": "srp",
-      "English": "serpent",
+      "code": "srp",
+      "label": "serpent",
       "wd_qid": "Q742168",
       "wd_label": "serpent",
       "quantity": ""
     },
     {
-      "Abbreviation": "stpt",
-      "English": "slide trumpet",
+      "code": "stpt",
+      "label": "slide trumpet",
       "wd_qid": "Q228529",
       "wd_label": "slide trumpet",
       "quantity": ""
     },
     {
-      "Abbreviation": "str",
-      "English": "string instrument",
+      "code": "str",
+      "label": "string instrument",
       "wd_qid": "Q1798603",
       "wd_label": "string instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "sxh",
-      "English": "saxhorn",
+      "code": "sxh",
+      "label": "saxhorn",
       "wd_qid": "Q787557",
       "wd_label": "saxhorn",
       "quantity": ""
     },
     {
-      "Abbreviation": "syn",
-      "English": "synthesizer",
+      "code": "syn",
+      "label": "synthesizer",
       "wd_qid": "Q163829",
       "wd_label": "synthesizer",
       "quantity": ""
     },
     {
-      "Abbreviation": "tba",
-      "English": "tuba",
+      "code": "tba",
+      "label": "tuba",
       "wd_qid": "Q131168",
       "wd_label": "tuba",
       "quantity": ""
     },
     {
-      "Abbreviation": "2tba",
-      "English": "tuba",
+      "code": "2tba",
+      "label": "tuba",
       "wd_qid": "Q131168",
       "wd_label": "tuba",
       "quantity": "2"
     },
     {
-      "Abbreviation": "tbn",
-      "English": "trombone",
+      "code": "tbn",
+      "label": "trombone",
       "wd_qid": "Q8350",
       "wd_label": "trombone",
       "quantity": ""
     },
     {
-      "Abbreviation": "2tbn",
-      "English": "trombone",
+      "code": "2tbn",
+      "label": "trombone",
       "wd_qid": "Q8350",
       "wd_label": "trombone",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3tbn",
-      "English": "trombone",
+      "code": "3tbn",
+      "label": "trombone",
       "wd_qid": "Q8350",
       "wd_label": "trombone",
       "quantity": "3"
     },
     {
-      "Abbreviation": "ten",
-      "English": "tenor",
+      "code": "ten",
+      "label": "tenor",
       "wd_qid": "Q27914",
       "wd_label": "tenor",
       "quantity": ""
     },
     {
-      "Abbreviation": "T",
-      "English": "tenor",
+      "code": "T",
+      "label": "tenor",
       "wd_qid": "Q27914",
       "wd_label": "tenor",
       "quantity": ""
     },
     {
-      "Abbreviation": "thrm",
-      "English": "theremin",
+      "code": "thrm",
+      "label": "theremin",
       "wd_qid": "Q207691",
       "wd_label": "theremin",
       "quantity": ""
     },
     {
-      "Abbreviation": "timp",
-      "English": "timpani",
+      "code": "timp",
+      "label": "timpani",
       "wd_qid": "Q189737",
       "wd_label": "timpani",
       "quantity": ""
     },
     {
-      "Abbreviation": "tpt",
-      "English": "trumpet",
+      "code": "tpt",
+      "label": "trumpet",
       "wd_qid": "Q8338",
       "wd_label": "trumpet",
       "quantity": ""
     },
     {
-      "Abbreviation": "2tpt",
-      "English": "trumpet",
+      "code": "2tpt",
+      "label": "trumpet",
       "wd_qid": "Q8338",
       "wd_label": "trumpet",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3tpt",
-      "English": "trumpet",
+      "code": "3tpt",
+      "label": "trumpet",
       "wd_qid": "Q8338",
       "wd_label": "trumpet",
       "quantity": "3"
     },
     {
-      "Abbreviation": "uch",
-      "English": "unison chorus",
+      "code": "uch",
+      "label": "unison chorus",
       "wd_qid": "Q115273416",
       "wd_label": "unison chorus",
       "quantity": ""
     },
     {
-      "Abbreviation": "uke",
-      "English": "ukulele",
+      "code": "uke",
+      "label": "ukulele",
       "wd_qid": "Q61285",
       "wd_label": "ukulele",
       "quantity": ""
     },
     {
-      "Abbreviation": "v",
-      "English": "voice",
+      "code": "v",
+      "label": "voice",
       "wd_qid": "Q17172850",
       "wd_label": "voice",
       "quantity": ""
     },
     {
-      "Abbreviation": "va",
-      "English": "viola",
+      "code": "va",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": ""
     },
     {
-      "Abbreviation": "2va",
-      "English": "viola",
+      "code": "2va",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3va",
-      "English": "viola",
+      "code": "3va",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": "3"
     },
     {
-      "Abbreviation": "vla",
-      "English": "viola",
+      "code": "vla",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": ""
     },
     {
-      "Abbreviation": "2vla",
-      "English": "viola",
+      "code": "2vla",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3vla",
-      "English": "viola",
+      "code": "3vla",
+      "label": "viola",
       "wd_qid": "Q80284",
       "wd_label": "viola",
       "quantity": "3"
     },
     {
-      "Abbreviation": "vap",
-      "English": "viola pomposa",
+      "code": "vap",
+      "label": "viola pomposa",
       "wd_qid": "Q595730",
       "wd_label": "viola pomposa",
       "quantity": ""
     },
     {
-      "Abbreviation": "vc",
-      "English": "cello",
+      "code": "vc",
+      "label": "cello",
       "wd_qid": "Q8371",
       "wd_label": "cello",
       "quantity": ""
     },
     {
-      "Abbreviation": "vda",
-      "English": "viola d'amore",
+      "code": "vda",
+      "label": "viola d'amore",
       "wd_qid": "Q742180",
       "wd_label": "viola d'amore",
       "quantity": ""
     },
     {
-      "Abbreviation": "vib",
-      "English": "vibraphone",
+      "code": "vib",
+      "label": "vibraphone",
       "wd_qid": "Q206987",
       "wd_label": "vibraphone",
       "quantity": ""
     },
     {
-      "Abbreviation": "vie",
-      "English": "hurdy-gurdy",
+      "code": "vie",
+      "label": "hurdy-gurdy",
       "wd_qid": "Q207821",
       "wd_label": "hurdy-gurdy",
       "quantity": ""
     },
     {
-      "Abbreviation": "viol",
-      "English": "bass viol",
+      "code": "viol",
+      "label": "bass viol",
       "wd_qid": "Q51446928",
       "wd_label": "bass viol",
       "quantity": ""
     },
     {
-      "Abbreviation": "vlne",
-      "English": "violone",
+      "code": "vlne",
+      "label": "violone",
       "wd_qid": "Q667047",
       "wd_label": "violone",
       "quantity": ""
     },
     {
-      "Abbreviation": "vn",
-      "English": "violin",
+      "code": "vn",
+      "label": "violin",
       "wd_qid": "Q8355",
       "wd_label": "violin",
       "quantity": ""
     },
     {
-      "Abbreviation": "2vn",
-      "English": "violin",
+      "code": "2vn",
+      "label": "violin",
       "wd_qid": "Q8355",
       "wd_label": "violin",
       "quantity": "2"
     },
     {
-      "Abbreviation": "3vn",
-      "English": "violin",
+      "code": "3vn",
+      "label": "violin",
       "wd_qid": "Q8355",
       "wd_label": "violin",
       "quantity": "3"
     },
     {
-      "Abbreviation": "vuv",
-      "English": "vuvuzela",
+      "code": "vuv",
+      "label": "vuvuzela",
       "wd_qid": "Q83266",
       "wd_label": "vuvuzela",
       "quantity": ""
     },
     {
-      "Abbreviation": "vv",
-      "English": "vocal ensemble",
+      "code": "vv",
+      "label": "vocal ensemble",
       "wd_qid": "Q29881373",
       "wd_label": "vocal ensemble",
       "quantity": ""
     },
     {
-      "Abbreviation": "wag",
-      "English": "Wagner tuba",
+      "code": "wag",
+      "label": "Wagner tuba",
       "wd_qid": "Q902984",
       "wd_label": "Wagner tuba",
       "quantity": ""
     },
     {
-      "Abbreviation": "ww",
-      "English": "woodwind instrument",
+      "code": "ww",
+      "label": "woodwind instrument",
       "wd_qid": "Q181247",
       "wd_label": "woodwind instrument",
       "quantity": ""
     },
     {
-      "Abbreviation": "xiao",
-      "English": "xiao",
+      "code": "xiao",
+      "label": "xiao",
       "wd_qid": "Q1394795",
       "wd_label": "xiao",
       "quantity": ""
     },
     {
-      "Abbreviation": "xyl",
-      "English": "xylophone",
+      "code": "xyl",
+      "label": "xylophone",
       "wd_qid": "Q165666",
       "wd_label": "xylophone",
       "quantity": ""
     },
     {
-      "Abbreviation": "zith",
-      "English": "zither",
+      "code": "zith",
+      "label": "zither",
       "wd_qid": "Q76239",
       "wd_label": "zither",
       "quantity": ""
     },
     {
-      "Abbreviation": "bsn",
-      "English": "bassoon",
+      "code": "bsn",
+      "label": "bassoon",
       "wd_qid": "Q159998",
       "wd_label": "bassoon",
       "quantity": ""
     },
     {
-      "Abbreviation": "helicon",
-      "English": "helicon",
+      "code": "helicon",
+      "label": "helicon",
       "wd_qid": "Q779650",
       "wd_label": "helicon",
       "quantity": ""
     },
     {
-      "Abbreviation": "tromba-marina",
-      "English": "tromba marina",
+      "code": "tromba-marina",
+      "label": "tromba marina",
       "wd_qid": "Q1095084",
       "wd_label": "Tromba marina",
       "quantity": ""
     },
     {
-      "Abbreviation": "2tromba-marina",
-      "English": "tromba marina",
+      "code": "2tromba-marina",
+      "label": "tromba marina",
       "wd_qid": "Q1095084",
       "wd_label": "Tromba marina",
       "quantity": "2"
     }
-  ]
-}
+]
