@@ -1,24 +1,38 @@
 {
 	"biblionumberid": {
-		"field": 94
+		"field": 94,
+		"koha_field": "biblioitem",
+		"koha_subfield": "id"
 	},
 	"barcode": {
-		"field": 95
+		"field": 95,
+		"koha_field": "items",
+		"koha_subfield": "barcode"
 	},
 	"mainauthor": {
-		"field": 96
+		"field": 96,
+		"koha_field": "main_author",
+		"koha_subfield": "label"
 	},
 	"digitizatonquality": {
-		"field": 97
+		"field": 97,
+		"koha_field": null,
+		"koha_subfield": null
 	},
 	"contributors": {
-		"field": 98
+		"field": 98,
+		"koha_field": "contributors",
+		"koha_subfield": "label"
 	},
 	"callnumber": {
-		"field": 99
+		"field": 99,
+		"koha_field": "items",
+		"koha_subfield": "call_number"
 	},
 	"oinaspath100": {
-		"field": 100
+		"field": 100,
+		"koha_field": null,
+		"koha_subfield": null
 	},
 
 }

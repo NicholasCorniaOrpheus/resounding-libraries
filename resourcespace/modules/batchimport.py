@@ -12,6 +12,7 @@ sys.path.append("./modules")
 
 from modules.api import *
 from modules.utilities import *
+from modules.koha_metadata import *
 
 
 # returns an ordered list of collection names based on folders

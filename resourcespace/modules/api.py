@@ -115,8 +115,9 @@ def rs_API_cURL_POST(rs_credentials, query_name, parameters):
     p = subprocess.run(
         cURL, shell=True, check=True, capture_output=True, encoding="utf-8"
     )
-    #print(p.args)
-   return p.stdout
+    # print(p.args)
+    return p.stdout
+
 
 def sha2hexa(string):
     string = string.encode("utf-8")
@@ -128,7 +129,9 @@ def sha2hexa(string):
 def rs_API_requests_GET(credentials, query_name, parameters):
     queryParameters = ""
     for i in range(len(rsQueries[query_name]["queryParameters"])):
-        queryParameters += "&" + rsQueries[query_name]["queryParameters"][i] + "=" + parameters[i]
+        queryParameters += (
+            "&" + rsQueries[query_name]["queryParameters"][i] + "=" + parameters[i]
+        )
 
     query = (
         "user="

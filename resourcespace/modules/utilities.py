@@ -4,7 +4,7 @@ Utilities functions
 """
 Basic utilities scripts
 """
-import json, csv
+import json, csv, os
 from time import gmtime, strftime
 
 
@@ -30,3 +30,9 @@ def dict2json(d, json_filename):  # export a dictionary to JSON file
 
 def get_current_date():
     return strftime("%Y-%m-%d", gmtime())
+
+
+def get_latest_file(basepath):  # returns latest file path in a directory
+    files = os.listdir(basepath)
+    paths = [os.path.join(basepath, basename) for basename in files]
+    return max(paths, key=os.path.getctime)

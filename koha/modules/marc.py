@@ -220,7 +220,7 @@ def biblio_marc2json(
         dict_record = record.as_dict()
         pretty_record = convert_biblioitem_marc_dict(dict_record, mapping["biblioitem"])
         # convert abbreviations in record
-        print(pretty_record)
+        # print(pretty_record)
         pretty_record = convert_abbreviations(pretty_record, abbreviations)
         pretty_record = retrieve_external_source(pretty_record, external_sources)
         pretty_records.append(pretty_record)

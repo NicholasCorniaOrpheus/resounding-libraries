@@ -76,7 +76,7 @@
 			"geographic_names": [{"label": ["651","a"]}, {"id": ["651","9"]}],
 			"external_sources": [{"url": ["856","u"]},{"source": ["856","3"]}],
 			"material_type": [{"code": ["942","c"]}],
-			"items": [{"barcode": ["952","p"]},{"material_specified": ["952","3"]}, {"public_notes": ["952","z"]}]
+			"items": [{"barcode": ["952","p"]},{"call_number": ["952","o"]},{"material_specified": ["952","3"]}, {"public_notes": ["952","z"]}]
 
 		}	
 
