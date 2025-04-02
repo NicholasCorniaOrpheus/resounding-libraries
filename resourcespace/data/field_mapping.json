@@ -14,10 +14,11 @@
 		"koha_field": "main_author",
 		"koha_subfield": "label"
 	},
-	"digitizatonquality": {
+	"digitizationquality": {
 		"field": 97,
 		"koha_field": null,
-		"koha_subfield": null
+		"koha_subfield": null,
+		"options": ["In-house low quality","In-house high quality","Professional"]
 	},
 	"contributors": {
 		"field": 98,
@@ -28,12 +29,7 @@
 		"field": 99,
 		"koha_field": "items",
 		"koha_subfield": "call_number"
-	},
-	"oinaspath100": {
-		"field": 100,
-		"koha_field": null,
-		"koha_subfield": null
-	},
+	}
 
 }
 

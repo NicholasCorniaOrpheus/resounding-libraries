@@ -22,12 +22,15 @@ koha_catalogue = import_latest_koha_catalogue_json(koha_catalogue_path)
 
 testing_dir = "../test/"
 
+# Mappings
+
+rs_fields_mapping = json2dict("./data/field_mapping.json")
 
 """
 TO-DO
 
-- match dir_name with barcode from koha_catalogue
-- extract metadata for resources and place them in resources via field_mapping
+- [ x ] match dir_name with barcode from koha_catalogue
+- [ x ]extract metadata for resources and place them in resources via field_mapping
 - populate rs_collection_tree with collections based on biblioitems and their sub-items:
 
 OI Library
@@ -41,7 +44,12 @@ OI Library
 
 # TEST
 
-"""Koha import test """
+"""Koha import test: works!"""
+digitization_quality = "In-house low quality"
+collection_list = folders2collections(testing_dir)
+get_collection_metadata_from_koha(
+    collection_list, koha_catalogue, rs_fields_mapping, digitization_quality
+)
 
 
 '''API tests
