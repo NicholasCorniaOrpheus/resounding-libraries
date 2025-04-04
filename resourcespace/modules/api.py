@@ -22,8 +22,8 @@ rsQueries = {
         "rsDocumentationUrl": "https://www.resourcespace.com/knowledge-base/api/create_collection",
     },
     "create_resource": {
-        "queryParameters": ["resource_type"],
-        "queryReturn": "new_resource_id",
+        "queryParameters": ["resource_type", "archive"],
+        "queryReturn": "new_resource_id, set archive to 0 by default",
         "rsDocumentationUrl": "https://www.resourcespace.com/knowledge-base/api/create_collection",
     },
     "get_collection": {

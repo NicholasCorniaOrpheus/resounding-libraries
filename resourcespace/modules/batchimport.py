@@ -59,35 +59,35 @@ def create_collections_and_resourcers_from_metadata_list(
 ):
     # filters all needed biblioitems and create new parent collections for the new digitizations
     for item in collection_metadata_list:
-        if check_duplicates(item["barcode"],rs_collection_tree):
+        if check_duplicates(item["barcode"][0],rs_collection_tree):
             print("Barcode resource already present in RS: skip import.")
             pass
             
         else:
             # check if biblionumber collection is already present
-            if check_duplicates(item["biblionumberid"],rs_collection_tree):
+            if check_duplicates(item["biblionumberid"][0],rs_collection_tree):
                 # append barcode_collection to existing biblionumber collection
-                query = list(filer(lambda x: x["collection_name"] == item["biblionumberid"], rs_collection_tree))
+                query = list(filter(lambda x: x["collection_name"] == item["biblionumberid"][0], rs_collection_tree))
                 biblionumber_collection_id = query[0]["id"]
-                print(f"Biblionumber {item["biblionumberid"]} already present as collection id {biblionumber_collection_id}")
+                print(f"Biblionumber {item["biblionumberid"][0]} already present as collection id {str(biblionumber_collection_id)}")
                 input()
             else:
                 # create a new collection with given biblionumber
-                biblionumber_collection_id = int(rs_API_cURL_POST(credentials, "create_collection", parameters=[item["biblionumberid"]]))
-                print(f"New collection created for biblionumber {item["biblionumberid"]}: {biblionumber_collection_id}")
+                biblionumber_collection_id = int(rs_API_cURL_POST(credentials, "create_collection", parameters=[item["biblionumberid"][0]]))
+                print(f"New collection created for biblionumber {item["biblionumberid"][0]}: {biblionumber_collection_id}")
                 # append new collection to root
                 add_parent2collection(biblionumber_collection_id, rs_collection_tree[0]["id"], credentials)
-                input()
+                input() # works!
                 
             # create a new collection with given barcode
-            barcode_collection_id = int(rs_API_cURL_POST(credentials, "create_collection", parameters=[item["barcode"]]))
-            print(f"New collection created for barcode {item["barcode"]}: {barcode_collection_id}")
+            barcode_collection_id = int(rs_API_cURL_POST(credentials, "create_collection", parameters=[item["barcode"][0]]))
+            print(f"New collection created for barcode {item["barcode"][0]}: {str(barcode_collection_id)}")
             # biblionumber is parent of barcode
             add_parent2collection(barcode_collection_id, biblionumber_collection_id, credentials)
             # add biblionumber and barcode to rs_collection_tree
             rs_collection_tree.append(
                     {
-                            "collection_name": item["biblionumberid"],
+                            "collection_name": item["biblionumberid"][0],
                             "id": biblionumber_collection_id,
                             "parent": rs_collection_tree[0]["id"],
                             "children_ids": [barcode_collection_id],
@@ -96,7 +96,7 @@ def create_collections_and_resourcers_from_metadata_list(
                 )
             rs_collection_tree.append(
                     {
-                            "collection_name": item["barcode"],
+                            "collection_name": item["barcode"][0],
                             "id": barcode_collection_id,
                             "parent": biblionumber_collection_id,
                             "children_ids": [],
@@ -105,17 +105,20 @@ def create_collections_and_resourcers_from_metadata_list(
                 )
             input()
             # create resources from path + metadata
-            sorted_directory = sorted(os.scandir(os.path.join(ingestion_path,item["barcode"])), key=lambda e: e.name)
+            sorted_directory = sorted(os.scandir(os.path.join(ingestion_path,item["barcode"][0])), key=lambda e: e.name)
             i = 0
             for file in sorted_directory:
                 # create new resource
                 i += 1
-                resource_id = int(rs_API_cURL_POST(credentials, "create_resource", parameters=[str(resource_type)]))
-                print(f"New resource created for file {file.name}: {resource_id}")
+                resource_id = int(rs_API_cURL_POST(credentials, "create_resource", parameters=[str(resource_type),"0"]))
+                print(f"New resource created for file {file.name}: {str(resource_id)}")
                 rs_collection_tree[-1]["resources_ids"].append(resource_id)
+                print(f"Adding resource {str(resource_id)} to barcode collection {str(barcode_collection_id)}")
+                rs_API_cURL_POST(credentials, "add_resource_to_collection", parameters=[str(resource_id),str(barcode_collection_id)])
+                input()
                 # upload file to resource
                 print("Uploading resource to RS...")
-                rs_API_cURL_POST(credentials,query_name="upload_file",parameters=[str(resource_id), "0", "0", "0", os.path.join(ingestion_path,item["barcode"],file.name) ])
+                rs_API_cURL_POST(credentials,query_name="upload_file",parameters=[str(resource_id), "0", "0", "0", os.path.join(ingestion_path,item["barcode"][0],file.name) ])
                 # add relevant metadata
                 print("Adding metadata and IIIF identifiers...")
                 for field in item.keys():
@@ -133,11 +136,21 @@ def create_collections_and_resourcers_from_metadata_list(
                             value = value[:-1]
 
                         else:
-                            value = revert_personal_names_with_comma(item[field][0])
-                        
+                            try:
+                                value = revert_personal_names_with_comma(item[field][0])
+                            except IndexError:
+                                pass
+
+                        print(f"Changing field {field} with dictionary {item[field]} to {value}")
                         rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,value])    
 
-
+        # update RS collection tree
+        dict2json(
+            rs_collection_tree,
+            os.path.join(
+                "./data/collections", "rs_collection_tree" + get_current_date() + ".json"
+            ),
+        )
             
 
 

@@ -55,31 +55,29 @@ collection_metadata_list = get_collection_metadata_from_koha(
 print("Test input:", collection_metadata_list[0])
 
 
+"""test upload files"""
+resource_id = 22
+path = os.path.join(testing_dir, "20129484v18n3", "20129484v18n3_003.jpg")
+print(path)
+rs_API_cURL_POST(
+    credentials,
+    query_name="upload_file",
+    parameters=[
+        str(resource_id),
+        "0",
+        "0",
+        "0",
+        path,
+    ],
+)
+
+# STILL NOT WORKING PROPERLY
 """
-TO-DO
-
-- [ x ] match dir_name with barcode from koha_catalogue
-- [ x ]extract metadata for resources and place them in resources via field_mapping
-- populate rs_collection_tree with collections based on biblioitems and their sub-items:
-
-OI Library
-    biblioitem_1
-        barcode_1.1
-        barcode_1.2
-        ...
-    ...
-
-"""
-
-# TEST
-
-"""Koha import test: works!
-digitization_quality = "In-house low quality"
-collection_list = folders2collection_list(testing_dir)
-get_collection_metadata_from_koha(
-    collection_list, koha_catalogue, rs_fields_mapping, digitization_quality
+create_collections_and_resourcers_from_metadata_list(
+    collection_metadata_list,
+    rs_collection_tree,
+    credentials,
+    testing_dir,
+    rs_main_collection["resource_type"],
 )
 """
-
-
-"""API tests"""
