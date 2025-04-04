@@ -2,7 +2,7 @@
 	{
 		"collection_name": "OI Library",
 		"id": 5,
-		"parent_ids": null,
+		"parent": null,
 		"children_ids": [],
 		"resources_ids": []
 

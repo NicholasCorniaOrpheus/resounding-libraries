@@ -2,6 +2,7 @@
 Basic utilities scripts
 """
 import json, csv
+import pandas as pd
 from time import gmtime, strftime
 import os
 from pymarc import MARCReader, Record, Field, Subfield
@@ -14,6 +15,11 @@ def csv2dict(csv_filename):  # imports a CSV file as dictionary
     for row in reader:
         d["items"].append(row)
     return d["items"]
+
+
+def dict2csv(d, csv_filename):
+    df = pd.DataFrame(data=d)
+    df.to_csv(csv_filename, sep=",", index=False)
 
 
 def json2dict(json_filename):  # imports a JSON file as dictionary

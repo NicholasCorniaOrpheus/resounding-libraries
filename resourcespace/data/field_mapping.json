@@ -20,6 +20,16 @@
 		"koha_subfield": null,
 		"options": ["In-house low quality","In-house high quality","Professional"]
 	},
+	"iiifidentifier": {
+		"field": 88,
+		"koha_field": null,
+		"koha_subfield": null
+	},
+	"iiifsequencefield": {
+		"field": 92,
+		"koha_field": null,
+		"koha_subfield": null
+	},
 	"contributors": {
 		"field": 98,
 		"koha_field": "contributors",
@@ -29,6 +39,11 @@
 		"field": 99,
 		"koha_field": "items",
 		"koha_subfield": "call_number"
+	},
+	"originalfilename": {
+		"field": 51,
+		"koha_field": null,
+		"koha_subfield": null
 	}
 
 }

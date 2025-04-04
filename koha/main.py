@@ -45,13 +45,18 @@ reports_mapping = os.path.join("data", "mappings", "mapping_reports.json")
 
 # TESTING
 
-"""MARC biblio test: works!"""
+"""MARC biblio test: works!
 biblio_marc2json(
     biblioitems_marc_dir,
     marc2json_mapping,
     biblioitems_json_dir,
     abbreviation_mapping,
     external_sources_mapping,
+)
+"""
+report_id = 73
+personal_names2rs_dynamiclist(
+    credentials["koha"]["koha_public_report_url"], reports_mapping, report_id
 )
 
 """Report test, working!

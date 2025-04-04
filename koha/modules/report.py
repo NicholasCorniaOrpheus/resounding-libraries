@@ -78,3 +78,47 @@ def koha_biblioitems2json(public_report_url,report_id):
 
 	dict2json(rs_biblios,os.path.join(data_dir,"resourcespace","rs_biblios.json"))
 
+
+# transforms the report 73 in a CVS file to be imported in RS
+def personal_names2rs_dynamiclist(public_report_url,mapping_reports_path,report_id):
+	# we are assuming you run the script from the `koha` folder
+	reports = json2dict(mapping_reports_path)
+	# get report fields according to id
+	query = list(filter(lambda x: x["id"] == report_id,reports))
+	if len(query) > 0 :
+		reportfields = query[0]
+	else:
+		print("Report ID not found")
+		return []
+
+	# convert response into JSON
+	response = requests.get(public_report_url+"id="+str(report_id))
+	results = response.json()
+	pretty_results = []
+	for result in results:
+		pretty_result = {}
+		for i in range(len(result)):
+			# first split values according to comma
+			personal_name = result[i].split(",")
+			if len(personal_name) == 1:
+				pretty_result[reportfields["fields"][i]] = result[i]
+			elif len(personal_name) == 2: # surname, name format
+				name = personal_name[1]
+				surname = personal_name[0]
+				try:
+					if name[0] == " ":
+						name = name[1:]
+				except IndexError:
+					pass
+				pretty_result[reportfields["fields"][i]] = f"{name} {surname}"
+
+			
+
+		pretty_results.append(pretty_result)
+
+	# export result in data folder
+	output_filename = os.path.join(data_dir,"reports",f"{get_current_date()}_{reportfields["name"]}.csv")
+	dict2json(pretty_results,output_filename)
+
+	# export result in csv format
+	dict2csv(pretty_results,output_filename)

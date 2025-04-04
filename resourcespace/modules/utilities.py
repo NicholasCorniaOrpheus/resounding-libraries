@@ -36,3 +36,20 @@ def get_latest_file(basepath):  # returns latest file path in a directory
     files = os.listdir(basepath)
     paths = [os.path.join(basepath, basename) for basename in files]
     return max(paths, key=os.path.getctime)
+
+
+def revert_personal_names_with_comma(string):
+    personal_name = string.split(",")
+    if len(personal_name) == 1:
+        return string
+    elif len(personal_name) == 2:  # surname, name format
+        name = personal_name[1]
+        surname = personal_name[0]
+        try:
+            if name[0] == " ":
+                name = name[1:]
+        except IndexError:
+            pass
+        return f"{name} {surname}"
+    else:
+        return "Entry with multiple comma: ERROR!"
