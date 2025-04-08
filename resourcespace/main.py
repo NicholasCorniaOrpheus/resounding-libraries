@@ -42,7 +42,7 @@ rs_collection_tree = import_rs_collection_tree_from_API(
 dict2json(
     rs_collection_tree,
     os.path.join(
-        rs_collection_tree_path, "rs_collection_tree" + get_current_date() + ".json"
+        rs_collection_tree_path, "rs_collection_tree-" + get_current_date() + ".json"
     ),
 )
 
@@ -55,7 +55,7 @@ collection_metadata_list = get_collection_metadata_from_koha(
 print("Test input:", collection_metadata_list[0])
 
 
-"""test upload files"""
+"""test upload files
 resource_id = 22
 path = os.path.join(testing_dir, "20129484v18n3", "20129484v18n3_003.jpg")
 print(path)
@@ -70,9 +70,10 @@ rs_API_cURL_POST(
         path,
     ],
 )
+"""
 
 # STILL NOT WORKING PROPERLY
-"""
+
 create_collections_and_resourcers_from_metadata_list(
     collection_metadata_list,
     rs_collection_tree,
@@ -80,4 +81,3 @@ create_collections_and_resourcers_from_metadata_list(
     testing_dir,
     rs_main_collection["resource_type"],
 )
-"""

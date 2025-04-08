@@ -9,6 +9,11 @@
 		"koha_field": "items",
 		"koha_subfield": "barcode"
 	},
+	"title": {
+		"field": 8,
+		"koha_field": "title",
+		"koha_subfield": "string"
+	},
 	"mainauthor": {
 		"field": 96,
 		"koha_field": "main_author",

@@ -128,7 +128,11 @@ def create_collections_and_resourcers_from_metadata_list(
                     if field == "iiifsequencefield":
                         # incrementing sequence field
                         rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,str(i)])
-                    if field not in ["iiifidentifier","iiifsequencefield"]:
+                    if field == "title":
+                        rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,item[field][0]+"_"+str(i).zfill(3)])
+                    if field == "originalfilename":
+                        rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,file.name])    
+                    if field not in ["title","iiifidentifier","iiifsequencefield"]:
                         if len(item[field]) >1:
                             value = ""
                             for entry in item[field]:
@@ -137,6 +141,7 @@ def create_collections_and_resourcers_from_metadata_list(
 
                         else:
                             try:
+                                value = ""
                                 value = revert_personal_names_with_comma(item[field][0])
                             except IndexError:
                                 pass
