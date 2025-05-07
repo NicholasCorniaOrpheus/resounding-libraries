@@ -30,8 +30,21 @@ After cloning this repository, you should create a `credentials` folder to store
 ## ResourceSpace
 [Resourcespace](https://www.resourcespace.com/) is an open source digital assets management system.
 
-In the folder `resourcespace` you can find some useful Python scripts to dynamically interact with your Resourcespace instance.
-
-
+In the folder `resourcespace` you can find some useful Python scripts to dynamically interact with your Resourcespace instance. 
+Metadata for each record are pulled through Koha and ingested to Resource Space fields, collections and resources.
 
 ## Koha
+
+This folder collects a series of Python scripts, build upon [pyMARC](https://pymarc.readthedocs.io/en/latest/),  to allow batch operation for your library catalogue, Koha API and other mappings useful for enriching metadata with external, linked open data information.
+
+- Koha reports enhancement to JSON.
+- MARC authorities and biblioitems conversion to JSON.
+- MARC abbreviations conversion.
+- ...
+
+## ORCID
+
+[ORCID](https://orcid.org/) is a non-profit organization that provides a persistent digital identifier (an ORCID iD) that distinguishes you from every other researcher.
+Since 2023, Orpheus Instituut registers the research output of its members through the Koha catalogue. Each research output is stored as record and a plugin has been developed to batch export the data to [FRIS](https://researchportal.be/en).
+
+In the folder `orcid` you can find some useful Python scripts, build upon [pyOrcid](https://github.com/sri0606/PyOrcid)to dynamically interact with your ORCID instance.

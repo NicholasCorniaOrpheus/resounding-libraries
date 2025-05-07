@@ -132,7 +132,7 @@ def create_collections_and_resourcers_from_metadata_list(
                         rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,item[field][0]+"_"+str(i).zfill(3)])
                     if field == "originalfilename":
                         rs_API_cURL_POST(credentials,query_name="update_field",parameters=[str(resource_id),field,file.name])    
-                    if field not in ["title","iiifidentifier","iiifsequencefield"]:
+                    if field not in ["originalfilename","title","iiifidentifier","iiifsequencefield"]:
                         if len(item[field]) >1:
                             value = ""
                             for entry in item[field]:
