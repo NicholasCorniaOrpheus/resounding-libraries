@@ -1,0 +1,501 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Declassifying the Classics",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/declassifying-the-classics'>Declassifying the Classics</a></h3>\n\t\t<p>Rhetoric, Technology, and Performance, 1750 \u2013 1850</p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/declassifying-the-classics'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2F6B9B3376.JPG%3Fv%3D1520508359?dpr=2&w=900&h=580&fit=crop&s=069cc34e6153244e07ef02c2e67f3fd5' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26931"
+    },
+    {
+      "label": "MetamusicX",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href=''>MetamusicX</a></h3>\n\t\t<p>MetamusicX explores novel performative and compositional creative practices that intersect music (past and future), art, digital humanities, and contemporary philosophy.</p>\n\t\t<a href=''><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fnews-events%2FDamien-Hirst_Dots.jpg%3Fv%3D1645698344?dpr=2&w=900&h=580&fit=crop&s=d3be90674f0ee076beb4834c54133153' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26932"
+    },
+    {
+      "label": "Music, Thought and Technology",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/music-thought-and-technology'>Music, Thought and Technology</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/music-thought-and-technology'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2FIMG_5759-e1.JPG%3Fv%3D1520508463?dpr=2&w=900&h=580&fit=crop&s=e13de69eb9237fae375898062573b6d5' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26934"
+    },
+    {
+      "label": "Resounding Libraries",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/resounding-libraries'>Resounding Libraries</a></h3>\n\t\t<p>Unfolding Archived Knowledge Through Artistic Research</p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/resounding-libraries'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2FDSC3168.jpg%3Fv%3D1599560555?dpr=2&w=900&h=580&fit=crop&s=4fbdef9a633a04fb0483c44455ecdc51' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26404"
+    },
+    {
+      "label": "HIPEX",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/hipex'>HIPEX</a></h3>\n\t\t<p>Historical Performance Practices of Experimental Music</p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/hipex'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2FDSC00856.JPG%3Fv%3D1520507977?dpr=2&w=900&h=580&fit=crop&s=ac9c0a11408187aa141165a091284e2f' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26935"
+    },
+    {
+      "label": "Performance and Embodiment",
+      "color": "#d1ad65",
+      "value": 250,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/performance-and-embodiment'>Performance and Embodiment</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/performance-and-embodiment'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2FFigure-6.jpg%3Fv%3D1718969394?dpr=2&w=900&h=580&fit=crop&s=2ca2383fdf613d898b9b9507a66e0e5c' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27066"
+    },
+    {
+      "label": "Orpheus Instituut",
+      "color": "#99001C",
+      "value": 500,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/projects/'>Orpheus Instituut</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/projects/'><img src='./oilogo.png' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "22507"
+    },
+    {
+      "label": "Paulo de Assis",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/paulo-de-assis'>Paulo de Assis</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/paulo-de-assis'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FIMG_8505.jpg%3Fv%3D1702287238?dpr=2&w=500&h=735&fit=crop&s=808a7b68e044cdcdbb75481ae41445f6' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "16044"
+    },
+    {
+      "label": "Adam \u0141ukawski",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/adam-lukawski'>Adam \u0141ukawski</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/adam-lukawski'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FLukawskiAdam.jpg%3Fv%3D1645702377?dpr=2&w=500&h=735&fit=crop&s=5203dab70d21f9895b5fe0e826cc8609' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26642"
+    },
+    {
+      "label": "Martin Zeilinger",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/martin-zeilinger'>Martin Zeilinger</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/martin-zeilinger'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FMZ-Aksioma-Nov2022.png%3Fv%3D1699284775?dpr=2&w=500&h=735&fit=crop&s=02a442abfb231ad46dc415166f3fbfaf' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26933"
+    },
+    {
+      "label": "Ilpo Jauhiainen",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ilpo-jauhiainen'>Ilpo Jauhiainen</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ilpo-jauhiainen'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FIlpo_cropped.jpg%3Fv%3D1739206764?dpr=2&w=500&h=735&fit=crop&s=9840d2cfc1eecd11ca26635d299477a1' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39708"
+    },
+    {
+      "label": "Alicia Reyes",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/alicia-reyes'>Alicia Reyes</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/alicia-reyes'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FP_Alicia_Reyes.png%3Fv%3D1738830038?dpr=2&w=500&h=735&fit=crop&s=147b0cfd544eea1fce69b89c92179ab0' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39709"
+    },
+    {
+      "label": "Tom Beghin",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/tom-beghin'>Tom Beghin</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/tom-beghin'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FTom-Beghin_c_Pieter-Peeters.jpg%3Fv%3D1634822447?dpr=2&w=500&h=735&fit=crop&s=68ac924126b2c02da3b0619401128eaa' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "17739"
+    },
+    {
+      "label": "Luca Montebugnoli",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/luca-montebugnoli'>Luca Montebugnoli</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/luca-montebugnoli'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FLuca-Montebugnoli.jpg%3Fv%3D1535968836?dpr=2&w=500&h=735&fit=crop&s=6a12ba983fb3d5cee54b08dad9820c48' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "25649"
+    },
+    {
+      "label": "Ivana Jela\u010da",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ivana-jela%C4%8Da'>Ivana Jela\u010da</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ivana-jela%C4%8Da'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FIvana-Jelaca.jpg%3Fv%3D1613402394?dpr=2&w=500&h=735&fit=crop&s=6efe2cc911347e4a79d6f81b1bf695d3' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26640"
+    },
+    {
+      "label": "Chris Maene",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/chris-maene'>Chris Maene</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/chris-maene'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FChris-Maene_2.jpg%3Fv%3D1520328259?dpr=2&w=500&h=735&fit=crop&s=be6d842a96a0f6f82a9c94d76fdab7ad' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27380"
+    },
+    {
+      "label": "Blake Proehl",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/blake-proehl'>Blake Proehl</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/blake-proehl'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FBProehl-photo.jpg%3Fv%3D1739177763?dpr=2&w=500&h=735&fit=crop&s=64bea000bd30d0312f7286156a9ef336' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39718"
+    },
+    {
+      "label": "Anastasios Zafeiropoulos",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/anastasios-zafeiropoulos'>Anastasios Zafeiropoulos</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/anastasios-zafeiropoulos'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FAnastasios.jpg%3Fv%3D1664542045?dpr=2&w=500&h=735&fit=crop&s=129f3b4142b62fb4ddc0671c3a1911ef' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26639"
+    },
+    {
+      "label": "Jonathan Impett",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/jonathan-impett'>Jonathan Impett</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/jonathan-impett'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FJonathan-Impett_c_Gilles-Anquez_5612-e2_web_1000.jpg%3Fv%3D1520324302?dpr=2&w=500&h=735&fit=crop&s=ec194d7d5973e892a5bb11fae4d4c962' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "16357"
+    },
+    {
+      "label": "Daniela Fantechi",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/daniela-fantechi'>Daniela Fantechi</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/daniela-fantechi'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2Fportrait4.jpg%3Fv%3D1520326921?dpr=2&w=500&h=735&fit=crop&s=86acac98d49738347442af706c85aeaa' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "25650"
+    },
+    {
+      "label": "Juan Parra Cancino",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/juan-parra-cancino'>Juan Parra Cancino</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/juan-parra-cancino'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FJuan_Parra_c_PaoloGiudiciLR.jpg%3Fv%3D1520325535?dpr=2&w=500&h=735&fit=crop&s=1c564e2a2e2fb37d82e902c3c33b1e60' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "16990"
+    },
+    {
+      "label": "Magno Caliman",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/magno-caliman'>Magno Caliman</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/magno-caliman'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FMagno-Caliman.jpg%3Fv%3D1599743656?dpr=2&w=500&h=735&fit=crop&s=611dbea45813fd3c4e4c0d339fe653ea' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "25652"
+    },
+    {
+      "label": "Matt Wright",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/matt-wright'>Matt Wright</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/matt-wright'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FMatt-Wright_portait_c_Caroline-Forbes.jpg%3Fv%3D1571752238?dpr=2&w=500&h=735&fit=crop&s=6cbb0ba8805e4879bc32b0f7d5621c3d' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27384"
+    },
+    {
+      "label": "Nicholas Brown",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicholas-brown'>Nicholas Brown</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicholas-brown'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FIMG_6164_crop.jpeg%3Fv%3D1644855015?dpr=2&w=500&h=735&fit=crop&s=3b202f75a2fc8d82294c1b06780867f9' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27381"
+    },
+    {
+      "label": "Nicolas Collins",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicolas-collins'>Nicolas Collins</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicolas-collins'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2F1493823576-picture-nic-collins-20012017-c.jpg%3Fv%3D1520323000?dpr=2&w=500&h=735&fit=crop&s=ddc8eb3f8d170aeb94f1bc28f8b258f8' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "17709"
+    },
+    {
+      "label": "Simon Waters",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/simon-waters'>Simon Waters</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/simon-waters'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FSimon-Waters.jpg%3Fv%3D1520329413?dpr=2&w=500&h=735&fit=crop&s=09aeeaa04c6b80358474437ad6af9c0e' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27382"
+    },
+    {
+      "label": "Paulo Dantas",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/paulo-dantas'>Paulo Dantas</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/paulo-dantas'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FPaulo-Dantas_KLEIN_by-Kawabata-Ryuta.jpg%3Fv%3D1663685290?dpr=2&w=500&h=735&fit=crop&s=26ebb29a3b5216d1d908b421a1a2fe4f' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26637"
+    },
+    {
+      "label": "Elisabeth Damai Salverda",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/elisabeth-damai-salverda'>Elisabeth Damai Salverda</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/elisabeth-damai-salverda'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fnews-events%2Fphoto-web-Salverda.jpg%3Fv%3D1697729917?dpr=2&w=500&h=735&fit=crop&s=cf6a01c266847924de4e33fa655a85cd' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27383"
+    },
+    {
+      "label": "Chonglian Yu",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/chonglian-yu'>Chonglian Yu</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/chonglian-yu'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FP_Chongian_Yu.jpg%3Fv%3D1739874088?dpr=2&w=500&h=735&fit=crop&s=4a57a8badaf8009cf4e08be896126252' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39706"
+    },
+    {
+      "label": "Andrea Agostini",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/andrea-agostini'>Andrea Agostini</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/andrea-agostini'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FP_Andrea_agostini.jpg%3Fv%3D1740650220?dpr=2&w=500&h=735&fit=crop&s=f622fa33e6c6ce0fdf26bf7eed2bc331' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39805"
+    },
+    {
+      "label": "Bruno Forment",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/bruno-forment'>Bruno Forment</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/bruno-forment'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2Fbrunoforment.jpg%3Fv%3D1578654488?dpr=2&w=500&h=735&fit=crop&s=f2d66d5a1f152048b4a36085ee2bee40' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "20844"
+    },
+    {
+      "label": "Ton Koopman",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ton-koopman'>Ton Koopman</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/ton-koopman'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FTon-Koopman_c_Aldo-Allessie.jpg%3Fv%3D1578577267?dpr=2&w=500&h=735&fit=crop&s=c537b29b0439f6c910ae5d2df598ef35' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "10491"
+    },
+    {
+      "label": "Eline Holl",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/eline-holl'>Eline Holl</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/eline-holl'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FEline-Holl.jpg%3Fv%3D1578577531?dpr=2&w=500&h=735&fit=crop&s=d73da7ca6dbd11b22983ddf8954043e6' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "26668"
+    },
+    {
+      "label": "Sigrid T'Hooft",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/sigrid-thooft'>Sigrid T'Hooft</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/sigrid-thooft'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FP_Sigrid_thooft.jpg%3Fv%3D1739951481?dpr=2&w=500&h=735&fit=crop&s=d1e7cb3f02776de2f9b285a09cd11119' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "20848"
+    },
+    {
+      "label": "Liesa Deville",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/liesa-deville'>Liesa Deville</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/liesa-deville'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2F119892042_3354812857899763_1526197515996951846_o.jpg%3Fv%3D1613402016?dpr=2&w=500&h=735&fit=crop&s=f5f2b5a657823316904011dec0c878a3' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39260"
+    },
+    {
+      "label": "Nicholas Cornia",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicholas-cornia'>Nicholas Cornia</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/nicholas-cornia'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2Fportretten-Lidwien-Nicholas-0631_low-detail.jpg%3Fv%3D1701343867?dpr=2&w=500&h=735&fit=crop&s=a11040667c4748b51a1b62fdc6080dbe' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "39261"
+    },
+    {
+      "label": "Catherine Laws",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/catherine-laws'>Catherine Laws</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/catherine-laws'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FCatherine_Laws_c_PaoloGiudiciLR.png%3Fv%3D1520325049?dpr=2&w=500&h=735&fit=crop&s=9ce63abcd1123b9e2e24219c48c7cc67' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "19738"
+    },
+    {
+      "label": "Emily Worthington",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/emily-worthington'>Emily Worthington</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/emily-worthington'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FEmily-Worhtington.jpg%3Fv%3D1678195099?dpr=2&w=500&h=735&fit=crop&s=d631737c97c6231b37cfb75a889ae0cb' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "27067"
+    },
+    {
+      "label": "Luk Vaes",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/luk-vaes'>Luk Vaes</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/luk-vaes'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FLuk-Vaes-silhouet-200_webprofile.png%3Fv%3D1520326174?dpr=2&w=500&h=735&fit=crop&s=f4210620a354628c24bfff9f4a105f97' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "17277"
+    },
+    {
+      "label": "Marco Fusi",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/marco-fusi'>Marco Fusi</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/marco-fusi'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fprojects%2FMF-pic-%2540-Alivs-Moseley-_-EMPAC_verkleind-website.jpg%3Fv%3D1663331362?dpr=2&w=500&h=735&fit=crop&s=4f1d5e97e32a5465917d7eff622a4944' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "23809"
+    },
+    {
+      "label": "Seth Josel",
+      "color": "#f8f7f4",
+      "value": 25,
+      "title": "\n\t\t<body>\n\t\t<h3> <a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/seth-josel'>Seth Josel</a></h3>\n\t\t<p></p>\n\t\t<a href='https://orpheusinstituut.be/en/orpheus-research-centre/researchers/seth-josel'><img src='https://cdn.glue.be/https%3A%2F%2Forpheusinstituut.be%2Fvolumes%2Fresearchers%2FIMG_5436.jpg%3Fv%3D1520324524?dpr=2&w=500&h=735&fit=crop&s=9a10849899387df72f1674cfe023af87' width=200px heigth=100px> </a>\n\t\t</body>\n\t\t",
+      "id": "20377"
+    }
+  ],
+  "edges": [
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "17739"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "25649"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "26640"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "27380"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "39718"
+    },
+    {
+      "weight": 10,
+      "source": "26931",
+      "target": "26639"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "16044"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "26642"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "26933"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "39708"
+    },
+    {
+      "weight": 10,
+      "source": "26932",
+      "target": "39709"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "16357"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "25650"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "16990"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "25652"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "27384"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "27381"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "17709"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "27382"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "26637"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "27383"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "39706"
+    },
+    {
+      "weight": 10,
+      "source": "26934",
+      "target": "39805"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "26640"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "20844"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "10491"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "26668"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "20848"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "39260"
+    },
+    {
+      "weight": 10,
+      "source": "26404",
+      "target": "39261"
+    },
+    {
+      "weight": 10,
+      "source": "26935",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "26935",
+      "target": "17277"
+    },
+    {
+      "weight": 10,
+      "source": "26935",
+      "target": "23809"
+    },
+    {
+      "weight": 10,
+      "source": "26935",
+      "target": "20377"
+    },
+    {
+      "weight": 10,
+      "source": "27066",
+      "target": "22507"
+    },
+    {
+      "weight": 10,
+      "source": "27066",
+      "target": "19738"
+    },
+    {
+      "weight": 10,
+      "source": "27066",
+      "target": "27067"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+	"ingestion_path": "../test/",
+	"main_collection": {"collection_name": "OI Library", "id": 5, "resource_type": 5}
+}

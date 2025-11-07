@@ -1,0 +1,96 @@
+{
+	"authority": [
+					{	
+						"type": "GEOGR_NAME",
+						"identifier": [{"id": ["001",""]}],
+						"main_heading": [{"label": ["151","a"]}],
+						"equivalent_terms": [{"label": ["451","a"]}],
+						"external_identifiers": [{"uri": ["024","1"]}, {"code": ["024","a"]},{"label": ["024","9"]}, {"source": ["024","2"]}],
+						"umbrella_geographical_names": [{"label": ["551","a"]}, {"id": ["551","9"]}]  
+					},
+					{	
+						"type": "CORPO_NAME",
+						"identifier": [{"id": ["001",""]}],
+						"main_heading": [{"label": ["110","a"]}],
+						"equivalent_terms": [{"label": ["410","a"]}],
+						"external_identifiers": [{"uri": ["024","1"]}, {"code": ["024","a"]},{"label": ["024","9"]}, {"source": ["024","2"]}],
+						"umbrella_topical_terms": [{"label": ["550","a"]}, {"id": ["550","9"] }],
+						"umbrella_corporate_names": [{"label": ["510","a"]}, {"id": ["510","9"] }]
+
+					},
+					{	
+						"type": "CHRON_TERM",
+						"identifier": [{"id": ["001",""]}],
+						"main_heading": [{"label": ["148","a"]}],
+						"equivalent_terms": [{"label": ["448","a"]}],
+						"external_identifiers": [{"uri": ["024","1"]}, {"code": ["024","a"]},{"label": ["024","9"]}, {"source": ["024","2"]}],
+						"umbrella_topical_terms": [{"label": ["550","a"]}, {"id": ["550","9"] }],
+						"umbrella_chronological_terms": [{"label": ["548","a"]}, {"id": ["548","9"] }],
+						"notes": [{"long_string": ["680","a"]}]
+
+					},
+					{	
+						"type": "PERSO_NAME",
+						"identifier": [{"id": ["001",""]}],
+						"main_heading": [{"label": ["100","a"]}],
+						"equivalent_terms": [{"label": ["400","a"]}],
+						"external_identifiers": [{"uri": ["024","1"]}, {"code": ["024","a"]},{"label": ["024","9"]}, {"source": ["024","2"]}],
+						"umbrella_topical_terms": [{"label": ["550","a"]}, {"id": ["550","9"] }],
+						"umbrella_corporate_names": [{"label": ["510","a"]}, {"id": ["510","9"] }],
+						"umbrella_personal_names": [{"label": ["500","a"]}, {"id": ["500","9"] }]
+
+					},
+					{	
+						"type": "TOPIC_TERM",
+						"identifier": [{"id": ["001",""]}],
+						"main_heading": [{"label": ["150","a"]}],
+						"equivalent_terms": [{"label": ["450","a"]}],
+						"external_identifiers": [{"uri": ["024","1"]}, {"code": ["024","a"]},{"label": ["024","9"]}, {"source": ["024","2"]}],
+						"umbrella_topical_terms": [{"label": ["550","a"]}, {"id": ["550","9"] }],
+						"umbrella_personal_names": [{"label": ["500","a"]}, {"id": ["500","9"] }]
+
+					}
+
+	],
+
+	"biblioitem":
+		{
+			"type": "biblioitem",
+			"biblioitem": [{"id": ["001",""]}],
+			"leader": [{"id": ["000",""]}],
+			"general_information": [{"id": ["008",""]}],
+			"language": [{"code": ["041","a"]}],
+			"title": [{"string":["245","a"]}],
+			"subtitle": [{"string": ["590","a"]}],
+			"original_title": [{"string": ["765","a"]}],
+			"edition": [{"string": ["250","a"]}],
+			"publication": [{"place": ["260","a"]},{"publisher": ["260","b"]}, {"year": ["260","c"]}],
+			"physical_description": [{"extent": ["300","a"]},{"other_physical_details": ["300","b"]}],
+			"content_type": [{"string": ["336","a"]}],
+			"notes": [{"long_string": ["500","a"]}], 
+			"content notes": [{"long_string":["505","g"]}],
+			"main_author": [{"label": ["100","a"]}, {"code": ["100","4"]}, {"id": ["100","9"]} ],
+			"contributors": [{"label": ["700","a"]}, {"code": ["700","4"]}, {"id": ["700","9"]}],
+			
+			"instrumentation": [{"code": ["059","a"]}],
+			"personal_names": [{"label": ["600","a"]}, {"id": ["600","9"]}],
+			"corporate_names": [{"label": ["610","a"]}, {"id": ["610","9"]}],
+			"chronological_terms": [{"label": ["648","a"]}, {"id": ["648","9"]}],
+			"topical_terms": [{"label": ["650","a"]}, {"id": ["650","9"]}],
+			"geographic_names": [{"label": ["651","a"]}, {"id": ["651","9"]}],
+			"external_sources": [{"url": ["856","u"]},{"source": ["856","3"]}],
+			"material_type": [{"code": ["942","c"]}],
+			"reproduction_note": [{"long_string": ["533","a"]}],
+			"items": [
+				{"barcode": ["952","p"]},
+				{"call_number": ["952","o"]},
+				{"inventory_number": ["952","i"]},
+				{"material_specified": ["952","3"]},
+				{"public_notes": ["952","z"]},
+				{"source_of_acquisition": ["952","e"]},
+				{"date_acquired": ["952","d"]}
+			]
+
+		}	
+
+}

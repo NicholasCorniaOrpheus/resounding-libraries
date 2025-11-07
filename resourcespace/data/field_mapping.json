@@ -1,0 +1,56 @@
+{
+	"biblionumberid": {
+		"field": 94,
+		"koha_field": "biblioitem",
+		"koha_subfield": "id"
+	},
+	"barcode": {
+		"field": 95,
+		"koha_field": "items",
+		"koha_subfield": "barcode"
+	},
+	"title": {
+		"field": 8,
+		"koha_field": "title",
+		"koha_subfield": "string"
+	},
+	"mainauthor": {
+		"field": 96,
+		"koha_field": "main_author",
+		"koha_subfield": "label"
+	},
+	"digitizationquality": {
+		"field": 97,
+		"koha_field": null,
+		"koha_subfield": null,
+		"options": ["In-house low quality","In-house high quality","Professional"]
+	},
+	"iiifidentifier": {
+		"field": 88,
+		"koha_field": null,
+		"koha_subfield": null
+	},
+	"iiifsequencefield": {
+		"field": 92,
+		"koha_field": null,
+		"koha_subfield": null
+	},
+	"contributors": {
+		"field": 98,
+		"koha_field": "contributors",
+		"koha_subfield": "label"
+	},
+	"callnumber": {
+		"field": 99,
+		"koha_field": "items",
+		"koha_subfield": "call_number"
+	},
+	"originalfilename": {
+		"field": 51,
+		"koha_field": null,
+		"koha_subfield": null
+	}
+
+}
+
+

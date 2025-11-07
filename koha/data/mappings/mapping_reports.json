@@ -1,0 +1,18 @@
+[
+	{
+		"id": 48,
+		"name": "FRIS",
+		"fields": ["biblionumber","control_field","main_author","title"]
+	},
+	{
+		"id": 71,
+		"name": "Biblioitems2ResourceSpace",
+		"fields": ["biblionumber","barcode","itemcallnumber","title","main_author","contributors"]
+	},
+	{
+		"id": 73,
+		"name": "ResourceSpace Personal_Names list",
+		"fields": ["label"]
+	}
+
+]

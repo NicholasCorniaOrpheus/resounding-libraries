@@ -1,0 +1,19 @@
+=LDR  01125ccm a2200229 a 4500
+=001  20000
+=005  20250120120039.0
+=008  881025r19741687gw\uuz\\\beh\\\n\\\\ger\\
+=041  \\$ager
+=100  \\$aSpeer, Daniel$d1636-1707$4aut$1http://www.wikidata.org/entity/Q539915$921346
+=245  10$aGrundrichtiger Unterricht der musikalischen Kunst oder Vierfaches musikalisches Kleeblatt
+=260  \\$aLeipzig$bEdition Peters$c1974
+=300  \\$a289-32-xiii pages
+=490  0\$aPeters Reprints
+=500  \\$aReprint. Originally published: Grund-richtiger, kurtz-, leicht- und nöthiger, jetzt wol-vermehrter Unterricht der musicalischen Kunst. Ulm : G.W. Kühnen, 1697.
+=500  \\$aIncludes reprinted excerpts from the 1687 ed.
+=700  \\$aAhlgrimm, Isolde$d1914-1995$4aft$1http://www.wikidata.org/entity/Q274544$920846
+=700  \\$aBurkhardt, Felix$4wam$921347
+=942  \\$cBOO
+=952  \\$00$10$2ddc$40$6TRE_SPEE$70$8TRE$920092$aORPH$bORPH$cKTS1_H$d2021-04-23$eKoopman$i13I18$l0$oTRE SPEE$p20126394$r2021-04-23 00:00:00$w2021-04-23$yBOO
+=999  \\$c20000$d20000
+=650  \0$aMusic theory$1http://www.wikidata.org/entity/Q193544$92662
+
