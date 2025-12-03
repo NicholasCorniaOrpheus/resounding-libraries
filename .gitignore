@@ -1,4 +1,5 @@
 credentials/
 rl-env/
 test/
-data/api_responses/
+koha/data/api_responses/
+koha/tmp/

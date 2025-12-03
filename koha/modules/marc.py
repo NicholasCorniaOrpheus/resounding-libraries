@@ -31,6 +31,101 @@ def extract_marc_id(records_filename,record_id):
 
 
 
+def generate_catalogue_dict(records_filename):
+    f = open(records_filename, "rb")
+    reader = MARCReader(f)
+    catalogue_dict = []
+    items_with_no_id = 0
+    for record in reader:
+        record_dict = record.as_dict()
+        try:
+            catalogue_dict.append({"biblio_id": record_dict["fields"][0]["001"], "record": record_dict})
+        except KeyError:
+            items_with_no_id +=1
+            pass
+
+    print(f"Number of items with no 001 id field: {items_with_no_id}")
+
+    return catalogue_dict
+
+
+
+# Ok
+def clean_field_from_catalogue_dict(cat_dict,field_number):
+    backup_records = []
+    changed_records = []
+    # look for records with the given field number
+    for record in cat_dict:
+        query = list(filter(lambda x: field_number in x.keys(),record["record"]["fields"]) )
+        if len(query) >0 : # found items, delete by inverse filtering
+            # backup record
+            backup_records.append(record)
+            # changed record
+            changed_record = deepcopy(record)
+            changed_record["record"]["fields"] = list(filter(lambda x: field_number not in x.keys(), record["record"]["fields"]))
+            changed_records.append(changed_record)
+
+
+    return backup_records, changed_records
+
+
+def change_subfield_from_catalogue_dict(cat_dict,filter_field,criterium,change_field,value):
+    backup_records = []
+    changed_records = []
+    # look for records with the given field number
+    for record in cat_dict:
+        # check filter first
+        filter_query = list(filter(lambda x: filter_field[0] in x.keys(),record["record"]["fields"]) )
+        meets_criterium = []
+        if len(filter_query) >0 :
+            for field in filter_query:
+                subfields = field[filter_field[0]]["subfields"]
+                if all(criterium in subfield[filter_field[1]] for subfield in subfields if filter_field[1] in subfield.keys()):
+                    meets_criterium.append(True)
+                else:
+                    meets_criterium.append(False)
+
+        if False not in meets_criterium:
+            change_query = list(filter(lambda x: change_field[0] in x.keys(),record["record"]["fields"]) )
+            change_tag = False
+            if len(change_query) >0 : # found items
+                
+                # changed record
+                changed_record = deepcopy(record)
+                # go through fields to be changed
+                for field in changed_record["record"]["fields"]:
+                    if change_field[0] in field.keys():
+                        subfields = field[change_field[0]]["subfields"]
+                        for subfield in subfields:
+                            if change_field[1] in subfield.keys():
+                                if subfield[change_field[1]] != value:
+                                    subfield[change_field[1]] = value
+                                    change_tag = True
+
+                if change_tag:
+                
+                    # changed record
+                    changed_records.append(changed_record)
+
+                    # backup record
+                    backup_records.append(record)
+
+
+
+
+    return backup_records, changed_records
+
+
+
+            
+            
+
+
+            
+
+
+
+# clean a specific subfield given a filter criterium.
 
 def clean_field_from_records(field_number, records_filename):  # TESTED, OK
     # setting up output
@@ -55,50 +150,6 @@ def clean_field_from_records(field_number, records_filename):  # TESTED, OK
     print_mrc_file(output_marc_filename)
     print("Splitting large file")
     split_mrc_file(output_marc_filename, output_marc_filename)
-
-def generate_catalogue_dict(records_filename):
-    f = open(records_filename, "rb")
-    reader = MARCReader(f)
-    catalogue_dict = []
-    items_with_no_id = 0
-    i = 0
-    for record in reader:
-        record_dict = record.as_dict()
-        try:
-            catalogue_dict.append({"position": i ,"biblio_id": record_dict["fields"][0]["001"], "record": record_dict})
-            i +=1
-        except KeyError:
-            items_with_no_id +=1
-            pass
-
-    print(f"Number of items with no 001 id field: {items_with_no_id}")
-
-    return catalogue_dict
-
-
-
-# TESTED
-def clean_field_from_catalogue_dict(catalogue_dict,field_number):
-    # look for records with the given field number
-    items_to_be_processed = []
-    for record in catalogue_dict:
-        query = list(filter(lambda x: field_number in x.keys(),record["record"]["fields"]) )
-        if len(query) >0 : # found items, delete by inverse filtering
-            record["record"]["fields"] = list(filter(lambda x: field_number not in x.keys(), record["record"]["fields"]))
-            items_to_be_processed.append({"position": record["position"], "biblio_id": record["record"]["fields"][0]["001"]})
-
-    return catalogue_dict, items_to_be_processed
-
-
-            
-            
-
-
-            
-
-
-
-# clean a specific subfield given a filter criterium.
 
 # IMPROVED
 def clean_subfield_from_records(

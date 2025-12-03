@@ -199,6 +199,20 @@ def get_items_from_biblio_json(
     return response.json()
 
 
+def put_items_from_biblio_json(
+    biblio_id, item_json
+):  # updates the metadata of a given biblioitem's items. The item_json should be in json format
+    headers = {"Accept": "application/json", "Content-type": "application/json"}
+    response = my_session.put(
+        f"{base_url}/biblios/{str(biblio_id)}/items",
+        headers=headers,
+        data=json.dumps(
+            item_json
+        ),  # dumps serializes the Python dictionary into JSON string
+    )
+    return response.json()
+
+
 """ TO DO
 
 - [ ] Create scripts that combines every changes via a dictionary in marc-in-json format.
