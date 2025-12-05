@@ -126,11 +126,6 @@ def remove_inventory_number_from_cells():
     )
 
 
-def clean_field_336():
-    # clean Field 336 from records
-    print("Clean Field 336 from records")
-    clean_field_from_records("336", get_latest_file(biblioitems_marc_dir))
-
 
 def clean_field_336_cat_dict():
     backup_records, changed_records = clean_field_from_catalogue_dict(cat_dict, "336")
@@ -164,7 +159,7 @@ def change_subfield_date_acquisiton_koopman():
     backup_records, changed_records = change_subfield_from_catalogue_dict(
         cat_dict,
         filter_field=["952", "e"],
-        criterium="KTS1 C",
+        criterium="Koopman",
         change_field=["952", "d"],
         value="2020-07-08",
     )
@@ -191,6 +186,232 @@ def change_subfield_date_acquisiton_koopman():
 
     return backup_records, changed_records
 
+def change_leader6_if_material_type_score():
+    backup_records, changed_records, problematic_leaders = update_leader_from_catalogue_dict(cat_dict,filter_field=["942","c"],criterium="SCO",leader_position=6,value="c")
+
+    print(f"Number of records to be changed: {len(changed_records)}")
+
+    # save backup of original records
+
+    backup_filename = os.path.join(
+        batch_modifications_dir,
+        "backup",
+        "backup_records_leader6_942$c_SCO-" + get_current_date() + ".json",
+    )
+
+    dict2json(backup_records, backup_filename)
+
+    changed_filename = os.path.join(
+        batch_modifications_dir,
+        "changed",
+        "changed_records_leader6_942$c_SCO-" + get_current_date() + ".json",
+    )
+
+    dict2json(changed_records, changed_filename)
+
+    problematic_leaders_filename = os.path.join(batch_modifications_dir,"problematic_leaders", "problematic_leaders_leader6_942$c_SCO-" + get_current_date() + ".csv")
+
+    dict2csv(problematic_leaders, problematic_leaders_filename)
+    
+    return backup_records, changed_records
+
+def change_leader6_if_material_type_book():
+    backup_records, changed_records, problematic_leaders = update_leader_from_catalogue_dict(cat_dict,filter_field=["942","c"],criterium="BOO",leader_position=6,value="a")
+
+    print(f"Number of records to be changed: {len(changed_records)}")
+
+    # save backup of original records
+
+    backup_filename = os.path.join(
+        batch_modifications_dir,
+        "backup",
+        "backup_records_leader6_942$c_BOO-" + get_current_date() + ".json",
+    )
+
+    dict2json(backup_records, backup_filename)
+
+    changed_filename = os.path.join(
+        batch_modifications_dir,
+        "changed",
+        "changed_records_leader6_942$c_BOO-" + get_current_date() + ".json",
+    )
+
+    dict2json(changed_records, changed_filename)
+
+    problematic_leaders_filename = os.path.join(batch_modifications_dir,"problematic_leaders", "problematic_leaders_leader6_942$c_BOO-" + get_current_date() + ".csv")
+
+    dict2csv(problematic_leaders, problematic_leaders_filename)
+    
+    return backup_records, changed_records
+
+def change_leader7_if_cells():
+    backup_records, changed_records, problematic_leaders = update_leader_from_catalogue_dict(cat_dict,filter_field=["952","o"],criterium="KTS1 C",leader_position=7,value="m")
+
+    print(f"Number of records to be changed: {len(changed_records)}")
+
+    # save backup of original records
+
+    backup_filename = os.path.join(
+        batch_modifications_dir,
+        "backup",
+        "backup_records_leader7_952$o_KTS1_C-" + get_current_date() + ".json",
+    )
+
+    dict2json(backup_records, backup_filename)
+
+    changed_filename = os.path.join(
+        batch_modifications_dir,
+        "changed",
+        "changed_records_leader7_952$o_KTS1_C-" + get_current_date() + ".json",
+    )
+
+    dict2json(changed_records, changed_filename)
+
+    problematic_leaders_filename = os.path.join(batch_modifications_dir,"problematic_leaders", "problematic_leaders_leader7_952$o_KTS1_C-" + get_current_date() + ".csv")
+
+    dict2csv(problematic_leaders, problematic_leaders_filename)
+    
+    return backup_records, changed_records
+
+
+def restore_backup_records_via_koha_api():
+    print("Restoring backup records via Koha API...")
+    num_changes = len(backup_records)
+    i = 1
+    for record in enumerate(backup_records):
+        print(f"Restoring biblioitem: {record[1]['biblio_id']}")
+        # items version
+        items = get_items_from_biblio_json(record[1]["biblio_id"])
+        # put items back
+        new_items = []
+        backup_items = list(
+            filter(
+                lambda x: "952" in x.keys(), backup_records[record[0]]["record"]["fields"]
+            )
+        )
+        for item in enumerate(items):
+            new_items.append({})
+            for prop in item[1].keys():
+                query_prop = list(
+                    filter(
+                        lambda x: x["json_property"] == prop, items_json_marc_mapping
+                    )
+                )
+                if len(query_prop) > 0:
+                    marc_field = query_prop[0]["field"]
+                    marc_subfield = query_prop[0]["subfield"]
+                    # get new value from changed record
+                    new_value = list(
+                        filter(
+                            lambda x: marc_subfield in x.keys(),
+                            backup_items[item[0]]["952"]["subfields"],
+                        )
+                    )
+                    try:
+                        new_items[item[0]][prop] = new_value[0][marc_subfield]
+                    except IndexError:
+                        print(f"No new value for item {item[0]} property {prop}")
+
+
+
+
+        # putting modified items in record via API
+        print(put_items_from_biblio_json(record[1]["biblio_id"],new_items))
+
+        # record version
+        #print(put_biblionumber_marc(record[1]["biblio_id"], record[1]["record"]))
+        print(f"Progress: {i} / {num_changes}")
+        i += 1
+
+def put_changes_via_koha_api(change_items,change_records):
+    print("Applying changes via Koha API...")
+    num_changes = len(changed_records)
+
+    # special handling for items
+    if change_items:
+        print("Changing items...")
+        i = 1
+        for record in enumerate(changed_records):
+            print(f"Current biblioitem: {record[1]["biblio_id"]}")
+            # check if items have been changed
+            backup_items = list(
+                filter(
+                    lambda x: "952" in x.keys(), backup_records[record[0]]["record"]["fields"]
+                )
+            )
+            changed_items = list(
+                filter(lambda x: "952" in x.keys(), record[1]["record"]["fields"])
+            )
+
+            if backup_items != changed_items:
+                #print(f"Items changed for biblio_id {record[1]['biblio_id']}")
+                items = get_items_from_biblio_json(record[1]["biblio_id"])
+                #print(f"Old items: {items}")
+                # PUT only the necessary fields, all the rest causes 500 error in server!
+                new_items = []
+                for item in enumerate(items):
+                    new_items.append({})
+                    for prop in item[1].keys():
+                        query_prop = list(
+                            filter(
+                                lambda x: x["json_property"] == prop, items_json_marc_mapping
+                            )
+                        )
+                        if len(query_prop) > 0:
+                            marc_field = query_prop[0]["field"]
+                            marc_subfield = query_prop[0]["subfield"]
+                            # get new value from changed record
+                            new_value = list(
+                                filter(
+                                    lambda x: marc_subfield in x.keys(),
+                                    changed_items[item[0]]["952"]["subfields"],
+                                )
+                            )
+                            try:
+                                new_items[item[0]][prop] = new_value[0][marc_subfield]
+                            except IndexError:
+                                print(f"No new value for item {item[0]} property {prop}")
+
+
+
+
+                # putting modified items in record via API
+                put_items_from_biblio_json(record[1]["biblio_id"],new_items)
+                #input()
+
+            print(f"Progress: {i} / {num_changes}")
+            i += 1 
+
+    
+    if change_records:
+        # changing biblioitem values
+        i = 1
+        print("Changing records...")
+        for record in enumerate(changed_records):
+            print(f"Current biblioitem: {record[1]['biblio_id']}")
+            # PUT modified record via API
+
+            put_biblionumber_marc(record[1]["biblio_id"], record[1]["record"])
+            #input()
+
+            print(f"Progress: {i} / {num_changes}")
+            i += 1    
+
+
+
+
+
+def get_latest_changed_records():
+    backup_records = json2dict(
+        get_latest_file(os.path.join(batch_modifications_dir, "backup"))
+    )
+
+    changed_records = json2dict(
+        get_latest_file(os.path.join(batch_modifications_dir, "changed"))
+    )
+
+    return backup_records, changed_records
+
 
 ### CODE ###
 
@@ -206,13 +427,13 @@ if answer == "y":
     dict2json(
         cat_dict,
         os.path.join(
-            batch_modifications_dir, "cat_dict-" + get_current_date() + ".json"
+            batch_modifications_dir,"cat_dict", "cat_dict-" + get_current_date() + ".json"
         ),
     )
 
 else:
     print(
-        f"Importing last catalogue dictionary from {get_latest_file(os.path.join(batch_modifications_dir))}"
+        f"Importing last catalogue dictionary from {get_latest_file(os.path.join(batch_modifications_dir,"cat_dict"))}"
     )
 
     cat_dict = json2dict(
@@ -223,80 +444,25 @@ else:
 
 # backup_records, changed_records = clean_field_336_cat_dict()
 
-# backup_records, changed_records = change_subfield_date_acquisiton_koopman()
+#backup_records, changed_records = change_subfield_date_acquisiton_koopman()
 
+#backup_records, changed_records = get_latest_changed_records()
 
-# get latest back
+#backup_records, changed_records = change_leader6_if_material_type_score()
 
-backup_records = json2dict(
-    get_latest_file(os.path.join(batch_modifications_dir, "backup"))
-)
+#backup_records, changed_records = change_leader6_if_material_type_book()
 
-changed_records = json2dict(
-    get_latest_file(os.path.join(batch_modifications_dir, "changed"))
-)
+backup_records, change_records = change_leader7_if_cells()
 
+# apply changes via Koha API
 
-for record in enumerate(changed_records):
-    print(f"Current biblioitem: {record[1]["biblio_id"]}")
-    # check if items have been changed
-    backup_items = list(
-        filter(
-            lambda x: "952" in x.keys(), backup_records[record[0]]["record"]["fields"]
-        )
-    )
-    changed_items = list(
-        filter(lambda x: "952" in x.keys(), record[1]["record"]["fields"])
-    )
+#restore_backup_records_via_koha_api()
 
-    if backup_items != changed_items:
-        print(f"Items changed for biblio_id {record[1]['biblio_id']}")
-        items = get_items_from_biblio_json(record[1]["biblio_id"])
-        print(f"Old items: {items}")
-        new_items = deepcopy(items)
-        for item in enumerate(items):
-            for prop in item[1].keys():
-                query_prop = list(
-                    filter(
-                        lambda x: x["json_property"] == prop, items_json_marc_mapping
-                    )
-                )
-                if len(query_prop) > 0:
-                    marc_field = query_prop[0]["field"]
-                    marc_subfield = query_prop[0]["subfield"]
-                    # get new value from changed record
-                    new_value = list(
-                        filter(
-                            lambda x: marc_subfield in x.keys(),
-                            changed_items[item[0]]["952"]["subfields"],
-                        )
-                    )
-                    new_items[item[0]][prop] = new_value[0][marc_subfield]
-
-        print(f"New items: {new_items}")
-        input()
-
-
-        # putting modified items in record via API
-        # check integrity of the JSON file
-        print(f"JSON dump: {json.dumps(new_items)}")
-        ## NOT WORKING... for SOME OBSCURE JSONDecodeERROR
-        print(put_items_from_biblio_json(record[1]["biblio_id"],new_items))
-
-        input()
-
-    # changing biblioitem values 
-
-    print(put_biblionumber_marc(record[1]["biblio_id"], record[1]["record"]))
+#put_changes_via_koha_api(change_items=False,change_records=True)
 
 
 
-""" apply changes via Koha API
-for record in changed_records:
-    print(f"Current biblioitem: {record["biblio_id"]}")
-    print(put_biblionumber_marc(record["biblio_id"], record["record"]))
 
-"""
 
 
 # the API format marc-in-JSON is identical to record.as_marc()

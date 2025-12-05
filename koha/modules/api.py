@@ -200,16 +200,30 @@ def get_items_from_biblio_json(
 
 
 def put_items_from_biblio_json(
-    biblio_id, item_json
+    biblio_id, items_json
 ):  # updates the metadata of a given biblioitem's items. The item_json should be in json format
-    headers = {"Accept": "application/json", "Content-type": "application/json"}
-    response = my_session.put(
-        f"{base_url}/biblios/{str(biblio_id)}/items",
-        headers=headers,
-        data=json.dumps(
-            item_json
-        ),  # dumps serializes the Python dictionary into JSON string
-    )
+    headers = {"Accept": "application/json"}
+
+    # The KOHA API PUT for items is on the object level and not list level. I have first to know how many items are there.
+    num_items = len(items_json)
+    items = get_items_from_biblio_json(biblio_id)
+    for i in range(num_items):
+        #print(f"Current item: {i} \n {items_json[i]}")
+        response = my_session.put(
+            f"{base_url}/biblios/{str(biblio_id)}/items/{str(items[i]["item_id"])}",
+            headers=headers,
+            json=items_json[i],
+            timeout=30,
+        )
+        # Debugging
+        #print("REQUEST URL:", response.request.url)
+        #print("REQUEST HEADERS:", response.request.headers)
+        #print("REQUEST BODY (bytes):", response.request.body)
+        #print("STATUS:", response.status_code)
+        #print("RESPONSE HEADERS:", response.headers)
+        #print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
+        #input()
+
     return response.json()
 
 
