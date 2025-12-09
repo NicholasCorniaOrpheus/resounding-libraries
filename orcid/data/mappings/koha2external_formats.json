@@ -1,0 +1,39 @@
+{
+	"ARTI": {
+				"bibtex": "article",
+			  	"orcid": "journal-article",
+			  	"bibo_rdf": "",
+			  	"csl_json": "article"	 
+			  },
+    "BOOK": {
+				"bibtex": "article",
+			  	"orcid": "book",
+			  	"bibo_rdf": "",
+			  	"csl_json": "book"	 
+			  },
+    },
+    "CHAP": {
+				"bibtex": "incollection",
+			  	"orcid": "book-chapter",
+			  	"bibo_rdf": "",
+			  	"csl_json": "chapter"	 
+			  },
+	"DATA": {
+				"bibtex": "article",
+			  	"orcid": "data-set",
+			  	"bibo_rdf": "",
+			  	"csl_json": "dataset"	 
+			  },
+	"DISS": {
+				"bibtex": "article",
+			  	"orcid": "dissertation-thesis",
+			  	"bibo_rdf": "",
+			  	"csl_json": "thesis"	 
+			  },
+	"NONW": {
+				"bibtex": "article",
+			  	"orcid": ["conference-presentation","conference-poster","artistic-performance","online-resource","musical-composition","software","lecture-speech"],
+			  	"bibo_rdf": "",
+			  	"csl_json": ["performance","speech","software","event"]	 
+			  },
+}

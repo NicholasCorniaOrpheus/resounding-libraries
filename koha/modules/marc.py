@@ -179,6 +179,49 @@ def update_leader_from_catalogue_dict(cat_dict,filter_field,criterium,leader_pos
 	return backup_records,changed_records,problematic_leaders
 
 
+# NOT WORKING, the problematic MARC records have a badly formatted leader.
+def problematic_leaders_to_marc(records_filename,problematic_leaders,leader_position,value):
+
+	# setting up output
+	problematic_leaders_dict = []
+	print(f"Importing {records_filename} as MARC...")
+	f = open(records_filename, "rb")
+	reader = MARCReader(f)
+
+	for record in reader:
+		try:
+			current_record_id = str(record["001"])[6:]
+			print(current_record_id)
+			query = list(filter(lambda x: x["biblio_id"] == current_record_id,problematic_leaders) )
+			if len(query) >0 :
+				new_record = deepcopy(record)
+				# get leader value
+				leader = new_record.leader
+				# modify leader according to position using pyMARC build in functions
+
+				if leader_position == 6:
+					leader.type_of_record = value
+				elif leader_position == 7:
+					leader.bibliographic_level = value
+				else:
+					pass
+
+				print(f"Current record: {current_record_id}")
+				print(f"Old leader: {record.leader}")
+				print(f"New leader: {leader}")
+				
+				
+				problematic_leaders_dict.append({"biblio_id": current_record_id, "record":  new_record.as_dict()})
+
+				print(problematic_leaders_dict[-1])
+				input()
+
+		except KeyError:
+			pass
+
+	return
+
+
 
 			
 

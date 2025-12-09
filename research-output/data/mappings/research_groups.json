@@ -1,0 +1,43 @@
+[
+	{
+	"name": "Orpheus Instituut (Ghent, Belgium)",
+	"auth_id": 22507,
+	"type": "main_institution"	
+},
+{
+	"name": "Declassifying the Classics: Rhetoric, Technology, and Performance, 1750-1850",
+	"auth_id": 26931,
+	"type": "group"	
+},
+{
+	"name": "Resounding Libraries: Unfolding Archived Knowledge Through Artistic Research",
+	"auth_id": 26404,
+	"type": "group"	
+},
+{
+	"name": "MetamusicX:Transdisciplinary Encounters in and Beyond Music",
+	"auth_id": 26932,
+	"type": "group"	
+},
+{
+	"name": "Music, Thought and Technology",
+	"auth_id": 26934,
+	"type": "group"	
+},
+{
+	"name": "Performance and Embodiment",
+	"auth_id": 27066,
+	"type": "group"	
+},
+{
+	"name": "HIPEX: Historical Performance Practices of Experimental Music",
+	"auth_id": 26935,
+	"type": "group"	
+},
+{
+	"name": "Fragment: Accordances - Enactments",
+	"auth_id": 40145,
+	"type": "group"	
+}
+
+]

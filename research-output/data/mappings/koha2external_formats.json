@@ -1,0 +1,133 @@
+{
+	"ART": {
+				"koha": "article",
+				"bibtex": "article",
+			  	"orcid": "journal-article",
+			  	"bibo_rdf": "AcademicArticle",
+			  	"csl_json": "article",
+			  	"mapping": [
+			  		{
+			  		"field": "100",
+			  		"subfield": "a",
+			  		"format": "string",
+			  		"bibtex": "author",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "245",
+			  		"subfield": "a",
+			  		"format": "string",
+			  		"bibtex": "title",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "366",
+			  		"subfield": "b",
+			  		"format": "yyyy-mm-dd",
+			  		"bibtex": "year",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "520",
+			  		"subfield": "a",
+			  		"format": "string",
+			  		"bibtex": "abstract",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "773",
+			  		"subfield": "t",
+			  		"format": "string",
+			  		"bibtex": "journal",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "773",
+			  		"subfield": "x",
+			  		"format": "string",
+			  		"bibtex": "isbn",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "773",
+			  		"subfield": "g",
+			  		"format": "volume,issue,start_page-end_page",
+			  		"bibtex": "volume",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "773",
+			  		"subfield": "g",
+			  		"format": "volume,issue,start_page-end_page",
+			  		"bibtex": "pages",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "856",
+			  		"subfield": "u",
+			  		"format": "string",
+			  		"control_field": ["856","3"],
+			  		"control_value": "Universal Resource Locator",
+			  		"bibtex": "url",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	},
+			  	{
+			  		"field": "856",
+			  		"subfield": "u",
+			  		"format": "url",
+			  		"control_field": ["856","3"],
+			  		"control_value": "DOI",
+			  		"bibtex": "doi",
+			  		"csl_json": "",
+			  		"orcid": ""
+			  	}
+
+
+
+			  	]	 
+			  },
+    "BOO": {
+				"koha": "book",
+				"bibtex": "book",
+			  	"orcid": "book",
+			  	"bibo_rdf": "Book",
+			  	"csl_json": "book"	 
+			  },
+    "CHA": {
+				"koha": "chapter",
+				"bibtex": "incollection",
+			  	"orcid": "book-chapter",
+			  	"bibo_rdf": "Chapter",
+			  	"csl_json": "chapter"	 
+			  },
+	"DAT": {
+				"koha": "data-set",
+				"bibtex": "misc",
+			  	"orcid": "data-set",
+			  	"bibo_rdf": "",
+			  	"csl_json": "dataset"	 
+			  },
+	"DIS": {
+				"koha": "dissertation",
+				"bibtex": "phdthesis",
+			  	"orcid": "dissertation-thesis",
+			  	"bibo_rdf": "Thesis",
+			  	"csl_json": "thesis"	 
+			  },
+	"NWO": {
+				"koha": "non-written output",
+				"bibtex": "misc",
+			  	"orcid": ["conference-presentation","conference-poster","artistic-performance","online-resource","musical-composition","software","lecture-speech"],
+			  	"bibo_rdf": ["Performance","Event"],
+			  	"csl_json": ["performance","speech","software","event"]	 
+			  }
+}

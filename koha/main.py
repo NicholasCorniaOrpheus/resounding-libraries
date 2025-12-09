@@ -273,6 +273,24 @@ def change_leader7_if_cells():
     
     return backup_records, changed_records
 
+# NOT WORKING, the pyMARC function leader() cannot handle badly formatted leaders correctly.
+def update_problematic_leaders():
+
+    """
+    problematic_leaders = csv2dict(
+        get_latest_file(os.path.join(batch_modifications_dir, "problematic_leaders"))
+    )
+    """
+    print(f"Importing problematic leaders CSV {os.path.join(batch_modifications_dir, "problematic_leaders", "problematic_leaders_leader7_952$o_KTS1_C-2025-12-05.csv")}")
+    problematic_leaders = csv2dict(os.path.join(batch_modifications_dir, "problematic_leaders", "problematic_leaders_leader7_952$o_KTS1_C-2025-12-05.csv"))
+
+
+    print("Updating problematic leaders via Koha API...")
+
+    problematic_leaders_to_marc(get_latest_file(biblioitems_marc_dir),problematic_leaders,leader_position=7,value="m")
+
+
+
 
 def restore_backup_records_via_koha_api():
     print("Restoring backup records via Koha API...")
@@ -397,10 +415,6 @@ def put_changes_via_koha_api(change_items,change_records):
             print(f"Progress: {i} / {num_changes}")
             i += 1    
 
-
-
-
-
 def get_latest_changed_records():
     backup_records = json2dict(
         get_latest_file(os.path.join(batch_modifications_dir, "backup"))
@@ -414,6 +428,9 @@ def get_latest_changed_records():
 
 
 ### CODE ###
+
+print(get_biblionumber_marc(22713))
+input()
 
 print("Would you like to import a new catalogue dictionary? y/n")
 
@@ -452,7 +469,11 @@ else:
 
 #backup_records, changed_records = change_leader6_if_material_type_book()
 
-backup_records, change_records = change_leader7_if_cells()
+#backup_records, change_records = change_leader7_if_cells()
+
+# leader scripts
+
+update_problematic_leaders()
 
 # apply changes via Koha API
 
