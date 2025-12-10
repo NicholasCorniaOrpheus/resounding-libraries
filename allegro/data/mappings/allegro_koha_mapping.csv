@@ -1,0 +1,38 @@
+allegro,koha,control_field,control_value,level,description
+00,952$e,,,item,"Ex Libris TK=""Ton Koopman"""
+20,245$a,,,record,title
+22,,,,,title of main publication / book title
+24,245$a,,,record,title (music)
+25,240$r,,,record,key (toonsoort)
+31,650$a,,,record,keyword
+40,700$a,700$4,edt,record,editor
+41,700$a,,,record,trefwoord persoon
+42,700$a,700$4,aut,record,author :
+52,,,,,alternative name
+56,110$a,700$4,cmp,record,composer ;
+57,,700$4,att,record,attributed composer?
+70,260$b,,,record,publisher facs
+71,942$c,,,record,"category: OD=""oude druk"", MS=""manuscript"", "
+72,260$a,,,record,place of publ facsimile
+73,260$c,,,record,year of publication facsimile
+74,260$a,,,record,place of publication
+75,260$b,,,record,publisher
+76,260$c,,,record,year of publication
+77,300$a,,add pages,record,pages welke paginas het artikel staat
+83,590$a,,,record,original version name
+85,490$a,,,record,series title
+89,,,,,opus number?
+90,952$i,,,item,ex libris shelfmark -> item call number
+331,059$a,,,record,instrumentation 
+332,650$a,,,record,instrumentation group
+890,,,,,opus nr
+20b,245$b,,,record,subtitle
+23f,245$a,,,record,title
+24b,245$b,,,record,subtitle music
+70b,490$a,,,record,title journal
+76b,952$3,,,item,year of publication (jaargang)
+81a,952$y,,,item,material type
+85a,952$z,,,item,verzamelmap naam
+98Z,300$b,,,item,comment 
+99e,,,,,wanneer record laatst bewerkt is
+99n,,,,,wanneer record gemaakt is
