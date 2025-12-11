@@ -1,0 +1,805 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339203,
+  "library_identifier": "20124509",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_41",
+      "type": "keyword",
+      "text": [
+        "Lully :"
+      ]
+    },
+    {
+      "region_id": "r_85",
+      "type": "keyword",
+      "text": [
+        "Si face : "
+      ]
+    },
+    {
+      "region_id": "r_95",
+      "type": "keyword",
+      "text": [
+        "J. Peri : "
+      ]
+    },
+    {
+      "region_id": "r_97",
+      "type": "keyword",
+      "text": [
+        "L. Riccoboni :"
+      ]
+    },
+    {
+      "region_id": "r_93",
+      "type": "keyword",
+      "text": [
+        "E. d. Cavallieri :"
+      ]
+    },
+    {
+      "region_id": "r_96",
+      "type": "pages-keyword",
+      "text": [
+        "32,"
+      ]
+    },
+    {
+      "region_id": "r_91",
+      "type": "keyword",
+      "text": [
+        "C. Monteverdi : "
+      ]
+    },
+    {
+      "region_id": "r_89",
+      "type": "keyword",
+      "text": [
+        "A. Scarlatti : "
+      ]
+    },
+    {
+      "region_id": "r_87",
+      "type": "keyword",
+      "text": [
+        "Bononcini : "
+      ]
+    },
+    {
+      "region_id": "r_83",
+      "type": "keyword",
+      "text": [
+        "Cuzzoni :"
+      ]
+    },
+    {
+      "region_id": "r_65",
+      "type": "keyword",
+      "text": [
+        "Senesino :"
+      ]
+    },
+    {
+      "region_id": "r_59",
+      "type": "keyword",
+      "text": [
+        "Faustina :"
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "keyword",
+      "text": [
+        "Farinelli :"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "keyword",
+      "text": [
+        "Santa Stella :"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "keyword",
+      "text": [
+        "Shakespeare :"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "pages-keyword",
+      "text": [
+        "108"
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "keyword",
+      "text": [
+        "Vondel :"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "keyword",
+      "text": [
+        "P. C. Hooft :"
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "pages-keyword",
+      "text": [
+        "147"
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "pages-keyword",
+      "text": [
+        "145, 146, 147, 148"
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "pages-keyword",
+      "text": [
+        "38"
+      ]
+    },
+    {
+      "region_id": "r_98",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_94",
+      "type": "pages-keyword",
+      "text": [
+        "32"
+      ]
+    },
+    {
+      "region_id": "r_92",
+      "type": "pages-keyword",
+      "text": [
+        "33"
+      ]
+    },
+    {
+      "region_id": "r_90",
+      "type": "pages-keyword",
+      "text": [
+        "37"
+      ]
+    },
+    {
+      "region_id": "r_88",
+      "type": "pages-keyword",
+      "text": [
+        "37, 39"
+      ]
+    },
+    {
+      "region_id": "r_84",
+      "type": "pages-keyword",
+      "text": [
+        "39, 41"
+      ]
+    },
+    {
+      "region_id": "r_68",
+      "type": "pages-keyword",
+      "text": [
+        "39"
+      ]
+    },
+    {
+      "region_id": "r_62",
+      "type": "pages-keyword",
+      "text": [
+        "39, 40, 41"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "pages-keyword",
+      "text": [
+        "40, 41"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "pages-keyword",
+      "text": [
+        "39, 41"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "pages-keyword",
+      "text": [
+        "123, 124, 127, 128"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "shelfmark",
+      "text": [
+        "13B4"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "gestiek"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        "tekstuitspraak :"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "orkestbak :"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "keyword",
+      "text": [
+        "dansen :"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "keyword",
+      "text": [
+        "orkestopstelling bij opera :"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "pages-keyword",
+      "text": [
+        "110, 115"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "herhalen (in ander seizoen bijv) v. opera :"
+      ]
+    },
+    {
+      "region_id": "r_75",
+      "type": "pages-keyword",
+      "text": [
+        "40, 250."
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "pages-keyword",
+      "text": [
+        "103, 154"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "keyword",
+      "text": [
+        "opera in Hamburg :"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "keyword",
+      "text": [
+        "ital. invl. in Oostenrijk :"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "keyword",
+      "text": [
+        "handstandjes etc. :"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "artikulatie :"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "afwisseling :"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "248"
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "pages-keyword",
+      "text": [
+        "103, 154"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        "42, 43, 108"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "pages-keyword",
+      "text": [
+        "168, 169"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "243-273"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "243-273"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "261"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "keyword",
+      "text": [
+        "publiek :"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "keyword",
+      "text": [
+        "theaterseizoen :"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "toegangsprijs :"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "keyword",
+      "text": [
+        "oud-nieuw :"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "keyword",
+      "text": [
+        "Spaanse invl in Italië :o",
+        "21,"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "keyword",
+      "text": [
+        "franse invl. in Italië :"
+      ]
+    },
+    {
+      "region_id": "r_57",
+      "type": "keyword",
+      "text": [
+        "comedia dell' arte :"
+      ]
+    },
+    {
+      "region_id": "r_66",
+      "type": "keyword",
+      "text": [
+        "emoties :"
+      ]
+    },
+    {
+      "region_id": "r_69",
+      "type": "keyword",
+      "text": [
+        "Castraten :"
+      ]
+    },
+    {
+      "region_id": "r_71",
+      "type": "keyword",
+      "text": [
+        "zangeres :"
+      ]
+    },
+    {
+      "region_id": "r_73",
+      "type": "keyword",
+      "text": [
+        "salaris :"
+      ]
+    },
+    {
+      "region_id": "r_76",
+      "type": "keyword",
+      "text": [
+        "Copielimitatie :"
+      ]
+    },
+    {
+      "region_id": "r_63",
+      "type": "keyword",
+      "text": [
+        "mise-en-scene :"
+      ]
+    },
+    {
+      "region_id": "r_60",
+      "type": "keyword",
+      "text": [
+        "frans-italiaans :"
+      ]
+    },
+    {
+      "region_id": "r_67",
+      "type": "pages-keyword",
+      "text": [
+        "37, 38, 256"
+      ]
+    },
+    {
+      "region_id": "r_72",
+      "type": "pages-keyword",
+      "text": [
+        "39"
+      ]
+    },
+    {
+      "region_id": "r_74",
+      "type": "pages-keyword",
+      "text": [
+        "39, 41"
+      ]
+    },
+    {
+      "region_id": "r_70",
+      "type": "pages-keyword",
+      "text": [
+        "38"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "pages-keyword",
+      "text": [
+        "16, 17, 19, 61, 102, 154, 155"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "17, 19, 41, 42"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "pages-keyword",
+      "text": [
+        "21,"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "pages-keyword",
+      "text": [
+        "22, 23, 62"
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "pages-keyword",
+      "text": [
+        "27, 29, 162"
+      ]
+    },
+    {
+      "region_id": "r_61",
+      "type": "pages-keyword",
+      "text": [
+        "27, 28, 29, 108, 110"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_317",
+      "type": "shelfmark",
+      "text": [
+        "15B4"
+      ]
+    },
+    {
+      "region_id": "r_64",
+      "type": "pages-keyword",
+      "text": [
+        "35, 36, 37, 41, 50, 51, 100, 101, 108, 109, 110, 145, 154, 156"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "pages-keyword",
+      "text": [
+        "20, 21, 37, 38, 39, 43"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "18, 19, 20, 41, 105, 106, 110, 154"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_97",
+      "target": "r_98"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_95",
+      "target": "r_96"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_93",
+      "target": "r_94"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_91",
+      "target": "r_92"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_89",
+      "target": "r_90"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_87",
+      "target": "r_88"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_85",
+      "target": "r_86"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_83",
+      "target": "r_84"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_65",
+      "target": "r_68"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_59",
+      "target": "r_62"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_53",
+      "target": "r_56"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_47",
+      "target": "r_50"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_41",
+      "target": "r_44"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_35",
+      "target": "r_38"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_31",
+      "target": "r_32"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_29",
+      "target": "r_30"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_39",
+      "target": "r_40"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_42",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_48",
+      "target": "r_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_51",
+      "target": "r_52"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_54",
+      "target": "r_55"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_57",
+      "target": "r_58"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_60",
+      "target": "r_61"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_63",
+      "target": "r_64"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_66",
+      "target": "r_67"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_69",
+      "target": "r_70"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_71",
+      "target": "r_72"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_73",
+      "target": "r_74"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_76",
+      "target": "r_75"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_33",
+      "target": "r_34"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_25",
+      "target": "r_26"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_24",
+      "target": "r_23"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_21",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_16",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    }
+  ]
+}

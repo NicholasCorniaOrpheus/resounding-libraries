@@ -1,0 +1,248 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339188,
+  "library_identifier": "20126411",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "C. Porta :"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "Astorga :"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "keyword",
+      "text": [
+        "Zarlino :"
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "keyword",
+      "text": [
+        "Zacconi :"
+      ]
+    },
+    {
+      "region_id": "r_71",
+      "type": "keyword",
+      "text": [
+        "Keppler :"
+      ]
+    },
+    {
+      "region_id": "r_81",
+      "type": "keyword",
+      "text": [
+        "Albinoni :"
+      ]
+    },
+    {
+      "region_id": "r_91",
+      "type": "keyword",
+      "text": [
+        "Polaroli :"
+      ]
+    },
+    {
+      "region_id": "r_101",
+      "type": "keyword",
+      "text": [
+        "C. Dreyer :"
+      ]
+    },
+    {
+      "region_id": "r_145",
+      "type": "keyword",
+      "text": [
+        "G. Motz :"
+      ]
+    },
+    {
+      "region_id": "r_173",
+      "type": "keyword",
+      "text": [
+        "J. G. Ziegler : "
+      ]
+    },
+    {
+      "region_id": "r_190",
+      "type": "keyword",
+      "text": [
+        "C. A. Heumann :"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "pages-keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "pages-keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_63",
+      "type": "pages-keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_76",
+      "type": "pages-keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "pages-keyword",
+      "text": [
+        "348"
+      ]
+    },
+    {
+      "region_id": "r_96",
+      "type": "pages-keyword",
+      "text": [
+        "348"
+      ]
+    },
+    {
+      "region_id": "r_123",
+      "type": "keyword",
+      "text": [
+        "C. F. Houdemann :"
+      ]
+    },
+    {
+      "region_id": "r_150",
+      "type": "pages-keyword",
+      "text": [
+        "372"
+      ]
+    },
+    {
+      "region_id": "r_178",
+      "type": "pages-keyword",
+      "text": [
+        "376"
+      ]
+    },
+    {
+      "region_id": "r_106",
+      "type": "pages-keyword",
+      "text": [
+        "349"
+      ]
+    },
+    {
+      "region_id": "r_128",
+      "type": "pages-keyword",
+      "text": [
+        "350, 351"
+      ]
+    },
+    {
+      "region_id": "r_195",
+      "type": "pages-keyword",
+      "text": [
+        "375, 376"
+      ]
+    },
+    {
+      "region_id": "r_310",
+      "type": "shelfmark",
+      "text": [
+        "Ex Libris",
+        "Ton Koopman",
+        "13I01"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_33"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_48",
+      "target": "r_53"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_58",
+      "target": "r_63"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_71",
+      "target": "r_76"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_81",
+      "target": "r_86"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_91",
+      "target": "r_96"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_101",
+      "target": "r_106"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_123",
+      "target": "r_128"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_145",
+      "target": "r_150"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_173",
+      "target": "r_178"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_190",
+      "target": "r_195"
+    }
+  ]
+}

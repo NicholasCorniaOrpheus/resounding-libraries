@@ -1,0 +1,132 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339198,
+  "library_identifier": "20124774",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "347"
+      ]
+    },
+    {
+      "region_id": "r_57",
+      "type": "keyword",
+      "text": [
+        "vingerzetting :"
+      ]
+    },
+    {
+      "region_id": "r_67",
+      "type": "keyword",
+      "text": [
+        "boekprijs :"
+      ]
+    },
+    {
+      "region_id": "r_82",
+      "type": "pages-keyword",
+      "text": [
+        "77-"
+      ]
+    },
+    {
+      "region_id": "r_94",
+      "type": "keyword",
+      "text": [
+        "S. De brossard :"
+      ]
+    },
+    {
+      "region_id": "r_116",
+      "type": "keyword",
+      "text": [
+        "kwint/oktaafparallellen : "
+      ]
+    },
+    {
+      "region_id": "r_77",
+      "type": "keyword",
+      "text": [
+        "bc :"
+      ]
+    },
+    {
+      "region_id": "r_62",
+      "type": "pages-keyword",
+      "text": [
+        "4, 7-13"
+      ]
+    },
+    {
+      "region_id": "r_72",
+      "type": "pages-keyword",
+      "text": [
+        " titelblad (2x), α"
+      ]
+    },
+    {
+      "region_id": "r_99",
+      "type": "pages-keyword",
+      "text": [
+        "76, 81-einde ."
+      ]
+    },
+    {
+      "region_id": "r_121",
+      "type": "pages-keyword",
+      "text": [
+        "77, 81"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_282",
+      "type": "shelfmark",
+      "text": [
+        "14F40"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_52"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_57",
+      "target": "r_62"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_67",
+      "target": "r_72"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_77",
+      "target": "r_82"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_94",
+      "target": "r_99"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_116",
+      "target": "r_121"
+    }
+  ]
+}

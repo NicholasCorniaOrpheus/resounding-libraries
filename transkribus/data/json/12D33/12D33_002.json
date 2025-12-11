@@ -1,0 +1,400 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339185,
+  "library_identifier": "12D33",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "tr_1",
+      "type": "shelfmark",
+      "text": [
+        "Ex Libris",
+        "Ton Koopman",
+        "12D33"
+      ]
+    },
+    {
+      "region_id": "r_82",
+      "type": "keyword",
+      "text": [
+        "Sampson lute book"
+      ]
+    },
+    {
+      "region_id": "r_111",
+      "type": "keyword",
+      "text": [
+        "bibliotheek :"
+      ]
+    },
+    {
+      "region_id": "r_113",
+      "type": "keyword",
+      "text": [
+        "klavecimbel (Eng, 16e)"
+      ]
+    },
+    {
+      "region_id": "r_115",
+      "type": "keyword",
+      "text": [
+        "orpharion :"
+      ]
+    },
+    {
+      "region_id": "r_118",
+      "type": "pages-keyword",
+      "text": [
+        "B"
+      ]
+    },
+    {
+      "region_id": "r_120",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_121",
+      "type": "keyword",
+      "text": [
+        "muziek voor 2 luiten :"
+      ]
+    },
+    {
+      "region_id": "r_117",
+      "type": "keyword",
+      "text": [
+        "tr. etc. :"
+      ]
+    },
+    {
+      "region_id": "r_119",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "r_123",
+      "type": "keyword",
+      "text": [
+        "J. Dowland :"
+      ]
+    },
+    {
+      "region_id": "r_125",
+      "type": "keyword",
+      "text": [
+        "bataglia :"
+      ]
+    },
+    {
+      "region_id": "r_127",
+      "type": "keyword",
+      "text": [
+        "Cister :"
+      ]
+    },
+    {
+      "region_id": "r_129",
+      "type": "keyword",
+      "text": [
+        "J. Packington :"
+      ]
+    },
+    {
+      "region_id": "r_133",
+      "type": "keyword",
+      "text": [
+        "Pilkington :"
+      ]
+    },
+    {
+      "region_id": "r_135",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "r_137",
+      "type": "keyword",
+      "text": [
+        "dwarsfluit :"
+      ]
+    },
+    {
+      "region_id": "r_139",
+      "type": "keyword",
+      "text": [
+        "T. Robinson :"
+      ]
+    },
+    {
+      "region_id": "r_141",
+      "type": "keyword",
+      "text": [
+        "lyra viol :"
+      ]
+    },
+    {
+      "region_id": "r_143",
+      "type": "keyword",
+      "text": [
+        "ad lib. bezettig :"
+      ]
+    },
+    {
+      "region_id": "r_145",
+      "type": "keyword",
+      "text": [
+        "mandora :"
+      ]
+    },
+    {
+      "region_id": "r_131",
+      "type": "keyword",
+      "text": [
+        "klavecimbel (Eng 17e) :"
+      ]
+    },
+    {
+      "region_id": "r_134",
+      "type": "pages-keyword",
+      "text": [
+        "E"
+      ]
+    },
+    {
+      "region_id": "r_136",
+      "type": "pages-keyword",
+      "text": [
+        "E"
+      ]
+    },
+    {
+      "region_id": "r_138",
+      "type": "pages-keyword",
+      "text": [
+        "D"
+      ]
+    },
+    {
+      "region_id": "r_142",
+      "type": "pages-keyword",
+      "text": [
+        "G"
+      ]
+    },
+    {
+      "region_id": "r_146",
+      "type": "pages-keyword",
+      "text": [
+        "G"
+      ]
+    },
+    {
+      "region_id": "r_144",
+      "type": "pages-keyword",
+      "text": [
+        "G"
+      ]
+    },
+    {
+      "region_id": "r_140",
+      "type": "pages-keyword",
+      "text": [
+        "E"
+      ]
+    },
+    {
+      "region_id": "r_110",
+      "type": "keyword",
+      "text": [
+        "Tollemache lute mss"
+      ]
+    },
+    {
+      "region_id": "r_112",
+      "type": "pages-keyword",
+      "text": [
+        "A"
+      ]
+    },
+    {
+      "region_id": "r_116",
+      "type": "pages-keyword",
+      "text": [
+        "B"
+      ]
+    },
+    {
+      "region_id": "r_114",
+      "type": "pages-keyword",
+      "text": [
+        "13"
+      ]
+    },
+    {
+      "region_id": "r_147",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_122",
+      "type": "pages-keyword",
+      "text": [
+        "C, D, E, G"
+      ]
+    },
+    {
+      "region_id": "r_126",
+      "type": "pages-keyword",
+      "text": [
+        "C, D"
+      ]
+    },
+    {
+      "region_id": "r_128",
+      "type": "pages-keyword",
+      "text": [
+        "D, E, G"
+      ]
+    },
+    {
+      "region_id": "r_130",
+      "type": "pages-keyword",
+      "text": [
+        "D"
+      ]
+    },
+    {
+      "region_id": "r_132",
+      "type": "pages-keyword",
+      "text": [
+        "E"
+      ]
+    },
+    {
+      "region_id": "r_124",
+      "type": "pages-keyword",
+      "text": [
+        "C, D, E"
+      ]
+    },
+    {
+      "region_id": "tr_3",
+      "type": "",
+      "text": [
+        "Ton koopman"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_145",
+      "target": "r_146"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_143",
+      "target": "r_144"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_141",
+      "target": "r_142"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_139",
+      "target": "r_140"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_137",
+      "target": "r_138"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_135",
+      "target": "r_136"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_133",
+      "target": "r_134"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_131",
+      "target": "r_132"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_129",
+      "target": "r_130"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_127",
+      "target": "r_128"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_125",
+      "target": "r_126"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_123",
+      "target": "r_124"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_121",
+      "target": "r_122"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_119",
+      "target": "r_120"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_117",
+      "target": "r_118"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_115",
+      "target": "r_116"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_113",
+      "target": "r_114"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_111",
+      "target": "r_112"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_110",
+      "target": "r_147"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_82",
+      "target": "r_147"
+    }
+  ]
+}

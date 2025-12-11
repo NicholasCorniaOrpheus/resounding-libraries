@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-12-12T15:27:27.928+01:00</Created>
+        <LastChange>2025-08-25T12:17:38.478+02:00</LastChange>
+        <TranskribusMetadata docId="1702668" pageId="62339200" pageNr="13" status="GT"/>
+    </Metadata>
+    <Page imageFilename="20124656_004.jpg" imageWidth="2024" imageHeight="2647">
+        <TextRegion id="r_28" custom="readingOrder {index:0;} structure {type:keyword;}">
+            <Coords points="859,894 1352,855 1558,856 1558,894 1163,932 859,974"/>
+            <TextLine id="l" custom="readingOrder {index:0;} structure {type:keyword;}">
+                <Coords points="864,974 1057,942 1183,925 1292,924 1292,894 1180,895 1053,912 859,944"/>
+                <Baseline points="864,974 1057,942 1183,925 1490,897 1547,887"/>
+                <TextEquiv>
+                    <Unicode>oprichter muz. theorie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_64" custom="readingOrder {index:1;} structure {type:keyword;}">
+            <Coords points="1066,1007 1444,983 1452,1052 1252,1072 1066,1080"/>
+            <TextLine id="l_63" custom="readingOrder {index:0;} structure {type:keyword;}">
+                <Coords points="1066,1061 1167,1080 1439,1037 1434,1007 1167,1050 1071,1031"/>
+                <Baseline points="1066,1061 1167,1080 1439,1037"/>
+                <TextEquiv>
+                    <Unicode>hexachorden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_72" custom="readingOrder {index:2;} structure {type:keyword;}">
+            <Coords points="1094,1078 1429,1060 1433,1126 1094,1149"/>
+            <TextLine id="l_71" custom="readingOrder {index:0;} structure {type:keyword;}">
+                <Coords points="1096,1149 1264,1139 1426,1108 1421,1078 1260,1109 1094,1119"/>
+                <Baseline points="1096,1149 1264,1139 1426,1108"/>
+                <TextEquiv>
+                    <Unicode>solmisatie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_56" custom="readingOrder {index:3;} structure {type:keyword;}">
+            <Coords points="993,959 1172,933 1307,934 1404,911 1573,912 1667,879 1799,848 1824,946 1002,1011"/>
+            <TextLine id="l_55" custom="readingOrder {index:0;} structure {type:keyword;}">
+                <Coords points="1005,1011 1166,993 1304,977 1442,971 1627,949 1806,908 1799,879 1622,920 1439,941 1302,947 1163,963 1002,982"/>
+                <Baseline points="1005,1011 1166,993 1304,977 1442,971 1627,949 1806,908"/>
+                <TextEquiv>
+                    <Unicode>Boethius kerktoonsoorten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:4;}">
+            <Coords points="1336,276 1887,276 1887,661 1336,661"/>
+            <TextLine id="l_76" custom="readingOrder {index:0;}">
+                <Coords points="1362,449 1757,342 1749,313 1354,420"/>
+                <Baseline points="1362,449 1757,342"/>
+                <TextEquiv>
+                    <Unicode>hogeschool</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_80" custom="readingOrder {index:1;}">
+                <Coords points="1447,531 1708,488 1703,458 1443,501"/>
+                <Baseline points="1447,531 1708,488"/>
+                <TextEquiv>
+                    <Unicode>voor b.c.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_84" custom="readingOrder {index:2;}">
+                <Coords points="1476,607 1853,585 1851,555 1475,577"/>
+                <Baseline points="1476,607 1853,585"/>
+                <TextEquiv>
+                    <Unicode>verg. blz 318</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

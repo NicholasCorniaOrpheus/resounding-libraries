@@ -1,0 +1,47 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339200,
+  "library_identifier": "20124656",
+  "page_number": "004",
+  "regions": [
+    {
+      "region_id": "r_28",
+      "type": "keyword",
+      "text": [
+        "oprichter muz. theorie"
+      ]
+    },
+    {
+      "region_id": "r_64",
+      "type": "keyword",
+      "text": [
+        "hexachorden"
+      ]
+    },
+    {
+      "region_id": "r_72",
+      "type": "keyword",
+      "text": [
+        "solmisatie"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "keyword",
+      "text": [
+        "Boethius kerktoonsoorten"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "hogeschool",
+        "voor b.c.",
+        "verg. blz 318"
+      ]
+    }
+  ],
+  "relations": []
+}

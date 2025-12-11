@@ -1,0 +1,220 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339193,
+  "library_identifier": "20126251",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "Hamburg : opera :"
+      ]
+    },
+    {
+      "region_id": "r_302",
+      "type": "pages-keyword",
+      "text": [
+        "85, 86"
+      ]
+    },
+    {
+      "region_id": "r_464",
+      "type": "keyword",
+      "text": [
+        "J. C. F. Rellstalo :"
+      ]
+    },
+    {
+      "region_id": "r_466",
+      "type": "keyword",
+      "text": [
+        "Sacchini :"
+      ]
+    },
+    {
+      "region_id": "r_467",
+      "type": "keyword",
+      "text": [
+        "Buononcini :"
+      ]
+    },
+    {
+      "region_id": "r_468",
+      "type": "keyword",
+      "text": [
+        "Porpora :"
+      ]
+    },
+    {
+      "region_id": "r_469",
+      "type": "keyword",
+      "text": [
+        "Kant :"
+      ]
+    },
+    {
+      "region_id": "r_470",
+      "type": "keyword",
+      "text": [
+        "Pergolesi :"
+      ]
+    },
+    {
+      "region_id": "r_482",
+      "type": "pages-keyword",
+      "text": [
+        "oa"
+      ]
+    },
+    {
+      "region_id": "r_472",
+      "type": "keyword",
+      "text": [
+        "Gerber :"
+      ]
+    },
+    {
+      "region_id": "r_471",
+      "type": "keyword",
+      "text": [
+        "Clérambault :"
+      ]
+    },
+    {
+      "region_id": "r_477",
+      "type": "pages-keyword",
+      "text": [
+        "53, 54, 69"
+      ]
+    },
+    {
+      "region_id": "r_479",
+      "type": "pages-keyword",
+      "text": [
+        "47, 48, 68, 69"
+      ]
+    },
+    {
+      "region_id": "r_481",
+      "type": "pages-keyword",
+      "text": [
+        "38, 39, 63"
+      ]
+    },
+    {
+      "region_id": "r_1936",
+      "type": "",
+      "text": [
+        "1782 - 1791"
+      ]
+    },
+    {
+      "region_id": "r_480",
+      "type": "pages-keyword",
+      "text": [
+        "40, 64"
+      ]
+    },
+    {
+      "region_id": "r_478",
+      "type": "pages-keyword",
+      "text": [
+        "50, 51, 69"
+      ]
+    },
+    {
+      "region_id": "r_476",
+      "type": "pages-keyword",
+      "text": [
+        "87-89"
+      ]
+    },
+    {
+      "region_id": "r_473",
+      "type": "pages-keyword",
+      "text": [
+        "125"
+      ]
+    },
+    {
+      "region_id": "r_475",
+      "type": "pages-keyword",
+      "text": [
+        "99-100, 122-123"
+      ]
+    },
+    {
+      "region_id": "r_474",
+      "type": "pages-keyword",
+      "text": [
+        "102-104, 123"
+      ]
+    },
+    {
+      "region_id": "r_465",
+      "type": "keyword",
+      "text": [
+        "Fr. de Grote :"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_464",
+      "target": "r_481"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_465",
+      "target": "r_480"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_466",
+      "target": "r_479"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_467",
+      "target": "r_478"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_468",
+      "target": "r_477"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_469",
+      "target": "r_482"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_469",
+      "target": "r_476"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_470",
+      "target": "r_475"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_471",
+      "target": "r_474"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_472",
+      "target": "r_473"
+    },
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_302"
+    }
+  ]
+}

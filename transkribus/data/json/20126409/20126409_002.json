@@ -1,0 +1,559 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339190,
+  "library_identifier": "20126409",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "tr_1743684445",
+      "type": "keyword",
+      "text": [
+        "verklaring v. titel :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684471",
+      "type": "pages-keyword",
+      "text": [
+        "3, 4"
+      ]
+    },
+    {
+      "region_id": "tr_1743684486",
+      "type": "keyword",
+      "text": [
+        "M. Agricola :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684447",
+      "type": "keyword",
+      "text": [
+        "klavier = .."
+      ]
+    },
+    {
+      "region_id": "tr_1743684495",
+      "type": "pages-keyword",
+      "text": [
+        "8"
+      ]
+    },
+    {
+      "region_id": "tr_1743684493",
+      "type": "keyword",
+      "text": [
+        "Graun :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684494",
+      "type": "pages-keyword",
+      "text": [
+        "81, 82, 83"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "pages-keyword",
+      "text": [
+        "17, 18"
+      ]
+    },
+    {
+      "region_id": "tr_1743684463",
+      "type": "keyword",
+      "text": [
+        "violone :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684467",
+      "type": "pages-keyword",
+      "text": [
+        "8"
+      ]
+    },
+    {
+      "region_id": "tr_1743684482",
+      "type": "keyword",
+      "text": [
+        "cello :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684484",
+      "type": "pages-keyword",
+      "text": [
+        "8"
+      ]
+    },
+    {
+      "region_id": "tr_1743684455",
+      "type": "keyword",
+      "text": [
+        "Cuzzoni :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684473",
+      "type": "pages-keyword",
+      "text": [
+        "83"
+      ]
+    },
+    {
+      "region_id": "tr_1743684469",
+      "type": "keyword",
+      "text": [
+        "doedelzak :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684492",
+      "type": "pages-keyword",
+      "text": [
+        "9"
+      ]
+    },
+    {
+      "region_id": "tr_1743684448",
+      "type": "keyword",
+      "text": [
+        "Lulli :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684487",
+      "type": "pages-keyword",
+      "text": [
+        "94, 96"
+      ]
+    },
+    {
+      "region_id": "tr_1743684479",
+      "type": "keyword",
+      "text": [
+        "draailier :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684472",
+      "type": "pages-keyword",
+      "text": [
+        "9, 10"
+      ]
+    },
+    {
+      "region_id": "tr_1743684456",
+      "type": "keyword",
+      "text": [
+        "Campra :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684483",
+      "type": "pages-keyword",
+      "text": [
+        "94"
+      ]
+    },
+    {
+      "region_id": "tr_1743684466",
+      "type": "keyword",
+      "text": [
+        "musette :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684461",
+      "type": "pages-keyword",
+      "text": [
+        "9, 10"
+      ]
+    },
+    {
+      "region_id": "tr_1743684451",
+      "type": "keyword",
+      "text": [
+        "Rameau :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684462",
+      "type": "pages-keyword",
+      "text": [
+        "94, 95, 96"
+      ]
+    },
+    {
+      "region_id": "r_143",
+      "type": "pages-keyword",
+      "text": [
+        "95"
+      ]
+    },
+    {
+      "region_id": "r_81",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "tr_1743684443",
+      "type": "keyword",
+      "text": [
+        "bourrée :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684450",
+      "type": "pages-keyword",
+      "text": [
+        "10, 11"
+      ]
+    },
+    {
+      "region_id": "tr_1743684476",
+      "type": "keyword",
+      "text": [
+        "Mondonville :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684452",
+      "type": "keyword",
+      "text": [
+        "gavotte :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684485",
+      "type": "pages-keyword",
+      "text": [
+        "11"
+      ]
+    },
+    {
+      "region_id": "tr_1743684470",
+      "type": "keyword",
+      "text": [
+        "Telemann :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684453",
+      "type": "pages-keyword",
+      "text": [
+        "97"
+      ]
+    },
+    {
+      "region_id": "tr_1743684449",
+      "type": "keyword",
+      "text": [
+        "frans-italiaans (in ME) :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684454",
+      "type": "pages-keyword",
+      "text": [
+        "89, 90"
+      ]
+    },
+    {
+      "region_id": "tr_1743684468",
+      "type": "keyword",
+      "text": [
+        "Forqueray :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684459",
+      "type": "pages-keyword",
+      "text": [
+        "98"
+      ]
+    },
+    {
+      "region_id": "r_238",
+      "type": "pages-keyword",
+      "text": [
+        "98"
+      ]
+    },
+    {
+      "region_id": "tr_1743684480",
+      "type": "keyword",
+      "text": [
+        "diminutie :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684488",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "\" (instr) :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684491",
+      "type": "pages-keyword",
+      "text": [
+        "90"
+      ]
+    },
+    {
+      "region_id": "tr_1743684457",
+      "type": "keyword",
+      "text": [
+        "J. S. Bach : Kunst der Fuge :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684446",
+      "type": "keyword",
+      "text": [
+        "continuo :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684465",
+      "type": "pages-keyword",
+      "text": [
+        "98, 99"
+      ]
+    },
+    {
+      "region_id": "tr_1743684481",
+      "type": "keyword",
+      "text": [
+        "Sorge :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684460",
+      "type": "pages-keyword",
+      "text": [
+        "99"
+      ]
+    },
+    {
+      "region_id": "tr_1743684444",
+      "type": "keyword",
+      "text": [
+        "Salaris :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684458",
+      "type": "pages-keyword",
+      "text": [
+        "99, 100"
+      ]
+    },
+    {
+      "region_id": "tr_1743684442",
+      "type": "keyword",
+      "text": [
+        "castraten :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684464",
+      "type": "pages-keyword",
+      "text": [
+        "100, 101"
+      ]
+    },
+    {
+      "region_id": "tr_1743684478",
+      "type": "pages-keyword",
+      "text": [
+        "98"
+      ]
+    },
+    {
+      "region_id": "tr_1743684475",
+      "type": "pages-keyword",
+      "text": [
+        "98"
+      ]
+    },
+    {
+      "region_id": "tr_1743684477",
+      "type": "keyword",
+      "text": [
+        "Agrell :"
+      ]
+    },
+    {
+      "region_id": "tr_1743684489",
+      "type": "pages-keyword",
+      "text": [
+        "99"
+      ]
+    },
+    {
+      "region_id": "tr_1743684490",
+      "type": "shelfmark",
+      "text": [
+        "Exlibris",
+        "Ton Koopman",
+        "13I03"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "tr_1743684442",
+      "target": "l_59"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684444",
+      "target": "tr_1743684458"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684446",
+      "target": "tr_1743684465"
+    },
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "tr_1743684475"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684488",
+      "target": "tr_1743684478"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684480",
+      "target": "tr_1743684491"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684449",
+      "target": "tr_1743684454"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684452",
+      "target": "tr_1743684485"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684443",
+      "target": "tr_1743684450"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684466",
+      "target": "tr_1743684461"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684479",
+      "target": "tr_1743684472"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684469",
+      "target": "tr_1743684492"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684482",
+      "target": "tr_1743684484"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684463",
+      "target": "tr_1743684467"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684447",
+      "target": "tr_1743684495"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684445",
+      "target": "l_57"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684486",
+      "target": "r_21"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684493",
+      "target": "l_71"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684455",
+      "target": "tr_1743684473"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684448",
+      "target": "tr_1743684487"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684456",
+      "target": "tr_1743684483"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684451",
+      "target": "l_119"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684476",
+      "target": "r_143"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684470",
+      "target": "tr_1743684453"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684468",
+      "target": "tr_1743684459"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684457",
+      "target": "r_238"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684477",
+      "target": "tr_1743684489"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1743684481",
+      "target": "tr_1743684460"
+    }
+  ]
+}

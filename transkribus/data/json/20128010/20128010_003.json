@@ -1,0 +1,258 @@
+{
+  "collection_id": 257292,
+  "document_id": 1702668,
+  "page_id": 62339187,
+  "library_identifier": "20128010",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_30",
+      "type": "keyword",
+      "text": [
+        "akoestiek :"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "orgel :"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "kistorgel :"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "keyword",
+      "text": [
+        "regaal :"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "keyword",
+      "text": [
+        "tremulant :"
+      ]
+    },
+    {
+      "region_id": "r_72",
+      "type": "keyword",
+      "text": [
+        "hoboystop : "
+      ]
+    },
+    {
+      "region_id": "r_107",
+      "type": "keyword",
+      "text": [
+        "lyra viol :"
+      ]
+    },
+    {
+      "region_id": "r_1148",
+      "type": "keyword",
+      "text": [
+        "arpeggio :"
+      ]
+    },
+    {
+      "region_id": "r_102",
+      "type": "keyword",
+      "text": [
+        "kamplaatsing bij gamba : "
+      ]
+    },
+    {
+      "region_id": "r_1325",
+      "type": "pages-keyword",
+      "text": [
+        "238, 240, 241, 242"
+      ]
+    },
+    {
+      "region_id": "r_1275",
+      "type": "pages-keyword",
+      "text": [
+        "239, 242, 243-245"
+      ]
+    },
+    {
+      "region_id": "r_1313",
+      "type": "pages-keyword",
+      "text": [
+        "238, 239, 240, 241, 242, 244"
+      ]
+    },
+    {
+      "region_id": "r_1245",
+      "type": "pages-keyword",
+      "text": [
+        "242-245"
+      ]
+    },
+    {
+      "region_id": "r_1233",
+      "type": "pages-keyword",
+      "text": [
+        "244, 245"
+      ]
+    },
+    {
+      "region_id": "r_1221",
+      "type": "pages-keyword",
+      "text": [
+        "245"
+      ]
+    },
+    {
+      "region_id": "r_1216",
+      "type": "pages-keyword",
+      "text": [
+        "245"
+      ]
+    },
+    {
+      "region_id": "r_154",
+      "type": "keyword",
+      "text": [
+        "dubbelgrepen op gamba :"
+      ]
+    },
+    {
+      "region_id": "r_1211",
+      "type": "pages-keyword",
+      "text": [
+        "246"
+      ]
+    },
+    {
+      "region_id": "r_1201",
+      "type": "pages-keyword",
+      "text": [
+        "249,"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "keyword",
+      "text": [
+        "concertzaal :"
+      ]
+    },
+    {
+      "region_id": "r_1186",
+      "type": "keyword",
+      "text": [
+        "hoofdnoottriller :"
+      ]
+    },
+    {
+      "region_id": "r_152",
+      "type": "keyword",
+      "text": [
+        "bovensec. tr. : "
+      ]
+    },
+    {
+      "region_id": "r_1206",
+      "type": "pages-keyword",
+      "text": [
+        "246"
+      ]
+    },
+    {
+      "region_id": "r_1196",
+      "type": "pages-keyword",
+      "text": [
+        "249,"
+      ]
+    },
+    {
+      "region_id": "r_1191",
+      "type": "pages-keyword",
+      "text": [
+        "103"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "pages-keyword",
+      "text": [
+        "103"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_152",
+      "target": "r"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1186",
+      "target": "r_1191"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1148",
+      "target": "r_1201"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_154",
+      "target": "r_1196"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_107",
+      "target": "r_1211"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_102",
+      "target": "r_1206"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_72",
+      "target": "r_1216"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_55",
+      "target": "r_1221"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_50",
+      "target": "r_1233"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_1245"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_1275"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_35",
+      "target": "r_1313"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_30",
+      "target": "r_1325"
+    }
+  ]
+}

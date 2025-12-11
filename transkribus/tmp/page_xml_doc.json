@@ -1,0 +1,5592 @@
+{
+  "id": "62339185.jpg",
+  "type": [
+    "pagexml_doc",
+    "scan"
+  ],
+  "main_type": "scan",
+  "domain": "physical",
+  "metadata": {
+    "Creator": "prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=14_12_2023_09:32",
+    "Created": "2023-12-12T15:27:26.556000+01:00",
+    "LastChange": "2025-08-25T08:36:07.095000+02:00",
+    "TranskribusMetadata": {
+      "@docId": "1702668",
+      "@pageId": "62339185",
+      "@pageNr": "1",
+      "@status": "GT",
+      "@userId": "204150",
+      "@imgUrl": "https://files.transkribus.eu/Get?id=IXXLYMDWTOIWRQBMBPBNYLUH&fileType=view",
+      "@imageId": "50385998"
+    },
+    "scan_width": 4882,
+    "scan_height": 3938,
+    "scan_id": "62339185.jpg",
+    "filename": "data/page_xml/12D33/12D33_002.xml"
+  },
+  "coords": [
+    [
+      0,
+      0
+    ],
+    [
+      4882,
+      0
+    ],
+    [
+      4882,
+      3938
+    ],
+    [
+      0,
+      3938
+    ]
+  ],
+  "attributes": {},
+  "reading_order_attributes": {},
+  "text_regions": [
+    {
+      "id": "tr_1",
+      "type": [
+        "pagexml_doc",
+        "shelfmark"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 0,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "shelfmark",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 0
+        },
+        "structure": {
+          "type": "shelfmark"
+        },
+        "type": "shelfmark",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          265,
+          3173
+        ],
+        [
+          272,
+          3496
+        ],
+        [
+          265,
+          3716
+        ],
+        [
+          953,
+          3714
+        ],
+        [
+          937,
+          3561
+        ],
+        [
+          939,
+          3381
+        ],
+        [
+          948,
+          3175
+        ]
+      ],
+      "attributes": {
+        "orientation": "0.0",
+        "id": "tr_1",
+        "custom": "readingOrder {index:0;} structure {type:shelfmark;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "tr_1_tl_2",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "tr_1",
+            "text_region_id": "tr_1",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              444,
+              3404
+            ],
+            [
+              520,
+              3410
+            ],
+            [
+              566,
+              3388
+            ],
+            [
+              660,
+              3395
+            ],
+            [
+              754,
+              3383
+            ],
+            [
+              755,
+              3315
+            ],
+            [
+              742,
+              3310
+            ],
+            [
+              691,
+              3315
+            ],
+            [
+              662,
+              3301
+            ],
+            [
+              636,
+              3318
+            ],
+            [
+              580,
+              3316
+            ],
+            [
+              539,
+              3331
+            ],
+            [
+              480,
+              3305
+            ],
+            [
+              447,
+              3308
+            ]
+          ],
+          "attributes": {
+            "id": "tr_1_tl_2",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Ex Libris",
+          "baseline": [
+            [
+              453,
+              3371
+            ],
+            [
+              478,
+              3371
+            ],
+            [
+              503,
+              3370
+            ],
+            [
+              529,
+              3368
+            ],
+            [
+              554,
+              3367
+            ],
+            [
+              579,
+              3365
+            ],
+            [
+              605,
+              3365
+            ],
+            [
+              630,
+              3365
+            ],
+            [
+              655,
+              3365
+            ],
+            [
+              681,
+              3365
+            ],
+            [
+              706,
+              3365
+            ],
+            [
+              731,
+              3365
+            ],
+            [
+              757,
+              3365
+            ]
+          ]
+        },
+        {
+          "id": "tr_1_tl_3",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 1,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 1
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "tr_1",
+            "text_region_id": "tr_1",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              379,
+              3489
+            ],
+            [
+              462,
+              3480
+            ],
+            [
+              571,
+              3526
+            ],
+            [
+              625,
+              3520
+            ],
+            [
+              681,
+              3488
+            ],
+            [
+              813,
+              3503
+            ],
+            [
+              814,
+              3424
+            ],
+            [
+              741,
+              3405
+            ],
+            [
+              632,
+              3424
+            ],
+            [
+              593,
+              3407
+            ],
+            [
+              380,
+              3412
+            ]
+          ],
+          "attributes": {
+            "id": "tr_1_tl_3",
+            "custom": "readingOrder {index:1;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Ton Koopman",
+          "baseline": [
+            [
+              387,
+              3472
+            ],
+            [
+              412,
+              3468
+            ],
+            [
+              437,
+              3464
+            ],
+            [
+              462,
+              3460
+            ],
+            [
+              488,
+              3462
+            ],
+            [
+              513,
+              3464
+            ],
+            [
+              538,
+              3465
+            ],
+            [
+              564,
+              3466
+            ],
+            [
+              589,
+              3466
+            ],
+            [
+              614,
+              3466
+            ],
+            [
+              639,
+              3466
+            ],
+            [
+              665,
+              3464
+            ],
+            [
+              690,
+              3462
+            ],
+            [
+              715,
+              3461
+            ],
+            [
+              741,
+              3461
+            ],
+            [
+              766,
+              3463
+            ],
+            [
+              791,
+              3464
+            ],
+            [
+              817,
+              3466
+            ]
+          ]
+        },
+        {
+          "id": "l",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 2,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 2
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "tr_1",
+            "text_region_id": "tr_1",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              370,
+              3592
+            ],
+            [
+              408,
+              3588
+            ],
+            [
+              421,
+              3596
+            ],
+            [
+              447,
+              3585
+            ],
+            [
+              463,
+              3593
+            ],
+            [
+              512,
+              3589
+            ],
+            [
+              521,
+              3596
+            ],
+            [
+              530,
+              3585
+            ],
+            [
+              581,
+              3580
+            ],
+            [
+              581,
+              3525
+            ],
+            [
+              527,
+              3514
+            ],
+            [
+              506,
+              3528
+            ],
+            [
+              485,
+              3524
+            ],
+            [
+              470,
+              3511
+            ],
+            [
+              431,
+              3516
+            ],
+            [
+              401,
+              3494
+            ],
+            [
+              369,
+              3497
+            ]
+          ],
+          "attributes": {
+            "id": "l",
+            "custom": "readingOrder {index:2;}"
+          },
+          "reading_order_attributes": null,
+          "text": "12D33",
+          "baseline": [
+            [
+              377,
+              3587
+            ],
+            [
+              585,
+              3589
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 3,
+        "words": 5,
+        "chars": 25
+      }
+    },
+    {
+      "id": "r_82",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 1,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 1
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2526,
+          125
+        ],
+        [
+          3125,
+          95
+        ],
+        [
+          3153,
+          185
+        ],
+        [
+          2526,
+          217
+        ]
+      ],
+      "attributes": {
+        "id": "r_82",
+        "custom": "readingOrder {index:1;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_70",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_82",
+            "text_region_id": "r_82",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2549,
+              199
+            ],
+            [
+              3121,
+              146
+            ],
+            [
+              3111,
+              105
+            ],
+            [
+              2546,
+              169
+            ]
+          ],
+          "attributes": {
+            "id": "l_70",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Sampson lute book",
+          "baseline": [
+            [
+              2549,
+              199
+            ],
+            [
+              3121,
+              146
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 17
+      }
+    },
+    {
+      "id": "r_111",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 2,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 2
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2526,
+          279
+        ],
+        [
+          2892,
+          277
+        ],
+        [
+          2910,
+          318
+        ],
+        [
+          2528,
+          356
+        ]
+      ],
+      "attributes": {
+        "id": "r_111",
+        "custom": "readingOrder {index:2;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_78",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_111",
+            "text_region_id": "r_111",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2549,
+              341
+            ],
+            [
+              2872,
+              307
+            ],
+            [
+              2867,
+              274
+            ],
+            [
+              2545,
+              311
+            ]
+          ],
+          "attributes": {
+            "id": "l_78",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "bibliotheek :",
+          "baseline": [
+            [
+              2549,
+              341
+            ],
+            [
+              2871,
+              304
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 13
+      }
+    },
+    {
+      "id": "r_113",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 3,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 3
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2525,
+          372
+        ],
+        [
+          2782,
+          340
+        ],
+        [
+          2891,
+          321
+        ],
+        [
+          2975,
+          329
+        ],
+        [
+          3019,
+          295
+        ],
+        [
+          3118,
+          283
+        ],
+        [
+          3108,
+          366
+        ],
+        [
+          2959,
+          408
+        ],
+        [
+          2919,
+          393
+        ],
+        [
+          2529,
+          442
+        ]
+      ],
+      "attributes": {
+        "id": "r_113",
+        "custom": "readingOrder {index:3;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_536",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_113",
+            "text_region_id": "r_113",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2539,
+              433
+            ],
+            [
+              2653,
+              417
+            ],
+            [
+              2828,
+              392
+            ],
+            [
+              2951,
+              383
+            ],
+            [
+              3063,
+              361
+            ],
+            [
+              3103,
+              349
+            ],
+            [
+              3095,
+              320
+            ],
+            [
+              3056,
+              331
+            ],
+            [
+              2947,
+              353
+            ],
+            [
+              2825,
+              362
+            ],
+            [
+              2649,
+              387
+            ],
+            [
+              2535,
+              404
+            ]
+          ],
+          "attributes": {
+            "id": "l_536",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "klavecimbel (Eng, 16e)",
+          "baseline": [
+            [
+              2539,
+              433
+            ],
+            [
+              2653,
+              417
+            ],
+            [
+              2828,
+              392
+            ],
+            [
+              2951,
+              383
+            ],
+            [
+              3063,
+              361
+            ],
+            [
+              3103,
+              349
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 22
+      }
+    },
+    {
+      "id": "r_115",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 4,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 4
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2548,
+          438
+        ],
+        [
+          2677,
+          426
+        ],
+        [
+          2820,
+          417
+        ],
+        [
+          2902,
+          411
+        ],
+        [
+          2908,
+          478
+        ],
+        [
+          2675,
+          490
+        ],
+        [
+          2649,
+          520
+        ],
+        [
+          2548,
+          497
+        ]
+      ],
+      "attributes": {
+        "id": "r_115",
+        "custom": "readingOrder {index:4;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_94",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_115",
+            "text_region_id": "r_115",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2560,
+              484
+            ],
+            [
+              2893,
+              458
+            ],
+            [
+              2891,
+              428
+            ],
+            [
+              2558,
+              454
+            ]
+          ],
+          "attributes": {
+            "id": "l_94",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "orpharion :",
+          "baseline": [
+            [
+              2560,
+              484
+            ],
+            [
+              2893,
+              458
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 11
+      }
+    },
+    {
+      "id": "r_118",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 5,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 5
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2789,
+          482
+        ],
+        [
+          2859,
+          485
+        ],
+        [
+          2865,
+          540
+        ],
+        [
+          2789,
+          546
+        ]
+      ],
+      "attributes": {
+        "id": "r_118",
+        "custom": "readingOrder {index:5;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_251",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_118",
+            "text_region_id": "r_118",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2813,
+              528
+            ],
+            [
+              2848,
+              531
+            ],
+            [
+              2850,
+              501
+            ],
+            [
+              2814,
+              498
+            ]
+          ],
+          "attributes": {
+            "id": "l_251",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "B",
+          "baseline": [
+            [
+              2813,
+              528
+            ],
+            [
+              2848,
+              531
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_120",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 6,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 6
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2791,
+          553
+        ],
+        [
+          3027,
+          498
+        ],
+        [
+          3074,
+          574
+        ],
+        [
+          2798,
+          607
+        ]
+      ],
+      "attributes": {
+        "id": "r_120",
+        "custom": "readingOrder {index:6;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_243",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_120",
+            "text_region_id": "r_120",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2801,
+              590
+            ],
+            [
+              3055,
+              559
+            ],
+            [
+              3051,
+              529
+            ],
+            [
+              2798,
+              560
+            ]
+          ],
+          "attributes": {
+            "id": "l_243",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "hele boek",
+          "baseline": [
+            [
+              2801,
+              590
+            ],
+            [
+              3055,
+              559
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 9
+      }
+    },
+    {
+      "id": "r_121",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 7,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 7
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2550,
+          637
+        ],
+        [
+          3316,
+          546
+        ],
+        [
+          3313,
+          653
+        ],
+        [
+          2545,
+          697
+        ]
+      ],
+      "attributes": {
+        "id": "r_121",
+        "custom": "readingOrder {index:7;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_231",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_121",
+            "text_region_id": "r_121",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2566,
+              686
+            ],
+            [
+              3297,
+              614
+            ],
+            [
+              3294,
+              584
+            ],
+            [
+              2563,
+              656
+            ]
+          ],
+          "attributes": {
+            "id": "l_231",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "muziek voor 2 luiten :",
+          "baseline": [
+            [
+              2566,
+              686
+            ],
+            [
+              3297,
+              614
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 5,
+        "chars": 22
+      }
+    },
+    {
+      "id": "r_117",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 8,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 8
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2541,
+          499
+        ],
+        [
+          2783,
+          499
+        ],
+        [
+          2783,
+          562
+        ],
+        [
+          2541,
+          562
+        ]
+      ],
+      "attributes": {
+        "id": "r_117",
+        "custom": "readingOrder {index:8;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_247",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_117",
+            "text_region_id": "r_117",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2565,
+              544
+            ],
+            [
+              2767,
+              545
+            ],
+            [
+              2767,
+              515
+            ],
+            [
+              2565,
+              514
+            ]
+          ],
+          "attributes": {
+            "id": "l_247",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "tr. etc. :",
+          "baseline": [
+            [
+              2565,
+              544
+            ],
+            [
+              2767,
+              545
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 10
+      }
+    },
+    {
+      "id": "r_119",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 9,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 9
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2531,
+          567
+        ],
+        [
+          2792,
+          567
+        ],
+        [
+          2796,
+          603
+        ],
+        [
+          2542,
+          637
+        ]
+      ],
+      "attributes": {
+        "id": "r_119",
+        "custom": "readingOrder {index:9;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_239",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_119",
+            "text_region_id": "r_119",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2562,
+              614
+            ],
+            [
+              2779,
+              602
+            ],
+            [
+              2777,
+              572
+            ],
+            [
+              2561,
+              584
+            ]
+          ],
+          "attributes": {
+            "id": "l_239",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "luit :",
+          "baseline": [
+            [
+              2562,
+              614
+            ],
+            [
+              2779,
+              602
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 6
+      }
+    },
+    {
+      "id": "r_123",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 10,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 10
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2565,
+          696
+        ],
+        [
+          2972,
+          696
+        ],
+        [
+          2972,
+          744
+        ],
+        [
+          2565,
+          744
+        ]
+      ],
+      "attributes": {
+        "id": "r_123",
+        "custom": "readingOrder {index:10;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_207",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_123",
+            "text_region_id": "r_123",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2586,
+              738
+            ],
+            [
+              2966,
+              730
+            ],
+            [
+              2965,
+              700
+            ],
+            [
+              2586,
+              708
+            ]
+          ],
+          "attributes": {
+            "id": "l_207",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "J. Dowland :",
+          "baseline": [
+            [
+              2586,
+              738
+            ],
+            [
+              2966,
+              730
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 12
+      }
+    },
+    {
+      "id": "r_125",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 11,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 11
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2570,
+          764
+        ],
+        [
+          2878,
+          764
+        ],
+        [
+          2878,
+          829
+        ],
+        [
+          2570,
+          829
+        ]
+      ],
+      "attributes": {
+        "id": "r_125",
+        "custom": "readingOrder {index:11;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_199",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_125",
+            "text_region_id": "r_125",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2585,
+              819
+            ],
+            [
+              2872,
+              803
+            ],
+            [
+              2870,
+              773
+            ],
+            [
+              2583,
+              789
+            ]
+          ],
+          "attributes": {
+            "id": "l_199",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "bataglia :",
+          "baseline": [
+            [
+              2585,
+              819
+            ],
+            [
+              2872,
+              803
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 10
+      }
+    },
+    {
+      "id": "r_127",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 12,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 12
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2574,
+          834
+        ],
+        [
+          2818,
+          834
+        ],
+        [
+          2818,
+          902
+        ],
+        [
+          2574,
+          902
+        ]
+      ],
+      "attributes": {
+        "id": "r_127",
+        "custom": "readingOrder {index:12;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_191",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_127",
+            "text_region_id": "r_127",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2598,
+              891
+            ],
+            [
+              2804,
+              886
+            ],
+            [
+              2803,
+              856
+            ],
+            [
+              2597,
+              861
+            ]
+          ],
+          "attributes": {
+            "id": "l_191",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Cister :",
+          "baseline": [
+            [
+              2598,
+              891
+            ],
+            [
+              2804,
+              886
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 8
+      }
+    },
+    {
+      "id": "r_129",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 13,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 13
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2557,
+          903
+        ],
+        [
+          3001,
+          903
+        ],
+        [
+          3001,
+          966
+        ],
+        [
+          2557,
+          966
+        ]
+      ],
+      "attributes": {
+        "id": "r_129",
+        "custom": "readingOrder {index:13;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_183",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_129",
+            "text_region_id": "r_129",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2584,
+              955
+            ],
+            [
+              2942,
+              943
+            ],
+            [
+              2941,
+              913
+            ],
+            [
+              2583,
+              925
+            ]
+          ],
+          "attributes": {
+            "id": "l_183",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "J. Packington :",
+          "baseline": [
+            [
+              2584,
+              955
+            ],
+            [
+              2942,
+              943
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 15
+      }
+    },
+    {
+      "id": "r_133",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 14,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 14
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2551,
+          1043
+        ],
+        [
+          2944,
+          1043
+        ],
+        [
+          2944,
+          1128
+        ],
+        [
+          2551,
+          1128
+        ]
+      ],
+      "attributes": {
+        "id": "r_133",
+        "custom": "readingOrder {index:14;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_166",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_133",
+            "text_region_id": "r_133",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2603,
+              1117
+            ],
+            [
+              2926,
+              1106
+            ],
+            [
+              2925,
+              1076
+            ],
+            [
+              2602,
+              1087
+            ]
+          ],
+          "attributes": {
+            "id": "l_166",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Pilkington :",
+          "baseline": [
+            [
+              2603,
+              1117
+            ],
+            [
+              2926,
+              1106
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 12
+      }
+    },
+    {
+      "id": "r_135",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 15,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 15
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2569,
+          1132
+        ],
+        [
+          2940,
+          1132
+        ],
+        [
+          2940,
+          1198
+        ],
+        [
+          2569,
+          1198
+        ]
+      ],
+      "attributes": {
+        "id": "r_135",
+        "custom": "readingOrder {index:15;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_156",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_135",
+            "text_region_id": "r_135",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2616,
+              1185
+            ],
+            [
+              2929,
+              1182
+            ],
+            [
+              2928,
+              1152
+            ],
+            [
+              2616,
+              1155
+            ]
+          ],
+          "attributes": {
+            "id": "l_156",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "blokfluit :",
+          "baseline": [
+            [
+              2616,
+              1185
+            ],
+            [
+              2929,
+              1182
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 11
+      }
+    },
+    {
+      "id": "r_137",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 16,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 16
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2567,
+          1202
+        ],
+        [
+          2963,
+          1202
+        ],
+        [
+          2961,
+          1262
+        ],
+        [
+          2567,
+          1260
+        ]
+      ],
+      "attributes": {
+        "id": "r_137",
+        "custom": "readingOrder {index:16;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_146",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_137",
+            "text_region_id": "r_137",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2611,
+              1251
+            ],
+            [
+              2960,
+              1248
+            ],
+            [
+              2960,
+              1218
+            ],
+            [
+              2611,
+              1221
+            ]
+          ],
+          "attributes": {
+            "id": "l_146",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "dwarsfluit :",
+          "baseline": [
+            [
+              2611,
+              1251
+            ],
+            [
+              2960,
+              1248
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 12
+      }
+    },
+    {
+      "id": "r_139",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 17,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 17
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2554,
+          1259
+        ],
+        [
+          2989,
+          1270
+        ],
+        [
+          2994,
+          1325
+        ],
+        [
+          2554,
+          1325
+        ]
+      ],
+      "attributes": {
+        "id": "r_139",
+        "custom": "readingOrder {index:17;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_136",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_139",
+            "text_region_id": "r_139",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2588,
+              1314
+            ],
+            [
+              2986,
+              1311
+            ],
+            [
+              2986,
+              1281
+            ],
+            [
+              2587,
+              1284
+            ]
+          ],
+          "attributes": {
+            "id": "l_136",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "T. Robinson :",
+          "baseline": [
+            [
+              2588,
+              1314
+            ],
+            [
+              2986,
+              1311
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 13
+      }
+    },
+    {
+      "id": "r_141",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 18,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 18
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2558,
+          1328
+        ],
+        [
+          2919,
+          1328
+        ],
+        [
+          2919,
+          1406
+        ],
+        [
+          2558,
+          1406
+        ]
+      ],
+      "attributes": {
+        "id": "r_141",
+        "custom": "readingOrder {index:18;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_126",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_141",
+            "text_region_id": "r_141",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2587,
+              1396
+            ],
+            [
+              2906,
+              1397
+            ],
+            [
+              2906,
+              1367
+            ],
+            [
+              2587,
+              1366
+            ]
+          ],
+          "attributes": {
+            "id": "l_126",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "lyra viol :",
+          "baseline": [
+            [
+              2587,
+              1396
+            ],
+            [
+              2906,
+              1397
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 11
+      }
+    },
+    {
+      "id": "r_143",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 19,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 19
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2563,
+          1406
+        ],
+        [
+          2922,
+          1422
+        ],
+        [
+          3026,
+          1423
+        ],
+        [
+          3027,
+          1519
+        ],
+        [
+          2970,
+          1477
+        ],
+        [
+          2882,
+          1495
+        ],
+        [
+          2565,
+          1498
+        ]
+      ],
+      "attributes": {
+        "id": "r_143",
+        "custom": "readingOrder {index:19;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_121",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_143",
+            "text_region_id": "r_143",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2597,
+              1478
+            ],
+            [
+              3016,
+              1475
+            ],
+            [
+              3016,
+              1445
+            ],
+            [
+              2597,
+              1448
+            ]
+          ],
+          "attributes": {
+            "id": "l_121",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "ad lib. bezettig :",
+          "baseline": [
+            [
+              2597,
+              1478
+            ],
+            [
+              3016,
+              1475
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 4,
+        "chars": 18
+      }
+    },
+    {
+      "id": "r_145",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 20,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 20
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2574,
+          1502
+        ],
+        [
+          2899,
+          1501
+        ],
+        [
+          2898,
+          1553
+        ],
+        [
+          2572,
+          1553
+        ]
+      ],
+      "attributes": {
+        "id": "r_145",
+        "custom": "readingOrder {index:20;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_102",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_145",
+            "text_region_id": "r_145",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2588,
+              1543
+            ],
+            [
+              2885,
+              1540
+            ],
+            [
+              2885,
+              1510
+            ],
+            [
+              2588,
+              1513
+            ]
+          ],
+          "attributes": {
+            "id": "l_102",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "mandora :",
+          "baseline": [
+            [
+              2588,
+              1543
+            ],
+            [
+              2885,
+              1540
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 9
+      }
+    },
+    {
+      "id": "r_131",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 21,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 21
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2556,
+          964
+        ],
+        [
+          3003,
+          966
+        ],
+        [
+          3096,
+          937
+        ],
+        [
+          3125,
+          964
+        ],
+        [
+          3125,
+          1043
+        ],
+        [
+          2556,
+          1043
+        ]
+      ],
+      "attributes": {
+        "id": "r_131",
+        "custom": "readingOrder {index:21;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_175",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_131",
+            "text_region_id": "r_131",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2583,
+              1027
+            ],
+            [
+              3103,
+              1025
+            ],
+            [
+              3103,
+              995
+            ],
+            [
+              2582,
+              997
+            ]
+          ],
+          "attributes": {
+            "id": "l_175",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "klavecimbel (Eng 17e) :",
+          "baseline": [
+            [
+              2583,
+              1027
+            ],
+            [
+              3103,
+              1025
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 4,
+        "chars": 23
+      }
+    },
+    {
+      "id": "r_134",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 22,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 22
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2944,
+          1044
+        ],
+        [
+          3002,
+          1062
+        ],
+        [
+          3005,
+          1129
+        ],
+        [
+          2947,
+          1130
+        ]
+      ],
+      "attributes": {
+        "id": "r_134",
+        "custom": "readingOrder {index:22;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_171",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_134",
+            "text_region_id": "r_134",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2950,
+              1114
+            ],
+            [
+              2992,
+              1114
+            ],
+            [
+              2991,
+              1084
+            ],
+            [
+              2950,
+              1084
+            ]
+          ],
+          "attributes": {
+            "id": "l_171",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "E",
+          "baseline": [
+            [
+              2950,
+              1114
+            ],
+            [
+              2992,
+              1114
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_136",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 23,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 23
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2941,
+          1134
+        ],
+        [
+          3030,
+          1134
+        ],
+        [
+          3030,
+          1183
+        ],
+        [
+          2941,
+          1183
+        ]
+      ],
+      "attributes": {
+        "id": "r_136",
+        "custom": "readingOrder {index:23;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_161",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_136",
+            "text_region_id": "r_136",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2955,
+              1168
+            ],
+            [
+              3013,
+              1165
+            ],
+            [
+              3011,
+              1135
+            ],
+            [
+              2953,
+              1138
+            ]
+          ],
+          "attributes": {
+            "id": "l_161",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "E",
+          "baseline": [
+            [
+              2955,
+              1168
+            ],
+            [
+              3013,
+              1165
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_138",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 24,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 24
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2972,
+          1192
+        ],
+        [
+          3048,
+          1192
+        ],
+        [
+          3023,
+          1266
+        ],
+        [
+          2965,
+          1269
+        ]
+      ],
+      "attributes": {
+        "id": "r_138",
+        "custom": "readingOrder {index:24;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_151",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_138",
+            "text_region_id": "r_138",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2983,
+              1250
+            ],
+            [
+              3035,
+              1248
+            ],
+            [
+              3034,
+              1218
+            ],
+            [
+              2982,
+              1220
+            ]
+          ],
+          "attributes": {
+            "id": "l_151",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "D",
+          "baseline": [
+            [
+              2983,
+              1250
+            ],
+            [
+              3035,
+              1248
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_142",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 25,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 25
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2913,
+          1329
+        ],
+        [
+          2971,
+          1329
+        ],
+        [
+          2971,
+          1428
+        ],
+        [
+          2922,
+          1418
+        ]
+      ],
+      "attributes": {
+        "id": "r_142",
+        "custom": "readingOrder {index:25;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_131",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_142",
+            "text_region_id": "r_142",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2931,
+              1394
+            ],
+            [
+              2960,
+              1397
+            ],
+            [
+              2962,
+              1367
+            ],
+            [
+              2934,
+              1364
+            ]
+          ],
+          "attributes": {
+            "id": "l_131",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "G",
+          "baseline": [
+            [
+              2931,
+              1394
+            ],
+            [
+              2960,
+              1397
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_146",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 26,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 26
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2925,
+          1486
+        ],
+        [
+          2976,
+          1486
+        ],
+        [
+          2976,
+          1585
+        ],
+        [
+          2925,
+          1585
+        ]
+      ],
+      "attributes": {
+        "id": "r_146",
+        "custom": "readingOrder {index:26;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_112",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_146",
+            "text_region_id": "r_146",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2932,
+              1547
+            ],
+            [
+              2963,
+              1557
+            ],
+            [
+              2972,
+              1529
+            ],
+            [
+              2941,
+              1518
+            ]
+          ],
+          "attributes": {
+            "id": "l_112",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "G",
+          "baseline": [
+            [
+              2932,
+              1547
+            ],
+            [
+              2963,
+              1557
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_144",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 27,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 27
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3036,
+          1387
+        ],
+        [
+          3104,
+          1387
+        ],
+        [
+          3104,
+          1516
+        ],
+        [
+          3036,
+          1516
+        ]
+      ],
+      "attributes": {
+        "id": "r_144",
+        "custom": "readingOrder {index:27;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_116",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_144",
+            "text_region_id": "r_144",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3052,
+              1490
+            ],
+            [
+              3089,
+              1485
+            ],
+            [
+              3085,
+              1455
+            ],
+            [
+              3048,
+              1460
+            ]
+          ],
+          "attributes": {
+            "id": "l_116",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "G",
+          "baseline": [
+            [
+              3052,
+              1490
+            ],
+            [
+              3089,
+              1485
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_140",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 28,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 28
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3020,
+          1257
+        ],
+        [
+          3086,
+          1257
+        ],
+        [
+          3086,
+          1323
+        ],
+        [
+          3020,
+          1323
+        ]
+      ],
+      "attributes": {
+        "id": "r_140",
+        "custom": "readingOrder {index:28;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_141",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_140",
+            "text_region_id": "r_140",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3035,
+              1312
+            ],
+            [
+              3074,
+              1306
+            ],
+            [
+              3070,
+              1276
+            ],
+            [
+              3031,
+              1282
+            ]
+          ],
+          "attributes": {
+            "id": "l_141",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "E",
+          "baseline": [
+            [
+              3035,
+              1312
+            ],
+            [
+              3074,
+              1306
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_110",
+      "type": [
+        "pagexml_doc",
+        "keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 29,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 29
+        },
+        "structure": {
+          "type": "keyword"
+        },
+        "type": "keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2519,
+          218
+        ],
+        [
+          3150,
+          187
+        ],
+        [
+          3135,
+          274
+        ],
+        [
+          2516,
+          276
+        ]
+      ],
+      "attributes": {
+        "id": "r_110",
+        "custom": "readingOrder {index:29;} structure {type:keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_74",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_110",
+            "text_region_id": "r_110",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2527,
+              273
+            ],
+            [
+              3118,
+              232
+            ],
+            [
+              3120,
+              197
+            ],
+            [
+              2529,
+              228
+            ]
+          ],
+          "attributes": {
+            "id": "l_74",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Tollemache lute mss",
+          "baseline": [
+            [
+              2536,
+              265
+            ],
+            [
+              3118,
+              232
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 19
+      }
+    },
+    {
+      "id": "r_112",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 30,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 30
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2900,
+          272
+        ],
+        [
+          2978,
+          272
+        ],
+        [
+          2978,
+          327
+        ],
+        [
+          2900,
+          327
+        ]
+      ],
+      "attributes": {
+        "id": "r_112",
+        "custom": "readingOrder {index:30;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_82",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_112",
+            "text_region_id": "r_112",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2914,
+              310
+            ],
+            [
+              2967,
+              305
+            ],
+            [
+              2964,
+              275
+            ],
+            [
+              2911,
+              281
+            ]
+          ],
+          "attributes": {
+            "id": "l_82",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "A",
+          "baseline": [
+            [
+              2914,
+              310
+            ],
+            [
+              2967,
+              305
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_116",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 31,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 31
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2907,
+          409
+        ],
+        [
+          2980,
+          409
+        ],
+        [
+          2980,
+          478
+        ],
+        [
+          2907,
+          478
+        ]
+      ],
+      "attributes": {
+        "id": "r_116",
+        "custom": "readingOrder {index:31;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_98",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_116",
+            "text_region_id": "r_116",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2918,
+              459
+            ],
+            [
+              2956,
+              453
+            ],
+            [
+              2951,
+              423
+            ],
+            [
+              2913,
+              430
+            ]
+          ],
+          "attributes": {
+            "id": "l_98",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "B",
+          "baseline": [
+            [
+              2918,
+              459
+            ],
+            [
+              2956,
+              453
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_114",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 32,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 32
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3116,
+          288
+        ],
+        [
+          3176,
+          288
+        ],
+        [
+          3176,
+          364
+        ],
+        [
+          3116,
+          364
+        ]
+      ],
+      "attributes": {
+        "id": "r_114",
+        "custom": "readingOrder {index:32;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_90",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_114",
+            "text_region_id": "r_114",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3126,
+              347
+            ],
+            [
+              3163,
+              350
+            ],
+            [
+              3161,
+              310
+            ],
+            [
+              3126,
+              317
+            ]
+          ],
+          "attributes": {
+            "id": "l_90",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "13",
+          "baseline": [
+            [
+              3126,
+              347
+            ],
+            [
+              3158,
+              347
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 2
+      }
+    },
+    {
+      "id": "r_147",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 33,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 33
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3186,
+          115
+        ],
+        [
+          3464,
+          115
+        ],
+        [
+          3464,
+          214
+        ],
+        [
+          3186,
+          214
+        ]
+      ],
+      "attributes": {
+        "id": "r_147",
+        "custom": "readingOrder {index:33;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_66",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_147",
+            "text_region_id": "r_147",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3198,
+              198
+            ],
+            [
+              3452,
+              171
+            ],
+            [
+              3449,
+              141
+            ],
+            [
+              3195,
+              168
+            ]
+          ],
+          "attributes": {
+            "id": "l_66",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "hele boek",
+          "baseline": [
+            [
+              3198,
+              198
+            ],
+            [
+              3452,
+              171
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 9
+      }
+    },
+    {
+      "id": "r_122",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 34,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 34
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3320,
+          532
+        ],
+        [
+          3568,
+          479
+        ],
+        [
+          3574,
+          637
+        ],
+        [
+          3319,
+          637
+        ]
+      ],
+      "attributes": {
+        "id": "r_122",
+        "custom": "readingOrder {index:34;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_235",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_122",
+            "text_region_id": "r_122",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3336,
+              608
+            ],
+            [
+              3543,
+              572
+            ],
+            [
+              3538,
+              543
+            ],
+            [
+              3331,
+              578
+            ]
+          ],
+          "attributes": {
+            "id": "l_235",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "C, D, E, G",
+          "baseline": [
+            [
+              3336,
+              608
+            ],
+            [
+              3543,
+              572
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 4,
+        "chars": 10
+      }
+    },
+    {
+      "id": "r_126",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 35,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 35
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2885,
+          747
+        ],
+        [
+          3013,
+          755
+        ],
+        [
+          3017,
+          808
+        ],
+        [
+          2885,
+          808
+        ]
+      ],
+      "attributes": {
+        "id": "r_126",
+        "custom": "readingOrder {index:35;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_203",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_126",
+            "text_region_id": "r_126",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2914,
+              800
+            ],
+            [
+              2997,
+              793
+            ],
+            [
+              2995,
+              764
+            ],
+            [
+              2912,
+              770
+            ]
+          ],
+          "attributes": {
+            "id": "l_203",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "C, D",
+          "baseline": [
+            [
+              2914,
+              800
+            ],
+            [
+              2997,
+              793
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 4
+      }
+    },
+    {
+      "id": "r_128",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 36,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 36
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2817,
+          835
+        ],
+        [
+          2878,
+          829
+        ],
+        [
+          2899,
+          811
+        ],
+        [
+          3046,
+          806
+        ],
+        [
+          3051,
+          871
+        ],
+        [
+          2904,
+          881
+        ],
+        [
+          2820,
+          892
+        ]
+      ],
+      "attributes": {
+        "id": "r_128",
+        "custom": "readingOrder {index:36;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_195",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_128",
+            "text_region_id": "r_128",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              2829,
+              876
+            ],
+            [
+              3016,
+              857
+            ],
+            [
+              3014,
+              828
+            ],
+            [
+              2826,
+              846
+            ]
+          ],
+          "attributes": {
+            "id": "l_195",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "D, E, G",
+          "baseline": [
+            [
+              2829,
+              876
+            ],
+            [
+              3016,
+              857
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 7
+      }
+    },
+    {
+      "id": "r_130",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 37,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 37
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2997,
+          876
+        ],
+        [
+          3076,
+          876
+        ],
+        [
+          3076,
+          937
+        ],
+        [
+          2997,
+          937
+        ]
+      ],
+      "attributes": {
+        "id": "r_130",
+        "custom": "readingOrder {index:37;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_187",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_130",
+            "text_region_id": "r_130",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3013,
+              917
+            ],
+            [
+              3051,
+              910
+            ],
+            [
+              3046,
+              880
+            ],
+            [
+              3007,
+              887
+            ]
+          ],
+          "attributes": {
+            "id": "l_187",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "D",
+          "baseline": [
+            [
+              3013,
+              917
+            ],
+            [
+              3051,
+              910
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_132",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 38,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 38
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          3122,
+          931
+        ],
+        [
+          3200,
+          933
+        ],
+        [
+          3200,
+          1032
+        ],
+        [
+          3132,
+          1035
+        ]
+      ],
+      "attributes": {
+        "id": "r_132",
+        "custom": "readingOrder {index:38;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_179",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_132",
+            "text_region_id": "r_132",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3131,
+              1006
+            ],
+            [
+              3177,
+              1008
+            ],
+            [
+              3179,
+              978
+            ],
+            [
+              3132,
+              976
+            ]
+          ],
+          "attributes": {
+            "id": "l_179",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "E",
+          "baseline": [
+            [
+              3131,
+              1006
+            ],
+            [
+              3177,
+              1008
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 1,
+        "chars": 1
+      }
+    },
+    {
+      "id": "r_124",
+      "type": [
+        "pagexml_doc",
+        "pages-keyword"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 39,
+            "tag_name": "readingOrder"
+          },
+          {
+            "type": "pages-keyword",
+            "tag_name": "structure"
+          }
+        ],
+        "reading_order": {
+          "index": 39
+        },
+        "structure": {
+          "type": "pages-keyword"
+        },
+        "type": "pages-keyword",
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          2989,
+          674
+        ],
+        [
+          3200,
+          667
+        ],
+        [
+          3200,
+          757
+        ],
+        [
+          2988,
+          749
+        ]
+      ],
+      "attributes": {
+        "id": "r_124",
+        "custom": "readingOrder {index:39;} structure {type:pages-keyword;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "l_211",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "r_124",
+            "text_region_id": "r_124",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              3010,
+              733
+            ],
+            [
+              3171,
+              720
+            ],
+            [
+              3169,
+              690
+            ],
+            [
+              3007,
+              703
+            ]
+          ],
+          "attributes": {
+            "id": "l_211",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "C, D, E",
+          "baseline": [
+            [
+              3010,
+              733
+            ],
+            [
+              3171,
+              720
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 3,
+        "chars": 7
+      }
+    },
+    {
+      "id": "tr_3",
+      "type": [
+        "pagexml_doc"
+      ],
+      "main_type": "text_region",
+      "domain": "physical",
+      "metadata": {
+        "custom_attributes": [
+          {
+            "index": 40,
+            "tag_name": "readingOrder"
+          }
+        ],
+        "reading_order": {
+          "index": 40
+        },
+        "parent_type": "text_region",
+        "parent_id": "62339185.jpg",
+        "text_region_id": "62339185.jpg",
+        "scan_id": "62339185.jpg"
+      },
+      "coords": [
+        [
+          4124,
+          121
+        ],
+        [
+          4167,
+          306
+        ],
+        [
+          4765,
+          303
+        ],
+        [
+          4728,
+          155
+        ]
+      ],
+      "attributes": {
+        "orientation": "0.0",
+        "id": "tr_3",
+        "custom": "readingOrder {index:40;}"
+      },
+      "reading_order_attributes": null,
+      "lines": [
+        {
+          "id": "tr_3_tl_1",
+          "type": [
+            "pagexml_doc"
+          ],
+          "main_type": "line",
+          "domain": "physical",
+          "metadata": {
+            "custom_attributes": [
+              {
+                "index": 0,
+                "tag_name": "readingOrder"
+              }
+            ],
+            "reading_order": {
+              "index": 0
+            },
+            "type": "line",
+            "parent_type": "text_region",
+            "parent_id": "tr_3",
+            "text_region_id": "tr_3",
+            "scan_id": "62339185.jpg"
+          },
+          "coords": [
+            [
+              4206,
+              260
+            ],
+            [
+              4275,
+              248
+            ],
+            [
+              4406,
+              268
+            ],
+            [
+              4456,
+              256
+            ],
+            [
+              4538,
+              307
+            ],
+            [
+              4605,
+              260
+            ],
+            [
+              4641,
+              269
+            ],
+            [
+              4637,
+              200
+            ],
+            [
+              4589,
+              216
+            ],
+            [
+              4442,
+              152
+            ],
+            [
+              4372,
+              175
+            ],
+            [
+              4335,
+              209
+            ],
+            [
+              4257,
+              170
+            ],
+            [
+              4201,
+              180
+            ]
+          ],
+          "attributes": {
+            "id": "tr_3_tl_1",
+            "custom": "readingOrder {index:0;}"
+          },
+          "reading_order_attributes": null,
+          "text": "Ton koopman",
+          "baseline": [
+            [
+              4212,
+              226
+            ],
+            [
+              4237,
+              228
+            ],
+            [
+              4262,
+              229
+            ],
+            [
+              4287,
+              231
+            ],
+            [
+              4313,
+              233
+            ],
+            [
+              4338,
+              234
+            ],
+            [
+              4363,
+              236
+            ],
+            [
+              4389,
+              238
+            ],
+            [
+              4414,
+              240
+            ],
+            [
+              4439,
+              241
+            ],
+            [
+              4464,
+              243
+            ],
+            [
+              4490,
+              245
+            ],
+            [
+              4515,
+              246
+            ],
+            [
+              4540,
+              248
+            ],
+            [
+              4566,
+              250
+            ],
+            [
+              4591,
+              250
+            ],
+            [
+              4616,
+              250
+            ],
+            [
+              4642,
+              250
+            ]
+          ]
+        }
+      ],
+      "stats": {
+        "text_regions": 0,
+        "lines": 1,
+        "words": 2,
+        "chars": 11
+      }
+    }
+  ],
+  "stats": {
+    "text_regions": 41,
+    "lines": 43,
+    "words": 91,
+    "chars": 370,
+    "columns": 0,
+    "extra": 0,
+    "pages": 0
+  }
+}
