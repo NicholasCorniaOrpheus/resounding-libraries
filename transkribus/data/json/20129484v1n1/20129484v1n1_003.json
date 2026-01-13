@@ -1,0 +1,75 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725410,
+  "library_identifier": "20129484v1n1",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "Stein :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "Christofori :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "Broadwood :\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "28, 29,\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "28, 29,\n"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "30, 31, 33\n"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    }
+  ]
+}

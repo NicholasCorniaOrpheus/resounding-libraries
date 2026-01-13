@@ -1,0 +1,182 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725272,
+  "library_identifier": "20129484v1n2",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        "cello :"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "Vivaldi :\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "65"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "66-74,"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "keyword",
+      "text": [
+        "Bezetting (voc) :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "cittern :\n"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "keyword",
+      "text": [
+        "pianoforte :\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "Klavecimbel\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        "(instr) :\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "77-88"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "17,"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "pages-keyword",
+      "text": [
+        "107-109"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "94"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "93-95,"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "71"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "pages-keyword",
+      "text": [
+        "71"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_13"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_15"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_8",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_10",
+      "target": "r_19"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_20"
+    }
+  ]
+}

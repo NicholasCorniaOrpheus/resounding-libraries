@@ -1,0 +1,531 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725279,
+  "library_identifier": "20129484v3n1",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "a' =\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "Serpent :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "Gabrieli :\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :\n"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "bezetting (instr) :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "25, 27, 43\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "25, 27\n"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "trombone :\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "zink :\n"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "keyword",
+      "text": [
+        "gamba :\n"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        "orgelcontinuum :\n"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "keyword",
+      "text": [
+        "viool :\n"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "echo :\n"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "keyword",
+      "text": [
+        "draailier :\n"
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "keyword",
+      "text": [
+        "Maximiliaan I :\n"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "pages-keyword",
+      "text": [
+        "43"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "tromba marina :\n"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        "25, 28, 43\n"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "pages-keyword",
+      "text": [
+        "43"
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "keyword",
+      "text": [
+        "harp :\n"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "orgel :\n"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "keyword",
+      "text": [
+        "cello :\n"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "pages-keyword",
+      "text": [
+        "25, 27\n"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "pages-keyword",
+      "text": [
+        "33-37"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "pages-keyword",
+      "text": [
+        "43-46"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "keyword",
+      "text": [
+        "fagot :\n"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "25"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "25, 28\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "6, 7\n"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "renaissance traverso :\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "21-24"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "25-32"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "25, 28\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "25, 26, 27, 28, 32"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "keyword",
+      "text": [
+        "blokfluit :\n"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "keyword",
+      "text": [
+        "W. Landowska :\n"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "pages-keyword",
+      "text": [
+        "77"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "pages-keyword",
+      "text": [
+        "39-42"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "2-10, 44\n"
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "keyword",
+      "text": [
+        "luit :\n"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "pages-keyword",
+      "text": [
+        "43"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "pages-keyword",
+      "text": [
+        "44"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "44"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "pages-keyword",
+      "text": [
+        "47-52"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "pages-keyword",
+      "text": [
+        "58-60"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "pages-keyword",
+      "text": [
+        "58-60"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "keyword",
+      "text": [
+        "Kromhoorn :\n"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "pipe and tabor :\n"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "keyword",
+      "text": [
+        "vedel :\n"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "keyword",
+      "text": [
+        "Rovetta :"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "keyword",
+      "text": [
+        "Tunder :\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_2"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_17",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_21",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_23",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_25",
+      "target": "r_26"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_29",
+      "target": "r_31"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_32",
+      "target": "r_33"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_34",
+      "target": "r_35"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_39"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_41",
+      "target": "r_42"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_43",
+      "target": "r_44"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_47",
+      "target": "r_48"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_49",
+      "target": "r_50"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_51",
+      "target": "r_52"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_53",
+      "target": "r_54"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_55",
+      "target": "r_56"
+    }
+  ]
+}

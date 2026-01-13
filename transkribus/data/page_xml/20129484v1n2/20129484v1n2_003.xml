@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-09T12:09:12.369+02:00</Created>
+        <LastChange>2024-09-09T09:47:54.965+02:00</LastChange>
+        <TranskribusMetadata docId="0" pageId="0" pageNr="0" status="GT"/>
+    </Metadata>
+    <Page imageFilename="20129484v1n2_003.jpg" imageWidth="2791" imageHeight="4005">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1725868074965" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="1681,423 2008,408 2486,497 2490,593 2268,588 2226,650 2151,591 1714,569"/>
+            <TextLine id="l_93" custom="readingOrder {index:0;}">
+                <Coords points="1720,558 2187,567 2215,647 2265,562 2479,558 2478,528 2247,530 2220,599 2210,535 1721,528"/>
+                <Baseline points="1720,558 2187,567 2215,647 2265,562 2479,558"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

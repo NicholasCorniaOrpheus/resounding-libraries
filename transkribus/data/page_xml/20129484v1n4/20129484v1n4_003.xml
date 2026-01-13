@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-09T12:09:12.570+02:00</Created>
+        <LastChange>2024-09-09T10:07:20.773+02:00</LastChange>
+        <TranskribusMetadata docId="0" pageId="0" pageNr="0" status="GT"/>
+    </Metadata>
+    <Page imageFilename="20129484v1n4_003.jpg" imageWidth="2791" imageHeight="4005">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1725869240775" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_2"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_2" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="904,947 1666,947 1666,1552 904,1552"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="1789,367 2422,381 2422,515 2151,537 1796,515"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1818,482 2111,496 2156,520 2204,487 2401,494 2402,464 2196,458 2154,486 2119,467 1820,452"/>
+                <Baseline points="1818,482 2111,496 2156,520 2204,487 2401,494"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

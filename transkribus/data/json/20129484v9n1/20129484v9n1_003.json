@@ -1,0 +1,1118 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78098577,
+  "library_identifier": "20129484v9n1",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "tr_1733146304",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146346",
+      "type": "pages-keyword",
+      "text": [
+        "10-42"
+      ]
+    },
+    {
+      "region_id": "tr_1733146353",
+      "type": "keyword",
+      "text": [
+        "plectrum en luitspel :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146317",
+      "type": "pages-keyword",
+      "text": [
+        "12, 14, 15, 20"
+      ]
+    },
+    {
+      "region_id": "tr_1733146295",
+      "type": "keyword",
+      "text": [
+        "diminuties :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146364",
+      "type": "pages-keyword",
+      "text": [
+        "13"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "pages-keyword",
+      "text": [
+        "15"
+      ]
+    },
+    {
+      "region_id": "tr_1733146342",
+      "type": "keyword",
+      "text": [
+        "hakkebord :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146309",
+      "type": "keyword",
+      "text": [
+        "luit-harp :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146322",
+      "type": "pages-keyword",
+      "text": [
+        "16, 17"
+      ]
+    },
+    {
+      "region_id": "tr_1733146314",
+      "type": "keyword",
+      "text": [
+        "harp :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146331",
+      "type": "pages-keyword",
+      "text": [
+        "16, 17, 19, 20"
+      ]
+    },
+    {
+      "region_id": "tr_1733146294",
+      "type": "keyword",
+      "text": [
+        "quinterne :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146354",
+      "type": "pages-keyword",
+      "text": [
+        "19, 22"
+      ]
+    },
+    {
+      "region_id": "tr_1733146326",
+      "type": "keyword",
+      "text": [
+        "inventaris :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146324",
+      "type": "pages-keyword",
+      "text": [
+        "19, 20"
+      ]
+    },
+    {
+      "region_id": "tr_1733146347",
+      "type": "keyword",
+      "text": [
+        "klavichord in ME"
+      ]
+    },
+    {
+      "region_id": "tr_1733146359",
+      "type": "pages-keyword",
+      "text": [
+        "20"
+      ]
+    },
+    {
+      "region_id": "r_1565",
+      "type": "",
+      "text": [
+        "22"
+      ]
+    },
+    {
+      "region_id": "tr_1733146362",
+      "type": "pages-keyword",
+      "text": [
+        "55-61"
+      ]
+    },
+    {
+      "region_id": "r_3134",
+      "type": "pages-keyword",
+      "text": [
+        "55-61"
+      ]
+    },
+    {
+      "region_id": "tr_1733146319",
+      "type": "keyword",
+      "text": [
+        "klavecimbel in ME"
+      ]
+    },
+    {
+      "region_id": "tr_1733146340",
+      "type": "pages-keyword",
+      "text": [
+        "20"
+      ]
+    },
+    {
+      "region_id": "r_1566",
+      "type": "pages-keyword",
+      "text": [
+        "21"
+      ]
+    },
+    {
+      "region_id": "tr_1733146323",
+      "type": "keyword",
+      "text": [
+        "P. Paulirinus van Praag"
+      ]
+    },
+    {
+      "region_id": "tr_1733146345",
+      "type": "keyword",
+      "text": [
+        "mandora = quinterne"
+      ]
+    },
+    {
+      "region_id": "tr_1733146276",
+      "type": "keyword",
+      "text": [
+        "gittern :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146282",
+      "type": "pages-keyword",
+      "text": [
+        "22"
+      ]
+    },
+    {
+      "region_id": "tr_1733146275",
+      "type": "keyword",
+      "text": [
+        "rabel :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146300",
+      "type": "pages-keyword",
+      "text": [
+        "23"
+      ]
+    },
+    {
+      "region_id": "tr_1733146288",
+      "type": "keyword",
+      "text": [
+        "mandora :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146292",
+      "type": "pages-keyword",
+      "text": [
+        "22-31"
+      ]
+    },
+    {
+      "region_id": "tr_1733146293",
+      "type": "keyword",
+      "text": [
+        "rebec :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146277",
+      "type": "pages-keyword",
+      "text": [
+        "23"
+      ]
+    },
+    {
+      "region_id": "r_485",
+      "type": "keyword",
+      "text": [
+        "viool :"
+      ]
+    },
+    {
+      "region_id": "r_486",
+      "type": "pages-keyword",
+      "text": [
+        "75, 76, 78"
+      ]
+    },
+    {
+      "region_id": "tr_1733146357",
+      "type": "keyword",
+      "text": [
+        "continuo in Engeland +-1600 :"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "tr_1733146361",
+      "type": "pages-keyword",
+      "text": [
+        "76, 77"
+      ]
+    },
+    {
+      "region_id": "tr_1733146298",
+      "type": "keyword",
+      "text": [
+        "la Grenouille :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146271",
+      "type": "pages-keyword",
+      "text": [
+        "24"
+      ]
+    },
+    {
+      "region_id": "tr_1733146348",
+      "type": "keyword",
+      "text": [
+        "klavecimbelbc en master :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146329",
+      "type": "keyword",
+      "text": [
+        "Bocan :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146310",
+      "type": "pages-keyword",
+      "text": [
+        "25"
+      ]
+    },
+    {
+      "region_id": "tr_1733146303",
+      "type": "keyword",
+      "text": [
+        "orkestopstelling Eng 17e :"
+      ]
+    },
+    {
+      "region_id": "r_657",
+      "type": "pages-keyword",
+      "text": [
+        "76"
+      ]
+    },
+    {
+      "region_id": "tr_1733146289",
+      "type": "pages-keyword",
+      "text": [
+        "76-78"
+      ]
+    },
+    {
+      "region_id": "tr_1733146305",
+      "type": "keyword",
+      "text": [
+        "Prélude non mesuré :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146291",
+      "type": "keyword",
+      "text": [
+        "V. Strobel :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146349",
+      "type": "pages-keyword",
+      "text": [
+        "28"
+      ]
+    },
+    {
+      "region_id": "tr_1733146365",
+      "type": "keyword",
+      "text": [
+        "a ="
+      ]
+    },
+    {
+      "region_id": "tr_1733146334",
+      "type": "keyword",
+      "text": [
+        "ganshoorn :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146320",
+      "type": "pages-keyword",
+      "text": [
+        "43-46"
+      ]
+    },
+    {
+      "region_id": "tr_1733146350",
+      "type": "keyword",
+      "text": [
+        "Zweedse klavec. 18e :"
+      ]
+    },
+    {
+      "region_id": "r_2581",
+      "type": "pages-keyword",
+      "text": [
+        "26"
+      ]
+    },
+    {
+      "region_id": "tr_1733146356",
+      "type": "pages-keyword",
+      "text": [
+        "52-54"
+      ]
+    },
+    {
+      "region_id": "r_2759",
+      "type": "",
+      "text": [
+        "50"
+      ]
+    },
+    {
+      "region_id": "tr_1733146296",
+      "type": "pages-keyword",
+      "text": [
+        "80-83"
+      ]
+    },
+    {
+      "region_id": "r_142",
+      "type": "pages-keyword",
+      "text": [
+        "80-83"
+      ]
+    },
+    {
+      "region_id": "r_1396",
+      "type": "keyword",
+      "text": [
+        "Ruckers :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146366",
+      "type": "keyword",
+      "text": [
+        "muziek voor meer klanc"
+      ]
+    },
+    {
+      "region_id": "tr_1733146330",
+      "type": "pages-keyword",
+      "text": [
+        "82, 83"
+      ]
+    },
+    {
+      "region_id": "tr_1733146325",
+      "type": "keyword",
+      "text": [
+        "fam. Duben :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146341",
+      "type": "pages-keyword",
+      "text": [
+        "48"
+      ]
+    },
+    {
+      "region_id": "tr_1733146302",
+      "type": "keyword",
+      "text": [
+        "16e"
+      ]
+    },
+    {
+      "region_id": "tr_1733146333",
+      "type": "keyword",
+      "text": [
+        "J. Agrell :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146274",
+      "type": "pages-keyword",
+      "text": [
+        "49, 50"
+      ]
+    },
+    {
+      "region_id": "tr_1733146269",
+      "type": "keyword",
+      "text": [
+        "J. H. Roman"
+      ]
+    },
+    {
+      "region_id": "tr_1733146337",
+      "type": "pages-keyword",
+      "text": [
+        "48"
+      ]
+    },
+    {
+      "region_id": "tr_1733146311",
+      "type": "keyword",
+      "text": [
+        "mordent :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146312",
+      "type": "keyword",
+      "text": [
+        "trillen :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146272",
+      "type": "pages-keyword",
+      "text": [
+        "57, 58"
+      ]
+    },
+    {
+      "region_id": "tr_1733146307",
+      "type": "keyword",
+      "text": [
+        "hoofdnoottr :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146286",
+      "type": "pages-keyword",
+      "text": [
+        "60"
+      ]
+    },
+    {
+      "region_id": "tr_1733146315",
+      "type": "pages-keyword",
+      "text": [
+        "58, 59"
+      ]
+    },
+    {
+      "region_id": "r_4193",
+      "type": "pages-keyword",
+      "text": [
+        "58, 59"
+      ]
+    },
+    {
+      "region_id": "r_4192",
+      "type": "keyword",
+      "text": [
+        "dynamiek en tr :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146270",
+      "type": "keyword",
+      "text": [
+        "tempo v. mordent :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146338",
+      "type": "keyword",
+      "text": [
+        "messa di voce :"
+      ]
+    },
+    {
+      "region_id": "r_4495",
+      "type": "pages-keyword",
+      "text": [
+        "60, 61"
+      ]
+    },
+    {
+      "region_id": "tr_1733146352",
+      "type": "keyword",
+      "text": [
+        "inégal :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146316",
+      "type": "keyword",
+      "text": [
+        "flaffement :"
+      ]
+    },
+    {
+      "region_id": "r_4496",
+      "type": "keyword",
+      "text": [
+        "falset :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146360",
+      "type": "pages-keyword",
+      "text": [
+        "71, 72"
+      ]
+    },
+    {
+      "region_id": "tr_1733146336",
+      "type": "pages-keyword",
+      "text": [
+        "57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146351",
+      "type": "pages-keyword",
+      "text": [
+        "60"
+      ]
+    },
+    {
+      "region_id": "r_4194",
+      "type": "pages-keyword",
+      "text": [
+        "60"
+      ]
+    },
+    {
+      "region_id": "tr_1733146339",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "tr_1733146318",
+      "type": "keyword",
+      "text": [
+        "Agrell en klavec. concert :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146301",
+      "type": "keyword",
+      "text": [
+        "F. Zellbell :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146343",
+      "type": "pages-keyword",
+      "text": [
+        "50"
+      ]
+    },
+    {
+      "region_id": "tr_1733146299",
+      "type": "keyword",
+      "text": [
+        "H. P. Johnsen :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146344",
+      "type": "pages-keyword",
+      "text": [
+        "51"
+      ]
+    },
+    {
+      "region_id": "tr_1733146283",
+      "type": "keyword",
+      "text": [
+        "klavichord in Zweden 18e :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146355",
+      "type": "pages-keyword",
+      "text": [
+        "51, 53"
+      ]
+    },
+    {
+      "region_id": "tr_1733146335",
+      "type": "keyword",
+      "text": [
+        "temperatuur :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146308",
+      "type": "pages-keyword",
+      "text": [
+        "52"
+      ]
+    },
+    {
+      "region_id": "tr_1733146279",
+      "type": "keyword",
+      "text": [
+        "clavecytherium :"
+      ]
+    },
+    {
+      "region_id": "r_3014",
+      "type": "keyword",
+      "text": [
+        "kieltjes :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146327",
+      "type": "pages-keyword",
+      "text": [
+        "52, 53, 54"
+      ]
+    },
+    {
+      "region_id": "r_3016",
+      "type": "pages-keyword",
+      "text": [
+        "53"
+      ]
+    },
+    {
+      "region_id": "r_3240",
+      "type": "keyword",
+      "text": [
+        "Thoinon :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146297",
+      "type": "keyword",
+      "text": [
+        "trillertabel :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146268",
+      "type": "keyword",
+      "text": [
+        "tierce coulée :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146332",
+      "type": "pages-keyword",
+      "text": [
+        "56, 57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146306",
+      "type": "keyword",
+      "text": [
+        "port de voix opslag? :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146284",
+      "type": "pages-keyword",
+      "text": [
+        "56, 57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146285",
+      "type": "keyword",
+      "text": [
+        "lengte port de voix :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146290",
+      "type": "pages-keyword",
+      "text": [
+        "56, 57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146287",
+      "type": "keyword",
+      "text": [
+        "port de voix en dynamiek :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146281",
+      "type": "pages-keyword",
+      "text": [
+        "57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146280",
+      "type": "keyword",
+      "text": [
+        "toevoegen v. port de voix :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146278",
+      "type": "keyword",
+      "text": [
+        "balancer :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146273",
+      "type": "pages-keyword",
+      "text": [
+        "56, 57"
+      ]
+    },
+    {
+      "region_id": "tr_1733146328",
+      "type": "pages-keyword",
+      "text": [
+        "57"
+      ]
+    },
+    {
+      "region_id": "r_3015",
+      "type": "pages-keyword",
+      "text": [
+        "52, 54"
+      ]
+    },
+    {
+      "region_id": "tr_1733146321",
+      "type": "keyword",
+      "text": [
+        "registratiepedalen bij klavec  :"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_485",
+      "target": "l_951"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146357",
+      "target": "l_1066"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146348",
+      "target": "r_657"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146303",
+      "target": "tr_1733146289"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146365",
+      "target": "r_142"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1396",
+      "target": "tr_1733146296"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146366",
+      "target": "tr_1733146330"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146302",
+      "target": "tr_1733146330"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146304",
+      "target": "l_1594"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146353",
+      "target": "tr_1733146317"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146295",
+      "target": "l_1693"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146342",
+      "target": "l_1697"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146309",
+      "target": "tr_1733146322"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146314",
+      "target": "l_2199"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146294",
+      "target": "tr_1733146354"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146326",
+      "target": "l_2222"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146319",
+      "target": "tr_1733146340"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146347",
+      "target": "l_2230"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146323",
+      "target": "r_1566"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146345",
+      "target": "r_1565"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146276",
+      "target": "l_2238"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146288",
+      "target": "l_2242"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146275",
+      "target": "tr_1733146300"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146293",
+      "target": "l_2250"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146298",
+      "target": "tr_1733146271"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146329",
+      "target": "l_2522"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146305",
+      "target": "r_2581"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146291",
+      "target": "tr_1733146349"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146334",
+      "target": "l_181"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146350",
+      "target": "l_2589"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146325",
+      "target": "tr_1733146341"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146269",
+      "target": "tr_1733146337"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146318",
+      "target": "r_2759"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146333",
+      "target": "l_2750"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146301",
+      "target": "tr_1733146343"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146299",
+      "target": "l_2758"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146283",
+      "target": "l_2803"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146335",
+      "target": "tr_1733146308"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146279",
+      "target": "tr_1733146327"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3014",
+      "target": "l_3047"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146321",
+      "target": "r_3016"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3240",
+      "target": "l_3129"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146297",
+      "target": "r_3134"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146306",
+      "target": "tr_1733146284"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146268",
+      "target": "tr_1733146332"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146285",
+      "target": "tr_1733146290"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146280",
+      "target": "tr_1733146273"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146278",
+      "target": "tr_1733146328"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146287",
+      "target": "tr_1733146281"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146311",
+      "target": "tr_1733146286"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146312",
+      "target": "l_3922"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146307",
+      "target": "tr_1733146315"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4192",
+      "target": "r_4193"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146270",
+      "target": "r_4194"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146338",
+      "target": "tr_1733146351"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146352",
+      "target": "r_4495"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146316",
+      "target": "tr_1733146336"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4496",
+      "target": "tr_1733146360"
+    }
+  ]
+}

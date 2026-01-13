@@ -1,0 +1,683 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78099023,
+  "library_identifier": "20129484v10n1",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "tr_1733146328",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "r_84",
+      "type": "keyword",
+      "text": [
+        "a ="
+      ]
+    },
+    {
+      "region_id": "tr_1733146355",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad, 4, hele boek, 38-41, 73, 87"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "tr_1733146359",
+      "type": "pages-keyword",
+      "text": [
+        "14, 21"
+      ]
+    },
+    {
+      "region_id": "tr_1733146356",
+      "type": "keyword",
+      "text": [
+        "trombone :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146311",
+      "type": "pages-keyword",
+      "text": [
+        "22, 23, 24, 26, 27, 28"
+      ]
+    },
+    {
+      "region_id": "tr_1733146344",
+      "type": "keyword",
+      "text": [
+        "hobo :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146319",
+      "type": "keyword",
+      "text": [
+        "dwarsfluit :"
+      ]
+    },
+    {
+      "region_id": "r_147",
+      "type": "pages-keyword",
+      "text": [
+        "22"
+      ]
+    },
+    {
+      "region_id": "tr_1733146315",
+      "type": "pages-keyword",
+      "text": [
+        "23, 24, 26, 32"
+      ]
+    },
+    {
+      "region_id": "tr_1733146333",
+      "type": "keyword",
+      "text": [
+        "klavec (eng 16e)"
+      ]
+    },
+    {
+      "region_id": "tr_1733146367",
+      "type": "pages-keyword",
+      "text": [
+        "23"
+      ]
+    },
+    {
+      "region_id": "tr_1733146346",
+      "type": "keyword",
+      "text": [
+        "fam. Bassano :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146318",
+      "type": "pages-keyword",
+      "text": [
+        "23, 24, 25, 26, 28"
+      ]
+    },
+    {
+      "region_id": "tr_1733146312",
+      "type": "keyword",
+      "text": [
+        "zink :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146330",
+      "type": "pages-keyword",
+      "text": [
+        "24, 26, 27"
+      ]
+    },
+    {
+      "region_id": "tr_1733146332",
+      "type": "keyword",
+      "text": [
+        "inventaris :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146320",
+      "type": "pages-keyword",
+      "text": [
+        "24"
+      ]
+    },
+    {
+      "region_id": "r_315",
+      "type": "pages-keyword",
+      "text": [
+        "24"
+      ]
+    },
+    {
+      "region_id": "tr_1733146324",
+      "type": "keyword",
+      "text": [
+        "kromhoorn :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146322",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146314",
+      "type": "pages-keyword",
+      "text": [
+        "24, 29, 31, 32, 34, 58, 73, 87"
+      ]
+    },
+    {
+      "region_id": "tr_1733146357",
+      "type": "keyword",
+      "text": [
+        "gamba :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146349",
+      "type": "pages-keyword",
+      "text": [
+        "24, 26, 27, 38, 39"
+      ]
+    },
+    {
+      "region_id": "tr_1733146361",
+      "type": "keyword",
+      "text": [
+        "bespelen v. meer instr :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146364",
+      "type": "pages-keyword",
+      "text": [
+        "24, 26, 27, 28"
+      ]
+    },
+    {
+      "region_id": "tr_1733146340",
+      "type": "keyword",
+      "text": [
+        "flageolet :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146354",
+      "type": "pages-keyword",
+      "text": [
+        "26"
+      ]
+    },
+    {
+      "region_id": "tr_1733146323",
+      "type": "keyword",
+      "text": [
+        "Morley en Flute :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146325",
+      "type": "pages-keyword",
+      "text": [
+        "26"
+      ]
+    },
+    {
+      "region_id": "tr_1733146338",
+      "type": "keyword",
+      "text": [
+        "viool :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146327",
+      "type": "pages-keyword",
+      "text": [
+        "27, 32, 33, 34, 35, 73"
+      ]
+    },
+    {
+      "region_id": "tr_1733146347",
+      "type": "keyword",
+      "text": [
+        "concert in 17e e :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146341",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "tr_1733146358",
+      "type": "keyword",
+      "text": [
+        "orgel in theater (Eng 17e) :"
+      ]
+    },
+    {
+      "region_id": "r_393",
+      "type": "keyword",
+      "text": [
+        "pandora :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146368",
+      "type": "keyword",
+      "text": [
+        "mandora :"
+      ]
+    },
+    {
+      "region_id": "r_616",
+      "type": "keyword",
+      "text": [
+        "lituus = blokfluit :"
+      ]
+    },
+    {
+      "region_id": "r_391",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "r_392",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "tr_1733146353",
+      "type": "pages-keyword",
+      "text": [
+        "28"
+      ]
+    },
+    {
+      "region_id": "r_390",
+      "type": "pages-keyword",
+      "text": [
+        "27"
+      ]
+    },
+    {
+      "region_id": "tr_1733146321",
+      "type": "keyword",
+      "text": [
+        "vanitas"
+      ]
+    },
+    {
+      "region_id": "tr_1733146342",
+      "type": "pages-keyword",
+      "text": [
+        "31, 32"
+      ]
+    },
+    {
+      "region_id": "tr_1733146337",
+      "type": "keyword",
+      "text": [
+        "bokfluit op schilderij ="
+      ]
+    },
+    {
+      "region_id": "tr_1733146350",
+      "type": "keyword",
+      "text": [
+        "schalmei :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146365",
+      "type": "pages-keyword",
+      "text": [
+        "oa 44"
+      ]
+    },
+    {
+      "region_id": "tr_1733146313",
+      "type": "keyword",
+      "text": [
+        "hobo :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146339",
+      "type": "pages-keyword",
+      "text": [
+        "45"
+      ]
+    },
+    {
+      "region_id": "tr_1733146366",
+      "type": "keyword",
+      "text": [
+        "doedelzak :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146316",
+      "type": "pages-keyword",
+      "text": [
+        "45"
+      ]
+    },
+    {
+      "region_id": "r_1079",
+      "type": "pages-keyword",
+      "text": [
+        "61"
+      ]
+    },
+    {
+      "region_id": "r_1051",
+      "type": "pages-keyword",
+      "text": [
+        "56-62"
+      ]
+    },
+    {
+      "region_id": "r_1038",
+      "type": "pages-keyword",
+      "text": [
+        "38, 39"
+      ]
+    },
+    {
+      "region_id": "tr_1733146329",
+      "type": "keyword",
+      "text": [
+        "klavec. in japan (16e)"
+      ]
+    },
+    {
+      "region_id": "tr_1733146363",
+      "type": "keyword",
+      "text": [
+        "la Vignonne :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146351",
+      "type": "keyword",
+      "text": [
+        "fagot :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146326",
+      "type": "pages-keyword",
+      "text": [
+        "45"
+      ]
+    },
+    {
+      "region_id": "tr_1733146310",
+      "type": "keyword",
+      "text": [
+        "violone :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146336",
+      "type": "pages-keyword",
+      "text": [
+        "64-67"
+      ]
+    },
+    {
+      "region_id": "r_1101",
+      "type": "pages-keyword",
+      "text": [
+        "64-67"
+      ]
+    },
+    {
+      "region_id": "tr_1733146331",
+      "type": "keyword",
+      "text": [
+        "pochette :"
+      ]
+    },
+    {
+      "region_id": "r_1130",
+      "type": "pages-keyword",
+      "text": [
+        "73"
+      ]
+    },
+    {
+      "region_id": "tr_1733146334",
+      "type": "keyword",
+      "text": [
+        "draailier :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146348",
+      "type": "pages-keyword",
+      "text": [
+        "125, 127"
+      ]
+    },
+    {
+      "region_id": "tr_1733146352",
+      "type": "keyword",
+      "text": [
+        "vingerzetting :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146345",
+      "type": "keyword",
+      "text": [
+        "luit op schilderij ="
+      ]
+    },
+    {
+      "region_id": "tr_1733146343",
+      "type": "keyword",
+      "text": [
+        "J. B. Vanhall :"
+      ]
+    },
+    {
+      "region_id": "r_801",
+      "type": "pages-keyword",
+      "text": [
+        "31, 32, 34"
+      ]
+    },
+    {
+      "region_id": "tr_1733146317",
+      "type": "pages-keyword",
+      "text": [
+        "34"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "tr_1733146328",
+      "target": "l_122"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_84",
+      "target": "tr_1733146359"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146356",
+      "target": "tr_1733146311"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146344",
+      "target": "l_141"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146319",
+      "target": "tr_1733146315"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146333",
+      "target": "tr_1733146367"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146346",
+      "target": "l_396"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146312",
+      "target": "tr_1733146330"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146332",
+      "target": "tr_1733146320"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146324",
+      "target": "r_315"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146322",
+      "target": "l_560"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146357",
+      "target": "l_617"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_692",
+      "target": "tr_1733146364"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146340",
+      "target": "tr_1733146354"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146323",
+      "target": "tr_1733146325"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146338",
+      "target": "l_1110"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146347",
+      "target": "tr_1733146341"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146358",
+      "target": "r_390"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_393",
+      "target": "r_391"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146368",
+      "target": "r_392"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_616",
+      "target": "tr_1733146353"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146321",
+      "target": "l_1476"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146337",
+      "target": "l_1526"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146345",
+      "target": "tr_1733146317"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146350",
+      "target": "l_1534"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146313",
+      "target": "tr_1733146339"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146366",
+      "target": "tr_1733146316"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146351",
+      "target": "tr_1733146326"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146329",
+      "target": "r_1038"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146363",
+      "target": "r_1051"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146352",
+      "target": "r_1079"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146310",
+      "target": "tr_1733146336"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146343",
+      "target": "r_1101"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146331",
+      "target": "r_1130"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146334",
+      "target": "tr_1733146348"
+    }
+  ]
+}

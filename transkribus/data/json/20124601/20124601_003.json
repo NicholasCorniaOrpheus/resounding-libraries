@@ -1,0 +1,429 @@
+{
+  "collection_id": 257292,
+  "document_id": 1845910,
+  "page_id": 65817190,
+  "library_identifier": "20124601",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "harp :"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "zink :"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "keyword",
+      "text": [
+        "gamba :"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "keyword",
+      "text": [
+        "viool :"
+      ]
+    },
+    {
+      "region_id": "r_67",
+      "type": "keyword",
+      "text": [
+        "J. Birchenske :"
+      ]
+    },
+    {
+      "region_id": "r_96",
+      "type": "keyword",
+      "text": [
+        "muziek ="
+      ]
+    },
+    {
+      "region_id": "r_109",
+      "type": "keyword",
+      "text": [
+        "emoties :"
+      ]
+    },
+    {
+      "region_id": "r_151",
+      "type": "keyword",
+      "text": [
+        "tekst :"
+      ]
+    },
+    {
+      "region_id": "r_138",
+      "type": "keyword",
+      "text": [
+        "contrapunt :"
+      ]
+    },
+    {
+      "region_id": "r_444",
+      "type": "pages-keyword",
+      "text": [
+        "61, 62"
+      ]
+    },
+    {
+      "region_id": "r_198",
+      "type": "keyword",
+      "text": [
+        "tempo :"
+      ]
+    },
+    {
+      "region_id": "r_181",
+      "type": "keyword",
+      "text": [
+        "componeren :"
+      ]
+    },
+    {
+      "region_id": "r_212",
+      "type": "keyword",
+      "text": [
+        "L. Marenzio :"
+      ]
+    },
+    {
+      "region_id": "r_480",
+      "type": "pages-keyword",
+      "text": [
+        "67"
+      ]
+    },
+    {
+      "region_id": "r_227",
+      "type": "keyword",
+      "text": [
+        "O. di Lasso :"
+      ]
+    },
+    {
+      "region_id": "r_238",
+      "type": "keyword",
+      "text": [
+        "kerktoonsoorten :"
+      ]
+    },
+    {
+      "region_id": "r_254",
+      "type": "keyword",
+      "text": [
+        "afwisseling :"
+      ]
+    },
+    {
+      "region_id": "r_290",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "r_301",
+      "type": "keyword",
+      "text": [
+        "klavichord :"
+      ]
+    },
+    {
+      "region_id": "r_270",
+      "type": "keyword",
+      "text": [
+        "tromba marina :"
+      ]
+    },
+    {
+      "region_id": "r_546",
+      "type": "pages-keyword",
+      "text": [
+        "90, 91"
+      ]
+    },
+    {
+      "region_id": "r_160",
+      "type": "keyword",
+      "text": [
+        "kwint/oktaaf parallellen :"
+      ]
+    },
+    {
+      "region_id": "r_400",
+      "type": "pages-keyword",
+      "text": [
+        "1-4"
+      ]
+    },
+    {
+      "region_id": "r_409",
+      "type": "pages-keyword",
+      "text": [
+        "4, 88"
+      ]
+    },
+    {
+      "region_id": "r_121",
+      "type": "keyword",
+      "text": [
+        "hexachordmutatie :"
+      ]
+    },
+    {
+      "region_id": "r_80",
+      "type": "keyword",
+      "text": [
+        "temperatuur :"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "J. H. Alsted :"
+      ]
+    },
+    {
+      "region_id": "r_320",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad"
+      ]
+    },
+    {
+      "region_id": "r_334",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad"
+      ]
+    },
+    {
+      "region_id": "r_349",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad"
+      ]
+    },
+    {
+      "region_id": "r_365",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad"
+      ]
+    },
+    {
+      "region_id": "r_377",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_386",
+      "type": "pages-keyword",
+      "text": [
+        "18, 20, 21-23, 46, 47, 75, 91"
+      ]
+    },
+    {
+      "region_id": "r_430",
+      "type": "pages-keyword",
+      "text": [
+        "60, 61, 64"
+      ]
+    },
+    {
+      "region_id": "r_420",
+      "type": "pages-keyword",
+      "text": [
+        "44, 45"
+      ]
+    },
+    {
+      "region_id": "r_469",
+      "type": "pages-keyword",
+      "text": [
+        "61-66-72,"
+      ]
+    },
+    {
+      "region_id": "r_489",
+      "type": "pages-keyword",
+      "text": [
+        "72, 93"
+      ]
+    },
+    {
+      "region_id": "r_498",
+      "type": "pages-keyword",
+      "text": [
+        "72, 93"
+      ]
+    },
+    {
+      "region_id": "r_519",
+      "type": "pages-keyword",
+      "text": [
+        "78"
+      ]
+    },
+    {
+      "region_id": "r_537",
+      "type": "pages-keyword",
+      "text": [
+        "91"
+      ]
+    },
+    {
+      "region_id": "r_508",
+      "type": "pages-keyword",
+      "text": [
+        "76-87"
+      ]
+    },
+    {
+      "region_id": "r_528",
+      "type": "pages-keyword",
+      "text": [
+        "90?"
+      ]
+    },
+    {
+      "region_id": "r_460",
+      "type": "pages-keyword",
+      "text": [
+        "66"
+      ]
+    },
+    {
+      "region_id": "r_310",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_310"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_320"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "l_5"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_39",
+      "target": "l_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_55",
+      "target": "r_365"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_67",
+      "target": "l_11"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_80",
+      "target": "l_13"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_96",
+      "target": "l_15"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_109",
+      "target": "r_409"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_121",
+      "target": "r_420"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_138",
+      "target": "l_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_151",
+      "target": "l_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_160",
+      "target": "r_460"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_181",
+      "target": "r_469"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_198",
+      "target": "l_32"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_212",
+      "target": "r_489"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_227",
+      "target": "l_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_238",
+      "target": "r_508"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_254",
+      "target": "r_519"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_270",
+      "target": "r_528"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_290",
+      "target": "r_546"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_301",
+      "target": "r_537"
+    }
+  ]
+}

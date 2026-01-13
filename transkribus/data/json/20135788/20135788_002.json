@@ -1,0 +1,281 @@
+{
+  "collection_id": 257292,
+  "document_id": 1765068,
+  "page_id": 63610108,
+  "library_identifier": "20135788",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_32",
+      "type": "keyword",
+      "text": [
+        "T. Ravenscroft : "
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "T. Morley : "
+      ]
+    },
+    {
+      "region_id": "r_66",
+      "type": "keyword",
+      "text": [
+        "n. Giles :"
+      ]
+    },
+    {
+      "region_id": "r_74",
+      "type": "keyword",
+      "text": [
+        "T. Campion : "
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "keyword",
+      "text": [
+        "J. Dowland : "
+      ]
+    },
+    {
+      "region_id": "r_98",
+      "type": "keyword",
+      "text": [
+        "m. Peerson : "
+      ]
+    },
+    {
+      "region_id": "r_106",
+      "type": "keyword",
+      "text": [
+        "E. Pearce : "
+      ]
+    },
+    {
+      "region_id": "r_123",
+      "type": "keyword",
+      "text": [
+        "J. Bennet : "
+      ]
+    },
+    {
+      "region_id": "r_135",
+      "type": "keyword",
+      "text": [
+        "dansen : "
+      ]
+    },
+    {
+      "region_id": "r_171",
+      "type": "keyword",
+      "text": [
+        "J. Dunstable : "
+      ]
+    },
+    {
+      "region_id": "r_179",
+      "type": "keyword",
+      "text": [
+        "tempo : "
+      ]
+    },
+    {
+      "region_id": "r_189",
+      "type": "",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_194",
+      "type": "pages-keyword",
+      "text": [
+        "V"
+      ]
+    },
+    {
+      "region_id": "r_158",
+      "type": "keyword",
+      "text": [
+        "muziek en tekst : "
+      ]
+    },
+    {
+      "region_id": "r_204",
+      "type": "pages-keyword",
+      "text": [
+        "1,"
+      ]
+    },
+    {
+      "region_id": "r_184",
+      "type": "pages-keyword",
+      "text": [
+        "16, 21."
+      ]
+    },
+    {
+      "region_id": "r_272",
+      "type": "pages-keyword",
+      "text": [
+        "η, κ"
+      ]
+    },
+    {
+      "region_id": "r_282",
+      "type": "pages-keyword",
+      "text": [
+        "ρ"
+      ]
+    },
+    {
+      "region_id": "r_347",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek ( 32-39, 42-49, 52-59, 66-75-792"
+      ]
+    },
+    {
+      "region_id": "r_267",
+      "type": "pages-keyword",
+      "text": [
+        "κ"
+      ]
+    },
+    {
+      "region_id": "r_262",
+      "type": "pages-keyword",
+      "text": [
+        "μ, ν"
+      ]
+    },
+    {
+      "region_id": "r_257",
+      "type": "pages-keyword",
+      "text": [
+        "III, IV, 28, 29-31, 64-659"
+      ]
+    },
+    {
+      "region_id": "r_199",
+      "type": "pages-keyword",
+      "text": [
+        "VI"
+      ]
+    },
+    {
+      "region_id": "r_234",
+      "type": "pages-keyword",
+      "text": [
+        "IV, 26, 27, 38, 39-41, 50, 51, 60, 61-63, 76, 77"
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "keyword",
+      "text": [
+        "italiaanse invl. in Engel : "
+      ]
+    },
+    {
+      "region_id": "r_287",
+      "type": "pages-keyword",
+      "text": [
+        "ε"
+      ]
+    },
+    {
+      "region_id": "r_277",
+      "type": "pages-keyword",
+      "text": [
+        "η"
+      ]
+    },
+    {
+      "region_id": "r_170",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "shelfmark",
+      "text": [
+        "Ex libris",
+        "Ton Koopman",
+        "12D01"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_32",
+      "target": "r_347"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_287"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_58",
+      "target": "r_282"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_66",
+      "target": "r_277"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_74",
+      "target": "r_272"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_86",
+      "target": "r_267"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_98",
+      "target": "r_262"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_106",
+      "target": "r_257"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_123",
+      "target": "r_234"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_135",
+      "target": "r_194"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_158",
+      "target": "r_199"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_171",
+      "target": "r_204"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_179",
+      "target": "r_184"
+    }
+  ]
+}

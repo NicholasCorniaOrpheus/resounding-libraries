@@ -1,0 +1,189 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725285,
+  "library_identifier": "20129484v5n3",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_4",
+      "type": "keyword",
+      "text": [
+        "Boccaccio :\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        "Vedel :\n"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "keyword",
+      "text": [
+        "doedelzak :\n"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        "Monteverdi : vesper :\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "keyword",
+      "text": [
+        "blokfluit :\n"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "keyword",
+      "text": [
+        "mandoline :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "keyword",
+      "text": [
+        "zangeres in kerk :\n"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        "overpunkteren :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "pages-keyword",
+      "text": [
+        "331, 332, 425\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "pages-keyword",
+      "text": [
+        "335"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "385"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "pages-keyword",
+      "text": [
+        "380-387"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "413, 415\n"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "pages-keyword",
+      "text": [
+        "427, 429\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "pages-keyword",
+      "text": [
+        "385"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "pages-keyword",
+      "text": [
+        "324-341"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "pages-keyword",
+      "text": [
+        "310-323"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_3"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4",
+      "target": "r_5"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_7"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_8",
+      "target": "r_9"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_10",
+      "target": "r_11"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_12",
+      "target": "r_13"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_14",
+      "target": "r_15"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_16",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_18",
+      "target": "r_19"
+    }
+  ]
+}

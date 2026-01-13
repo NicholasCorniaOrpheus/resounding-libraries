@@ -1,0 +1,149 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725418,
+  "library_identifier": "20129484v5n1",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        "Corelli :\n"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "Ottoboni :\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "keyword",
+      "text": [
+        "Marenzio :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "Lully :\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        "Philidor :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "delalande :"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "29"
+      ]
+    },
+    {
+      "region_id": "r_126",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "2"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "2"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "2"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "pages-keyword",
+      "text": [
+        "5"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "28, 29, 33-35, 36, 37\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "pages-keyword",
+      "text": [
+        "29, 30, 35, 36\n"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "Frescobaldi :\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_13"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4",
+      "target": "r_11"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_9"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    }
+  ]
+}

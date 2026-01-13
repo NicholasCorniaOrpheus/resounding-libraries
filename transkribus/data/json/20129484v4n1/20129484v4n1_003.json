@@ -1,0 +1,542 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725416,
+  "library_identifier": "20129484v4n1",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "dwarsfluit :"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "viool :"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "gitaar"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        "harp :"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "hakkebord :"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "Fr. Couperin :"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "Marchand :"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "keyword",
+      "text": [
+        "zangkunst :"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        "vibrato :"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "keyword",
+      "text": [
+        "zink :"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "keyword",
+      "text": [
+        "cello :"
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "keyword",
+      "text": [
+        "hobo :"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "keyword",
+      "text": [
+        "D. Scarlatti :"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "trombone :"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "keyword",
+      "text": [
+        "Slagwerk :"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "Klavecimbel (front) :"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "16, 17, 18"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "17, 18"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "13, 16, 17, 18"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "pages-keyword",
+      "text": [
+        "6"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "8"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "13"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "13"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "pages-keyword",
+      "text": [
+        "13, 16, 87"
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "pages-keyword",
+      "text": [
+        "16, 17, 18"
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "pages-keyword",
+      "text": [
+        "19-21"
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "pages-keyword",
+      "text": [
+        "22-26"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "diminutie in franse 17e muziek :"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        "22? 23, 24, 25"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "pages-keyword",
+      "text": [
+        "22, 23 --> 24, 25"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "22, 23, 24"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "pages-keyword",
+      "text": [
+        "44-46"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "23, 24, 25"
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "pages-keyword",
+      "text": [
+        "18"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "Chambonnières :"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "L. Couperin :"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "Le Gallois :"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "keyword",
+      "text": [
+        "Handel :"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "keyword",
+      "text": [
+        "riet :"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "keyword",
+      "text": [
+        "vingerzetting :"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "keyword",
+      "text": [
+        "interpretatie in 17e e"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "pages-keyword",
+      "text": [
+        "23, 24"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "pages-keyword",
+      "text": [
+        "31-34"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "keyword",
+      "text": [
+        "Christofori :"
+      ]
+    },
+    {
+      "region_id": "r_1301",
+      "type": "keyword",
+      "text": [
+        "Dufay"
+      ]
+    },
+    {
+      "region_id": "r_1302",
+      "type": "pages-keyword",
+      "text": [
+        "99"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "r_53",
+      "type": "keyword",
+      "text": [
+        "mensurale notatie :"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "pages-keyword",
+      "text": [
+        "65"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "pages-keyword",
+      "text": [
+        "24"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "pages-keyword",
+      "text": [
+        "13"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "12-14"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "12-16"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "3-11, 56-59"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "13, 16, 17, 18, 55"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_1301",
+      "target": "r_1302"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_55",
+      "target": "r_56"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_53",
+      "target": "r_54"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_51",
+      "target": "l_735"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_49",
+      "target": "r_50"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_47",
+      "target": "r_48"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_42",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_41"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_39"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_33",
+      "target": "r_34"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_31",
+      "target": "r_32"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_29",
+      "target": "r_30"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_25",
+      "target": "r_26"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_23",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_21",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_17",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_10",
+      "target": "r_11"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2"
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78098699,
+  "library_identifier": "20129484v8n4",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_57",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_59",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_61",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_62",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "r_56",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_60",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "pages-keyword",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        null
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_3"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_7"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_8",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_17",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_22",
+      "target": "r_21"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_23",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_25"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_28",
+      "target": "r_29"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_30",
+      "target": "r_31"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_32",
+      "target": "r_33"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_34",
+      "target": "r_35"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_39"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_41"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_42",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_44",
+      "target": "r_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_46",
+      "target": "r_47"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_48",
+      "target": "r_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_50",
+      "target": "r_51"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_52",
+      "target": "r_53"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_54",
+      "target": "r_55"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_56",
+      "target": "r_57"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_58",
+      "target": "r_59"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_60",
+      "target": "r_61"
+    }
+  ]
+}

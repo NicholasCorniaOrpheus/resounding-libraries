@@ -1,0 +1,450 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725420,
+  "library_identifier": "20129484v5n4",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "Machaut :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "accidentia :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "musica ficta\n"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "keyword",
+      "text": [
+        "sol fa ut etc :\n"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        "hexachordmutatie"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "ad lib. bezetting :"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "tekstloze partij voor zanger?"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "keyword",
+      "text": [
+        "dynamiek :\n"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :\n"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "keyword",
+      "text": [
+        "bezetting (instr) :\n"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "keyword",
+      "text": [
+        "jongenssopr :\n"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "keyword",
+      "text": [
+        "orkestopstelling :\n"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "klavecimbel :\n"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "keyword",
+      "text": [
+        "dirigent :\n"
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "keyword",
+      "text": [
+        "viool :\n"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "keyword",
+      "text": [
+        "harp :\n"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "keyword",
+      "text": [
+        "inégal :\n"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "pages-keyword",
+      "text": [
+        "523"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "keyword",
+      "text": [
+        "inégal = overpunkteren :\n"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "keyword",
+      "text": [
+        "Slagwerk :\n"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "Handel : orgelconcerten\n"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "keyword",
+      "text": [
+        "loure :"
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "keyword",
+      "text": [
+        "ouverture :\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "instrumentale muziek :"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "485"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "485, 486\n"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "486"
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "pages-keyword",
+      "text": [
+        "500"
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "pages-keyword",
+      "text": [
+        "500, 507\n"
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "pages-keyword",
+      "text": [
+        "507"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "keyword",
+      "text": [
+        "punktering in franse muziek :\n"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "pages-keyword",
+      "text": [
+        "517, 525, 527, 543\n"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "pages-keyword",
+      "text": [
+        "527"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "pages-keyword",
+      "text": [
+        "599-603"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "543"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "pages-keyword",
+      "text": [
+        "523, 541\n"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "pages-keyword",
+      "text": [
+        "517-542"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "pages-keyword",
+      "text": [
+        "500"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "pages-keyword",
+      "text": [
+        "500"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "485, 486\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "462-498\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "473-377"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "pages-keyword",
+      "text": [
+        "473, 474, 475\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "484, 485\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "485"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "484-491"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_8",
+      "target": "r_9"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_17",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_21",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_23",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_25",
+      "target": "r_26"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_29",
+      "target": "r_30"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_31",
+      "target": "r_32"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_33",
+      "target": "r_34"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_35",
+      "target": "r_36"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_37",
+      "target": "r_38"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_39",
+      "target": "r_40"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_41",
+      "target": "r_42"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_43",
+      "target": "r_44"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_47",
+      "target": "r_48"
+    }
+  ]
+}

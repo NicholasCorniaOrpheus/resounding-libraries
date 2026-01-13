@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-03-04T16:25:18.494+01:00</Created>
+        <LastChange>2025-12-05T12:28:46.795+01:00</LastChange>
+    </Metadata>
+    <Page imageFilename="20125646_002.jpg" imageWidth="2274" imageHeight="3377">
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="108,154 1228,154 1228,1020 108,1020"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="310,782 690,783 690,753 310,752"/>
+                <Baseline points="310,782 690,783"/>
+                <TextEquiv>
+                    <Unicode>22 B02-T</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="310,634 1023,621 1022,591 309,604"/>
+                <Baseline points="310,634 1023,621"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="396,457 897,466 898,436 397,427"/>
+                <Baseline points="396,457 897,466"/>
+                <TextEquiv>
+                    <Unicode>Ex Libris</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

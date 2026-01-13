@@ -1,0 +1,1016 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78098698,
+  "library_identifier": "20129484v8n3",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_388",
+      "type": "keyword",
+      "text": [
+        "emoties :"
+      ]
+    },
+    {
+      "region_id": "r_390",
+      "type": "keyword",
+      "text": [
+        "afwisseling :"
+      ]
+    },
+    {
+      "region_id": "r_392",
+      "type": "keyword",
+      "text": [
+        "dynamiek :"
+      ]
+    },
+    {
+      "region_id": "r_396",
+      "type": "keyword",
+      "text": [
+        "oud-nieuw :"
+      ]
+    },
+    {
+      "region_id": "r_398",
+      "type": "keyword",
+      "text": [
+        "rubato :"
+      ]
+    },
+    {
+      "region_id": "r_400",
+      "type": "keyword",
+      "text": [
+        "tekst :"
+      ]
+    },
+    {
+      "region_id": "r_402",
+      "type": "keyword",
+      "text": [
+        "messa di voce :"
+      ]
+    },
+    {
+      "region_id": "r_406",
+      "type": "keyword",
+      "text": [
+        "zangeres :"
+      ]
+    },
+    {
+      "region_id": "r_408",
+      "type": "keyword",
+      "text": [
+        "V. Archilei :"
+      ]
+    },
+    {
+      "region_id": "r_411",
+      "type": "keyword",
+      "text": [
+        "esclamazione :"
+      ]
+    },
+    {
+      "region_id": "r_415",
+      "type": "keyword",
+      "text": [
+        "b.c. Ital 17e :"
+      ]
+    },
+    {
+      "region_id": "r_417",
+      "type": "keyword",
+      "text": [
+        "versieringen in bc :"
+      ]
+    },
+    {
+      "region_id": "r_422",
+      "type": "keyword",
+      "text": [
+        "afwisseling in bc :"
+      ]
+    },
+    {
+      "region_id": "r_423",
+      "type": "keyword",
+      "text": [
+        "vibrato :"
+      ]
+    },
+    {
+      "region_id": "r_424",
+      "type": "keyword",
+      "text": [
+        "streektechniek :"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "keyword",
+      "text": [
+        "bezetting (instr) :"
+      ]
+    },
+    {
+      "region_id": "r_421",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "r_413",
+      "type": "keyword",
+      "text": [
+        "toevoegen v. tr etc :"
+      ]
+    },
+    {
+      "region_id": "r_404",
+      "type": "keyword",
+      "text": [
+        "diminutie :"
+      ]
+    },
+    {
+      "region_id": "r_394",
+      "type": "keyword",
+      "text": [
+        "antitemporelatie :"
+      ]
+    },
+    {
+      "region_id": "r_399",
+      "type": "pages-keyword",
+      "text": [
+        "303"
+      ]
+    },
+    {
+      "region_id": "r_401",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305"
+      ]
+    },
+    {
+      "region_id": "r_403",
+      "type": "pages-keyword",
+      "text": [
+        "304"
+      ]
+    },
+    {
+      "region_id": "r_407",
+      "type": "pages-keyword",
+      "text": [
+        "304, 415"
+      ]
+    },
+    {
+      "region_id": "r_409",
+      "type": "pages-keyword",
+      "text": [
+        "304"
+      ]
+    },
+    {
+      "region_id": "r_412",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305"
+      ]
+    },
+    {
+      "region_id": "r_416",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "r_418",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "r_419",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "r_420",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "r_427",
+      "type": "keyword",
+      "text": [
+        "vedel :"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "keyword",
+      "text": [
+        "trombone :"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "329, 333"
+      ]
+    },
+    {
+      "region_id": "r_425",
+      "type": "keyword",
+      "text": [
+        "dwarsfluit (ME) :"
+      ]
+    },
+    {
+      "region_id": "r_430",
+      "type": "keyword",
+      "text": [
+        "A. Striggio :"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "keyword",
+      "text": [
+        "dubbels :"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "keyword",
+      "text": [
+        "bezetting bc :"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "keyword",
+      "text": [
+        "gamba :"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "a ="
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :"
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "pages-keyword",
+      "text": [
+        "368, 368-375"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "keyword",
+      "text": [
+        "falset :"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "pages-keyword",
+      "text": [
+        "374"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "keyword",
+      "text": [
+        "exequier :"
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "keyword",
+      "text": [
+        "sub/semitoetsen :"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "keyword",
+      "text": [
+        "fagot :"
+      ]
+    },
+    {
+      "region_id": "r_57",
+      "type": "pages-keyword",
+      "text": [
+        "383"
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "keyword",
+      "text": [
+        "klavec. Eng 18e :"
+      ]
+    },
+    {
+      "region_id": "r_60",
+      "type": "keyword",
+      "text": [
+        "Monteverdi :"
+      ]
+    },
+    {
+      "region_id": "r_62",
+      "type": "keyword",
+      "text": [
+        "cresc/decresc :"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "keyword",
+      "text": [
+        "hakkebord :"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "keyword",
+      "text": [
+        "orgel in ME :"
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "keyword",
+      "text": [
+        "Tallis :"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "keyword",
+      "text": [
+        "meerkorigheid :"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "329, 331, 333"
+      ]
+    },
+    {
+      "region_id": "r_428",
+      "type": "pages-keyword",
+      "text": [
+        "320"
+      ]
+    },
+    {
+      "region_id": "r_426",
+      "type": "pages-keyword",
+      "text": [
+        "315"
+      ]
+    },
+    {
+      "region_id": "r_429",
+      "type": "pages-keyword",
+      "text": [
+        "339-334, 359"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "329-334"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "pages-keyword",
+      "text": [
+        "331, 333"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "pages-keyword",
+      "text": [
+        "333"
+      ]
+    },
+    {
+      "region_id": "r_31",
+      "type": "pages-keyword",
+      "text": [
+        "333"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "pages-keyword",
+      "text": [
+        "334"
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "pages-keyword",
+      "text": [
+        "361-365"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        "366-368"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "pages-keyword",
+      "text": [
+        "366-368"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "chalumeau"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "372-374"
+      ]
+    },
+    {
+      "region_id": "r_3708",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "r_34",
+      "type": "keyword",
+      "text": [
+        "rieten :"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "klarinet :"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "pages-keyword",
+      "text": [
+        "373, 374"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "pages-keyword",
+      "text": [
+        "375"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "pages-keyword",
+      "text": [
+        "375"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "pages-keyword",
+      "text": [
+        "377, 381"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "pages-keyword",
+      "text": [
+        "381"
+      ]
+    },
+    {
+      "region_id": "r_61",
+      "type": "pages-keyword",
+      "text": [
+        "391"
+      ]
+    },
+    {
+      "region_id": "r_63",
+      "type": "pages-keyword",
+      "text": [
+        "401"
+      ]
+    },
+    {
+      "region_id": "r_59",
+      "type": "pages-keyword",
+      "text": [
+        "383"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "keyword",
+      "text": [
+        "jongenssopr :"
+      ]
+    },
+    {
+      "region_id": "r_414",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305, 406"
+      ]
+    },
+    {
+      "region_id": "r_405",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305, 385"
+      ]
+    },
+    {
+      "region_id": "r_397",
+      "type": "pages-keyword",
+      "text": [
+        "303"
+      ]
+    },
+    {
+      "region_id": "r_389",
+      "type": "pages-keyword",
+      "text": [
+        "302, 303, 304, 305"
+      ]
+    },
+    {
+      "region_id": "r_391",
+      "type": "pages-keyword",
+      "text": [
+        "302, 303, 305"
+      ]
+    },
+    {
+      "region_id": "r_393",
+      "type": "pages-keyword",
+      "text": [
+        "302, 303, 304"
+      ]
+    },
+    {
+      "region_id": "r_395",
+      "type": "pages-keyword",
+      "text": [
+        "303"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "J. Peri :"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "J.J. Forberger :"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "J.K. Kerll :"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "J. Blow :"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "Strungk :"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "L. Luzzaschi :"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "keyword",
+      "text": [
+        "vioolhouding :"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "uitgeschreven bc +-1600 :"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "403"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "405"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "oude muziek vroeger :"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "405, 406"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "406"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "415"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "429-430"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "415, 416"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "405"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "406"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_2"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_17",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_388",
+      "target": "r_389"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_390",
+      "target": "r_391"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_392",
+      "target": "r_393"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_394",
+      "target": "r_395"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_396",
+      "target": "r_397"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_398",
+      "target": "r_399"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_400",
+      "target": "r_401"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_402",
+      "target": "r_403"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_404",
+      "target": "r_405"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_406",
+      "target": "r_407"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_408",
+      "target": "r_409"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_411",
+      "target": "r_412"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_413",
+      "target": "r_414"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_415",
+      "target": "r_416"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_417",
+      "target": "r_418"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_422",
+      "target": "r_419"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_423",
+      "target": "r_421"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_424",
+      "target": "r_420"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_425",
+      "target": "r_426"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_427",
+      "target": "r_428"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_430",
+      "target": "r_429"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_19",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_21",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_23",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_25",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_26",
+      "target": "r_27"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_28",
+      "target": "r_29"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_30",
+      "target": "r_31"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_32",
+      "target": "r_33"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_34",
+      "target": "r_35"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_39"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_41"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_42",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_44",
+      "target": "r_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_46",
+      "target": "r_47"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_48",
+      "target": "r_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_50",
+      "target": "r_51"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_53",
+      "target": "r_52"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_54",
+      "target": "r_55"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_56",
+      "target": "r_57"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_58",
+      "target": "r_59"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_60",
+      "target": "r_61"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_62",
+      "target": "r_63"
+    }
+  ]
+}

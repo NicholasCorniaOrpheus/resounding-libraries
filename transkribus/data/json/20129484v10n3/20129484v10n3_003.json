@@ -1,0 +1,455 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78099041,
+  "library_identifier": "20129484v10n3",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "tr_1733146366",
+      "type": "keyword",
+      "text": [
+        "gamba :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146340",
+      "type": "pages-keyword",
+      "text": [
+        "300-308, 340-345, 371"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "tr_1733146327",
+      "type": "keyword",
+      "text": [
+        "vibrato :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146335",
+      "type": "pages-keyword",
+      "text": [
+        "301"
+      ]
+    },
+    {
+      "region_id": "tr_1733146339",
+      "type": "keyword",
+      "text": [
+        "quintern :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146334",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305"
+      ]
+    },
+    {
+      "region_id": "tr_1733146337",
+      "type": "keyword",
+      "text": [
+        "oud-nieuw :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146345",
+      "type": "keyword",
+      "text": [
+        "T. Ravenscroft :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146344",
+      "type": "pages-keyword",
+      "text": [
+        "309-316"
+      ]
+    },
+    {
+      "region_id": "tr_1733146343",
+      "type": "keyword",
+      "text": [
+        "R. Alison :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146331",
+      "type": "keyword",
+      "text": [
+        "Viool :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146330",
+      "type": "keyword",
+      "text": [
+        "Strijkstok :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146350",
+      "type": "pages-keyword",
+      "text": [
+        "329"
+      ]
+    },
+    {
+      "region_id": "tr_1733146333",
+      "type": "keyword",
+      "text": [
+        "cello :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146329",
+      "type": "pages-keyword",
+      "text": [
+        "329"
+      ]
+    },
+    {
+      "region_id": "r_283",
+      "type": "pages-keyword",
+      "text": [
+        "329"
+      ]
+    },
+    {
+      "region_id": "tr_1733146361",
+      "type": "keyword",
+      "text": [
+        "afwisseling :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146354",
+      "type": "pages-keyword",
+      "text": [
+        "305"
+      ]
+    },
+    {
+      "region_id": "tr_1733146355",
+      "type": "keyword",
+      "text": [
+        "oude muziek vroeger :"
+      ]
+    },
+    {
+      "region_id": "r_129",
+      "type": "pages-keyword",
+      "text": [
+        "312"
+      ]
+    },
+    {
+      "region_id": "tr_1733146356",
+      "type": "pages-keyword",
+      "text": [
+        "311"
+      ]
+    },
+    {
+      "region_id": "tr_1733146362",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146346",
+      "type": "pages-keyword",
+      "text": [
+        "329, 417"
+      ]
+    },
+    {
+      "region_id": "r_234",
+      "type": "pages-keyword",
+      "text": [
+        "329-332, achterkant"
+      ]
+    },
+    {
+      "region_id": "tr_1733146347",
+      "type": "keyword",
+      "text": [
+        "J. Playford :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146328",
+      "type": "keyword",
+      "text": [
+        "vioolhouding :"
+      ]
+    },
+    {
+      "region_id": "r_284",
+      "type": "pages-keyword",
+      "text": [
+        "330"
+      ]
+    },
+    {
+      "region_id": "tr_1733146353",
+      "type": "pages-keyword",
+      "text": [
+        "330"
+      ]
+    },
+    {
+      "region_id": "tr_1733146359",
+      "type": "keyword",
+      "text": [
+        "Streektechniek :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146358",
+      "type": "pages-keyword",
+      "text": [
+        "331, 332"
+      ]
+    },
+    {
+      "region_id": "tr_1733146338",
+      "type": "keyword",
+      "text": [
+        "A. Scarlatti :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146348",
+      "type": "pages-keyword",
+      "text": [
+        "333-339"
+      ]
+    },
+    {
+      "region_id": "tr_1733146336",
+      "type": "keyword",
+      "text": [
+        "vingerzetting :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146342",
+      "type": "pages-keyword",
+      "text": [
+        "333-339"
+      ]
+    },
+    {
+      "region_id": "tr_1733146369",
+      "type": "keyword",
+      "text": [
+        "Tallis :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146352",
+      "type": "pages-keyword",
+      "text": [
+        "347-350"
+      ]
+    },
+    {
+      "region_id": "tr_1733146332",
+      "type": "keyword",
+      "text": [
+        "J. Mattheson :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146351",
+      "type": "pages-keyword",
+      "text": [
+        "365-367"
+      ]
+    },
+    {
+      "region_id": "tr_1733146341",
+      "type": "keyword",
+      "text": [
+        "dirigent :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146363",
+      "type": "pages-keyword",
+      "text": [
+        "378"
+      ]
+    },
+    {
+      "region_id": "r_186",
+      "type": "keyword",
+      "text": [
+        "Bassano :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146368",
+      "type": "keyword",
+      "text": [
+        "orgue oculaire :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146349",
+      "type": "pages-keyword",
+      "text": [
+        "365, 367"
+      ]
+    },
+    {
+      "region_id": "tr_1733146367",
+      "type": "keyword",
+      "text": [
+        "G. F. Händel :"
+      ]
+    },
+    {
+      "region_id": "r_185",
+      "type": "pages-keyword",
+      "text": [
+        "417, 419"
+      ]
+    },
+    {
+      "region_id": "tr_1733146364",
+      "type": "pages-keyword",
+      "text": [
+        "419"
+      ]
+    },
+    {
+      "region_id": "tr_1733146357",
+      "type": "shelfmark",
+      "text": []
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "tr_1733146366",
+      "target": "l_688"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146327",
+      "target": "l_414"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146339",
+      "target": "tr_1733146334"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146337",
+      "target": "l_733"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146345",
+      "target": "l_770"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146355",
+      "target": "l_777"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146343",
+      "target": "l_781"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146362",
+      "target": "tr_1733146346"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146330",
+      "target": "tr_1733146350"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146333",
+      "target": "tr_1733146329"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146347",
+      "target": "r_283"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146361",
+      "target": "r_284"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146328",
+      "target": "tr_1733146353"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146359",
+      "target": "tr_1733146358"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146338",
+      "target": "l_1440"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146336",
+      "target": "tr_1733146342"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146369",
+      "target": "l_1591"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146332",
+      "target": "tr_1733146351"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146368",
+      "target": "tr_1733146349"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146341",
+      "target": "tr_1733146363"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_186",
+      "target": "r_185"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146367",
+      "target": "tr_1733146364"
+    }
+  ]
+}

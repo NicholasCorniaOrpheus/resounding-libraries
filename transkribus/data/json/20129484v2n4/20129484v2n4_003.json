@@ -1,0 +1,151 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725278,
+  "library_identifier": "20129484v2n4",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "Dufay :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "gamba :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "Snaren :\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "hakkebord :\n"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "blokfluit :\n"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "bezetting (instr) :\n"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "219-234"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "223"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "gitaar :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "pages-keyword",
+      "text": [
+        "258, 260\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "235-246"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "244"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "pages-keyword",
+      "text": [
+        "254"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "247-253"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_2"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_6"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_8"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_14"
+    }
+  ]
+}

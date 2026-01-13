@@ -1,0 +1,797 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78098578,
+  "library_identifier": "20129484v9n2",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "tr_1733146302",
+      "type": "keyword",
+      "text": [
+        "Caccini :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146281",
+      "type": "pages-keyword",
+      "text": [
+        "147-168"
+      ]
+    },
+    {
+      "region_id": "tr_1733146308",
+      "type": "keyword",
+      "text": [
+        "S. del Palla :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146282",
+      "type": "pages-keyword",
+      "text": [
+        "147, 148, 149, 151"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "tr_1733146294",
+      "type": "keyword",
+      "text": [
+        "arpa doppio :"
+      ]
+    },
+    {
+      "region_id": "r_1094",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146315",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "r_1003",
+      "type": "keyword",
+      "text": [
+        "\" (instr) :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146305",
+      "type": "keyword",
+      "text": [
+        "a capella :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146283",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "r_1095",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "r_1004",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "tr_1733146288",
+      "type": "keyword",
+      "text": [
+        "dynamiek :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146319",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "tr_1733146346",
+      "type": "keyword",
+      "text": [
+        "messa di voce :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146285",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "tr_1733146291",
+      "type": "keyword",
+      "text": [
+        "zangeres :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146326",
+      "type": "pages-keyword",
+      "text": [
+        "148"
+      ]
+    },
+    {
+      "region_id": "tr_1733146286",
+      "type": "keyword",
+      "text": [
+        "J. Peri :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146316",
+      "type": "pages-keyword",
+      "text": [
+        "149, 153, 154"
+      ]
+    },
+    {
+      "region_id": "tr_1733146287",
+      "type": "keyword",
+      "text": [
+        "C. Malvezzi :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146321",
+      "type": "pages-keyword",
+      "text": [
+        "149"
+      ]
+    },
+    {
+      "region_id": "tr_1733146336",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146348",
+      "type": "pages-keyword",
+      "text": [
+        "168, 225"
+      ]
+    },
+    {
+      "region_id": "tr_1733146284",
+      "type": "keyword",
+      "text": [
+        "Taverner :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146312",
+      "type": "pages-keyword",
+      "text": [
+        "169-176"
+      ]
+    },
+    {
+      "region_id": "tr_1733146290",
+      "type": "keyword",
+      "text": [
+        "W. Byrd :"
+      ]
+    },
+    {
+      "region_id": "r_264",
+      "type": "keyword",
+      "text": [
+        "J. D. Zelenka :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146293",
+      "type": "pages-keyword",
+      "text": [
+        "169-176"
+      ]
+    },
+    {
+      "region_id": "tr_1733146303",
+      "type": "keyword",
+      "text": [
+        "E. de Cavalieri :"
+      ]
+    },
+    {
+      "region_id": "r_903",
+      "type": "keyword",
+      "text": [
+        "diminutie :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146328",
+      "type": "pages-keyword",
+      "text": [
+        "154, 167"
+      ]
+    },
+    {
+      "region_id": "r_904",
+      "type": "pages-keyword",
+      "text": [
+        "153-158, 168"
+      ]
+    },
+    {
+      "region_id": "tr_1733146289",
+      "type": "pages-keyword",
+      "text": [
+        "177-183"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "179, 183"
+      ]
+    },
+    {
+      "region_id": "tr_1733146330",
+      "type": "keyword",
+      "text": [
+        "Czernohorsky :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146332",
+      "type": "keyword",
+      "text": [
+        "mise-en-scene :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146314",
+      "type": "keyword",
+      "text": [
+        "J. J. Fux :"
+      ]
+    },
+    {
+      "region_id": "r_194",
+      "type": "keyword",
+      "text": [
+        "Caldara :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146318",
+      "type": "keyword",
+      "text": [
+        "G. Tartini :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146327",
+      "type": "keyword",
+      "text": [
+        "J. J. Quantz :"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "pages-keyword",
+      "text": [
+        "179"
+      ]
+    },
+    {
+      "region_id": "r_207",
+      "type": "pages-keyword",
+      "text": [
+        "179, 181"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "pages-keyword",
+      "text": [
+        "179"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "179, 183"
+      ]
+    },
+    {
+      "region_id": "tr_1733146342",
+      "type": "pages-keyword",
+      "text": [
+        "179, 181"
+      ]
+    },
+    {
+      "region_id": "tr_1733146349",
+      "type": "keyword",
+      "text": [
+        "S. C. Weiss :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146295",
+      "type": "keyword",
+      "text": [
+        "contrabas :"
+      ]
+    },
+    {
+      "region_id": "r_244",
+      "type": "pages-keyword",
+      "text": [
+        "179"
+      ]
+    },
+    {
+      "region_id": "tr_1733146304",
+      "type": "pages-keyword",
+      "text": [
+        "179"
+      ]
+    },
+    {
+      "region_id": "tr_1733146311",
+      "type": "keyword",
+      "text": [
+        "Telemann :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146309",
+      "type": "pages-keyword",
+      "text": [
+        "182"
+      ]
+    },
+    {
+      "region_id": "r_322",
+      "type": "pages-keyword",
+      "text": [
+        "182"
+      ]
+    },
+    {
+      "region_id": "tr_1733146341",
+      "type": "keyword",
+      "text": [
+        "Pisendel :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146329",
+      "type": "keyword",
+      "text": [
+        "H. Aston :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146343",
+      "type": "pages-keyword",
+      "text": [
+        "184-191"
+      ]
+    },
+    {
+      "region_id": "tr_1733146300",
+      "type": "keyword",
+      "text": [
+        "W. Fr. Bach :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146324",
+      "type": "pages-keyword",
+      "text": [
+        "182"
+      ]
+    },
+    {
+      "region_id": "tr_1733146306",
+      "type": "keyword",
+      "text": [
+        "klavec. decoratie :"
+      ]
+    },
+    {
+      "region_id": "r_395",
+      "type": "pages-keyword",
+      "text": [
+        "oa 205"
+      ]
+    },
+    {
+      "region_id": "r_546",
+      "type": "pages-keyword",
+      "text": [
+        "oa 206"
+      ]
+    },
+    {
+      "region_id": "r_545",
+      "type": "pages-keyword",
+      "text": [
+        "208"
+      ]
+    },
+    {
+      "region_id": "tr_1733146333",
+      "type": "pages-keyword",
+      "text": [
+        "192-212"
+      ]
+    },
+    {
+      "region_id": "tr_1733146292",
+      "type": "keyword",
+      "text": [
+        "Hemsch :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146344",
+      "type": "keyword",
+      "text": [
+        "J. Denis :"
+      ]
+    },
+    {
+      "region_id": "r_544",
+      "type": "keyword",
+      "text": [
+        "J. W. Haas :"
+      ]
+    },
+    {
+      "region_id": "r_2115",
+      "type": "keyword",
+      "text": [
+        "temperatuur :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146299",
+      "type": "keyword",
+      "text": [
+        "kabalistiek :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146322",
+      "type": "pages-keyword",
+      "text": [
+        "219"
+      ]
+    },
+    {
+      "region_id": "r_869",
+      "type": "pages-keyword",
+      "text": [
+        "219-224"
+      ]
+    },
+    {
+      "region_id": "tr_1733146323",
+      "type": "keyword",
+      "text": [
+        "blokfluit :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146345",
+      "type": "pages-keyword",
+      "text": [
+        "225"
+      ]
+    },
+    {
+      "region_id": "tr_1733146310",
+      "type": "keyword",
+      "text": [
+        "draailier :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146317",
+      "type": "pages-keyword",
+      "text": [
+        "225, 247-248"
+      ]
+    },
+    {
+      "region_id": "tr_1733146301",
+      "type": "keyword",
+      "text": [
+        "J. Tielke :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146320",
+      "type": "pages-keyword",
+      "text": [
+        "240-243"
+      ]
+    },
+    {
+      "region_id": "r_599",
+      "type": "keyword",
+      "text": [
+        "doedelzak :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146307",
+      "type": "keyword",
+      "text": [
+        "C. Monteverdi : maria vespers :"
+      ]
+    },
+    {
+      "region_id": "r_600",
+      "type": "pages-keyword",
+      "text": [
+        "247-248"
+      ]
+    },
+    {
+      "region_id": "tr_1733146296",
+      "type": "pages-keyword",
+      "text": [
+        "283"
+      ]
+    },
+    {
+      "region_id": "tr_1733146297",
+      "type": "keyword",
+      "text": [
+        "J. S. Bach : Matheuspassion :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146298",
+      "type": "pages-keyword",
+      "text": [
+        "283, 284"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "tr_1733146302",
+      "target": "l_61"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146308",
+      "target": "tr_1733146282"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146294",
+      "target": "l_98"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1094",
+      "target": "r_1095"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1003",
+      "target": "r_1004"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146305",
+      "target": "l_158"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146288",
+      "target": "tr_1733146319"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146346",
+      "target": "tr_1733146285"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146291",
+      "target": "l_203"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146286",
+      "target": "l_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146287",
+      "target": "line_1736167751988_31"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146303",
+      "target": "l_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_903",
+      "target": "l_462"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146336",
+      "target": "tr_1733146348"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146284",
+      "target": "l_478"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146290",
+      "target": "l_494"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_264",
+      "target": "l_554"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146330",
+      "target": "r_2"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146332",
+      "target": "r_3"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146314",
+      "target": "l_692"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_194",
+      "target": "r_5"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146318",
+      "target": "l_802"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146327",
+      "target": "l_813"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146349",
+      "target": "l_855"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146295",
+      "target": "tr_1733146304"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146311",
+      "target": "l_869"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146341",
+      "target": "l_898"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146300",
+      "target": "tr_1733146324"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146329",
+      "target": "l_969"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146306",
+      "target": "l_1001"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146292",
+      "target": "r_395"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146344",
+      "target": "r_546"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_544",
+      "target": "r_545"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2115",
+      "target": "l_1089"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146299",
+      "target": "tr_1733146322"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146323",
+      "target": "tr_1733146345"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1112",
+      "target": "l_1116"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146301",
+      "target": "l_1120"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_599",
+      "target": "l_1177"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146307",
+      "target": "l_1181"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146297",
+      "target": "l_1185"
+    }
+  ]
+}

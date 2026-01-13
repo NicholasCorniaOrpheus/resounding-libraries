@@ -7,9 +7,9 @@ from modules.utilities import *
 import requests
 #from requests_oauth2client import OAuth2Client, OAuth2ClientCredentialsAuth
 
-from pagexml.parser import parse_pagexml_file
+#from pagexml.parser import parse_pagexml_file
 
-#from lxml import etree
+#from xml import etree
 
 import xml.etree.ElementTree as ET
 
@@ -53,7 +53,7 @@ def get_transkribus_collections():
 	# print("REQUEST URL:", response.request.url)
 	# print("REQUEST HEADERS:", response.request.headers)
 	# print("REQUEST BODY (bytes):", response.request.body)
-	print("STATUS:", response.status_code)
+	#print("STATUS:", response.status_code)
 	# print("RESPONSE HEADERS:", response.headers)
 	# print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
 	# input()
@@ -69,7 +69,7 @@ def get_transkribus_documents(collection_id): # Returns a dictionary of document
 	# print("REQUEST URL:", response.request.url)
 	# print("REQUEST HEADERS:", response.request.headers)
 	# print("REQUEST BODY (bytes):", response.request.body)
-	print("STATUS:", response.status_code)
+	#print("STATUS:", response.status_code)
 	# print("RESPONSE HEADERS:", response.headers)
 	# print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
 	# input()
@@ -94,7 +94,7 @@ def get_transkribus_complete_documents(collection_id): # Returns a full dictiona
 		# print("REQUEST URL:", response.request.url)
 		# print("REQUEST HEADERS:", response.request.headers)
 		# print("REQUEST BODY (bytes):", response.request.body)
-		print("STATUS:", document.status_code)
+		#print("STATUS:", document.status_code)
 		# print("RESPONSE HEADERS:", response.headers)
 		#print("RESPONSE TEXT :", (document.text or ""))
 
@@ -112,24 +112,10 @@ def get_transkribus_pages_list(collection_id,document_id,allow_filter=True,crite
 	pages_metadata = []
 
 	for page in document["pageList"]["pages"]:
-		if not allow_filter: # no specific filters
-			latest_xml_version = page["tsList"]["transcripts"][0]["url"]
-			pages_metadata.append({
-				"pageId": page["pageId"],
-				"filename": page["imgFileName"],
-				"library_identifier": page["imgFileName"].split("_")[0],
-				"page_number": page["imgFileName"].split("_")[1].split(".")[0],
-				"image_format": page["imgFileName"].split("_")[1].split(".")[1],
-				"xml_url": latest_xml_version
-				})
-		else: # allow filter, according to status transcript criterium
-			# check if latest transcript has status = criterium
-			latest_status = page["tsList"]["transcripts"][0]["status"]
-			latest_xml_version = page["tsList"]["transcripts"][0]["url"]
-			if latest_status == criterium:
+		try:
+			if not allow_filter: # no specific filters
+				latest_xml_version = page["tsList"]["transcripts"][0]["url"]
 				pages_metadata.append({
-					"collection_id": collection_id,
-					"document_id": document_id,
 					"pageId": page["pageId"],
 					"filename": page["imgFileName"],
 					"library_identifier": page["imgFileName"].split("_")[0],
@@ -137,11 +123,52 @@ def get_transkribus_pages_list(collection_id,document_id,allow_filter=True,crite
 					"image_format": page["imgFileName"].split("_")[1].split(".")[1],
 					"xml_url": latest_xml_version
 					})
+			else: # allow filter, according to status transcript criterium
+				# check if latest transcript has status = criterium
+				latest_status = page["tsList"]["transcripts"][0]["status"]
+				latest_xml_version = page["tsList"]["transcripts"][0]["url"]
+				if latest_status == criterium:
+					pages_metadata.append({
+						"collection_id": collection_id,
+						"document_id": document_id,
+						"pageId": page["pageId"],
+						"filename": page["imgFileName"],
+						"library_identifier": page["imgFileName"].split("_")[0],
+						"page_number": page["imgFileName"].split("_")[1].split(".")[0],
+						"image_format": page["imgFileName"].split("_")[1].split(".")[1],
+						"xml_url": latest_xml_version
+						})
+		except IndexError:
+			print(f"Formatting errors for current page: {page["pageNr"]} ")
 
 	print(f"Number of pages imported: {len(pages_metadata)}")
 
 
 	return pages_metadata
+
+def get_page_xml_transkribus_api(collection_id,document_id,page_number):
+	headers = {"Accept": "application/xml"}
+	page_xml = transkribus_session.get(
+			f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/{document_id}/{page_number}/text",
+			headers=headers,
+		)
+	print(page_xml.content)
+	return page_xml
+
+def post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml_filepath):
+	headers = {"Content-Type": "application/xml"}
+	page_xml_file = open(page_xml_filepath,'rb')
+	page_xml_data = page_xml_file.read()
+	page_xml_file.close()
+	page_xml_response = transkribus_session.post(
+			f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/{document_id}/{page_number}/text",
+			headers=headers,
+			data=page_xml_data
+		)
+	print("STATUS:", page_xml_response.status_code)
+	print("RESPONSE HEADERS:", page_xml_response.headers)
+	print("RESPONSE TEXT :", (page_xml_response.text or ""))
+	return page_xml_response
 
 	
 def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this script get the PAGE XML file of a page and converts it into JSON
@@ -192,11 +219,17 @@ def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this scrip
 			try:
 				relations.append({"type": child.attrib["custom"].split("value:")[1].split(";")[0]})
 				xml_regions = child.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}RegionRef")
-				for i in range(2): 
-					if i == 0: # get source
-						relations[-1]["source"] = xml_regions[i].attrib["regionRef"]
-					else:
-						relations[-1]["target"] = xml_regions[i].attrib["regionRef"]
+				try:
+					for xml_region in enumerate(xml_regions): 
+						if xml_region[0] == 0: # get source
+							relations[-1]["source"] = xml_region[1].attrib["regionRef"]
+						else:
+							relations[-1]["target"] = xml_region[1].attrib["regionRef"]
+				except Exception:
+					print(f"Malformatted relation {page_filename}")
+					print(f"xml_relations: {xml_relations.text}")
+					print(f"xml_regions: {xml_regions.text}")
+					input()
 			except AttributeError:
 				pass
 
@@ -254,3 +287,7 @@ def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this scrip
 
 
 	
+
+
+
+

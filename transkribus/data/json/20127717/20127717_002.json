@@ -1,0 +1,331 @@
+{
+  "collection_id": 257292,
+  "document_id": 1765068,
+  "page_id": 63610111,
+  "library_identifier": "20127717",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_343",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "hoorn : "
+      ]
+    },
+    {
+      "region_id": "r_32",
+      "type": "keyword",
+      "text": [
+        "V.d Broeck : "
+      ]
+    },
+    {
+      "region_id": "r_108",
+      "type": "keyword",
+      "text": [
+        "Zuiverheid:"
+      ]
+    },
+    {
+      "region_id": "r_132",
+      "type": "keyword",
+      "text": [
+        "tr op hoorn "
+      ]
+    },
+    {
+      "region_id": "r_149",
+      "type": "keyword",
+      "text": [
+        "hoofdnoottr : "
+      ]
+    },
+    {
+      "region_id": "r_162",
+      "type": "keyword",
+      "text": [
+        "klarinet : "
+      ]
+    },
+    {
+      "region_id": "r_179",
+      "type": "keyword",
+      "text": [
+        "Trompet : "
+      ]
+    },
+    {
+      "region_id": "r_192",
+      "type": "keyword",
+      "text": [
+        "Trombone : "
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "slagwerk : "
+      ]
+    },
+    {
+      "region_id": "r_34",
+      "type": "keyword",
+      "text": [
+        "hobo : "
+      ]
+    },
+    {
+      "region_id": "r_65",
+      "type": "keyword",
+      "text": [
+        "dwarsfluit : "
+      ]
+    },
+    {
+      "region_id": "r_78",
+      "type": "keyword",
+      "text": [
+        "fagot :"
+      ]
+    },
+    {
+      "region_id": "r_91",
+      "type": "keyword",
+      "text": [
+        "serpent"
+      ]
+    },
+    {
+      "region_id": "r_131",
+      "type": "keyword",
+      "text": [
+        "temperatuur : "
+      ]
+    },
+    {
+      "region_id": "r_98",
+      "type": "keyword",
+      "text": [
+        "koor/orkestopstelling : "
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_68",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad, 2-44, 63, 64"
+      ]
+    },
+    {
+      "region_id": "r_137",
+      "type": "pages-keyword",
+      "text": [
+        "37"
+      ]
+    },
+    {
+      "region_id": "r_154",
+      "type": "pages-keyword",
+      "text": [
+        "37"
+      ]
+    },
+    {
+      "region_id": "r_174",
+      "type": "pages-keyword",
+      "text": [
+        "44-51, 63"
+      ]
+    },
+    {
+      "region_id": "r_184",
+      "type": "pages-keyword",
+      "text": [
+        "52-54, 63"
+      ]
+    },
+    {
+      "region_id": "r_197",
+      "type": "pages-keyword",
+      "text": [
+        "54-55"
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "pages-keyword",
+      "text": [
+        "58-59, 63"
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "pages-keyword",
+      "text": [
+        "61 -62, 63"
+      ]
+    },
+    {
+      "region_id": "r_96",
+      "type": "pages-keyword",
+      "text": [
+        "62 - 63"
+      ]
+    },
+    {
+      "region_id": "r_113",
+      "type": "keyword",
+      "text": [
+        "karakteristiek v muziekinstr : "
+      ]
+    },
+    {
+      "region_id": "r_123",
+      "type": "pages-keyword",
+      "text": [
+        "64"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "56-57, 63"
+      ]
+    },
+    {
+      "region_id": "r_73",
+      "type": "pages-keyword",
+      "text": [
+        "59-61, 63"
+      ]
+    },
+    {
+      "region_id": "r_120",
+      "type": "pages-keyword",
+      "text": [
+        "21, 63 64 65"
+      ]
+    },
+    {
+      "region_id": "r_103",
+      "type": "pages-keyword",
+      "text": [
+        "9"
+      ]
+    },
+    {
+      "region_id": "r_118",
+      "type": "pages-keyword",
+      "text": [
+        "63 -"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "shelfmark",
+      "text": [
+        "Ex Libris",
+        "Ton Koopman",
+        "12D14"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_32",
+      "target": "r_40"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_68"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_98",
+      "target": "r_103"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_108",
+      "target": "r_120"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_132",
+      "target": "r_137"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_149",
+      "target": "r_154"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_162",
+      "target": "r_174"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_179",
+      "target": "r_184"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_192",
+      "target": "r_197"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_12",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_34",
+      "target": "r_42"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_65",
+      "target": "r_73"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_78",
+      "target": "r_86"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_91",
+      "target": "r_96"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_113",
+      "target": "r_118"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_131",
+      "target": "r_123"
+    }
+  ]
+}

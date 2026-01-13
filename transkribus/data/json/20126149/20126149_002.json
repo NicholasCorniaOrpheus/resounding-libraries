@@ -1,0 +1,198 @@
+{
+  "collection_id": 257292,
+  "document_id": 1765068,
+  "page_id": 63610104,
+  "library_identifier": "20126149",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_84",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_33",
+      "type": "keyword",
+      "text": [
+        "diminuties : "
+      ]
+    },
+    {
+      "region_id": "r_35",
+      "type": "keyword",
+      "text": [
+        "falso bordoni : "
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "keyword",
+      "text": [
+        "GB Bovicelli : "
+      ]
+    },
+    {
+      "region_id": "r_42",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "pages-keyword",
+      "text": [
+        "38-46"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "46-53"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "pages-keyword",
+      "text": [
+        "64-72"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "pages-keyword",
+      "text": [
+        "73"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "pages-keyword",
+      "text": [
+        "78-87"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "pages-keyword",
+      "text": [
+        "53-63"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "pages-keyword",
+      "text": [
+        "37, 74, 75-77-87"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "Palestrina : "
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "keyword",
+      "text": [
+        "C. de Rore : "
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "TL de Vittoria : "
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "keyword",
+      "text": [
+        "Cl. Merulo : "
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "G.C. Gabucci : "
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "keyword",
+      "text": [
+        "R. Giovanelli :"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "shelfmark",
+      "text": [
+        "Ex libris",
+        "Ton Koopman",
+        "12D12"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_33",
+      "target": "r_42"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_52",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_35",
+      "target": "r_44"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_37",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_48"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_39",
+      "target": "r_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "r_50"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_41",
+      "target": "r_51"
+    }
+  ]
+}

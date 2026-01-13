@@ -1,0 +1,2184 @@
+{
+  "collection_id": 257292,
+  "document_id": 4086215,
+  "page_id": 78099030,
+  "library_identifier": "20129484v13n2",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_141",
+      "type": "keyword",
+      "text": [
+        "J. S. Bach :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146356",
+      "type": "keyword",
+      "text": [
+        "JS. B. portret :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146374",
+      "type": "pages-keyword",
+      "text": [
+        "239, 240, 242"
+      ]
+    },
+    {
+      "region_id": "tr_1733146373",
+      "type": "pages-keyword",
+      "text": [
+        "239, 240, 241, 243"
+      ]
+    },
+    {
+      "region_id": "r_333",
+      "type": "keyword",
+      "text": [
+        "bezetting (inst) :"
+      ]
+    },
+    {
+      "region_id": "r_440",
+      "type": "keyword",
+      "text": [
+        "\" (voc) :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146376",
+      "type": "keyword",
+      "text": [
+        "orkestopstelling :"
+      ]
+    },
+    {
+      "region_id": "r_303",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_265",
+      "type": "pages-keyword",
+      "text": [
+        "165, 167"
+      ]
+    },
+    {
+      "region_id": "r_273",
+      "type": "pages-keyword",
+      "text": [
+        "165, 167"
+      ]
+    },
+    {
+      "region_id": "r_397",
+      "type": "keyword",
+      "text": [
+        "JSB en collegium musicum :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146334",
+      "type": "pages-keyword",
+      "text": [
+        "165, 167, 179"
+      ]
+    },
+    {
+      "region_id": "tr_1733146400",
+      "type": "pages-keyword",
+      "text": [
+        "239, 241"
+      ]
+    },
+    {
+      "region_id": "r_75",
+      "type": "pages-keyword",
+      "text": [
+        "239, 242"
+      ]
+    },
+    {
+      "region_id": "r_473",
+      "type": "keyword",
+      "text": [
+        "Concerten :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146383",
+      "type": "keyword",
+      "text": [
+        "JSB en Telemann :"
+      ]
+    },
+    {
+      "region_id": "r_327",
+      "type": "keyword",
+      "text": [
+        "JSB BWV 1026 :"
+      ]
+    },
+    {
+      "region_id": "r_481",
+      "type": "pages-keyword",
+      "text": [
+        "168"
+      ]
+    },
+    {
+      "region_id": "r_597",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_632",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_662",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "r_697",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_709",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_721",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_744",
+      "type": "pages-keyword",
+      "text": [
+        "169, 173"
+      ]
+    },
+    {
+      "region_id": "r_767",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "r_685",
+      "type": "pages-keyword",
+      "text": [
+        "169, 173"
+      ]
+    },
+    {
+      "region_id": "tr_1733146366",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_620",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "r_942",
+      "type": "keyword",
+      "text": [
+        "JSB en franse invloed :"
+      ]
+    },
+    {
+      "region_id": "r_943",
+      "type": "keyword",
+      "text": [
+        "franse invloed in Duitsl :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146344",
+      "type": "keyword",
+      "text": [
+        "JSB en Celle"
+      ]
+    },
+    {
+      "region_id": "r_348",
+      "type": "keyword",
+      "text": [
+        "JSB en Marpurg :"
+      ]
+    },
+    {
+      "region_id": "r_467",
+      "type": "keyword",
+      "text": [
+        "JSB als componist :"
+      ]
+    },
+    {
+      "region_id": "r_497",
+      "type": "keyword",
+      "text": [
+        "BWV 528 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146386",
+      "type": "pages-keyword",
+      "text": [
+        "180, 181"
+      ]
+    },
+    {
+      "region_id": "tr_1733146349",
+      "type": "keyword",
+      "text": [
+        "W. Byrd :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146388",
+      "type": "pages-keyword",
+      "text": [
+        "275-277"
+      ]
+    },
+    {
+      "region_id": "tr_1733146403",
+      "type": "keyword",
+      "text": [
+        "dirigent :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146428",
+      "type": "keyword",
+      "text": [
+        "JS Bach : orgelbüchlein :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146341",
+      "type": "keyword",
+      "text": [
+        "BWV 174 :"
+      ]
+    },
+    {
+      "region_id": "r_920",
+      "type": "keyword",
+      "text": [
+        "a ="
+      ]
+    },
+    {
+      "region_id": "r_147",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "tr_1733146338",
+      "type": "pages-keyword",
+      "text": [
+        "169, 197"
+      ]
+    },
+    {
+      "region_id": "tr_1733146359",
+      "type": "pages-keyword",
+      "text": [
+        "175"
+      ]
+    },
+    {
+      "region_id": "tr_1733146431",
+      "type": "keyword",
+      "text": [
+        "1079"
+      ]
+    },
+    {
+      "region_id": "r_283",
+      "type": "keyword",
+      "text": [
+        "\" BWV 1014-1059 :"
+      ]
+    },
+    {
+      "region_id": "r_94",
+      "type": "keyword",
+      "text": [
+        "1021 :"
+      ]
+    },
+    {
+      "region_id": "r_245",
+      "type": "keyword",
+      "text": [
+        "1023 :"
+      ]
+    },
+    {
+      "region_id": "r_237",
+      "type": "keyword",
+      "text": [
+        "1027-29 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146399",
+      "type": "keyword",
+      "text": [
+        "1030 :"
+      ]
+    },
+    {
+      "region_id": "r_793",
+      "type": "keyword",
+      "text": [
+        "1031 :"
+      ]
+    },
+    {
+      "region_id": "r_805",
+      "type": "keyword",
+      "text": [
+        "1032 :"
+      ]
+    },
+    {
+      "region_id": "r_817",
+      "type": "keyword",
+      "text": [
+        "1033 :"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "keyword",
+      "text": [
+        "BWV 1034 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146379",
+      "type": "keyword",
+      "text": [
+        "R. White :"
+      ]
+    },
+    {
+      "region_id": "r_365",
+      "type": "keyword",
+      "text": [
+        "pianoforte :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146365",
+      "type": "pages-keyword",
+      "text": [
+        "307, 308"
+      ]
+    },
+    {
+      "region_id": "r_308",
+      "type": "pages-keyword",
+      "text": [
+        "335"
+      ]
+    },
+    {
+      "region_id": "tr_1733146370",
+      "type": "pages-keyword",
+      "text": [
+        "237, 238"
+      ]
+    },
+    {
+      "region_id": "tr_1733146384",
+      "type": "keyword",
+      "text": [
+        "BWV 1038 :"
+      ]
+    },
+    {
+      "region_id": "r_239",
+      "type": "keyword",
+      "text": [
+        "BWV 1039 :"
+      ]
+    },
+    {
+      "region_id": "r_111",
+      "type": "keyword",
+      "text": [
+        "BWV 1035 :"
+      ]
+    },
+    {
+      "region_id": "r_780",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "tr_1733146430",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "tr_1733146353",
+      "type": "pages-keyword",
+      "text": [
+        "188-192, 195, 198"
+      ]
+    },
+    {
+      "region_id": "r_198",
+      "type": "keyword",
+      "text": [
+        "BWV 1041 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146392",
+      "type": "keyword",
+      "text": [
+        "BWV 1043 :"
+      ]
+    },
+    {
+      "region_id": "r_435",
+      "type": "keyword",
+      "text": [
+        "1044 :"
+      ]
+    },
+    {
+      "region_id": "r_443",
+      "type": "keyword",
+      "text": [
+        "1042 :"
+      ]
+    },
+    {
+      "region_id": "r_510",
+      "type": "keyword",
+      "text": [
+        "1052 :"
+      ]
+    },
+    {
+      "region_id": "r_518",
+      "type": "keyword",
+      "text": [
+        "1053 :"
+      ]
+    },
+    {
+      "region_id": "r_526",
+      "type": "keyword",
+      "text": [
+        "1054 :"
+      ]
+    },
+    {
+      "region_id": "r_534",
+      "type": "keyword",
+      "text": [
+        "1055 :"
+      ]
+    },
+    {
+      "region_id": "r_554",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_546",
+      "type": "keyword",
+      "text": [
+        "1056 :"
+      ]
+    },
+    {
+      "region_id": "r_562",
+      "type": "keyword",
+      "text": [
+        "1057 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146375",
+      "type": "pages-keyword",
+      "text": [
+        "195, 196, 197, 200"
+      ]
+    },
+    {
+      "region_id": "tr_1733146354",
+      "type": "keyword",
+      "text": [
+        "JSB en oblig. orgel :"
+      ]
+    },
+    {
+      "region_id": "r_1060",
+      "type": "keyword",
+      "text": [
+        "klavec. in kerk :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146427",
+      "type": "pages-keyword",
+      "text": [
+        "237-247"
+      ]
+    },
+    {
+      "region_id": "r_58",
+      "type": "pages-keyword",
+      "text": [
+        "237, 239, 240, 241, 247"
+      ]
+    },
+    {
+      "region_id": "tr_1733146422",
+      "type": "keyword",
+      "text": [
+        "Andreas Bach buch"
+      ]
+    },
+    {
+      "region_id": "r_1820",
+      "type": "keyword",
+      "text": [
+        "kwint/oktaaf parallellen :"
+      ]
+    },
+    {
+      "region_id": "r_1844",
+      "type": "pages-keyword",
+      "text": [
+        "250"
+      ]
+    },
+    {
+      "region_id": "r_2099",
+      "type": "keyword",
+      "text": [
+        "BWV 906 : fantasia c kl :"
+      ]
+    },
+    {
+      "region_id": "r_1839",
+      "type": "pages-keyword",
+      "text": [
+        "250"
+      ]
+    },
+    {
+      "region_id": "tr_1733146335",
+      "type": "pages-keyword",
+      "text": [
+        "249"
+      ]
+    },
+    {
+      "region_id": "tr_1733146377",
+      "type": "keyword",
+      "text": [
+        "JSB en bc :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146360",
+      "type": "pages-keyword",
+      "text": [
+        "237, 239, 240, 241, 247"
+      ]
+    },
+    {
+      "region_id": "r_1266",
+      "type": "pages-keyword",
+      "text": [
+        "239, 240, 241"
+      ]
+    },
+    {
+      "region_id": "tr_1733146340",
+      "type": "pages-keyword",
+      "text": [
+        "titelblad, 163, 164"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "BWV 170 :"
+      ]
+    },
+    {
+      "region_id": "r_291",
+      "type": "keyword",
+      "text": [
+        "\" 169 :"
+      ]
+    },
+    {
+      "region_id": "r_179",
+      "type": "keyword",
+      "text": [
+        "\" 29 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146364",
+      "type": "pages-keyword",
+      "text": [
+        "239, 240"
+      ]
+    },
+    {
+      "region_id": "tr_1733146404",
+      "type": "pages-keyword",
+      "text": [
+        "169, 173"
+      ]
+    },
+    {
+      "region_id": "r_186",
+      "type": "pages-keyword",
+      "text": [
+        "169, 173"
+      ]
+    },
+    {
+      "region_id": "r_404",
+      "type": "pages-keyword",
+      "text": [
+        "169, 173, 174"
+      ]
+    },
+    {
+      "region_id": "r_427",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "r_599",
+      "type": "keyword",
+      "text": [
+        "JSB W Tel II :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146408",
+      "type": "keyword",
+      "text": [
+        "JSB K der Fuge :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146390",
+      "type": "pages-keyword",
+      "text": [
+        "190"
+      ]
+    },
+    {
+      "region_id": "r_686",
+      "type": "keyword",
+      "text": [
+        "1058 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146420",
+      "type": "keyword",
+      "text": [
+        "1060 :"
+      ]
+    },
+    {
+      "region_id": "r_155",
+      "type": "keyword",
+      "text": [
+        "1062 :"
+      ]
+    },
+    {
+      "region_id": "r_168",
+      "type": "keyword",
+      "text": [
+        "1063 :"
+      ]
+    },
+    {
+      "region_id": "r_176",
+      "type": "keyword",
+      "text": [
+        "1064 :"
+      ]
+    },
+    {
+      "region_id": "r_184",
+      "type": "keyword",
+      "text": [
+        "1065 :"
+      ]
+    },
+    {
+      "region_id": "r_192",
+      "type": "keyword",
+      "text": [
+        "1066 :"
+      ]
+    },
+    {
+      "region_id": "r_222",
+      "type": "keyword",
+      "text": [
+        "1067 :"
+      ]
+    },
+    {
+      "region_id": "r_234",
+      "type": "keyword",
+      "text": [
+        "1068 :"
+      ]
+    },
+    {
+      "region_id": "r_251",
+      "type": "keyword",
+      "text": [
+        "1069 :"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_73",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170"
+      ]
+    },
+    {
+      "region_id": "r_124",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_112",
+      "type": "pages-keyword",
+      "text": [
+        "169, 174, 175"
+      ]
+    },
+    {
+      "region_id": "r_732",
+      "type": "keyword",
+      "text": [
+        "1061 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146413",
+      "type": "keyword",
+      "text": [
+        "BWV 75 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146397",
+      "type": "pages-keyword",
+      "text": [
+        "212-226"
+      ]
+    },
+    {
+      "region_id": "r_1208",
+      "type": "pages-keyword",
+      "text": [
+        "212-226"
+      ]
+    },
+    {
+      "region_id": "r_1221",
+      "type": "pages-keyword",
+      "text": [
+        "215"
+      ]
+    },
+    {
+      "region_id": "r_1216",
+      "type": "pages-keyword",
+      "text": [
+        "213"
+      ]
+    },
+    {
+      "region_id": "tr_1733146371",
+      "type": "pages-keyword",
+      "text": [
+        "238, 261-263, 331, 333"
+      ]
+    },
+    {
+      "region_id": "tr_1733146424",
+      "type": "keyword",
+      "text": [
+        "JSB Möllersche Hs :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146401",
+      "type": "keyword",
+      "text": [
+        "BWV 1059 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146398",
+      "type": "keyword",
+      "text": [
+        "BWV 571 :"
+      ]
+    },
+    {
+      "region_id": "r_2209",
+      "type": "keyword",
+      "text": [
+        "\" 992 :"
+      ]
+    },
+    {
+      "region_id": "r_2152",
+      "type": "keyword",
+      "text": [
+        "\" 903 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146361",
+      "type": "pages-keyword",
+      "text": [
+        "255"
+      ]
+    },
+    {
+      "region_id": "r_2210",
+      "type": "pages-keyword",
+      "text": [
+        "255"
+      ]
+    },
+    {
+      "region_id": "tr_1733146357",
+      "type": "pages-keyword",
+      "text": [
+        "169, 172"
+      ]
+    },
+    {
+      "region_id": "r_466",
+      "type": "pages-keyword",
+      "text": [
+        "170, 173, 174"
+      ]
+    },
+    {
+      "region_id": "tr_1733146418",
+      "type": "keyword",
+      "text": [
+        "J. P. Kellner :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146369",
+      "type": "pages-keyword",
+      "text": [
+        "199-211, 255"
+      ]
+    },
+    {
+      "region_id": "r_501",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "tr_1733146432",
+      "type": "pages-keyword",
+      "text": [
+        "169, 172"
+      ]
+    },
+    {
+      "region_id": "tr_1733146393",
+      "type": "pages-keyword",
+      "text": [
+        "199-211"
+      ]
+    },
+    {
+      "region_id": "r_978",
+      "type": "pages-keyword",
+      "text": [
+        "200"
+      ]
+    },
+    {
+      "region_id": "r_924",
+      "type": "pages-keyword",
+      "text": [
+        "200"
+      ]
+    },
+    {
+      "region_id": "r_929",
+      "type": "pages-keyword",
+      "text": [
+        "201"
+      ]
+    },
+    {
+      "region_id": "r_934",
+      "type": "pages-keyword",
+      "text": [
+        "201"
+      ]
+    },
+    {
+      "region_id": "tr_1733146405",
+      "type": "pages-keyword",
+      "text": [
+        "169, 170, 171, 172"
+      ]
+    },
+    {
+      "region_id": "r_579",
+      "type": "pages-keyword",
+      "text": [
+        "169, 172"
+      ]
+    },
+    {
+      "region_id": "tr_1733146411",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_665",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_775",
+      "type": "pages-keyword",
+      "text": [
+        "193, 194, 195"
+      ]
+    },
+    {
+      "region_id": "r_673",
+      "type": "pages-keyword",
+      "text": [
+        "169"
+      ]
+    },
+    {
+      "region_id": "r_745",
+      "type": "keyword",
+      "text": [
+        "1050 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146346",
+      "type": "keyword",
+      "text": [
+        "dubbelorgel in JSB werken :"
+      ]
+    },
+    {
+      "region_id": "r_1181",
+      "type": "pages-keyword",
+      "text": [
+        "242, 247"
+      ]
+    },
+    {
+      "region_id": "r_1921",
+      "type": "keyword",
+      "text": [
+        "J. Matheson :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146410",
+      "type": "keyword",
+      "text": [
+        "G. Böhm :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146347",
+      "type": "pages-keyword",
+      "text": [
+        "255"
+      ]
+    },
+    {
+      "region_id": "tr_1733146352",
+      "type": "pages-keyword",
+      "text": [
+        "168, 175"
+      ]
+    },
+    {
+      "region_id": "tr_1733146425",
+      "type": "pages-keyword",
+      "text": [
+        "239, 242"
+      ]
+    },
+    {
+      "region_id": "tr_1733146389",
+      "type": "pages-keyword",
+      "text": [
+        "239, 242, 243"
+      ]
+    },
+    {
+      "region_id": "r_737",
+      "type": "keyword",
+      "text": [
+        "tutti en contrabas :"
+      ]
+    },
+    {
+      "region_id": "r_941",
+      "type": "keyword",
+      "text": [
+        "JSB en opera :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146358",
+      "type": "keyword",
+      "text": [
+        "JSB en dwarsfluit :"
+      ]
+    },
+    {
+      "region_id": "r_945",
+      "type": "pages-keyword",
+      "text": [
+        "170, 172"
+      ]
+    },
+    {
+      "region_id": "tr_1733146336",
+      "type": "pages-keyword",
+      "text": [
+        "166, 169, 173, 174"
+      ]
+    },
+    {
+      "region_id": "r_944",
+      "type": "pages-keyword",
+      "text": [
+        "180-184"
+      ]
+    },
+    {
+      "region_id": "r_801",
+      "type": "pages-keyword",
+      "text": [
+        "180-184"
+      ]
+    },
+    {
+      "region_id": "r_100",
+      "type": "keyword",
+      "text": [
+        "BWV 832 :"
+      ]
+    },
+    {
+      "region_id": "r_105",
+      "type": "keyword",
+      "text": [
+        "833 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146367",
+      "type": "keyword",
+      "text": [
+        "overlegato :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146368",
+      "type": "pages-keyword",
+      "text": [
+        "257"
+      ]
+    },
+    {
+      "region_id": "r_890",
+      "type": "pages-keyword",
+      "text": [
+        "176, 177"
+      ]
+    },
+    {
+      "region_id": "tr_1733146350",
+      "type": "keyword",
+      "text": [
+        "BWV 130 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146362",
+      "type": "pages-keyword",
+      "text": [
+        "267"
+      ]
+    },
+    {
+      "region_id": "tr_1733146380",
+      "type": "pages-keyword",
+      "text": [
+        "187"
+      ]
+    },
+    {
+      "region_id": "tr_1733146416",
+      "type": "keyword",
+      "text": [
+        "JSB als leraar :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146394",
+      "type": "keyword",
+      "text": [
+        "BWV 535 :"
+      ]
+    },
+    {
+      "region_id": "r_760",
+      "type": "keyword",
+      "text": [
+        "BWV 531 :"
+      ]
+    },
+    {
+      "region_id": "r_784",
+      "type": "keyword",
+      "text": [
+        "BWV 21 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146409",
+      "type": "pages-keyword",
+      "text": [
+        "190, 191"
+      ]
+    },
+    {
+      "region_id": "tr_1733146395",
+      "type": "keyword",
+      "text": [
+        "BWV 541 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146337",
+      "type": "pages-keyword",
+      "text": [
+        "188"
+      ]
+    },
+    {
+      "region_id": "r_520",
+      "type": "pages-keyword",
+      "text": [
+        "187"
+      ]
+    },
+    {
+      "region_id": "r_356",
+      "type": "pages-keyword",
+      "text": [
+        "182"
+      ]
+    },
+    {
+      "region_id": "tr_1733146348",
+      "type": "pages-keyword",
+      "text": [
+        "186"
+      ]
+    },
+    {
+      "region_id": "r_218",
+      "type": "keyword",
+      "text": [
+        "A. Ferrabosco :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146415",
+      "type": "keyword",
+      "text": [
+        "M. Weckmann :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146343",
+      "type": "pages-keyword",
+      "text": [
+        "303"
+      ]
+    },
+    {
+      "region_id": "r_292",
+      "type": "keyword",
+      "text": [
+        "73 :"
+      ]
+    },
+    {
+      "region_id": "r_167",
+      "type": "keyword",
+      "text": [
+        "146 :"
+      ]
+    },
+    {
+      "region_id": "r_293",
+      "type": "keyword",
+      "text": [
+        "188 :"
+      ]
+    },
+    {
+      "region_id": "r_152",
+      "type": "keyword",
+      "text": [
+        "49 :"
+      ]
+    },
+    {
+      "region_id": "r_144",
+      "type": "keyword",
+      "text": [
+        "35 :"
+      ]
+    },
+    {
+      "region_id": "r_139",
+      "type": "keyword",
+      "text": [
+        "156 :"
+      ]
+    },
+    {
+      "region_id": "r_131",
+      "type": "keyword",
+      "text": [
+        "47 :"
+      ]
+    },
+    {
+      "region_id": "r_114",
+      "type": "pages-keyword",
+      "text": [
+        "242"
+      ]
+    },
+    {
+      "region_id": "tr_1733146423",
+      "type": "pages-keyword",
+      "text": [
+        "239, 242"
+      ]
+    },
+    {
+      "region_id": "r_123",
+      "type": "pages-keyword",
+      "text": [
+        "239, 243"
+      ]
+    },
+    {
+      "region_id": "tr_1733146355",
+      "type": "pages-keyword",
+      "text": [
+        "197"
+      ]
+    },
+    {
+      "region_id": "r_919",
+      "type": "keyword",
+      "text": [
+        "BWV 1001-1006 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146414",
+      "type": "keyword",
+      "text": [
+        "BWV 594 :"
+      ]
+    },
+    {
+      "region_id": "r_1001",
+      "type": "keyword",
+      "text": [
+        "BWV 989 :"
+      ]
+    },
+    {
+      "region_id": "r_1041",
+      "type": "keyword",
+      "text": [
+        "L. Frischwurth :"
+      ]
+    },
+    {
+      "region_id": "r_1024",
+      "type": "keyword",
+      "text": [
+        "BWV 1007-1012 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146433",
+      "type": "keyword",
+      "text": [
+        "BWV 76 :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146381",
+      "type": "keyword",
+      "text": [
+        "C. Graupner :"
+      ]
+    },
+    {
+      "region_id": "r_1475",
+      "type": "keyword",
+      "text": [
+        "oud-nieuw :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146396",
+      "type": "keyword",
+      "text": [
+        "oude muziek vroeger :"
+      ]
+    },
+    {
+      "region_id": "r_1630",
+      "type": "keyword",
+      "text": [
+        "W. Fr. Bach :"
+      ]
+    },
+    {
+      "region_id": "r_1439",
+      "type": "pages-keyword",
+      "text": [
+        "227-236"
+      ]
+    },
+    {
+      "region_id": "r_1451",
+      "type": "pages-keyword",
+      "text": [
+        "228, 237"
+      ]
+    },
+    {
+      "region_id": "tr_1733146419",
+      "type": "pages-keyword",
+      "text": [
+        "228"
+      ]
+    },
+    {
+      "region_id": "r_1607",
+      "type": "pages-keyword",
+      "text": [
+        "238"
+      ]
+    },
+    {
+      "region_id": "r_1599",
+      "type": "keyword",
+      "text": [
+        "BWV 525-530"
+      ]
+    },
+    {
+      "region_id": "r_469",
+      "type": "keyword",
+      "text": [
+        "D. Scarlatti :"
+      ]
+    },
+    {
+      "region_id": "r_206",
+      "type": "keyword",
+      "text": [
+        "G. F. Handel : sonaten :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146382",
+      "type": "pages-keyword",
+      "text": [
+        "283"
+      ]
+    },
+    {
+      "region_id": "tr_1733146406",
+      "type": "pages-keyword",
+      "text": [
+        "293, 295, 297"
+      ]
+    },
+    {
+      "region_id": "tr_1733146378",
+      "type": "pages-keyword",
+      "text": [
+        "256, 257, 259"
+      ]
+    },
+    {
+      "region_id": "r_1773",
+      "type": "pages-keyword",
+      "text": [
+        "249"
+      ]
+    },
+    {
+      "region_id": "tr_1733146372",
+      "type": "pages-keyword",
+      "text": [
+        "248, 249"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "keyword",
+      "text": [
+        "BWV 120 :"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "keyword",
+      "text": [
+        "J. Chr. Bach :"
+      ]
+    },
+    {
+      "region_id": "tr_1733146402",
+      "type": "pages-keyword",
+      "text": [
+        "239, 243"
+      ]
+    },
+    {
+      "region_id": "tr_1733146387",
+      "type": "pages-keyword",
+      "text": [
+        "249-255"
+      ]
+    },
+    {
+      "region_id": "r_84",
+      "type": "pages-keyword",
+      "text": [
+        "249-255"
+      ]
+    },
+    {
+      "region_id": "tr_1733146391",
+      "type": "pages-keyword",
+      "text": [
+        "249-255"
+      ]
+    },
+    {
+      "region_id": "tr_1733146342",
+      "type": "pages-keyword",
+      "text": [
+        "297, 299"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_40",
+      "target": "l_63"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_52",
+      "target": "tr_1733146387"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_100",
+      "target": "r_84"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_105",
+      "target": "tr_1733146391"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146367",
+      "target": "tr_1733146368"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146350",
+      "target": "tr_1733146362"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146349",
+      "target": "tr_1733146388"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_469",
+      "target": "tr_1733146382"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_206",
+      "target": "tr_1733146406"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_218",
+      "target": "l_240"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146415",
+      "target": "tr_1733146343"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146379",
+      "target": "l_303"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_365",
+      "target": "r_308"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_12",
+      "target": "l_23"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_291",
+      "target": "l_56"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_179",
+      "target": "l_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_292",
+      "target": "l_67"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_167",
+      "target": "l_74"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_293",
+      "target": "l_86"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_152",
+      "target": "tr_1733146389"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_144",
+      "target": "tr_1733146423"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_139",
+      "target": "l_113"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_131",
+      "target": "l_122"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_737",
+      "target": "r_945"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146358",
+      "target": "l_782"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_941",
+      "target": "l_889"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_942",
+      "target": "l_1146"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_943",
+      "target": "l_800"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146344",
+      "target": "tr_1733146386"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_348",
+      "target": "r_356"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_467",
+      "target": "tr_1733146348"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_497",
+      "target": "tr_1733146380"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146416",
+      "target": "r_520"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146395",
+      "target": "tr_1733146337"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_599",
+      "target": "tr_1733146353"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146408",
+      "target": "tr_1733146390"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146394",
+      "target": "tr_1733146409"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_760",
+      "target": "l_837"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_784",
+      "target": "tr_1733146355"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146418",
+      "target": "tr_1733146369"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_919",
+      "target": "l_896"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146414",
+      "target": "l_977"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1001",
+      "target": "l_923"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1024",
+      "target": "l_928"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1041",
+      "target": "l_933"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146413",
+      "target": "l_1073"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146433",
+      "target": "l_1207"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146381",
+      "target": "l_1215"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146403",
+      "target": "l_1220"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146428",
+      "target": "r_1439"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1475",
+      "target": "l_1450"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146396",
+      "target": "tr_1733146419"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1599",
+      "target": "l_1569"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1630",
+      "target": "l_1606"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146424",
+      "target": "l_1719"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146422",
+      "target": "l_1772"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1820",
+      "target": "l_1730"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1921",
+      "target": "l_1838"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146410",
+      "target": "r_1844"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2099",
+      "target": "l_1737"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146398",
+      "target": "tr_1733146361"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2209",
+      "target": "l_450"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_2152",
+      "target": "tr_1733146378"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146401",
+      "target": "r_1181"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146377",
+      "target": "l_1248"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146346",
+      "target": "l_1265"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_1060",
+      "target": "l_57"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146354",
+      "target": "l_182"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_920",
+      "target": "l_228"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146341",
+      "target": "tr_1733146359"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146431",
+      "target": "tr_1733146338"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_251",
+      "target": "l_146"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_234",
+      "target": "r_124"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_222",
+      "target": "l_111"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_192",
+      "target": "r_73"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_184",
+      "target": "r_50"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_176",
+      "target": "r_37"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_168",
+      "target": "r_25"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_155",
+      "target": "l_12"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_141",
+      "target": "l_302"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146356",
+      "target": "l_207"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146376",
+      "target": "tr_1733146334"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_333",
+      "target": "r_265"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_440",
+      "target": "l_272"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_397",
+      "target": "tr_1733146352"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_473",
+      "target": "l_480"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146383",
+      "target": "tr_1733146366"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_327",
+      "target": "r_597"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_283",
+      "target": "l_619"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_94",
+      "target": "r_632"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_245",
+      "target": "r_662"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_237",
+      "target": "l_684"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146399",
+      "target": "r_697"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_793",
+      "target": "r_709"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_805",
+      "target": "l_720"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_817",
+      "target": "l_743"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_49",
+      "target": "l_766"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_111",
+      "target": "r_780"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146384",
+      "target": "tr_1733146430"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_239",
+      "target": "tr_1733146404"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_198",
+      "target": "r_186"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146392",
+      "target": "l_403"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_434",
+      "target": "l_426"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_443",
+      "target": "l_465"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_510",
+      "target": "l_482"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_518",
+      "target": "l_493"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_526",
+      "target": "l_500"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_534",
+      "target": "l_646"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_546",
+      "target": "r_554"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_562",
+      "target": "l_578"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_686",
+      "target": "tr_1733146411"
+    },
+    {
+      "type": "related_pages",
+      "source": "tr_1733146420",
+      "target": "r_665"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_731",
+      "target": "r_673"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_745",
+      "target": "l_774"
+    }
+  ]
+}

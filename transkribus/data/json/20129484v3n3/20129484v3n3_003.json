@@ -1,0 +1,289 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725280,
+  "library_identifier": "20129484v3n3",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "portatief :\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "keyword",
+      "text": [
+        "harp :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "blokfluit :\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        "?? :"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "keyword",
+      "text": [
+        "vedel :"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "frottola :"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        "zangeres :\n"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "zink :\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "luit :\n"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "keyword",
+      "text": [
+        "viool :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "keyword",
+      "text": [
+        "cello (?) :\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "W. Landowska :\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "shelfmark",
+      "text": []
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "psalterium :\n"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "pages-keyword",
+      "text": [
+        "225"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "pages-keyword",
+      "text": [
+        "222, 225\n"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "pages-keyword",
+      "text": [
+        "225"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "pages-keyword",
+      "text": [
+        "227-235"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "pages-keyword",
+      "text": [
+        "229"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "pages-keyword",
+      "text": [
+        "omslag"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "pages-keyword",
+      "text": [
+        "omslag"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "pages-keyword",
+      "text": [
+        "omslag"
+      ]
+    },
+    {
+      "region_id": "r_30",
+      "type": "pages-keyword",
+      "text": [
+        "240-242"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "pages-keyword",
+      "text": [
+        "244-248"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        "muziek en beeldende kunst :\n"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "pages-keyword",
+      "text": [
+        "225"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "pages-keyword",
+      "text": [
+        "223, 225, omslag\n"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "225, omslag\n"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "221-226"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_3",
+      "target": "r_18"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_4",
+      "target": "r_19"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_21"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_7",
+      "target": "r_22"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_8",
+      "target": "r_23"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_24"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_10",
+      "target": "r_25"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_11",
+      "target": "r_26"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_12",
+      "target": "r_27"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_13",
+      "target": "r_28"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_14",
+      "target": "r_29"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_30"
+    }
+  ]
+}

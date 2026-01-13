@@ -1,0 +1,401 @@
+{
+  "collection_id": 257292,
+  "document_id": 1765068,
+  "page_id": 63610103,
+  "library_identifier": "12D02-1",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "m. Luther :"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "keyword",
+      "text": [
+        "Erasmus :"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "pages-keyword",
+      "text": [
+        "252"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "1-15, 35-40"
+      ]
+    },
+    {
+      "region_id": "r_65",
+      "type": "keyword",
+      "text": [
+        "dirigent :"
+      ]
+    },
+    {
+      "region_id": "r_68",
+      "type": "keyword",
+      "text": [
+        "latijn in kerk :",
+        null
+      ]
+    },
+    {
+      "region_id": "r_711",
+      "type": "keyword",
+      "text": [
+        "orgel in eredienst :"
+      ]
+    },
+    {
+      "region_id": "r_734",
+      "type": "keyword",
+      "text": [
+        "meisjesscholen :"
+      ]
+    },
+    {
+      "region_id": "r_1161",
+      "type": "pages-keyword",
+      "text": [
+        "81"
+      ]
+    },
+    {
+      "region_id": "r_1178",
+      "type": "pages-keyword",
+      "text": [
+        "109, 163, 222"
+      ]
+    },
+    {
+      "region_id": "r_1190",
+      "type": "pages-keyword",
+      "text": [
+        "112, 339"
+      ]
+    },
+    {
+      "region_id": "r_757",
+      "type": "keyword",
+      "text": [
+        "straatliedjes :"
+      ]
+    },
+    {
+      "region_id": "r_774",
+      "type": "keyword",
+      "text": [
+        "scholen :"
+      ]
+    },
+    {
+      "region_id": "r_791",
+      "type": "keyword",
+      "text": [
+        "cantor : "
+      ]
+    },
+    {
+      "region_id": "r_814",
+      "type": "keyword",
+      "text": [
+        "publiek :"
+      ]
+    },
+    {
+      "region_id": "r_837",
+      "type": "keyword",
+      "text": [
+        "bibliotheek :"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "keyword",
+      "text": [
+        "muziek in eredienst :"
+      ]
+    },
+    {
+      "region_id": "r_854",
+      "type": "keyword",
+      "text": [
+        "Salaris :"
+      ]
+    },
+    {
+      "region_id": "r_319",
+      "type": "keyword",
+      "text": [
+        "jongenssopr :"
+      ]
+    },
+    {
+      "region_id": "r_294",
+      "type": "keyword",
+      "text": [
+        "Lübeck :"
+      ]
+    },
+    {
+      "region_id": "r_286",
+      "type": "keyword",
+      "text": [
+        "x muziek in eredienst :"
+      ]
+    },
+    {
+      "region_id": "r_1228",
+      "type": "pages-keyword",
+      "text": [
+        "131, 148, 151, 166, 251, 252"
+      ]
+    },
+    {
+      "region_id": "r_302",
+      "type": "pages-keyword",
+      "text": [
+        "145-149-154"
+      ]
+    },
+    {
+      "region_id": "r_1077",
+      "type": "pages-keyword",
+      "text": [
+        "69, 109, 128, 143, 166, 224,230"
+      ]
+    },
+    {
+      "region_id": "r_442",
+      "type": "pages-keyword",
+      "text": [
+        "58, 113, 131, 139, 148, 151,245, 252, 315, 216, 317."
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "pages-keyword",
+      "text": [
+        "69, 100, 101, 108, 109, 126, 127, 128, 139, 142, 143,146, 153, 166, 229, 252, 253, 261, 276, 285, 333, 334, 347"
+      ]
+    },
+    {
+      "region_id": "r_190",
+      "type": "pages-keyword",
+      "text": [
+        "oa 29, 30, 32, 36, 37, 38, 40, 43, 44? 51, 57, 94, 97, 98, 114, 115, 116, 129,146, 163, 204 x"
+      ]
+    },
+    {
+      "region_id": "r_381",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek ( 1-7, 23, 29, 30, 32, 36-40, 43, 44, 51, 94, 97, 98, 113, 114, 115, 116, 129, 130, 139, 141, 146, 155, 163 x"
+      ]
+    },
+    {
+      "region_id": "r_404",
+      "type": "",
+      "text": [
+        null
+      ]
+    },
+    {
+      "region_id": "r_357",
+      "type": "pages-keyword",
+      "text": [
+        "139, 153, 158, 163, 204, 222-224,347"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "113, 128, 146, 167, 228, 243, 254, 279, 322, 367"
+      ]
+    },
+    {
+      "region_id": "r_213",
+      "type": "keyword",
+      "text": [
+        "tekstuitspraak :"
+      ]
+    },
+    {
+      "region_id": "r_93",
+      "type": "keyword",
+      "text": [
+        "x latijn in luth kerk :"
+      ]
+    },
+    {
+      "region_id": "r_70",
+      "type": "pages-keyword",
+      "text": [
+        "222"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "keyword",
+      "text": [
+        "alternatimpraxis :"
+      ]
+    },
+    {
+      "region_id": "r_218",
+      "type": "pages-keyword",
+      "text": [
+        "175"
+      ]
+    },
+    {
+      "region_id": "r_57",
+      "type": "pages-keyword",
+      "text": [
+        "288"
+      ]
+    },
+    {
+      "region_id": "r_582",
+      "type": "pages-keyword",
+      "text": [
+        "174, 175, 204, 206, 221, 222, 223, 224, 229, 245, 257, 258, 259, 267-269, 275, 288, 305, 307, 312, 313, 314, 318, 319, 363"
+      ]
+    },
+    {
+      "region_id": "r_256",
+      "type": "pages-keyword",
+      "text": [
+        "326, 327, 329, 339, 347, 355, 363, 364, 366"
+      ]
+    },
+    {
+      "region_id": "r_161",
+      "type": "pages-keyword",
+      "text": [
+        "206, 208, 210, 221, 223, 229,245, 257, 258, 259, 275, 288, 307, 312, 313, 318, 319, 326, 327, 328, 363, 364"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "shelfmark",
+      "text": [
+        "Ex libris",
+        "Ton Koopman",
+        "12D02-1"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_10"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_15",
+      "target": "r_20"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_38",
+      "target": "r_381"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_68",
+      "target": "r_190"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_711",
+      "target": "r_442"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_734",
+      "target": "r_1077"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_757",
+      "target": "r_1161"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_774",
+      "target": "r_16"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_791",
+      "target": "r_1178"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_814",
+      "target": "r_1190"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_837",
+      "target": "r_2"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_854",
+      "target": "r_1228"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_319",
+      "target": "r_357"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_294",
+      "target": "r_302"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_286",
+      "target": "r_582"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_286",
+      "target": "r_256"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_213",
+      "target": "r_218"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_93",
+      "target": "r_161"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_65",
+      "target": "r_70"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_52",
+      "target": "r_57"
+    }
+  ]
+}

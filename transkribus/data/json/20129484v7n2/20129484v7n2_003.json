@@ -1,0 +1,289 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725423,
+  "library_identifier": "20129484v7n2",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_3",
+      "type": "keyword",
+      "text": [
+        "luit :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "organum :\n"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "keyword",
+      "text": [
+        "bezetting (voc) :"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "keyword",
+      "text": [
+        "\" instr.\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "orgel in ME :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "keyword",
+      "text": [
+        "tempo :\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "franse ouverture :\n"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "viool in 16e e :\n"
+      ]
+    },
+    {
+      "region_id": "r_2",
+      "type": "pages-keyword",
+      "text": [
+        "165"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "66-176, 225-235\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "pages-keyword",
+      "text": [
+        "174-189"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "pages-keyword",
+      "text": [
+        "174"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "keyword",
+      "text": [
+        "ouverture :\n"
+      ]
+    },
+    {
+      "region_id": "r_20",
+      "type": "keyword",
+      "text": [
+        "temperatuur :\n"
+      ]
+    },
+    {
+      "region_id": "r_22",
+      "type": "keyword",
+      "text": [
+        "oud-nieuw :\n"
+      ]
+    },
+    {
+      "region_id": "r_26",
+      "type": "keyword",
+      "text": [
+        "artikulatie :\n"
+      ]
+    },
+    {
+      "region_id": "r_28",
+      "type": "keyword",
+      "text": [
+        "punktering :\n"
+      ]
+    },
+    {
+      "region_id": "r_24",
+      "type": "keyword",
+      "text": [
+        "G. F. Händel : klavec. suites :\n"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "pages-keyword",
+      "text": [
+        "279"
+      ]
+    },
+    {
+      "region_id": "r_29",
+      "type": "pages-keyword",
+      "text": [
+        "190-198, 279\n"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "keyword",
+      "text": [
+        "metronoom in 18e e :\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "pages-keyword",
+      "text": [
+        "190-196"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "174, 175\n"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "190-196, 279\n"
+      ]
+    },
+    {
+      "region_id": "r_19",
+      "type": "pages-keyword",
+      "text": [
+        "190-196, 279\n"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "pages-keyword",
+      "text": [
+        "236-249"
+      ]
+    },
+    {
+      "region_id": "r_23",
+      "type": "pages-keyword",
+      "text": [
+        "236, 237\n"
+      ]
+    },
+    {
+      "region_id": "r_25",
+      "type": "pages-keyword",
+      "text": [
+        "271"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "193, 196\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_28",
+      "target": "l_1221"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1166",
+      "target": "l_1170"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1148",
+      "target": "r_25"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1122",
+      "target": "l_1126"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1114",
+      "target": "l_1118"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1085",
+      "target": "l_1107"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1074",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_1034",
+      "target": "l_1045"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_989",
+      "target": "l_1018"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_969",
+      "target": "l_973"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_918",
+      "target": "l_946"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_953",
+      "target": "l_946"
+    },
+    {
+      "type": "related_pages",
+      "source": "l",
+      "target": "l_836"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_840",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_889",
+      "target": "l_874"
+    }
+  ]
+}

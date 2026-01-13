@@ -1,0 +1,26 @@
+{
+  "collection_id": 257292,
+  "document_id": 1845910,
+  "page_id": 65817183,
+  "library_identifier": "20124601",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "shelfmark",
+      "text": [
+        "ExLibris",
+        "Ton Koopman",
+        "14B41"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    }
+  ],
+  "relations": []
+}

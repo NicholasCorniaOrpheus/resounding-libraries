@@ -1,0 +1,317 @@
+{
+  "collection_id": 257292,
+  "document_id": 1765068,
+  "page_id": 63610102,
+  "library_identifier": "12D02-2",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r_2918",
+      "type": "keyword",
+      "text": [
+        "Stad Buxtehude :"
+      ]
+    },
+    {
+      "region_id": "r_21",
+      "type": "pages-keyword",
+      "text": [
+        "503"
+      ]
+    },
+    {
+      "region_id": "r_658",
+      "type": "keyword",
+      "text": [
+        "muziek in eredienst :"
+      ]
+    },
+    {
+      "region_id": "r_260",
+      "type": "keyword",
+      "text": [
+        "latijn in luth kerk : "
+      ]
+    },
+    {
+      "region_id": "r_231",
+      "type": "keyword",
+      "text": [
+        "orgel in eredienst :"
+      ]
+    },
+    {
+      "region_id": "r_218",
+      "type": "keyword",
+      "text": [
+        "alternatimpraxis :"
+      ]
+    },
+    {
+      "region_id": "r_158",
+      "type": "keyword",
+      "text": [
+        "scholen :"
+      ]
+    },
+    {
+      "region_id": "r_145",
+      "type": "keyword",
+      "text": [
+        "alcohol :"
+      ]
+    },
+    {
+      "region_id": "r_132",
+      "type": "keyword",
+      "text": [
+        "bibliotheek :"
+      ]
+    },
+    {
+      "region_id": "r_122",
+      "type": "keyword",
+      "text": [
+        "jongenssopr :"
+      ]
+    },
+    {
+      "region_id": "r_109",
+      "type": "keyword",
+      "text": [
+        "salaris :"
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "keyword",
+      "text": [
+        "meijsesscholen :"
+      ]
+    },
+    {
+      "region_id": "r_99",
+      "type": "keyword",
+      "text": [
+        "ned invl in D :"
+      ]
+    },
+    {
+      "region_id": "r_127",
+      "type": "pages-keyword",
+      "text": [
+        "80, 223"
+      ]
+    },
+    {
+      "region_id": "r_223",
+      "type": "pages-keyword",
+      "text": [
+        "25"
+      ]
+    },
+    {
+      "region_id": "r_620",
+      "type": "pages-keyword",
+      "text": [
+        "400, 487, 488, 494, 506"
+      ]
+    },
+    {
+      "region_id": "r_427",
+      "type": "pages-keyword",
+      "text": [
+        "488, 494, 506?"
+      ]
+    },
+    {
+      "region_id": "r_243",
+      "type": "pages-keyword",
+      "text": [
+        "2, 24, 25, 77, 80, 456, 470, 513"
+      ]
+    },
+    {
+      "region_id": "r_153",
+      "type": "pages-keyword",
+      "text": [
+        "54, 183, 298, 351"
+      ]
+    },
+    {
+      "region_id": "r_140",
+      "type": "pages-keyword",
+      "text": [
+        "61, 179, 304, 354, 451"
+      ]
+    },
+    {
+      "region_id": "r_117",
+      "type": "pages-keyword",
+      "text": [
+        "304, 305, 339, 518"
+      ]
+    },
+    {
+      "region_id": "r_76",
+      "type": "keyword",
+      "text": [
+        "dansen :"
+      ]
+    },
+    {
+      "region_id": "r_66",
+      "type": "keyword",
+      "text": [
+        "impotentie :"
+      ]
+    },
+    {
+      "region_id": "r_81",
+      "type": "pages-keyword",
+      "text": [
+        "447"
+      ]
+    },
+    {
+      "region_id": "r_91",
+      "type": "pages-keyword",
+      "text": [
+        "375, 457, 501"
+      ]
+    },
+    {
+      "region_id": "r_213",
+      "type": "pages-keyword",
+      "text": [
+        "52, 73, 80, 92, 93, 147, 162, 175, 186, 207, 227, 229, 281, 287, 302, 357, 374, 375, 413, 454, 457, 458, 501"
+      ]
+    },
+    {
+      "region_id": "r_582",
+      "type": "pages-keyword",
+      "text": [
+        "1-4,17, 18, 19, 20, 23, 24, 25, 27-29, 42, 50, 51, 66, 67, 68, 69, 78, 79,138, 168, 173, 197, 223, 272, 287, 293, 294, 347,"
+      ]
+    },
+    {
+      "region_id": "r_688",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_415",
+      "type": "pages-keyword",
+      "text": [
+        "1-4, 17,18-20, 22, 23, 24, 25, 27-29, 42, 50, 51, 61, 66, 67, 68, 69, 78, 79, 138, 149-160, 168, 173, 287, 347, 473, 487"
+      ]
+    },
+    {
+      "region_id": "r_104",
+      "type": "pages-keyword",
+      "text": [
+        "339, 340"
+      ]
+    },
+    {
+      "region_id": "r_71",
+      "type": "pages-keyword",
+      "text": [
+        "468, 471"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "shelfmark",
+      "text": [
+        "Ex libris",
+        "Ton Koopman",
+        "12D02 -II"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2918",
+      "target": "r_21"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_658",
+      "target": "r_582"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_658",
+      "target": "r_620"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_260",
+      "target": "r_415"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_260",
+      "target": "r_427"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_231",
+      "target": "r_243"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_218",
+      "target": "r_223"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_158",
+      "target": "r_213"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_145",
+      "target": "r_153"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_132",
+      "target": "r_140"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_122",
+      "target": "r_127"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_109",
+      "target": "r_117"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_99",
+      "target": "r_104"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_86",
+      "target": "r_91"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_76",
+      "target": "r_81"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_66",
+      "target": "r_71"
+    }
+  ]
+}

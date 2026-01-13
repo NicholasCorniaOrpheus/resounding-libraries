@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-09T12:09:12.183+02:00</Created>
+        <LastChange>2024-09-09T09:47:37.636+02:00</LastChange>
+        <TranskribusMetadata docId="0" pageId="0" pageNr="0" status="GT"/>
+    </Metadata>
+    <Page imageFilename="20129484v1n1_003.jpg" imageWidth="2791" imageHeight="4005">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1725868057636" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_3"/>
+                <RegionRefIndexed index="1" regionRef="r_5"/>
+                <RegionRefIndexed index="2" regionRef="r_7"/>
+                <RegionRefIndexed index="3" regionRef="r_4"/>
+                <RegionRefIndexed index="4" regionRef="r_6"/>
+                <RegionRefIndexed index="5" regionRef="r_8"/>
+                <RegionRefIndexed index="6" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_4"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_6"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_8"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_3" custom="readingOrder {index:0;} structure {type:keyword;}">
+            <Coords points="47,383 246,383 246,440 47,440"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="52,434 236,434 236,404 52,404"/>
+                <Baseline points="52,434 236,434"/>
+                <TextEquiv>
+                    <Unicode>Stein :
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:1;} structure {type:keyword;}">
+            <Coords points="24,450 400,450 400,505 120,505 24,505"/>
+            <TextLine id="l_162" custom="readingOrder {index:0;}">
+                <Coords points="25,493 396,493 396,463 25,463"/>
+                <Baseline points="25,493 396,493"/>
+                <TextEquiv>
+                    <Unicode>Christofori :
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:2;} structure {type:keyword;}">
+            <Coords points="43,510 422,510 424,561 43,561"/>
+            <TextLine id="l_174" custom="readingOrder {index:0;}">
+                <Coords points="43,556 424,550 424,520 43,526"/>
+                <Baseline points="43,556 424,550"/>
+                <TextEquiv>
+                    <Unicode>Broadwood :
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:3;} structure {type:pages-keyword;}">
+            <Coords points="255,390 390,390 390,448 255,448"/>
+            <TextLine id="l_158" custom="readingOrder {index:0;}">
+                <Coords points="260,434 383,441 385,411 262,404"/>
+                <Baseline points="260,434 383,441"/>
+                <TextEquiv>
+                    <Unicode>28, 29,
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:4;} structure {type:pages-keyword;}">
+            <Coords points="408,456 541,456 541,507 408,507"/>
+            <TextLine id="l_166" custom="readingOrder {index:0;}">
+                <Coords points="407,491 532,496 534,466 408,461"/>
+                <Baseline points="407,491 532,496"/>
+                <TextEquiv>
+                    <Unicode>28, 29,
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:5;} structure {type:pages-keyword;}">
+            <Coords points="434,514 655,512 654,561 436,561"/>
+            <TextLine id="l_170" custom="readingOrder {index:0;}">
+                <Coords points="433,555 645,552 645,522 432,525"/>
+                <Baseline points="433,555 645,552"/>
+                <TextEquiv>
+                    <Unicode>30, 31, 33
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:6;}">
+            <Coords points="1874,408 2506,421 2509,536 2266,545 1880,508"/>
+            <TextLine id="l_41" custom="readingOrder {index:0;}">
+                <Coords points="1915,485 2225,504 2257,517 2289,504 2480,498 2479,468 2282,475 2257,487 2231,475 1917,455"/>
+                <Baseline points="1915,485 2225,504 2257,517 2289,504 2480,498"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman
+</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

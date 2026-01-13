@@ -1,0 +1,645 @@
+{
+  "collection_id": 257292,
+  "document_id": 3205963,
+  "page_id": 74725424,
+  "library_identifier": "20129484v7n3",
+  "page_number": "003",
+  "regions": [
+    {
+      "region_id": "r_2",
+      "type": "keyword",
+      "text": [
+        "orgel in ME :\n"
+      ]
+    },
+    {
+      "region_id": "r_6",
+      "type": "keyword",
+      "text": [
+        "gamba :\n"
+      ]
+    },
+    {
+      "region_id": "r_10",
+      "type": "keyword",
+      "text": [
+        "luit :\n"
+      ]
+    },
+    {
+      "region_id": "r_12",
+      "type": "keyword",
+      "text": [
+        "gitaar :\n"
+      ]
+    },
+    {
+      "region_id": "r_14",
+      "type": "keyword",
+      "text": [
+        "klavec. 17e Eng :\n"
+      ]
+    },
+    {
+      "region_id": "r_37",
+      "type": "keyword",
+      "text": [
+        "H. Purcell :\n"
+      ]
+    },
+    {
+      "region_id": "r_49",
+      "type": "keyword",
+      "text": [
+        "hornpipe :\n"
+      ]
+    },
+    {
+      "region_id": "r_51",
+      "type": "keyword",
+      "text": [
+        "Charpentier :\n"
+      ]
+    },
+    {
+      "region_id": "r_53",
+      "type": "keyword",
+      "text": [
+        "J. F. Rebel :\n"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "keyword",
+      "text": [
+        "S. de Brossard :\n"
+      ]
+    },
+    {
+      "region_id": "r_56",
+      "type": "keyword",
+      "text": [
+        "Fr. Couperin :\n"
+      ]
+    },
+    {
+      "region_id": "r_60",
+      "type": "keyword",
+      "text": [
+        "cello :\n"
+      ]
+    },
+    {
+      "region_id": "r_62",
+      "type": "keyword",
+      "text": [
+        "bezetting (instr) :\n"
+      ]
+    },
+    {
+      "region_id": "r_55",
+      "type": "keyword",
+      "text": [
+        "L. N. Clérambault :\n"
+      ]
+    },
+    {
+      "region_id": "r_59",
+      "type": "pages-keyword",
+      "text": [
+        "330"
+      ]
+    },
+    {
+      "region_id": "r_61",
+      "type": "pages-keyword",
+      "text": [
+        "331, 332, 335\n"
+      ]
+    },
+    {
+      "region_id": "r_63",
+      "type": "pages-keyword",
+      "text": [
+        "331\n"
+      ]
+    },
+    {
+      "region_id": "r_64",
+      "type": "keyword",
+      "text": [
+        "klavec - luit bc tegeljk :\n"
+      ]
+    },
+    {
+      "region_id": "r_69",
+      "type": "keyword",
+      "text": [
+        "punktering :\n"
+      ]
+    },
+    {
+      "region_id": "r_74",
+      "type": "keyword",
+      "text": [
+        "fagot :\n"
+      ]
+    },
+    {
+      "region_id": "r_73",
+      "type": "keyword",
+      "text": [
+        "silence d'articulation :\n"
+      ]
+    },
+    {
+      "region_id": "r_75",
+      "type": "keyword",
+      "text": [
+        "klarinet :\n"
+      ]
+    },
+    {
+      "region_id": "r_80",
+      "type": "keyword",
+      "text": [
+        "hobo :\n"
+      ]
+    },
+    {
+      "region_id": "r_81",
+      "type": "keyword",
+      "text": [
+        "blokfluit :\n"
+      ]
+    },
+    {
+      "region_id": "r_83",
+      "type": "keyword",
+      "text": [
+        "Lassus :\n"
+      ]
+    },
+    {
+      "region_id": "r_86",
+      "type": "keyword",
+      "text": [
+        "A. de Rippe :\n"
+      ]
+    },
+    {
+      "region_id": "r_87",
+      "type": "keyword",
+      "text": [
+        "Cornamuse :\n"
+      ]
+    },
+    {
+      "region_id": "r_89",
+      "type": "keyword",
+      "text": [
+        "Kromhoorn :\n"
+      ]
+    },
+    {
+      "region_id": "r_79",
+      "type": "keyword",
+      "text": [
+        "chalumeau :\n"
+      ]
+    },
+    {
+      "region_id": "r_72",
+      "type": "pages-keyword",
+      "text": [
+        "346-350"
+      ]
+    },
+    {
+      "region_id": "r_76",
+      "type": "pages-keyword",
+      "text": [
+        "351-354"
+      ]
+    },
+    {
+      "region_id": "r_78",
+      "type": "pages-keyword",
+      "text": [
+        "355-358"
+      ]
+    },
+    {
+      "region_id": "r_77",
+      "type": "pages-keyword",
+      "text": [
+        "351-354"
+      ]
+    },
+    {
+      "region_id": "r_82",
+      "type": "pages-keyword",
+      "text": [
+        "359-365"
+      ]
+    },
+    {
+      "region_id": "r_84",
+      "type": "pages-keyword",
+      "text": [
+        "367-377"
+      ]
+    },
+    {
+      "region_id": "r_85",
+      "type": "pages-keyword",
+      "text": [
+        "378-385"
+      ]
+    },
+    {
+      "region_id": "r_88",
+      "type": "pages-keyword",
+      "text": [
+        "431, 433\n"
+      ]
+    },
+    {
+      "region_id": "r_90",
+      "type": "pages-keyword",
+      "text": [
+        "431, 433\n"
+      ]
+    },
+    {
+      "region_id": "r_66",
+      "type": "keyword",
+      "text": [
+        "J. S. Bach en franse ouvertures :\n"
+      ]
+    },
+    {
+      "region_id": "r_70",
+      "type": "pages-keyword",
+      "text": [
+        "336-345"
+      ]
+    },
+    {
+      "region_id": "r_71",
+      "type": "pages-keyword",
+      "text": [
+        "336"
+      ]
+    },
+    {
+      "region_id": "r_16",
+      "type": "keyword",
+      "text": [
+        "musici als acteurs :\n"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "toneelmuziek :\n"
+      ]
+    },
+    {
+      "region_id": "r_5",
+      "type": "keyword",
+      "text": [
+        "orgeltabulatuur in ME :\n"
+      ]
+    },
+    {
+      "region_id": "r_3",
+      "type": "pages-keyword",
+      "text": [
+        "308-314"
+      ]
+    },
+    {
+      "region_id": "r_7",
+      "type": "pages-keyword",
+      "text": [
+        "316, 331, 433\n"
+      ]
+    },
+    {
+      "region_id": "r_11",
+      "type": "pages-keyword",
+      "text": [
+        "316, 378-385, 387, 427\n"
+      ]
+    },
+    {
+      "region_id": "r_13",
+      "type": "pages-keyword",
+      "text": [
+        "316, 323-329\n"
+      ]
+    },
+    {
+      "region_id": "r_15",
+      "type": "pages-keyword",
+      "text": [
+        "316, 322\n"
+      ]
+    },
+    {
+      "region_id": "r_39",
+      "type": "keyword",
+      "text": [
+        "London Br M : Add ms 24889 :"
+      ]
+    },
+    {
+      "region_id": "r_48",
+      "type": "pages-keyword",
+      "text": [
+        "320"
+      ]
+    },
+    {
+      "region_id": "r_50",
+      "type": "keyword",
+      "text": [
+        "London Br M Add ms 38189 :"
+      ]
+    },
+    {
+      "region_id": "r_44",
+      "type": "pages-keyword",
+      "text": [
+        "330-335"
+      ]
+    },
+    {
+      "region_id": "r_52",
+      "type": "keyword",
+      "text": [
+        "E. Jacquet de la Guerre :\n"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "pages-keyword",
+      "text": [
+        "330"
+      ]
+    },
+    {
+      "region_id": "r_46",
+      "type": "pages-keyword",
+      "text": [
+        "330-335"
+      ]
+    },
+    {
+      "region_id": "r_47",
+      "type": "pages-keyword",
+      "text": [
+        "330"
+      ]
+    },
+    {
+      "region_id": "r_65",
+      "type": "pages-keyword",
+      "text": [
+        "331, 332\n"
+      ]
+    },
+    {
+      "region_id": "r_68",
+      "type": "pages-keyword",
+      "text": [
+        "336-345, 357\n"
+      ]
+    },
+    {
+      "region_id": "r_38",
+      "type": "pages-keyword",
+      "text": [
+        "317, 321\n"
+      ]
+    },
+    {
+      "region_id": "r_17",
+      "type": "pages-keyword",
+      "text": [
+        "315-322"
+      ]
+    },
+    {
+      "region_id": "r_40",
+      "type": "pages-keyword",
+      "text": [
+        "317-322"
+      ]
+    },
+    {
+      "region_id": "r_41",
+      "type": "pages-keyword",
+      "text": [
+        "320-321"
+      ]
+    },
+    {
+      "region_id": "r_43",
+      "type": "pages-keyword",
+      "text": [
+        "330, 335\n"
+      ]
+    },
+    {
+      "region_id": "r_4",
+      "type": "pages-keyword",
+      "text": [
+        "309"
+      ]
+    },
+    {
+      "region_id": "r_8",
+      "type": "pages-keyword",
+      "text": [
+        "315-322"
+      ]
+    },
+    {
+      "region_id": "r",
+      "type": "",
+      "text": [
+        "Ton Koopman\n"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r_2",
+      "target": "r_3"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_5",
+      "target": "r_4"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_6",
+      "target": "r_7"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_8"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_10",
+      "target": "r_11"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_12",
+      "target": "r_13"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_14",
+      "target": "r_15"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_16",
+      "target": "r_17"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_37",
+      "target": "r_38"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_39",
+      "target": "r_40"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_49",
+      "target": "r_48"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_50",
+      "target": "r_41"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_51",
+      "target": "r_44"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_52",
+      "target": "r_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_53",
+      "target": "r_45"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_54",
+      "target": "r_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_55",
+      "target": "r_47"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_56",
+      "target": "r_59"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_60",
+      "target": "r_61"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_62",
+      "target": "r_63"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_64",
+      "target": "r_65"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_66",
+      "target": "r_68"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_69",
+      "target": "r_70"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_73",
+      "target": "r_71"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_74",
+      "target": "r_72"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_75",
+      "target": "r_76"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_79",
+      "target": "r_77"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_80",
+      "target": "r_78"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_81",
+      "target": "r_82"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_83",
+      "target": "r_84"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_86",
+      "target": "r_85"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_87",
+      "target": "r_88"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_89",
+      "target": "r_90"
+    }
+  ]
+}

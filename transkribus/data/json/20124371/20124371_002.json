@@ -1,0 +1,397 @@
+{
+  "collection_id": 257292,
+  "document_id": 1845910,
+  "page_id": 65817167,
+  "library_identifier": "20124371",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "shelfmark",
+      "text": [
+        "ExLibris",
+        "13F27",
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "region_1709042428238_16",
+      "type": "keyword",
+      "text": [
+        "A. de Cousu :"
+      ]
+    },
+    {
+      "region_id": "region_1709042699004_19",
+      "type": "keyword",
+      "text": [
+        "J. Titelouze :"
+      ]
+    },
+    {
+      "region_id": "region_1709042707793_22",
+      "type": "keyword",
+      "text": [
+        "Mersenne :"
+      ]
+    },
+    {
+      "region_id": "region_1709042731155_25",
+      "type": "keyword",
+      "text": [
+        "S. de Brossard :"
+      ]
+    },
+    {
+      "region_id": "region_1709042748318_28",
+      "type": "keyword",
+      "text": [
+        "rol )",
+        "taak ) v. muziek :"
+      ]
+    },
+    {
+      "region_id": "region_1709042774709_31",
+      "type": "keyword",
+      "text": [
+        "emoties :"
+      ]
+    },
+    {
+      "region_id": "region_1709042784077_34",
+      "type": "keyword",
+      "text": [
+        "Berthot :"
+      ]
+    },
+    {
+      "region_id": "region_1713961866064_58",
+      "type": "pages-keyword",
+      "text": [
+        "7"
+      ]
+    },
+    {
+      "region_id": "region_1709042800049_37",
+      "type": "keyword",
+      "text": [
+        "musicus ="
+      ]
+    },
+    {
+      "region_id": "region_1713961882454_70",
+      "type": "pages-keyword",
+      "text": [
+        "14"
+      ]
+    },
+    {
+      "region_id": "region_1713961913086_85",
+      "type": "keyword",
+      "text": [
+        "contrapunt :"
+      ]
+    },
+    {
+      "region_id": "region_1713961869944_61",
+      "type": "pages-keyword",
+      "text": [
+        "10"
+      ]
+    },
+    {
+      "region_id": "region_1713961848238_46",
+      "type": "pages-keyword",
+      "text": [
+        "voorwoord"
+      ]
+    },
+    {
+      "region_id": "region_1713961862166_55",
+      "type": "pages-keyword",
+      "text": [
+        "4, 6, 7, 8, 9"
+      ]
+    },
+    {
+      "region_id": "region_1709042902913_40",
+      "type": "keyword",
+      "text": [
+        "muziek en wetenschap )"
+      ]
+    },
+    {
+      "region_id": "region_1709042920121_43",
+      "type": "keyword",
+      "text": [
+        "speler - musicoloog )"
+      ]
+    },
+    {
+      "region_id": "region_1709042935638_46",
+      "type": "keyword",
+      "text": [
+        "echo effekt :"
+      ]
+    },
+    {
+      "region_id": "region_1709043002812_49",
+      "type": "keyword",
+      "text": [
+        "temperatuur :"
+      ]
+    },
+    {
+      "region_id": "region_1709043017792_52",
+      "type": "keyword",
+      "text": [
+        "ligaturen :"
+      ]
+    },
+    {
+      "region_id": "region_1713961887941_73",
+      "type": "pages-keyword",
+      "text": [
+        "26, 27"
+      ]
+    },
+    {
+      "region_id": "region_1713961892796_76",
+      "type": "pages-keyword",
+      "text": [
+        "40-46"
+      ]
+    },
+    {
+      "region_id": "r_258",
+      "type": "keyword",
+      "text": [
+        "punctum divisionis :"
+      ]
+    },
+    {
+      "region_id": "region_1709043293030_55",
+      "type": "keyword",
+      "text": [
+        "time signatures :"
+      ]
+    },
+    {
+      "region_id": "region_1709289480459_10",
+      "type": "keyword",
+      "text": [
+        "tritonus :"
+      ]
+    },
+    {
+      "region_id": "region_1709289463340_7",
+      "type": "keyword",
+      "text": [
+        "Josquin :"
+      ]
+    },
+    {
+      "region_id": "region_1713961930647_94",
+      "type": "pages-keyword",
+      "text": [
+        "136"
+      ]
+    },
+    {
+      "region_id": "region_1713961836916_43",
+      "type": "pages-keyword",
+      "text": [
+        "voorwoord"
+      ]
+    },
+    {
+      "region_id": "region_1713961854993_49",
+      "type": "pages-keyword",
+      "text": [
+        "voorwoord"
+      ]
+    },
+    {
+      "region_id": "region_1713961859451_52",
+      "type": "pages-keyword",
+      "text": [
+        "4, 5-7, 8, 9"
+      ]
+    },
+    {
+      "region_id": "region_1713961878354_67",
+      "type": "pages-keyword",
+      "text": [
+        "11"
+      ]
+    },
+    {
+      "region_id": "region_1713961900234_79",
+      "type": "pages-keyword",
+      "text": [
+        "46-48, 55, 65-74"
+      ]
+    },
+    {
+      "region_id": "region_1713961903443_82",
+      "type": "pages-keyword",
+      "text": [
+        "49"
+      ]
+    },
+    {
+      "region_id": "region_1713961917839_88",
+      "type": "pages-keyword",
+      "text": [
+        "75-156-einde"
+      ]
+    },
+    {
+      "region_id": "region_1713961925275_91",
+      "type": "pages-keyword",
+      "text": [
+        "94, 95, 143-147"
+      ]
+    },
+    {
+      "region_id": "region_1713961936706_97",
+      "type": "keyword",
+      "text": [
+        "kwint/oktaaf parallellen :"
+      ]
+    },
+    {
+      "region_id": "region_1713961873709_64",
+      "type": "paragraph",
+      "text": []
+    },
+    {
+      "region_id": "region_1713961808160_33",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "region_1713962845877_48",
+      "type": "paragraph",
+      "text": []
+    },
+    {
+      "region_id": "region_1713962917461_64",
+      "type": "pages-keyword",
+      "text": [
+        "152-155"
+      ]
+    },
+    {
+      "region_id": "region_1713962649787_27",
+      "type": "paragraph",
+      "text": []
+    },
+    {
+      "region_id": "region_1713962957727_73",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "region_1709042428238_16",
+      "target": "region_1713961808160_33"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042699004_19",
+      "target": "region_1713961836916_43"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042707793_22",
+      "target": "region_1713961848238_46"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042731155_25",
+      "target": "region_1713961854993_49"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042748318_28",
+      "target": "region_1713961859451_52"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042774709_31",
+      "target": "region_1713961862166_55"
+    },
+    {
+      "type": "related_pages",
+      "source": "l_17",
+      "target": "region_1713961866064_58"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042800049_37",
+      "target": "region_1713961869944_61"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042902913_40",
+      "target": "region_1713961878354_67"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042920121_43",
+      "target": "region_1713961878354_67"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709042935638_46",
+      "target": "region_1713961882454_70"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709043002812_49",
+      "target": "region_1713961887941_73"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709043017792_52",
+      "target": "region_1713961892796_76"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709043293030_55",
+      "target": "region_1713961900234_79"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_258",
+      "target": "region_1713961903443_82"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1713961913086_85",
+      "target": "region_1713961917839_88"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709289480459_10",
+      "target": "region_1713961925275_91"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1709289463340_7",
+      "target": "region_1713961930647_94"
+    },
+    {
+      "type": "related_pages",
+      "source": "region_1713961936706_97",
+      "target": "region_1713962917461_64"
+    }
+  ]
+}

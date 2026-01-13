@@ -1,0 +1,573 @@
+{
+  "collection_id": 257292,
+  "document_id": 1845910,
+  "page_id": 65817138,
+  "library_identifier": "20121957",
+  "page_number": "002",
+  "regions": [
+    {
+      "region_id": "r",
+      "type": "keyword",
+      "text": [
+        "S. Cerreto :"
+      ]
+    },
+    {
+      "region_id": "r_91",
+      "type": "pages-keyword",
+      "text": [
+        "hele boek"
+      ]
+    },
+    {
+      "region_id": "r_431",
+      "type": "",
+      "text": [
+        "Ton Koopman"
+      ]
+    },
+    {
+      "region_id": "r_449",
+      "type": "pages-keyword",
+      "text": [
+        "α, 155, 157, 159, 313-319"
+      ]
+    },
+    {
+      "region_id": "r_174",
+      "type": "keyword",
+      "text": [
+        "luit :"
+      ]
+    },
+    {
+      "region_id": "r_100",
+      "type": "pages-keyword",
+      "text": [
+        "47"
+      ]
+    },
+    {
+      "region_id": "r_9",
+      "type": "keyword",
+      "text": [
+        "G. M. Lanfranco :"
+      ]
+    },
+    {
+      "region_id": "r_458",
+      "type": "pages-keyword",
+      "text": [
+        "α, 329-335"
+      ]
+    },
+    {
+      "region_id": "r_183",
+      "type": "keyword",
+      "text": [
+        "gamba :"
+      ]
+    },
+    {
+      "region_id": "r_467",
+      "type": "pages-keyword",
+      "text": [
+        "36"
+      ]
+    },
+    {
+      "region_id": "r_109",
+      "type": "pages-keyword",
+      "text": [
+        "155"
+      ]
+    },
+    {
+      "region_id": "r_192",
+      "type": "keyword",
+      "text": [
+        "toonkwaliteit :"
+      ]
+    },
+    {
+      "region_id": "r_18",
+      "type": "keyword",
+      "text": [
+        "Gesualdo :"
+      ]
+    },
+    {
+      "region_id": "r_118",
+      "type": "pages-keyword",
+      "text": [
+        "156, 157"
+      ]
+    },
+    {
+      "region_id": "r_476",
+      "type": "pages-keyword",
+      "text": [
+        "39-45"
+      ]
+    },
+    {
+      "region_id": "r_440",
+      "type": "shelfmark",
+      "text": [
+        "13A41"
+      ]
+    },
+    {
+      "region_id": "r_201",
+      "type": "keyword",
+      "text": [
+        "temperatuur :"
+      ]
+    },
+    {
+      "region_id": "r_27",
+      "type": "keyword",
+      "text": [
+        "G. de Macque :"
+      ]
+    },
+    {
+      "region_id": "r_210",
+      "type": "keyword",
+      "text": [
+        "hexachorden :"
+      ]
+    },
+    {
+      "region_id": "r_485",
+      "type": "pages-keyword",
+      "text": [
+        "86-90"
+      ]
+    },
+    {
+      "region_id": "r_127",
+      "type": "pages-keyword",
+      "text": [
+        "156, 157"
+      ]
+    },
+    {
+      "region_id": "r_36",
+      "type": "keyword",
+      "text": [
+        "S. Stella :"
+      ]
+    },
+    {
+      "region_id": "r_494",
+      "type": "pages-keyword",
+      "text": [
+        "155, 157, 320-322"
+      ]
+    },
+    {
+      "region_id": "r_219",
+      "type": "keyword",
+      "text": [
+        "gitaar :"
+      ]
+    },
+    {
+      "region_id": "r_136",
+      "type": "pages-keyword",
+      "text": [
+        "157, 157, 158"
+      ]
+    },
+    {
+      "region_id": "r_45",
+      "type": "keyword",
+      "text": [
+        "S. Mayone :"
+      ]
+    },
+    {
+      "region_id": "r_503",
+      "type": "pages-keyword",
+      "text": [
+        "155"
+      ]
+    },
+    {
+      "region_id": "r_228",
+      "type": "keyword",
+      "text": [
+        "Klavecimbel It. 16e :"
+      ]
+    },
+    {
+      "region_id": "r_237",
+      "type": "keyword",
+      "text": [
+        "viool :"
+      ]
+    },
+    {
+      "region_id": "r_512",
+      "type": "pages-keyword",
+      "text": [
+        "155, 157, 160"
+      ]
+    },
+    {
+      "region_id": "r_145",
+      "type": "pages-keyword",
+      "text": [
+        "158"
+      ]
+    },
+    {
+      "region_id": "r_54",
+      "type": "keyword",
+      "text": [
+        "D. Ortiz :"
+      ]
+    },
+    {
+      "region_id": "r_246",
+      "type": "keyword",
+      "text": [
+        "trombone :"
+      ]
+    },
+    {
+      "region_id": "r_531",
+      "type": "pages-keyword",
+      "text": [
+        "158, 178"
+      ]
+    },
+    {
+      "region_id": "r_154",
+      "type": "pages-keyword",
+      "text": [
+        "159"
+      ]
+    },
+    {
+      "region_id": "r_63",
+      "type": "keyword",
+      "text": [
+        "A. Valente :"
+      ]
+    },
+    {
+      "region_id": "r_279",
+      "type": "keyword",
+      "text": [
+        "zink :"
+      ]
+    },
+    {
+      "region_id": "r_540",
+      "type": "pages-keyword",
+      "text": [
+        "158, 178"
+      ]
+    },
+    {
+      "region_id": "r_288",
+      "type": "keyword",
+      "text": [
+        "arpa doppia :"
+      ]
+    },
+    {
+      "region_id": "r_549",
+      "type": "pages-keyword",
+      "text": [
+        "158"
+      ]
+    },
+    {
+      "region_id": "r_297",
+      "type": "keyword",
+      "text": [
+        "monochord :"
+      ]
+    },
+    {
+      "region_id": "r_558",
+      "type": "pages-keyword",
+      "text": [
+        "178"
+      ]
+    },
+    {
+      "region_id": "r_567",
+      "type": "pages-keyword",
+      "text": [
+        "233-240, 264, 265"
+      ]
+    },
+    {
+      "region_id": "r_306",
+      "type": "keyword",
+      "text": [
+        "mensuurtekens :"
+      ]
+    },
+    {
+      "region_id": "r_332",
+      "type": "keyword",
+      "text": [
+        "temporelatie :"
+      ]
+    },
+    {
+      "region_id": "r_576",
+      "type": "pages-keyword",
+      "text": [
+        "233-240"
+      ]
+    },
+    {
+      "region_id": "r_341",
+      "type": "keyword",
+      "text": [
+        "maj. slot in mineurstuk :"
+      ]
+    },
+    {
+      "region_id": "r_585",
+      "type": "pages-keyword",
+      "text": [
+        "299"
+      ]
+    },
+    {
+      "region_id": "r_350",
+      "type": "keyword",
+      "text": [
+        "lyra da gamba :"
+      ]
+    },
+    {
+      "region_id": "r_594",
+      "type": "pages-keyword",
+      "text": [
+        "157, 158, 160, 323-326"
+      ]
+    },
+    {
+      "region_id": "r_359",
+      "type": "keyword",
+      "text": [
+        "strijktechniek :"
+      ]
+    },
+    {
+      "region_id": "r_607",
+      "type": "pages-keyword",
+      "text": [
+        "326, 332"
+      ]
+    },
+    {
+      "region_id": "r_368",
+      "type": "keyword",
+      "text": [
+        "artikulatie :"
+      ]
+    },
+    {
+      "region_id": "r_618",
+      "type": "pages-keyword",
+      "text": [
+        "326, 332"
+      ]
+    },
+    {
+      "region_id": "r_377",
+      "type": "keyword",
+      "text": [
+        "continuo op lyra da gamba :"
+      ]
+    },
+    {
+      "region_id": "r_627",
+      "type": "pages-keyword",
+      "text": [
+        "326"
+      ]
+    },
+    {
+      "region_id": "r_386",
+      "type": "keyword",
+      "text": [
+        "gambaconsort :"
+      ]
+    },
+    {
+      "region_id": "r_636",
+      "type": "pages-keyword",
+      "text": [
+        "329, 330"
+      ]
+    },
+    {
+      "region_id": "r_648",
+      "type": "",
+      "text": [
+        "JE"
+      ]
+    },
+    {
+      "region_id": "r_165",
+      "type": "shelfmark",
+      "text": [
+        "Exlibris",
+        "Ton Koopman",
+        "13A41"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_pages",
+      "source": "r",
+      "target": "r_91"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_9",
+      "target": "r_100"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_18",
+      "target": "r_109"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_27",
+      "target": "r_118"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_36",
+      "target": "r_127"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_45",
+      "target": "r_136"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_54",
+      "target": "r_145"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_63",
+      "target": "r_154"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_174",
+      "target": "r_449"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_183",
+      "target": "r_458"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_192",
+      "target": "r_467"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_201",
+      "target": "r_476"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_210",
+      "target": "r_485"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_219",
+      "target": "r_494"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_228",
+      "target": "r_503"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_237",
+      "target": "r_512"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_246",
+      "target": "r_531"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_279",
+      "target": "r_540"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_288",
+      "target": "r_549"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_297",
+      "target": "r_558"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_306",
+      "target": "r_567"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_332",
+      "target": "r_576"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_341",
+      "target": "r_585"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_350",
+      "target": "r_594"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_359",
+      "target": "r_607"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_368",
+      "target": "r_618"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_377",
+      "target": "r_627"
+    },
+    {
+      "type": "related_pages",
+      "source": "r_386",
+      "target": "r_636"
+    }
+  ]
+}

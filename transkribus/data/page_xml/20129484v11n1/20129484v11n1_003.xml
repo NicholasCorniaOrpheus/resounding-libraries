@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-12-02T14:30:46.900695</Created>
+        <LastChange>2025-02-06T10:13:11.391+01:00</LastChange>
+        <TranskribusMetadata docId="0" pageId="0" pageNr="0" status="GT"/>
+    </Metadata>
+    <Page imageFilename="78099042_15_20129484v11n1_003.jpg" imageWidth="2383" imageHeight="3083">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1738833191392" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1733146322"/>
+                <RegionRefIndexed index="1" regionRef="tr_1733146327"/>
+                <RegionRefIndexed index="2" regionRef="tr_1733146321"/>
+                <RegionRefIndexed index="3" regionRef="tr_1733146332"/>
+                <RegionRefIndexed index="4" regionRef="tr_1733146309"/>
+                <RegionRefIndexed index="5" regionRef="tr_1733146319"/>
+                <RegionRefIndexed index="6" regionRef="tr_1733146325"/>
+                <RegionRefIndexed index="7" regionRef="r_518"/>
+                <RegionRefIndexed index="8" regionRef="tr_1733146311"/>
+                <RegionRefIndexed index="9" regionRef="r_519"/>
+                <RegionRefIndexed index="10" regionRef="tr_1733146315"/>
+                <RegionRefIndexed index="11" regionRef="tr_1733146317"/>
+                <RegionRefIndexed index="12" regionRef="tr_1733146310"/>
+                <RegionRefIndexed index="13" regionRef="tr_1733146306"/>
+                <RegionRefIndexed index="14" regionRef="tr_1733146331"/>
+                <RegionRefIndexed index="15" regionRef="r_620"/>
+                <RegionRefIndexed index="16" regionRef="r_665"/>
+                <RegionRefIndexed index="17" regionRef="tr_1733146305"/>
+                <RegionRefIndexed index="18" regionRef="tr_1733146339"/>
+                <RegionRefIndexed index="19" regionRef="tr_1733146307"/>
+                <RegionRefIndexed index="20" regionRef="r_29"/>
+                <RegionRefIndexed index="21" regionRef="tr_1733146335"/>
+                <RegionRefIndexed index="22" regionRef="tr_1733146314"/>
+                <RegionRefIndexed index="23" regionRef="r"/>
+                <RegionRefIndexed index="24" regionRef="tr_1733146318"/>
+                <RegionRefIndexed index="25" regionRef="tr_1733146312"/>
+                <RegionRefIndexed index="26" regionRef="tr_1733146316"/>
+                <RegionRefIndexed index="27" regionRef="tr_1733146300"/>
+                <RegionRefIndexed index="28" regionRef="r_745"/>
+                <RegionRefIndexed index="29" regionRef="tr_1733146303"/>
+                <RegionRefIndexed index="30" regionRef="tr_1733146299"/>
+                <RegionRefIndexed index="31" regionRef="tr_1733146333"/>
+                <RegionRefIndexed index="32" regionRef="tr_1733146304"/>
+                <RegionRefIndexed index="33" regionRef="tr_1733146308"/>
+                <RegionRefIndexed index="34" regionRef="r_53"/>
+                <RegionRefIndexed index="35" regionRef="r_54"/>
+                <RegionRefIndexed index="36" regionRef="tr_1733146302"/>
+                <RegionRefIndexed index="37" regionRef="tr_1733146329"/>
+                <RegionRefIndexed index="38" regionRef="tr_1733146326"/>
+                <RegionRefIndexed index="39" regionRef="tr_1733146320"/>
+                <RegionRefIndexed index="40" regionRef="tr_1733146330"/>
+                <RegionRefIndexed index="41" regionRef="tr_1733146336"/>
+                <RegionRefIndexed index="42" regionRef="r_55"/>
+                <RegionRefIndexed index="43" regionRef="tr_1733146328"/>
+                <RegionRefIndexed index="44" regionRef="tr_1733146313"/>
+                <RegionRefIndexed index="45" regionRef="tr_1733146338"/>
+                <RegionRefIndexed index="46" regionRef="tr_1733146301"/>
+                <RegionRefIndexed index="47" regionRef="tr_1733146324"/>
+                <RegionRefIndexed index="48" regionRef="r_325"/>
+                <RegionRefIndexed index="49" regionRef="tr_1733146323"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146322"/>
+                <RegionRef regionRef="l_86"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146321"/>
+                <RegionRef regionRef="tr_1733146332"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146312"/>
+                <RegionRef regionRef="tr_1733146335"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146309"/>
+                <RegionRef regionRef="l_23"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146319"/>
+                <RegionRef regionRef="l_11"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146325"/>
+                <RegionRef regionRef="l_26"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146311"/>
+                <RegionRef regionRef="tr_1733146315"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146317"/>
+                <RegionRef regionRef="l_12"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146310"/>
+                <RegionRef regionRef="tr_1733146307"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146306"/>
+                <RegionRef regionRef="tr_1733146305"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_620"/>
+                <RegionRef regionRef="tr_1733146339"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146331"/>
+                <RegionRef regionRef="r_665"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146316"/>
+                <RegionRef regionRef="r_745"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="l_40"/>
+                <RegionRef regionRef="l_63"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146299"/>
+                <RegionRef regionRef="tr_1733146333"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146304"/>
+                <RegionRef regionRef="tr_1733146302"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146308"/>
+                <RegionRef regionRef="tr_1733146320"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_53"/>
+                <RegionRef regionRef="tr_1733146330"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="r_54"/>
+                <RegionRef regionRef="tr_1733146336"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146328"/>
+                <RegionRef regionRef="r_55"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146313"/>
+                <RegionRef regionRef="tr_1733146338"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146301"/>
+                <RegionRef regionRef="tr_1733146324"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146329"/>
+                <RegionRef regionRef="tr_1733146326"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:related_pages;}">
+                <RegionRef regionRef="tr_1733146323"/>
+                <RegionRef regionRef="r_325"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="tr_1733146322" custom="readingOrder {index:0;} structure {score:0.99; type:keyword;}">
+            <Coords points="50,37 357,37 344,86 50,99"/>
+            <TextLine id="l_82" custom="readingOrder {index:0;}">
+                <Coords points="59,86 86,90 118,92 164,91 231,84 298,81 335,76 332,47 296,51 229,54 162,61 119,63 89,60 64,56"/>
+                <Baseline points="59,86 86,90 118,92 164,91 231,84 298,81 335,76"/>
+                <TextEquiv>
+                    <Unicode>J. Downland :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146327" custom="readingOrder {index:1;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="357,35 523,35 523,90 357,90"/>
+            <TextLine id="l_86" custom="readingOrder {index:0;}">
+                <Coords points="365,68 515,81 517,51 368,38"/>
+                <Baseline points="365,68 515,81"/>
+                <TextEquiv>
+                    <Unicode>6-22</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146321" custom="readingOrder {index:2;} structure {score:0.99; type:keyword;}">
+            <Coords points="49,96 193,96 271,101 275,140 49,143"/>
+            <TextLine id="l_101" custom="readingOrder {index:0;}">
+                <Coords points="66,121 127,132 179,136 261,135 261,105 180,106 131,102 71,92"/>
+                <Baseline points="66,121 127,132 179,136 261,135"/>
+                <TextEquiv>
+                    <Unicode>emoties :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146332" custom="readingOrder {index:3;} structure {score:0.97; type:pages-keyword;}">
+            <Coords points="278,95 320,91 320,145 283,145"/>
+            <TextLine id="l_37" custom="readingOrder {index:0;}">
+                <Coords points="289,134 303,136 308,133 290,109 296,107 294,105"/>
+                <Baseline points="289,134 303,136 308,133"/>
+                <TextEquiv>
+                    <Unicode>6</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146309" custom="readingOrder {index:4;} structure {score:0.99; type:keyword;}">
+            <Coords points="44,202 44,235 46,238 54,240 94,237 143,237 250,242 290,247 333,249 379,257 408,258 458,267 506,271 547,292 591,268 662,266 691,261 702,250 701,230 673,215 638,210 553,207 520,202 507,211 470,214 437,214 383,208 355,209 288,206 158,194 66,194 50,196"/>
+            <TextLine id="l_330" custom="readingOrder {index:0;}">
+                <Coords points="57,235 104,231 147,231 224,234 293,244 378,244 409,239 435,246 495,242 517,247 541,281 546,281 546,246 585,246 639,238 694,246 698,217 639,208 583,216 516,216 517,253 556,252 534,223 498,212 438,216 411,209 376,214 295,214 227,204 147,201 103,201 54,205"/>
+                <Baseline points="57,235 104,231 147,231 224,234 293,244 378,244 409,239 435,246 495,242 517,247 541,281 546,281 546,246 585,246 639,238 694,246"/>
+                <TextEquiv>
+                    <Unicode>J. P. Sweelinck : chrom. fantasia :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146319" custom="readingOrder {index:5;} structure {score:0.99; type:keyword;}">
+            <Coords points="62,239 198,247 196,288 62,289"/>
+            <TextLine id="l_7" custom="readingOrder {index:0;}">
+                <Coords points="72,281 119,284 190,280 188,250 119,254 74,251"/>
+                <Baseline points="72,281 119,284 190,280"/>
+                <TextEquiv>
+                    <Unicode>luit :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146325" custom="readingOrder {index:6;} structure {score:0.99; type:keyword;}">
+            <Coords points="73,297 270,297 270,340 73,340"/>
+            <TextLine id="l_22" custom="readingOrder {index:0;}">
+                <Coords points="87,321 154,332 244,335 261,334 259,304 244,305 157,302 91,292"/>
+                <Baseline points="87,321 154,332 244,335 261,334"/>
+                <TextEquiv>
+                    <Unicode>mecenas :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_518" custom="readingOrder {index:7;} structure {type:pages-keyword;}">
+            <Coords points="206,251 252,251 252,297 206,297"/>
+            <TextLine id="l_11" custom="readingOrder {index:0;}">
+                <Coords points="209,277 238,284 245,255 216,248"/>
+                <Baseline points="209,277 238,284"/>
+                <TextEquiv>
+                    <Unicode>11</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146311" custom="readingOrder {index:8;} structure {score:0.99; type:keyword;}">
+            <Coords points="69,343 340,343 339,396 131,397 68,389"/>
+            <TextLine id="l_62" custom="readingOrder {index:0;}">
+                <Coords points="80,376 121,393 172,394 212,393 229,394 277,392 331,390 329,360 276,362 229,364 212,363 172,364 128,364 91,348"/>
+                <Baseline points="80,376 121,393 172,394 212,393 229,394 277,392 331,390"/>
+                <TextEquiv>
+                    <Unicode>orgels Italië :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_519" custom="readingOrder {index:9;} structure {type:pages-keyword;}">
+            <Coords points="281,297 354,297 354,338 281,338"/>
+            <TextLine id="l_26" custom="readingOrder {index:0;}">
+                <Coords points="284,333 345,334 345,304 285,303"/>
+                <Baseline points="284,333 345,334"/>
+                <TextEquiv>
+                    <Unicode>12</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146315" custom="readingOrder {index:10;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="349,351 425,351 425,408 349,408"/>
+            <TextLine id="l_33" custom="readingOrder {index:0;}">
+                <Coords points="358,386 391,406 405,402 397,373 395,376 374,361"/>
+                <Baseline points="358,386 391,406 405,402"/>
+                <TextEquiv>
+                    <Unicode>27</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146317" custom="readingOrder {index:11;} structure {score:0.99; type:keyword;}">
+            <Coords points="66,400 66,444 71,448 341,452 400,454 415,456 593,457 624,455 621,426 619,419 516,421 496,419 412,421 359,412 354,408 343,404 325,401 281,402 244,408 198,409 169,407 128,399 101,396 74,395 69,396"/>
+            <TextLine id="l_99" custom="readingOrder {index:0;}">
+                <Coords points="74,435 109,445 220,446 281,444 331,443 431,450 601,452 616,451 614,421 600,422 433,420 331,413 280,414 219,416 113,415 83,406"/>
+                <Baseline points="74,435 109,445 220,446 281,444 331,443 431,450 601,452 616,451"/>
+                <TextEquiv>
+                    <Unicode>klavecumbel (begin 20e e) :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146310" custom="readingOrder {index:12;} structure {score:0.99; type:keyword;}">
+            <Coords points="64,451 571,451 571,520 297,504 263,516 63,496"/>
+            <TextLine id="l_136" custom="readingOrder {index:0;}">
+                <Coords points="79,490 123,496 180,499 210,487 258,516 302,489 410,508 548,510 549,480 413,478 296,460 258,482 213,451 175,470 125,466 83,460"/>
+                <Baseline points="79,490 123,496 180,499 210,487 258,516 302,489 410,508 548,510"/>
+                <TextEquiv>
+                    <Unicode>16 voet op klavec (20e e) :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146306" custom="readingOrder {index:13;} structure {score:0.99; type:keyword;}">
+            <Coords points="80,498 186,509 302,524 304,564 210,563 75,543"/>
+            <TextLine id="l_184" custom="readingOrder {index:0;}">
+                <Coords points="94,542 162,552 193,545 207,561 223,561 231,545 250,552 289,548 286,518 254,522 216,506 205,532 220,533 205,509 161,522 98,513"/>
+                <Baseline points="94,542 162,552 193,545 207,561 223,561 231,545 250,552 289,548"/>
+                <TextEquiv>
+                    <Unicode>Kieltjes :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146331" custom="readingOrder {index:14;} structure {score:0.97; type:keyword;}">
+            <Coords points="87,619 244,623 249,664 87,663"/>
+            <TextLine id="l_217" custom="readingOrder {index:0;}">
+                <Coords points="110,654 214,661 235,652 223,625 209,632 112,624"/>
+                <Baseline points="110,654 214,661 235,652"/>
+                <TextEquiv>
+                    <Unicode>viool :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_620" custom="readingOrder {index:15;} structure {type:keyword;}">
+            <Coords points="71,560 462,574 462,630 64,608"/>
+            <TextLine id="l_210" custom="readingOrder {index:0;}">
+                <Coords points="86,601 228,613 301,619 346,621 414,622 454,617 451,588 412,592 347,591 303,589 230,583 88,571"/>
+                <Baseline points="86,601 228,613 301,619 346,621 414,622 454,617"/>
+                <TextEquiv>
+                    <Unicode>klavec. (duitsl 18e e) :</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_665" custom="readingOrder {index:16;} structure {type:pages-keyword;}">
+            <Coords points="250,625 299,627 299,675 252,675"/>
+            <TextLine id="l_224" custom="readingOrder {index:0;}">
+                <Coords points="253,663 283,665 286,661 261,645 269,635 256,633"/>
+                <Baseline points="253,663 283,665 286,661"/>
+                <TextEquiv>
+                    <Unicode>53</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146305" custom="readingOrder {index:17;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="304,510 366,510 366,559 304,559"/>
+            <TextLine id="l_147" custom="readingOrder {index:0;}">
+                <Coords points="314,550 347,553 349,523 317,520"/>
+                <Baseline points="314,550 347,553"/>
+                <TextEquiv>
+                    <Unicode>38</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146339" custom="readingOrder {index:18;} structure {score:0.75; type:pages-keyword;}">
+            <Coords points="464,578 517,572 513,637 464,639"/>
+            <TextLine id="l_188" custom="readingOrder {index:0;}">
+                <Coords points="469,624 498,627 501,597 472,594"/>
+                <Baseline points="469,624 498,627"/>
+                <TextEquiv>
+                    <Unicode>57</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146307" custom="readingOrder {index:19;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="569,462 628,462 628,527 569,527"/>
+            <TextLine id="l_143" custom="readingOrder {index:0;}">
+                <Coords points="575,510 604,516 613,511 599,484 600,486 581,480"/>
+                <Baseline points="575,510 604,516 613,511"/>
+                <TextEquiv>
+                    <Unicode>36</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_29" custom="readingOrder {index:20;} structure {type:pages-keyword;}">
+            <Coords points="624,416 753,416 753,467 624,467"/>
+            <TextLine id="l_12" custom="readingOrder {index:0;}">
+                <Coords points="635,454 661,456 705,449 739,452 742,422 704,419 660,426 636,424"/>
+                <Baseline points="635,454 661,456 705,449 739,452"/>
+                <TextEquiv>
+                    <Unicode>31-41</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146335" custom="readingOrder {index:21;} structure {score:0.94; type:pages-keyword;}">
+            <Coords points="691,143 780,161 775,220 691,209"/>
+            <TextLine id="l_30" custom="readingOrder {index:0;}">
+                <Coords points="696,191 753,216 763,209 746,184 750,183 708,163"/>
+                <Baseline points="696,191 753,216 763,209"/>
+                <TextEquiv>
+                    <Unicode>6, 7</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146314" custom="readingOrder {index:22;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="700,216 885,216 885,283 700,283"/>
+            <TextLine id="l_23" custom="readingOrder {index:0;}">
+                <Coords points="711,254 755,276 824,260 863,260 863,230 821,230 759,247 724,228"/>
+                <Baseline points="711,254 755,276 824,260 863,260"/>
+                <TextEquiv>
+                    <Unicode>8, 9, 10,</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:23;}">
+            <Coords points="1845,77 2228,77 2228,176 1845,176"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1863,126 2048,135 2073,176 2098,135 2195,133 2194,103 2079,103 2073,130 2067,104 1865,96"/>
+                <Baseline points="1863,126 2048,135 2073,176 2098,135 2195,133"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146318" custom="readingOrder {index:24;} structure {score:0.99; type:shelfmark;}">
+            <Coords points="1517,181 2155,181 2155,684 1517,684"/>
+        </TextRegion>
+        <TextRegion id="tr_1733146312" custom="readingOrder {index:25;} structure {score:0.99; type:keyword;}">
+            <Coords points="53,141 677,144 687,208 519,203 452,216 319,206 53,182"/>
+            <TextLine id="l_193" custom="readingOrder {index:0;}">
+                <Coords points="61,173 142,184 190,186 236,191 282,199 321,202 348,198 380,200 456,206 499,198 568,198 644,197 672,198 673,168 644,167 567,168 497,168 454,176 383,170 347,168 320,172 286,169 240,161 192,156 145,154 65,144"/>
+                <Baseline points="61,173 142,184 190,186 236,191 282,199 321,202 348,198 380,200 456,206 499,198 568,198 644,197 672,198"/>
+                <TextEquiv>
+                    <Unicode>L. Marenzio en Dowland :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146316" custom="readingOrder {index:26;} structure {score:0.99; type:keyword;}">
+            <Coords points="32,687 109,679 219,697 215,745 32,758"/>
+            <TextLine id="l_18" custom="readingOrder {index:0;}">
+                <Coords points="35,750 84,753 203,743 201,714 84,723 36,720"/>
+                <Baseline points="35,750 84,753 203,743"/>
+                <TextEquiv>
+                    <Unicode>S fluit :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146300" custom="readingOrder {index:27;} structure {score:0.99; type:keyword;}">
+            <Coords points="87,755 195,748 213,769 295,771 298,806 87,806"/>
+            <TextLine id="l_40" custom="readingOrder {index:0;}">
+                <Coords points="90,802 124,792 141,798 202,801 273,801 289,792 274,766 265,772 203,771 147,768 124,762 81,774"/>
+                <Baseline points="90,802 124,792 141,798 202,801 273,801 289,792"/>
+                <TextEquiv>
+                    <Unicode>Schalmei :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_745" custom="readingOrder {index:28;} structure {type:pages-keyword;}">
+            <Coords points="221,715 279,715 279,767 221,767"/>
+            <TextLine id="l_231" custom="readingOrder {index:0;}">
+                <Coords points="227,753 259,758 269,756 263,727 258,728 232,723"/>
+                <Baseline points="227,753 259,758 269,756"/>
+                <TextEquiv>
+                    <Unicode>53</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146303" custom="readingOrder {index:29;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="303,761 604,761 590,834 301,811"/>
+            <TextLine id="l_63" custom="readingOrder {index:0;}">
+                <Coords points="306,799 414,809 453,809 510,813 534,813 575,821 581,792 537,783 511,783 454,779 415,779 309,769"/>
+                <Baseline points="306,799 414,809 453,809 510,813 534,813 575,821"/>
+                <TextEquiv>
+                    <Unicode>54, 55, 56, 57</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146299" custom="readingOrder {index:30;} structure {score:0.99; type:keyword;}">
+            <Coords points="90,806 209,817 304,809 309,864 253,865 230,882 189,859 90,846"/>
+            <TextLine id="l_29" custom="readingOrder {index:0;}">
+                <Coords points="108,842 135,841 216,851 227,875 235,857 256,859 302,852 297,822 255,829 215,822 227,826 239,821 137,811 106,812"/>
+                <Baseline points="108,842 135,841 216,851 227,875 235,857 256,859 302,852"/>
+                <TextEquiv>
+                    <Unicode>trompet :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146333" custom="readingOrder {index:31;} structure {score:0.95; type:pages-keyword;}">
+            <Coords points="318,824 374,824 374,868 318,868"/>
+            <TextLine id="l_67" custom="readingOrder {index:0;}">
+                <Coords points="320,863 361,864 362,834 321,833"/>
+                <Baseline points="320,863 361,864"/>
+                <TextEquiv>
+                    <Unicode>56</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146304" custom="readingOrder {index:32;} structure {score:0.99; type:keyword;}">
+            <Coords points="83,867 84,880 87,885 87,897 86,898 87,899 87,903 90,908 92,920 94,924 98,927 110,931 114,931 122,934 143,936 144,937 156,935 168,926 178,922 213,920 214,919 236,919 237,918 244,918 251,916 260,916 272,913 289,912 290,911 296,911 297,910 302,910 309,908 317,908 318,907 341,907 343,908 344,907 361,906 362,905 402,904 427,901 420,872 402,868 389,868 381,870 365,870 364,871 330,871 329,870 320,870 319,869 310,869 309,868 285,867 284,868 275,868 274,869 264,870 255,876 241,882 229,882 227,883 226,882 220,882 203,878 195,874 189,873 180,869 160,868 146,865 113,864 112,863 96,862 95,863 86,863"/>
+            <TextLine id="l_139" custom="readingOrder {index:0;}">
+                <Coords points="105,895 108,924 117,901 140,906 148,935 151,911 186,911 252,913 312,903 393,898 391,868 309,873 250,883 187,881 124,880 144,881 166,880 98,864 116,870 135,893"/>
+                <Baseline points="105,895 108,924 117,901 140,906 148,935 151,911 186,911 252,913 312,903 393,898"/>
+                <TextEquiv>
+                    <Unicode>pipe and tabor :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146308" custom="readingOrder {index:33;} structure {score:0.99; type:keyword;}">
+            <Coords points="185,930 201,926 260,915 355,908 359,953 185,967"/>
+            <TextLine id="l_36" custom="readingOrder {index:0;}">
+                <Coords points="202,953 330,950 355,945 348,915 326,921 202,923"/>
+                <Baseline points="202,953 330,950 355,945"/>
+                <TextEquiv>
+                    <Unicode>vedel :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_53" custom="readingOrder {index:34;} structure {type:keyword;}">
+            <Coords points="103,1065 328,1065 328,1159 103,1159"/>
+            <TextLine id="l_80" custom="readingOrder {index:0;}">
+                <Coords points="123,1130 180,1141 244,1144 277,1153 325,1144 319,1114 279,1123 249,1114 184,1111 128,1100"/>
+                <Baseline points="123,1130 180,1141 244,1144 277,1153 325,1144"/>
+                <TextEquiv>
+                    <Unicode>klarinet :</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_54" custom="readingOrder {index:35;} structure {type:keyword;}">
+            <Coords points="143,1187 238,1187 238,1237 143,1237"/>
+            <TextLine id="l_87" custom="readingOrder {index:0;}">
+                <Coords points="161,1227 184,1233 232,1233 232,1203 188,1203 168,1198"/>
+                <Baseline points="161,1227 184,1233 232,1233"/>
+                <TextEquiv>
+                    <Unicode>a =</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146302" custom="readingOrder {index:36;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="427,858 619,858 619,918 427,918"/>
+            <TextLine id="l_83" custom="readingOrder {index:0;}">
+                <Coords points="434,903 499,906 516,920 561,910 604,904 600,874 555,880 523,889 511,879 435,873"/>
+                <Baseline points="434,903 499,906 516,920 561,910 604,904"/>
+                <TextEquiv>
+                    <Unicode>55, 57, 58</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146329" custom="readingOrder {index:37;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="174,1473 223,1472 263,1493 303,1482 741,1505 739,1548 454,1539 184,1513"/>
+            <TextLine id="l_427" custom="readingOrder {index:0;}">
+                <Coords points="193,1511 219,1512 299,1520 342,1522 363,1501 400,1524 424,1522 449,1524 459,1539 478,1526 530,1530 555,1527 615,1527 690,1533 728,1530 726,1500 690,1503 616,1497 554,1497 529,1500 470,1497 466,1500 466,1494 424,1492 407,1495 358,1460 331,1493 301,1491 221,1482 194,1481"/>
+                <Baseline points="193,1511 219,1512 299,1520 342,1522 363,1501 400,1524 424,1522 449,1524 459,1539 478,1526 530,1530 555,1527 615,1527 690,1533 728,1530"/>
+                <TextEquiv>
+                    <Unicode>lengte v/d port de voix :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146326" custom="readingOrder {index:38;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="748,1497 817,1497 816,1561 748,1564"/>
+            <TextLine id="l_431" custom="readingOrder {index:0;}">
+                <Coords points="755,1559 805,1534 792,1507 742,1532"/>
+                <Baseline points="755,1559 805,1534"/>
+                <TextEquiv>
+                    <Unicode>73</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146320" custom="readingOrder {index:39;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="358,910 425,914 474,917 563,933 556,964 524,1001 503,968 364,959"/>
+            <TextLine id="l_52" custom="readingOrder {index:0;}">
+                <Coords points="365,949 441,957 499,962 523,987 545,977 532,950 530,952 513,935 443,927 369,919"/>
+                <Baseline points="365,949 441,957 499,962 523,987 545,977"/>
+                <TextEquiv>
+                    <Unicode>53, 58, 59</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146330" custom="readingOrder {index:40;} structure {score:0.98; type:pages-keyword;}">
+            <Coords points="330,1087 499,1087 499,1160 330,1160"/>
+            <TextLine id="l_64" custom="readingOrder {index:0;}">
+                <Coords points="339,1140 373,1149 439,1150 490,1159 495,1129 442,1121 378,1120 347,1111"/>
+                <Baseline points="339,1140 373,1149 439,1150 490,1159"/>
+                <TextEquiv>
+                    <Unicode>60-64</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146336" custom="readingOrder {index:41;} structure {score:0.91; type:pages-keyword;}">
+            <Coords points="243,1183 637,1177 637,1249 243,1248"/>
+            <TextLine id="l_116" custom="readingOrder {index:0;}">
+                <Coords points="247,1235 379,1245 421,1237 511,1248 547,1237 582,1239 622,1246 627,1217 585,1210 544,1207 509,1218 420,1207 378,1215 250,1205"/>
+                <Baseline points="247,1235 379,1245 421,1237 511,1248 547,1237 582,1239 622,1246"/>
+                <TextEquiv>
+                    <Unicode>61, 62, 63, 76, 77</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_55" custom="readingOrder {index:42;} structure {type:pages-keyword;}">
+            <Coords points="329,1268 498,1268 498,1333 329,1333"/>
+            <TextLine id="l_132" custom="readingOrder {index:0;}">
+                <Coords points="333,1307 357,1319 431,1319 479,1324 486,1318 466,1295 470,1295 433,1289 364,1290 347,1280"/>
+                <Baseline points="333,1307 357,1319 431,1319 479,1324 486,1318"/>
+                <TextEquiv>
+                    <Unicode>65-68</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146328" custom="readingOrder {index:43;} structure {score:0.99; type:keyword;}">
+            <Coords points="164,1246 318,1266 324,1324 278,1347 161,1327"/>
+            <TextLine id="l_154" custom="readingOrder {index:0;}">
+                <Coords points="171,1308 212,1312 264,1308 276,1340 279,1308 311,1309 312,1279 251,1276 268,1286 285,1274 212,1282 175,1278"/>
+                <Baseline points="171,1308 212,1312 264,1308 276,1340 279,1308 311,1309"/>
+                <TextEquiv>
+                    <Unicode>harp :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146313" custom="readingOrder {index:44;} structure {score:0.99; type:keyword;}">
+            <Coords points="190,1364 546,1364 543,1424 427,1439 273,1427 190,1421"/>
+            <TextLine id="l_233" custom="readingOrder {index:0;}">
+                <Coords points="198,1397 261,1397 274,1427 280,1401 343,1401 398,1401 417,1434 443,1435 452,1409 474,1413 509,1405 532,1406 533,1376 506,1375 473,1383 431,1374 423,1405 434,1406 416,1369 343,1371 254,1370 269,1375 283,1364 198,1367"/>
+                <Baseline points="198,1397 261,1397 274,1427 280,1401 343,1401 398,1401 417,1434 443,1435 452,1409 474,1413 509,1405 532,1406"/>
+                <TextEquiv>
+                    <Unicode>arpa doppia :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146338" custom="readingOrder {index:45;} structure {score:0.84; type:pages-keyword;}">
+            <Coords points="556,1355 662,1342 702,1362 702,1419 548,1432"/>
+            <TextLine id="l_249" custom="readingOrder {index:0;}">
+                <Coords points="556,1420 608,1420 643,1406 681,1412 689,1407 674,1381 676,1382 639,1376 603,1390 556,1390"/>
+                <Baseline points="556,1420 608,1420 643,1406 681,1412 689,1407"/>
+                <TextEquiv>
+                    <Unicode>66, 68</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146301" custom="readingOrder {index:46;} structure {score:0.99; type:keyword;}">
+            <Coords points="194,1430 273,1436 527,1436 528,1487 294,1478 266,1494 193,1471"/>
+            <TextLine id="l_306" custom="readingOrder {index:0;}">
+                <Coords points="208,1465 260,1467 268,1487 284,1472 314,1467 354,1475 404,1480 452,1478 518,1471 515,1441 450,1448 404,1450 358,1446 315,1437 271,1445 278,1443 282,1436 209,1435"/>
+                <Baseline points="208,1465 260,1467 268,1487 284,1472 314,1467 354,1475 404,1480 452,1478 518,1471"/>
+                <TextEquiv>
+                    <Unicode>F. Geminiani :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1733146324" custom="readingOrder {index:47;} structure {score:0.99; type:pages-keyword;}">
+            <Coords points="534,1445 713,1445 713,1499 539,1492"/>
+            <TextLine id="l_260" custom="readingOrder {index:0;}">
+                <Coords points="552,1490 609,1486 644,1494 702,1483 697,1454 645,1464 612,1456 549,1460"/>
+                <Baseline points="552,1490 609,1486 644,1494 702,1483"/>
+                <TextEquiv>
+                    <Unicode>73-76</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_325" custom="readingOrder {index:48;} structure {type:pages-keyword;}">
+            <Coords points="488,1558 721,1558 721,1647 488,1647"/>
+            <TextLine id="l_468" custom="readingOrder {index:0;}">
+                <Coords points="493,1616 530,1594 546,1597 578,1621 613,1606 635,1608 658,1634 703,1608 688,1582 664,1597 648,1582 608,1576 582,1588 557,1569 524,1565 477,1591"/>
+                <Baseline points="493,1616 530,1594 546,1597 578,1621 613,1606 635,1608 658,1634 703,1608"/>
+                <TextEquiv>
+                    <Unicode>73, 74, 75</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1733146323" custom="readingOrder {index:49;} structure {score:0.99; type:keyword;}">
+            <Coords points="221,1553 304,1531 477,1559 473,1605 237,1600"/>
+            <TextLine id="l_479" custom="readingOrder {index:0;}">
+                <Coords points="243,1586 312,1585 435,1599 465,1589 455,1560 431,1569 314,1555 242,1556"/>
+                <Baseline points="243,1586 312,1585 435,1599 465,1589"/>
+                <TextEquiv>
+                    <Unicode>vibrato :</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

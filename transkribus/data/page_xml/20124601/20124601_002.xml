@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-02-26T17:16:50.599+01:00</Created>
+        <LastChange>2025-08-26T14:39:33.320+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="20124601_002.jpg" imageWidth="3032" imageHeight="2217">
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="340,327 1136,327 1136,812 340,812"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="472,498 981,487 980,457 472,468"/>
+                <Baseline points="472,498 981,487"/>
+                <TextEquiv>
+                    <Unicode>ExLibris</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:1;}">
+                <Coords points="386,645 1088,645 1088,615 386,615"/>
+                <Baseline points="386,645 1088,645"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_34" custom="readingOrder {index:2;}">
+                <Coords points="386,789 611,795 611,765 386,759"/>
+                <Baseline points="386,789 611,795"/>
+                <TextEquiv>
+                    <Unicode>14B41</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_47" custom="readingOrder {index:1;}">
+            <Coords points="2167,104 2816,104 2816,381 2167,381"/>
+            <TextLine id="l_56" custom="readingOrder {index:0;}">
+                <Coords points="2258,318 2784,321 2784,291 2258,288"/>
+                <Baseline points="2258,318 2784,321"/>
+                <TextEquiv>
+                    <Unicode>Ton Koopman</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
