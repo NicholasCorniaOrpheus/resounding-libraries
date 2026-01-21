@@ -4,3 +4,4 @@ test/
 koha/data/api_responses/
 koha/tmp/
 research-output/tmp/
+transkribus/tmp

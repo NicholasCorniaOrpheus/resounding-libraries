@@ -8,6 +8,8 @@ from modules.utilities import *
 from modules.transkribus import *
 from modules.relations_spotting import *
 
+
+
 page_xml_data_directory = os.path.join("data", "page_xml")
 
 json_data_directory = os.path.join("data", "json")
@@ -71,8 +73,8 @@ def save_transkribus_collections_metadata(metadata_directory):
 	for collection in collections_api["trpCollection"]:
 		collection_list.append({"collection_id": collection["colId"],
 			"collection_name": collection["colName"]})
-	print(collection_list)
-	input()
+	#print(collection_list)
+	#input()
 
 	for collection in collection_list:
 		collection_id = collection["collection_id"]
@@ -85,92 +87,7 @@ def save_transkribus_collections_metadata(metadata_directory):
 			}
 
 		# Export to JSON
-		dict2json(transkribus_metadata,os.path.join(metadata_directory,f"{collection_name}-{collection_id}.json"))
-
-
-def relations_spotting_from_page_xml(page_xml_file,source_region_type="keyword",target_region_type="pages-keyword",relations_type="related_pages"):
-	tree = ET.parse(page_xml_file)
-
-	# Avoid additional ns0: ns1: namespace issues after rewriting
-	ET.register_namespace("", "http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15")
-
-	root = tree.getroot()
-
-	regions = []
-
-	# Get data from each region, including centroids and coordinates
-	for text_region in root.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Page/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextRegion"):
-		coordinates = get_region_coordinates(text_region)
-		try:
-			region_type = text_region.attrib["custom"].split("type:")[1].split(";")[0]
-		except IndexError: # in case no type is defined.
-			region_type = ""
-		regions.append({
-			"region_id": text_region.attrib["id"],
-			"type": region_type,
-			"text": [],
-			"coordinates": coordinates,
-			"centroids": get_polygonal_centroids(coordinates)
-			})
-		# Get text lines
-		xml_textlines = text_region.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextLine")
-		for  xml_line in xml_textlines:
-			regions[-1]["text"].append(xml_line.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode").text)
-
-	# Split regions in two ordered list (one for source and one for target) according to centroids y coordinate.
-	source_regions = sorted([region for region in regions if region["type"]==source_region_type], key=lambda k: k["centroids"][1])
-	target_regions = sorted([region for region in regions if region["type"]==target_region_type], key=lambda k: k["centroids"][1])
-
-	#print(f"Source regions: {", ".join([region["region_id"] for region in source_regions])}")
-	#print(f"Target regions: {", ".join([region["region_id"] for region in target_regions])}")
-
-	# Generate relations to minimal distance criterium between source and target
-	relations = []
-	for source_region in source_regions:
-		# get closest target region
-		min_region = None
-		for target_region in target_regions:
-			if min_region is None:
-				min_region = target_region
-			else:
-				if abs(source_region["centroids"][1]-target_region["centroids"][1]) < abs(source_region["centroids"][1]-min_region["centroids"][1]):
-					min_region = target_region
-
-		relations.append({
-			"type": relations_type,
-      		"source": source_region["region_id"],
-      		"target": min_region["region_id"]
-			})
-
-	#print(f"Relations: {relations}")
-	# Parse new automatic relations back to PAGE XML. This script will not overwrite existing relations
-
-	page_xml = root.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Page")
-	
-	relations_xml = root.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Page/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Relations")
-	if relations_xml == None: # Relations is empty
-		relations_xml = ET.SubElement(page_xml,"{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Relations")
-		#page_xml.append(relations_xml)
-
-	for relation in relations:
-		# Create a new element for each relation
-		relation_element = ET.Element("Relation")
-		# Set attribute type to link and custom according to Transkribus notation
-		relation_element.set("type","link")
-		relation_element.set("custom",f"relationName {{value:{relation['type']};}}")
-		# Generate subelement RegionRef for source and target
-		source_region_ref = ET.Element("RegionRef")
-		source_region_ref.set("regionRef",relation["source"])
-		target_region_ref = ET.Element("RegionRef")
-		target_region_ref.set("regionRef",relation["target"])
-		relation_element.append(source_region_ref)
-		relation_element.append(target_region_ref)
-		relations_xml.append(relation_element)
-
-
-	# Export modified PAGE XML to new file
-	ET.indent(tree, space='  ', level=0)
-	tree.write(test_page_xml.replace(".xml","_with_relations.xml"), encoding="utf-8", xml_declaration=True,method='xml')
+		dict2json(transkribus_metadata,os.path.join(metadata_directory,f"{collection_id}.json"))
 
 
 
@@ -180,30 +97,42 @@ def transkribus_indices_to_csv():
 def transkribus_indices_to_koha():
 	pass
 
+def import_collection_metadata(collection_id=257292):
+	print("Would you like to update the local metadata? y/n")
+	answer = input()
+	if answer == "y":
+		print("Importing latest collections metadata from Transkribus API...")
+		save_transkribus_collections_metadata("./metadata")
+
+	return json2dict(os.path.join("metadata",f"{collection_id}.json"))
+
+
+
+
 
 ### TEST ####
 
 #transkribus_pages_directory = os.path.join("data", "page_xml")
 
-transkribus_pages_directory = os.path.join("tmp")
-
-
+#transkribus_pages_directory = os.path.join("tmp")
 
 #test_page_xml = os.path.join(transkribus_pages_directory, "12D02-1", "12D02-1_002.xml")
 
-test_page_xml = os.path.join(transkribus_pages_directory,"20124691_002.xml")
+#test_page_xml = os.path.join(transkribus_pages_directory,"20124686_002.xml")
 
-collection_id = 257292
 
-document_id = 1860507
 
-page_number = 12
 
-relations_spotting_from_page_xml(test_page_xml)
+
 
 #get_page_xml_transkribus_api(collection_id,document_id,page_number)
 
-post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xml.replace(".xml","_with_relations.xml"))
+#relations_spotting_from_page_xml(test_page_xml)
+
+#get_page_xml_transkribus_api(collection_id,document_id,page_number)
+#input()
+
+#post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xml.replace(".xml","_with_relations.xml"))
 
 #post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xml)
 
@@ -223,5 +152,16 @@ post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xm
 
 
 ### CODE
+
+collection_id = 257292
+
+document_id = 1860507
+
+page_number = 20
+
+print(f"Ton Koopman Indices collection id: {collection_id}")
+collection_metadata = import_collection_metadata(collection_id=collection_id)
+
+spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
 
 #import_transkribus_tk_indices()

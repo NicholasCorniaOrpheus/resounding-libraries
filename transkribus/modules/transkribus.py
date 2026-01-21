@@ -3,6 +3,7 @@ import sys
 sys.path.append("./modules")
 
 from modules.utilities import *
+from modules.relations_spotting import *
 
 import requests
 #from requests_oauth2client import OAuth2Client, OAuth2ClientCredentialsAuth
@@ -12,6 +13,8 @@ import requests
 #from xml import etree
 
 import xml.etree.ElementTree as ET
+import urllib.request
+
 
 # Import credentials, assuming you are running the code from the `koha` directory
 credentials = json2dict("../credentials/credentials.json")
@@ -169,6 +172,55 @@ def post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml
 	print("RESPONSE HEADERS:", page_xml_response.headers)
 	print("RESPONSE TEXT :", (page_xml_response.text or ""))
 	return page_xml_response
+
+def relations_spotting_from_page_xml(page_xml_file):
+	tree = ET.parse(page_xml_file)
+
+	# Avoid additional ns0: ns1: namespace issues after rewriting
+	ET.register_namespace("", "http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15")
+
+	root = tree.getroot()
+
+	regions = get_regions_from_xml(root,baseline=True)
+	# Generate relations dictionary according to clustering method
+	#relations = simple_relations_matching(regions)
+	relations = vertical_clustering_relations_matching(regions)
+
+	# Ingest relations dictionary back to PAGE XML
+	root = ingest_relations_to_xml(relations,root)
+
+	# Export modified PAGE XML to new file
+	ET.indent(tree, space='  ', level=0)
+	tree.write(page_xml_file.replace(".xml","_with_relations.xml"), encoding="utf-8", xml_declaration=True,method='xml')
+
+def spot_relations_to_api(collection_metadata,collection_id,document_id,page_number):
+
+	#page_xml_response = get_page_xml_transkribus_api(collection_id,document_id,page_number)
+
+	# Get page_xml filename from metadata 
+	for document in collection_metadata["documents"]:
+		if document["md"]['docId'] == document_id:
+			document_metadata = document
+			break
+
+	page_metadata = list(filter(lambda x: x["pageNr"] == page_number, document_metadata["pageList"]["pages"]))[0]
+
+	page_filename = page_metadata["imgFileName"].replace(".jpg",".xml")
+
+	page_xml_filepath = os.path.join("tmp",page_filename)
+	page_xml_url = page_metadata["tsList"]["transcripts"][0]["url"]	
+
+	if len(page_metadata) > 0:
+		urllib.request.urlretrieve(page_xml_url, page_xml_filepath)
+		print(f"Downloading {page_xml_url} to {page_xml_filepath}...")
+
+
+	# Process relations from page_xml -> a temp file is create
+
+	relations_spotting_from_page_xml(page_xml_filepath)
+
+	print("Saving relations via Transkribus API")
+	post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml_filepath.replace(".xml","_with_relations.xml"))
 
 	
 def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this script get the PAGE XML file of a page and converts it into JSON
