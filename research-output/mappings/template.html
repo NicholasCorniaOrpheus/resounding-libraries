@@ -1,0 +1,88 @@
+<!-- Optional: If you prefer to use a persistent template file rather than the embedded one,
+     save this content as template.html and pass --template template.html to the script.
+     The embedded template in the script is equivalent.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>$title$</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+:root{
+  --body-font: "Sofia Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --max-width: 900px;
+  --accent: #0a3d62;
+  --muted: #555;
+}
+
+body{
+  font-family: var(--body-font);
+  color: #222;
+  line-height: 1.45;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.container{
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+h1{
+  color: var(--accent);
+  font-size: 1.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.header-meta{
+  color: var(--muted);
+  margin-bottom: 1.4rem;
+}
+
+#content{
+  margin-top: 1rem;
+}
+
+/* Bibliography styling - pandoc will output <div id="refs"><div class="csl-bib-body"> ... */
+#refs {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.csl-entry {
+  margin: 0.6rem 0;
+  text-indent: -1.2em;
+  padding-left: 1.4em;
+}
+
+a { color: #0b63a5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+@media print {
+  body { padding: 1cm; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>$title$</h1>
+    <div class="header-meta">
+      $if(author)$$author$$endif$
+      $if(institution)$<div>$institution$</div>$endif$
+    </div>
+  </header>
+
+  <main id="content">
+$body$
+  </main>
+
+</div>
+</body>
+</html>

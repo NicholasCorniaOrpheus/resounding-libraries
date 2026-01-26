@@ -106,7 +106,7 @@ def generate_researchers_dict(
 
 
 # given a list of researchers, it returns a series of BibTeX files, according to a given Koha public report
-def generate_entries(
+def generate_bibtex_entries(
 	researchers,
 	bibtext_filepath,
 	entries_mapping,
@@ -122,14 +122,14 @@ def generate_entries(
 	for researcher in researchers:
 		researcher_entries = []
 		# generate folders group->researcher:
-		if not os.path.exists(os.path.join(bibtext_filepath, researcher["group_name"].replace(" ","_"))):
-			os.makedirs(os.path.join(bibtext_filepath, researcher["group_name"].replace(" ","_")))
+		if not os.path.exists(os.path.join(bibtext_filepath, researcher["group_name"].split(":")[0].replace(" ","_"))):
+			os.makedirs(os.path.join(bibtext_filepath, researcher["group_name"].split(":")[0].replace(" ","_")))
 		if not os.path.exists(
-			os.path.join(bibtext_filepath, researcher["group_name"].replace(" ","_"), researcher["name"].replace(" ","_"))
+			os.path.join(bibtext_filepath, researcher["group_name"].split(":")[0].replace(" ","_"), researcher["name"].replace(" ","_"))
 		):
 			os.makedirs(
 				os.path.join(
-					bibtext_filepath, researcher["group_name"].replace(" ","_"), researcher["name"].replace(" ","_")
+					bibtext_filepath, researcher["group_name"].split(":")[0].replace(" ","_"), researcher["name"].replace(" ","_")
 				)
 			)
 		# get output related to current researcher
@@ -141,7 +141,7 @@ def generate_entries(
 			output_marc = get_biblionumber_marc(output["biblio_id"])
 			# map entry type according to output-type
 			entrytype = entries_mapping[output["type"]]["bibtex"]
-			bibtex_id = f"{output["author"].split(",")[0]}_{output["biblio_id"]}"
+			bibtex_id = f"{output["author"].split(",")[0].replace(" ","_")}_{output["biblio_id"]}"
 			if entrytype == "article":
 				researcher_entries.append({
 					"ENTRYTYPE": entrytype,
@@ -159,7 +159,8 @@ def generate_entries(
 					"keywords": get_keywords(output_marc),
 					"abstract": get_abstract(output_marc),
 					"note": get_note(output_marc),
-					"type": get_type(output_marc,entries_mapping)
+					"type": get_type(output_marc,entries_mapping),
+					"howpublished": get_howpublished(output_marc)
 					})
 
 
@@ -179,7 +180,8 @@ def generate_entries(
 					"keywords": get_keywords(output_marc),
 					"abstract": get_abstract(output_marc),
 					"note": get_note(output_marc),
-					"type": get_type(output_marc,entries_mapping)
+					"type": get_type(output_marc,entries_mapping),
+					"howpublished": get_howpublished(output_marc)
 					})
 
 			elif entrytype == "incollection":
@@ -199,7 +201,8 @@ def generate_entries(
 					"keywords": get_keywords(output_marc),
 					"abstract": get_abstract(output_marc),
 					"note": get_note(output_marc),
-					"type": get_type(output_marc,entries_mapping)
+					"type": get_type(output_marc,entries_mapping),
+					"howpublished": get_howpublished(output_marc)
 					})
 
 			elif entrytype == "misc":
@@ -216,7 +219,8 @@ def generate_entries(
 					"keywords": get_keywords(output_marc),
 					"abstract": get_abstract(output_marc),
 					"note": get_note(output_marc),
-					"type": get_type(output_marc,entries_mapping)
+					"type": get_type(output_marc,entries_mapping),
+					"howpublished": get_howpublished(output_marc)
 					})
 
 			elif entrytype == "phdthesis":
@@ -234,7 +238,8 @@ def generate_entries(
 					"keywords": get_keywords(output_marc),
 					"abstract": get_abstract(output_marc),
 					"note": get_note(output_marc),
-					"type": get_type(output_marc,entries_mapping)
+					"type": get_type(output_marc,entries_mapping),
+					"howpublished": get_howpublished(output_marc)
 					})
 			else:
 				print(f"Error: no entrytype found for biblio_id {output["biblio_id"]}")
@@ -248,7 +253,7 @@ def generate_entries(
 			# add entries to database
 			single_bibtex_db.entries = [researcher_entries[-1]]
 
-			filepath = os.path.join(bibtext_filepath,researcher["group_name"].replace(" ","_"),researcher["name"].replace(" ","_"),f"{researcher_entries[-1]["ID"]}.bib")
+			filepath = os.path.join(bibtext_filepath,researcher["group_name"].split(":")[0].replace(" ","_"),researcher["name"].replace(" ","_"),f"{researcher_entries[-1]["ID"]}.bib")
 
 			with open(filepath, "w") as bibfile:
 				bibfile.write(single_bibtex_writer.write(single_bibtex_db))
@@ -259,7 +264,7 @@ def generate_entries(
 		# initialize BibTeX writer
 		bibtex_writer = BibTexWriter()
 		bibtex_db.entries = researcher_entries
-		filepath = os.path.join(bibtext_filepath,researcher["group_name"].replace(" ","_"),researcher["name"].replace(" ","_"),f"{researcher["name"].replace(" ","_")}_full_output.bib")
+		filepath = os.path.join(bibtext_filepath,researcher["group_name"].split(":")[0].replace(" ","_"),researcher["name"].replace(" ","_"),f"{researcher["name"].replace(" ","_")}_full_output.bib")
 
 		with open(filepath, "w") as bibfile:
 			bibfile.write(bibtex_writer.write(bibtex_db))
@@ -317,7 +322,16 @@ def get_abstract(record_dict,field="520",subfield="a"):
 
 	return abstract
 
-def get_address(record_dict,field="260",subfield="a"):
+
+country_codes = csv2dict(os.path.join("mappings","country_codes.csv"))
+
+country_acronyms = {}
+
+for country in country_codes:
+	country_acronyms[country["code"]] = country["label"]
+
+
+def get_address(record_dict,field="260",subfield="a",country_field="044",country_subfield="a",acronyms_mapping=country_acronyms):
 	address = ""
 
 	filter_query = list(filter(lambda x: field in x.keys(), record_dict["fields"]))
@@ -329,24 +343,105 @@ def get_address(record_dict,field="260",subfield="a"):
 		if len(subfield_query) > 0:
 			address = subfield_query[0][subfield]
 
+		else: # case of country of publication field 044$a
+			filter_query = list(filter(lambda x: country_field in x.keys(), record_dict["fields"]))
+
+			if len(filter_query) > 0:
+				subfield_query = list(
+					filter(lambda x: subfield in x.keys(), filter_query[0][country_field]["subfields"])
+				)
+				if len(subfield_query) > 0:
+					address = acronyms_mapping[subfield_query[0][country_subfield]]
+
+
 	return address
 
+role_codes = csv2dict(os.path.join("mappings","role_codes.csv"))
 
-def get_authors(record_dict, field="100", subfield="a"):
+role_acronyms = {}
+
+for role in role_codes:
+	role_acronyms[role["code"]] = role["label"]
+
+
+def get_authors(record_dict, main_field="100", main_subfield="a", alt_field="700", alt_subfield = "a", role_subfield="4", acronyms_mapping=role_acronyms,roles=False):
 	author_list = []
+	
+	if roles is not True:
+		# get main author
+		filter_query = list(filter(lambda x: main_field in x.keys(), record_dict["fields"]))
 
-	filter_query = list(filter(lambda x: field in x.keys(), record_dict["fields"]))
+		if len(filter_query) > 0:
+			for entry in filter_query:
+				subfield_query = list(
+					filter(lambda x: main_subfield in x.keys(), entry[main_field]["subfields"])
+				)
+				if len(subfield_query) > 0:
+					author_list.append(subfield_query[0][main_subfield])
 
-	if len(filter_query) > 0:
-		for entry in filter_query:
-			subfield_query = list(
-				filter(lambda x: subfield in x.keys(), entry[field]["subfields"])
-			)
-			if len(subfield_query) > 0:
-				author_list.append(subfield_query[0][subfield])
+		# get additional authors
+		filter_query = list(filter(lambda x: alt_field in x.keys(), record_dict["fields"]))
+
+		if len(filter_query) > 0:
+			for entry in filter_query:
+				subfield_query = list(
+					filter(lambda x: alt_subfield in x.keys(), entry[alt_field]["subfields"])
+				)
+				if len(subfield_query) > 0:
+					author_list.append(subfield_query[0][alt_subfield])
+	else:
+		# get main author
+		filter_query = list(filter(lambda x: main_field in x.keys(), record_dict["fields"]))
+
+		if len(filter_query) > 0:
+			for entry in filter_query:
+				subfield_query = list(
+					filter(lambda x: main_subfield in x.keys(), entry[main_field]["subfields"])
+				)
+				if len(subfield_query) > 0:
+					author_list.append(f"{subfield_query[0][main_subfield]} ({acronyms_mapping[subfield_query[0][role_subfield]]})")
+
+		# get additional authors
+		filter_query = list(filter(lambda x: alt_field in x.keys(), record_dict["fields"]))
+
+		if len(filter_query) > 0:
+			for entry in filter_query:
+				subfield_query = list(
+					filter(lambda x: alt_subfield in x.keys(), entry[alt_field]["subfields"])
+				)
+				if len(subfield_query) > 0:
+					author_list.append(f"{subfield_query[0][alt_subfield]} ({acronyms_mapping[subfield_query[0][role_subfield]]})")
+
 
 	# parse authors in one string
 	return " and ".join(author_list)
+
+def get_howpublished(record_dict, license_field="506", licence_subfield="a", referee_field="591", referee_subfield="a", acronyms_mapping= {"0": "Not peer-reviewed", "1": "Peer-reviewed", "Editorial review": "Peer-reviewed" }):
+	howpublished = ""
+
+	# License information
+	filter_query = list(filter(lambda x: license_field in x.keys(), record_dict["fields"]))
+
+	if len(filter_query) > 0:
+		subfield_query = list(
+			filter(lambda x: licence_subfield in x.keys(), filter_query[0][license_field]["subfields"])
+		)
+		if len(subfield_query) > 0:
+			howpublished = subfield_query[0][licence_subfield]
+
+	# Referee information
+
+	filter_query = list(filter(lambda x: referee_field in x.keys(), record_dict["fields"]))
+
+	if len(filter_query) > 0:
+		subfield_query = list(
+			filter(lambda x: referee_subfield in x.keys(), filter_query[0][referee_field]["subfields"])
+		)
+		if len(subfield_query) > 0:
+			howpublished += f", {acronyms_mapping[subfield_query[0][referee_subfield]]}"
+			
+
+	return howpublished
 
 
 def get_booktitle(record_dict, field="773", subfield="t"):
@@ -467,7 +562,7 @@ def get_keywords(record_dict, field="650", subfield="a"):
 			if len(subfield_query) > 0:
 				keywords_list.append(subfield_query[0][subfield])
 
-	# parse authors in one string
+	# parse keywords in one string
 	return ", ".join(keywords_list)
 
 def get_note(record_dict, field="500", subfield="a"):

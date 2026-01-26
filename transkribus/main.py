@@ -155,13 +155,17 @@ def import_collection_metadata(collection_id=257292):
 
 collection_id = 257292
 
-document_id = 1860507
+#document_id = 1860507 # facsimiles-scans 2024-
 
-page_number = 20
+document_id = 8184307 # bach
+
+page_number = 2
 
 print(f"Ton Koopman Indices collection id: {collection_id}")
 collection_metadata = import_collection_metadata(collection_id=collection_id)
 
-spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
+#get_jpg_image(collection_metadata,document_id,page_number)
+
+#spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
 
 #import_transkribus_tk_indices()

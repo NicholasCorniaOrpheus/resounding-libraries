@@ -181,10 +181,15 @@ def relations_spotting_from_page_xml(page_xml_file):
 
 	root = tree.getroot()
 
-	regions = get_regions_from_xml(root,baseline=True)
+	regions = get_regions_from_xml(root,baseline=False)
 	# Generate relations dictionary according to clustering method
 	#relations = simple_relations_matching(regions)
-	relations = vertical_clustering_relations_matching(regions)
+	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns:")
+	answer = int(input())
+	if answer == 2:
+		relations = vertical_clustering_relations_matching(regions)
+	else:
+		relations = vertical_clustering_relations_matching_v1(regions)
 
 	# Ingest relations dictionary back to PAGE XML
 	root = ingest_relations_to_xml(relations,root)
@@ -322,6 +327,16 @@ def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this scrip
 			"regions": regions, 
 			"relations": relations},
 			page_filename)
+
+
+
+def get_jpg_image_from_transkribus(page_metadata,output_directory="./tmp"): # Saves the JPG image from Transkribus to tmp and returns the filepath
+	image_url = page_metadata["url"]
+	# Save the JPG image using urllib
+	urllib.request.urlretrieve(image_url,os.path.join(output_directory,page_metadata["imgFileName"]))
+
+	return os.path.join(output_directory,page_metadata["imgFileName"])
+					
 
 
 

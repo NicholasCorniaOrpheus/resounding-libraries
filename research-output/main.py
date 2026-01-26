@@ -9,6 +9,7 @@ from modules.utilities import *
 from modules.bibtex import *
 from modules.csl import *
 from modules.zotero import *
+from modules.export import *
 
 # Import credentials
 
@@ -25,30 +26,38 @@ credentials = json2dict("../credentials/credentials.json")
 
 """
 
-## TESTING
 
-"""
-access_zotero_api(
-    credentials["zotero"]["client_id"],
-    credentials["zotero"]["client_secret"],
-    library_type="user",
-)
-"""
+research_groups_file = os.path.join("mappings", "research_groups.json")
 
-research_groups_file = os.path.join("data", "mappings", "research_groups.json")
+bibtext_filepath = os.path.join("data")
 
-bibtext_filepath = os.path.join("tmp")
-
-entries_mapping = json2dict(
-    os.path.join("data", "mappings", "koha2external_formats.json")
-)
+entries_mapping = json2dict(os.path.join("mappings", "koha2external_formats.json"))
 
 researchers = generate_researchers_dict(research_groups_file, participant_field="500")
 
-entries = generate_entries(
-    researchers,
-    bibtext_filepath,
-    entries_mapping,
-    report_id=81,
-    fields=["biblio_id", "control", "author", "type"],
-)
+
+def generate_clusters_bibtext():
+    print("Save researchers list in ./mappings/researchers_list.json")
+
+    dict2json(researchers, os.path.join("mappings", "researchers_list.json"))
+
+    print(f"Generating BibTeX entries for researchers...")
+
+    entries = generate_bibtex_entries(
+        researchers,
+        bibtext_filepath,
+        entries_mapping,
+        report_id=81,
+        fields=["biblio_id", "control", "author", "type"],
+    )
+
+
+def reports_clusters():
+    for research_cluster in os.scandir(bibtext_filepath):
+        research_cluster_export(research_cluster.path)
+
+
+### CODE ###
+
+generate_clusters_bibtext()
+reports_clusters()
