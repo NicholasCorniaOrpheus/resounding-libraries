@@ -184,12 +184,14 @@ def relations_spotting_from_page_xml(page_xml_file):
 	regions = get_regions_from_xml(root,baseline=False)
 	# Generate relations dictionary according to clustering method
 	#relations = simple_relations_matching(regions)
-	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns:")
+	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns, 3 = minimal x value:")
 	answer = int(input())
 	if answer == 2:
 		relations = vertical_clustering_relations_matching(regions)
-	else:
+	elif answer == 1:
 		relations = vertical_clustering_relations_matching_v1(regions)
+	else:
+		relations = vertical_clustering_relations_matching_x_min(regions)
 
 	# Ingest relations dictionary back to PAGE XML
 	root = ingest_relations_to_xml(relations,root)

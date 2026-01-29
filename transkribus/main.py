@@ -159,13 +159,19 @@ collection_id = 257292
 
 document_id = 8184307 # bach
 
-page_number = 2
+page_number = 3
 
 print(f"Ton Koopman Indices collection id: {collection_id}")
 collection_metadata = import_collection_metadata(collection_id=collection_id)
 
 #get_jpg_image(collection_metadata,document_id,page_number)
 
-#spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
+print(f"Current document: {document_id}")
+
+print("Choose page:")
+
+page_number = int(input())
+
+spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
 
 #import_transkribus_tk_indices()

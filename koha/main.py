@@ -429,8 +429,8 @@ def get_latest_changed_records():
 
 ### CODE ###
 
-print(get_biblionumber_marc(22713))
-input()
+#print(get_biblionumber_marc(22713))
+#input()
 
 print("Would you like to import a new catalogue dictionary? y/n")
 
@@ -473,7 +473,7 @@ else:
 
 # leader scripts
 
-update_problematic_leaders()
+#update_problematic_leaders()
 
 # apply changes via Koha API
 

@@ -4,6 +4,7 @@ sys.path.append("./modules")
 
 from modules.utilities import *
 from modules.koha import *
+from modules.orcid import *
 
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.bibdatabase import BibDatabase
@@ -55,12 +56,35 @@ def parse_entries_to_bibtex(entries, bibtext_filepath):
 
 ### ENTRYTYPES
 
+def get_researcher_orcid_id_from_koha(auth_id,field="024",subfields=["1","a"],base_url="https://orcid.org/"):
+	author_marc_dict = get_authority_marc(auth_id)
+	#print(author_marc_dict)
+	field_query = list(filter(lambda x: "024" in x.keys(), author_marc_dict["fields"]))
+	#print(field_query)
+	try:
+		field_orcid = list(filter(lambda x: base_url in  x[field]["subfields"][0]["1"],field_query))[0]
+		#print(field_orcid)
+		# get code
+		subfield_url = list(filter(lambda x: subfields[0] in x.keys(), field_orcid[field]["subfields"]))[0][subfields[0]].split("/")[-1]
+		return subfield_url
+	except Exception:
+		# search orcid id via name
+		author_name = list(filter(lambda x: "100" in  x.keys(),author_marc_dict["fields"] ))[0]
+		author_name = list(filter(lambda x: "a" in  x.keys(),author_name["100"]["subfields"] ))[0]["a"].split(",")
+		orcid_id = get_orcid_id_from_name(f"{author_name[1].replace(" ","")} {author_name[0]}")
+		if orcid_id is not None:
+			print(f"Found orcid-id {orcid_id} from API for {author_name}")
+			return orcid_id
+
+
+
 
 def generate_researchers_dict(
 	research_groups_file,
 	participant_field="500",
 	participant_name_subfield="a",
 	participant_authid_subfield="9",
+	orcid_id_field=["024","a"]
 ):
 	print("Generating researchers dictionary...")
 
@@ -91,10 +115,13 @@ def generate_researchers_dict(
 					participant[participant_field]["subfields"],
 				)
 			)[0][participant_authid_subfield]
+			# get orcid id
+			orcid_id = get_researcher_orcid_id_from_koha(auth_id)
 			researchers.append(
 				{
 					"name": name,
 					"auth_id": auth_id,
+					"orcid_id": orcid_id,
 					"group_name": item["name"],
 					"group_auth_id": item["auth_id"],
 				}
@@ -103,6 +130,47 @@ def generate_researchers_dict(
 	# print(researchers)
 
 	return researchers
+
+def add_records_from_catalogue_no_FRIS(researchers,min_year="2022"):
+	extra_records = []
+	print("Importing latest catalogue dictionary from koha/data/api_responses folder...")
+	catalogue_dict = json2dict(get_latest_file("../koha/data/api_responses/batch_modifications/cat_dict/"))
+	researchers_auth_id_list = [researcher["auth_id"] for researcher in researchers]
+	for record in catalogue_dict:
+		try:
+			main_author = list(filter(lambda x: "100" in x.keys(), record["record"]["fields"]))
+			main_author_id = str(list(filter(lambda x: "9" in x.keys(), main_author[0]["100"]["subfields"]))[0]["9"])
+			if main_author_id in researchers_auth_id_list:
+				main_author_name = list(filter(lambda x: "a" in x.keys(), main_author[0]["100"]["subfields"]))[0]["a"]
+				# check year of publication
+				year_pub = get_year(record["record"])
+				if year_pub != "":
+					year_pub = int(year_pub)
+				if year_pub >= int(min_year):
+					# append resource to extra records
+					#print(f"Record found for author {main_author_id} published in year {year_pub}")
+					type = list(filter(lambda x: "942" in x.keys(), record["record"]["fields"]))[0]
+					type = list(filter(lambda x: "c" in x.keys(), type["942"]["subfields"]))[0]
+					control = ""
+					try:
+						control = list(filter(lambda x: "509" in x.keys(), record["record"]["fields"]))[0]
+						control = list(filter(lambda x: "a" in x.keys(), control["509"]["subfields"]))[0]["a"]
+					except Exception:
+						pass 
+					# Filtering the records already in FRIS
+					if control != "FRIS":
+						extra_records.append({
+							"biblio_id": record["biblio_id"],
+							"control": control,
+							"author": main_author_name ,
+							"type": type["c"]
+							})
+						print(f"Extra record found: {extra_records[-1]}")
+		except Exception:
+			pass
+
+	return extra_records
+
 
 
 # given a list of researchers, it returns a series of BibTeX files, according to a given Koha public report
@@ -118,6 +186,12 @@ def generate_bibtex_entries(
 	groups_entries = []
 
 	research_outputs = get_public_report(report_id, fields)
+
+	print("Do you wish to retrieve publications without the FRIS control code? y/n")
+	answer = input()
+	if answer == "y":
+		extra_records = add_records_from_catalogue_no_FRIS(researchers, min_year="2022")
+		research_outputs += extra_records
 
 	for researcher in researchers:
 		researcher_entries = []
@@ -726,7 +800,7 @@ def get_volume(record_dict, field="773", subfield="g"):
 
 	return volume
 
-def get_year(record_dict, fields=[["502","a"],["336","b"],["260","c"]]):
+def get_year(record_dict, fields=[["502","a"],["366","b"],["260","c"]]):
 	year = ""
 
 	for field in fields:

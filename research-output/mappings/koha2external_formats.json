@@ -129,5 +129,26 @@
 			  	"orcid": ["conference-presentation","conference-poster","artistic-performance","online-resource","musical-composition","software","lecture-speech"],
 			  	"bibo_rdf": ["Performance","Event"],
 			  	"csl_json": ["performance","speech","software","event"]	 
+			  },
+	"ONL": {
+				"koha": "non-written output",
+				"bibtex": "misc",
+			  	"orcid": ["online-resource","software"],
+			  	"bibo_rdf": [],
+			  	"csl_json": ["software"]	 
+			  },
+	"REC": {
+				"koha": "non-written output",
+				"bibtex": "misc",
+			  	"orcid": [],
+			  	"bibo_rdf": [],
+			  	"csl_json": []	 
+			  },
+	"SCO": {
+				"koha": "non-written output",
+				"bibtex": "misc",
+			  	"orcid": ["musical-composition"],
+			  	"bibo_rdf": [],
+			  	"csl_json": []	 
 			  }
 }

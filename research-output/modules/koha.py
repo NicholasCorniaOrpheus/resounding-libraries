@@ -50,8 +50,42 @@ my_session = oauth2_session(
     base_url=base_url,
 )
 
+# NOT WORKING, return not found...
+def get_biblios_by_author_SRU(author_string):
+    #headers = {"Accept": "application/json"}
+    params = {  
+                "version": "1.1",
+                "operation": "searchRetrieve",
+                "query": f"au={author_string}",
+                "startRecord": 1,
+                "maximumRecords": 500,
+                "recordSchema": "marcxml"
+                }
+
+    response = requests.get(f"{base_url.replace("/api/v1","")}/cgi-bin/koha/sru.pl", params=params, timeout=15)
+    print("REQUEST URL:", response.request.url)
+    print("REQUEST HEADERS:", response.request.headers)
+    print("REQUEST BODY (bytes):", response.request.body)
+    print("STATUS:", response.status_code)
+    print("RESPONSE HEADERS:", response.headers)
+    print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
+    input()
+    return response.json()
 
 
+# NOT WORKING, always giving Status 500 Internal server error... tryed all combinations...
+def get_biblios_by_author(author_string):
+    headers = {"Accept": "application/json"}
+    params = {"q": f"au={author_string}"}
+    response = my_session.get(f"{base_url}/biblios", headers=headers, params=params, timeout=15)
+    print("REQUEST URL:", response.request.url)
+    print("REQUEST HEADERS:", response.request.headers)
+    print("REQUEST BODY (bytes):", response.request.body)
+    print("STATUS:", response.status_code)
+    print("RESPONSE HEADERS:", response.headers)
+    print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
+    input()
+    return response.json()
 
 
 def get_biblionumber_marc(biblio_id):  # returns a JSON response with MARC fields.

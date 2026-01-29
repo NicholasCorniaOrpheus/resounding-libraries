@@ -10,6 +10,7 @@ from modules.bibtex import *
 from modules.csl import *
 from modules.zotero import *
 from modules.export import *
+from modules.koha import *
 
 # Import credentials
 
@@ -33,7 +34,18 @@ bibtext_filepath = os.path.join("data")
 
 entries_mapping = json2dict(os.path.join("mappings", "koha2external_formats.json"))
 
-researchers = generate_researchers_dict(research_groups_file, participant_field="500")
+researchers_list_filepath = os.path.join("mappings", "researchers_list.json")
+
+print("Would you like to update researches list? y/n")
+answer = input()
+if answer == "y":
+    researchers = generate_researchers_dict(
+        research_groups_file, participant_field="500"
+    )
+    dict2json(researchers, researchers_list_filepath)
+else:
+    print("Importing researchers from local JSON...")
+    researchers = json2dict(researchers_list_filepath)
 
 
 def generate_clusters_bibtext():
