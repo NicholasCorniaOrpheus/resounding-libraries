@@ -50,6 +50,32 @@ def generate_catalogue_dict(records_filename):
 
 
 
+def change_indicator_field_from_catalogue_dict(cat_dict,indicator,field,old_value,new_value):
+	backup_records = []
+	changed_records = []
+
+	for record in cat_dict:
+		query = list(filter(lambda x: field in x.keys(),record["record"]["fields"]) )
+		if len(query) >0 :
+			# look for indicator
+			for entry in query:
+				if entry[field][indicator] == old_value:
+					
+					backup_records.append(record)
+					# apply change
+					entry[field][indicator] = new_value 
+					changed_records.append(record)
+
+					print(f"Current biblioitem: {record["biblio_id"]}:")
+
+	
+	print(f"Number of records to be changed: {len(changed_records)}")
+
+	return backup_records, changed_records
+
+
+
+
 # Ok
 def clean_field_from_catalogue_dict(cat_dict,field_number):
 	backup_records = []
@@ -179,7 +205,7 @@ def update_leader_from_catalogue_dict(cat_dict,filter_field,criterium,leader_pos
 	return backup_records,changed_records,problematic_leaders
 
 
-# NOT WORKING, the problematic MARC records have a badly formatted leader.
+
 def problematic_leaders_to_marc(records_filename,problematic_leaders,leader_position,value):
 
 	# setting up output
@@ -187,6 +213,9 @@ def problematic_leaders_to_marc(records_filename,problematic_leaders,leader_posi
 	print(f"Importing {records_filename} as MARC...")
 	f = open(records_filename, "rb")
 	reader = MARCReader(f)
+	new_record_filepath = os.path.join("tmp","problematic_leaders.mrc")
+	g = open(new_record_filepath,"wb")
+
 
 	for record in reader:
 		try:
@@ -201,23 +230,39 @@ def problematic_leaders_to_marc(records_filename,problematic_leaders,leader_posi
 
 				if leader_position == 6:
 					leader.type_of_record = value
+					leader[5] = "a"
 				elif leader_position == 7:
 					leader.bibliographic_level = value
+					leader[5] = "a"
+					leader[6] = "a"
 				else:
 					pass
 
-				print(f"Current record: {current_record_id}")
-				print(f"Old leader: {record.leader}")
-				print(f"New leader: {leader}")
+				#print(f"Current record: {current_record_id}")
+				#print(f"Old leader: {record.leader}")
+				#print(f"New leader: {leader}")
+				#input()
 				
 				
 				problematic_leaders_dict.append({"biblio_id": current_record_id, "record":  new_record.as_dict()})
 
-				print(problematic_leaders_dict[-1])
-				input()
+				#print(problematic_leaders_dict[-1])
+				#print(new_record.as_marc())
+
+				#print(f"Byte size record: {len(new_record.as_marc())}")
+
+				g.write(new_record.as_marc())
+
+				#input()
 
 		except KeyError:
 			pass
+
+	g.close()
+	# Split MARC file according to size
+	print("Splitting MARC file...")
+	split_mrc_file(new_record_filepath,new_record_filepath.replace(".mrc","_splitted.mrc"))
+
 
 	return
 

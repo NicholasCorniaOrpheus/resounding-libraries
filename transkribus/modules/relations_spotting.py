@@ -31,6 +31,8 @@ import statistics
 import math
 from scipy import stats  # trimmed_mean
 
+from sklearn.cluster import KMeans #k-means algorithm
+
 
 def show_cluster_algorithm_process(page_metadata):
     # Get JPG image
@@ -236,12 +238,18 @@ def ingest_relations_to_xml(relations, root):
     return root
 
 
-def simple_relations_matching(
+# Best results!!
+def k_mean_relations_matching(
     regions,
     source_region_type="keyword",
     target_region_type="pages-keyword",
     relations_type="related_pages",
 ):
+
+    print("Provide the number of cloumns in the index cards:")
+
+    n_columns = int(input())
+
     # Split regions in two ordered list (one for source and one for target) according to centroids y coordinate.
     source_regions = sorted(
         [region for region in regions if region["type"] == source_region_type],
@@ -252,8 +260,100 @@ def simple_relations_matching(
         key=lambda k: k["centroids"][1],
     )
 
-    # print(f"Source regions: {", ".join([region["region_id"] for region in source_regions])}")
-    # print(f"Target regions: {", ".join([region["region_id"] for region in target_regions])}")
+    #print(f"Source regions: {source_regions}")
+
+    kmeans = KMeans(n_clusters=n_columns)
+
+    #kmeans.fit([source_region["centroids"] for source_region in source_regions])
+
+    #print("Result of the K-mean algorithm for sources:")
+
+    #source_clustering = kmeans.labels_ # the algorithm returns the cluster_id of each region.
+
+    #kmeans.fit([target_region["centroids"] for target_region in target_regions])
+
+    kmeans.fit([region["centroids"] for region in regions])
+
+    #target_clustering = kmeans.labels_ 
+
+    region_clustering = kmeans.labels_
+
+    # Generate clusters
+
+    clusters = [{"cluster_id": i, "source_regions": [], "target_regions": []} for i in range(n_columns)]
+
+    for i in range(len(region_clustering)):
+        current_region = regions[i]
+        if current_region["type"] == source_region_type:
+            clusters[region_clustering[i]]["source_regions"].append(current_region)
+        elif current_region["type"] == target_region_type:
+            clusters[region_clustering[i]]["target_regions"].append(current_region)
+        else:
+            pass 
+
+    """
+    for i in range(len(source_clustering)):
+        clusters[source_clustering[i]]["source_regions"].append(source_regions[i])
+    for i in range(len(target_clustering)):
+        clusters[target_clustering[i]]["target_regions"].append(target_regions[i])
+    """
+
+    print(f"Generated clusters: {clusters} \n")
+
+    # Apply y-centroid matching for each cluster
+
+    relations = []
+
+    for cluster in clusters:
+        for source_region in cluster["source_regions"]:
+            # get closest target region
+            min_region = None
+            for target_region in cluster["target_regions"]:
+                if min_region is None:
+                    min_region = target_region
+                else:
+                    if abs(
+                        source_region["centroids"][1] - target_region["centroids"][1]
+                    ) < abs(source_region["centroids"][1] - min_region["centroids"][1]):
+                        min_region = target_region
+
+            relations.append(
+                {
+                    "type": relations_type,
+                    "source": source_region["region_id"],
+                    "target": min_region["region_id"],
+                }
+            )
+
+    print(f"\n Relations: {relations}")      
+
+    return relations        
+        
+
+
+
+
+# Other attempts for automatic clustering...
+
+def simple_relations_matching(
+    regions,
+    source_region_type="keyword",
+    target_region_type="pages-keyword",
+    relations_type="related_pages",
+):
+
+    
+
+    # Split regions in two ordered list (one for source and one for target) according to centroids y coordinate.
+    source_regions = sorted(
+        [region for region in regions if region["type"] == source_region_type],
+        key=lambda k: k["centroids"][1],
+    )
+    target_regions = sorted(
+        [region for region in regions if region["type"] == target_region_type],
+        key=lambda k: k["centroids"][1],
+    )
+
 
     # Generate relations to minimal distance criterium between source and target
     relations = []

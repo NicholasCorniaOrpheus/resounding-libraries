@@ -5,3 +5,4 @@ koha/data/api_responses/
 koha/tmp/
 research-output/tmp/
 transkribus/tmp
+omekas/oi-docker-compose.yml

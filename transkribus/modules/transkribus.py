@@ -181,17 +181,23 @@ def relations_spotting_from_page_xml(page_xml_file):
 
 	root = tree.getroot()
 
-	regions = get_regions_from_xml(root,baseline=False)
+	regions = get_regions_from_xml(root,baseline=True)
 	# Generate relations dictionary according to clustering method
-	#relations = simple_relations_matching(regions)
-	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns, 3 = minimal x value:")
+	"""
+	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns, 3 = minimal x value, 4 = k-mean:")
 	answer = int(input())
 	if answer == 2:
 		relations = vertical_clustering_relations_matching(regions)
 	elif answer == 1:
 		relations = vertical_clustering_relations_matching_v1(regions)
-	else:
+	elif answer == 3:
 		relations = vertical_clustering_relations_matching_x_min(regions)
+	else:
+		relations = k_mean_relations_matching(regions)
+	"""
+
+	print("Generating relations according to k-mean algorithm (n. of columns required):")
+	relations = k_mean_relations_matching(regions)
 
 	# Ingest relations dictionary back to PAGE XML
 	root = ingest_relations_to_xml(relations,root)

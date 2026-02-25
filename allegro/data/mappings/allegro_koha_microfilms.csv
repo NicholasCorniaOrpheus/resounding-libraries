@@ -1,0 +1,13 @@
+allegro,koha,control_field,control_value,level,description
+00,952$e,,,item,"Ex Libris TK=""Ton Koopman"""
+24,245$a,,,record,title (music)
+24b,245$b,,,record,subtitle music
+56,110$a,700$4,cmp,record,composer ;
+71,942$c,,,record,"category: OD=""oude druk"", MS=""manuscript"", MF=""microfilm"""
+75,260$b,,,record,publisher
+76,260$c,,,record,year of publication
+77,300$a,,,record,pages ?
+81a,952$y,,,item,material type
+83,,,,record,"original library provenance, to be mapped with RISM. Structure is usually: {city_name}, {library_name} {shelfmark}"
+90,952$i,,,item,ex libris shelfmark -> item call number
+98Z,300$b,,,item,comment 

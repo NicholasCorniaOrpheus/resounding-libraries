@@ -274,20 +274,20 @@ def change_leader7_if_cells():
     return backup_records, changed_records
 
 # NOT WORKING, the pyMARC function leader() cannot handle badly formatted leaders correctly.
-def update_problematic_leaders():
+def update_problematic_leaders(prob_leaders_filename,leader_position,value):
 
     """
     problematic_leaders = csv2dict(
         get_latest_file(os.path.join(batch_modifications_dir, "problematic_leaders"))
     )
     """
-    print(f"Importing problematic leaders CSV {os.path.join(batch_modifications_dir, "problematic_leaders", "problematic_leaders_leader7_952$o_KTS1_C-2025-12-05.csv")}")
-    problematic_leaders = csv2dict(os.path.join(batch_modifications_dir, "problematic_leaders", "problematic_leaders_leader7_952$o_KTS1_C-2025-12-05.csv"))
+    print(f"Importing problematic leaders CSV {os.path.join(batch_modifications_dir, "problematic_leaders", prob_leaders_filename)}")
+    problematic_leaders = csv2dict(os.path.join(batch_modifications_dir, "problematic_leaders", prob_leaders_filename))
 
 
-    print("Updating problematic leaders via Koha API...")
+    print("Updating problematic leaders...")
 
-    problematic_leaders_to_marc(get_latest_file(biblioitems_marc_dir),problematic_leaders,leader_position=7,value="m")
+    problematic_leaders_to_marc(get_latest_file(biblioitems_marc_dir),problematic_leaders,leader_position=leader_position,value=value)
 
 
 
@@ -410,7 +410,9 @@ def put_changes_via_koha_api(change_items,change_records):
             # PUT modified record via API
 
             put_biblionumber_marc(record[1]["biblio_id"], record[1]["record"])
-            #input()
+            input()
+
+            print(get_biblionumber_marc(record[1]["biblio_id"]))
 
             print(f"Progress: {i} / {num_changes}")
             i += 1    
@@ -429,8 +431,9 @@ def get_latest_changed_records():
 
 ### CODE ###
 
-#print(get_biblionumber_marc(22713))
-#input()
+# api test
+
+#print(get_biblionumber_marc(23445))
 
 print("Would you like to import a new catalogue dictionary? y/n")
 
@@ -457,6 +460,16 @@ else:
         get_latest_file(os.path.join(batch_modifications_dir, "cat_dict"))
     )
 
+# cleaning malformatted indicators
+
+backup_records, changed_records = change_indicator_field_from_catalogue_dict(cat_dict,"ind1","490","1"," ")
+
+print(changed_records[0:15])
+
+input()
+
+put_changes_via_koha_api(change_items=False,change_records=True)
+
 # cleaning script
 
 # backup_records, changed_records = clean_field_336_cat_dict()
@@ -473,7 +486,9 @@ else:
 
 # leader scripts
 
-#update_problematic_leaders()
+#prob_leaders_filename = "problematic_leaders_leader6_942$c_BOO-2025-12-05.csv"
+
+#update_problematic_leaders(prob_leaders_filename,leader_position=6,value="a")
 
 # apply changes via Koha API
 

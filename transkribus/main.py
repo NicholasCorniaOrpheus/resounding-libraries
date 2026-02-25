@@ -168,10 +168,21 @@ collection_metadata = import_collection_metadata(collection_id=collection_id)
 
 print(f"Current document: {document_id}")
 
-print("Choose page:")
 
-page_number = int(input())
+keep_editing = True 
 
-spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
+while keep_editing is True:
+	print("Choose page:")
+
+	page_number = int(input())
+
+	spot_relations_to_api(collection_metadata,collection_id,document_id,page_number)
+
+	print("Would you like to process another page? y/n")
+	answer = input()
+	if answer == "y":
+		keep_editing = True
+	else:
+		keep_editing = False
 
 #import_transkribus_tk_indices()
