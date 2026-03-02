@@ -1,0 +1,9 @@
+SELECT
+biblio.biblionumber,
+ExtractValue(metadata, '//datafield[@tag="509"]/subfield[@code="a"]') AS controlField,
+ExtractValue(metadata, '//datafield[@tag="100"]/subfield[@code="a"]') AS author,
+biblio.title AS title,
+ExtractValue(metadata, '//datafield[@tag="942"]/subfield[@code="c"]') AS type
+FROM biblio LEFT JOIN items USING (biblionumber) LEFT JOIN biblio_metadata USING (biblionumber)
+WHERE ExtractValue(metadata, '//datafield[@tag="509"]/subfield[@code="a"]') LIKE '%FRIS%'
+LIMIT 10000

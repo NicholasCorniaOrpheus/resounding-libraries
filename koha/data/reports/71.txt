@@ -1,0 +1,12 @@
+SELECT 
+items.biblionumber,
+items.barcode,
+items.itemcallnumber,
+biblio.title, 
+ExtractValue(metadata, '//datafield[@tag="100"]/subfield[@code="a"]') AS main_author,
+CONCAT_WS('|',ExtractValue(metadata, '//datafield[@tag="700"][1]/subfield[@code="a"]'),ExtractValue(metadata, '//datafield[@tag="700"][2]/subfield[@code="a"]'),ExtractValue(metadata, '//datafield[@tag="700"][3]/subfield[@code="a"]'),ExtractValue(metadata, '//datafield[@tag="700"][4]/subfield[@code="a"]'),ExtractValue(metadata, '//datafield[@tag="700"][5]/subfield[@code="a"]'),ExtractValue(metadata, '//datafield[@tag="700"][6]/subfield[@code="a"]')) AS contributors
+
+FROM biblio 
+LEFT JOIN items USING (biblionumber) LEFT JOIN biblio_metadata USING (biblionumber)
+GROUP BY items.biblionumber ORDER BY items.biblionumber asc
+LIMIT 30000

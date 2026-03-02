@@ -32,3 +32,5 @@ https://github.com/Daniel-KM/Omeka-S-module-Access/releases/download/3.4.39/Acce
         https://github.com/omeka-s-modules/ValueSuggest/releases/download/v1.20.0/ValueSuggest-1.20.0.zip                                 
         https://github.com/Daniel-KM/Omeka-s-module-Verovio/releases/download/3.4.9-6.0.1/Verovio-3.4.9-6.0.1.zip                         
         https://github.com/nishad/omeka-s-wikidata/releases/download/v1.4.2/Wikidata.zip
+https://github.com/Daniel-KM/Omeka-S-module-Mapper/releases/download/3.4.3/Mapper-3.4.3.zip
+https://github.com/Daniel-KM/Omeka-S-module-Log/releases/download/3.4.35/Log-3.4.35.zip

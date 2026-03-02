@@ -123,6 +123,15 @@ def get_authority_json(auth_id):  # returns a JSON response according to Koha fi
 def get_authority_marc(auth_id):  # returns a JSON response with MARC fields.
     headers = {"Accept": "application/marc-in-json"}
     response = my_session.get(f"{base_url}/authorities/{str(auth_id)}", headers=headers)
+    """ # Debugging
+    print("REQUEST URL:", response.request.url)
+    print("REQUEST HEADERS:", response.request.headers)
+    print("REQUEST BODY (bytes):", response.request.body)
+    print("STATUS:", response.status_code)
+    print("RESPONSE HEADERS:", response.headers)
+    print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
+    input()
+    """
     return response.json()
 
 

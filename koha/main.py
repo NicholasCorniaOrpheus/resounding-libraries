@@ -11,6 +11,8 @@ from modules.api import *
 from modules.marc import *
 from modules.koopman import *
 from modules.digitized_material import *
+from modules.wikidata import *
+from modules.isbn import *
 
 # Import credentials, assuming you are running the code from the `koha` directory
 credentials = json2dict("../credentials/credentials.json")
@@ -428,47 +430,129 @@ def get_latest_changed_records():
 
     return backup_records, changed_records
 
+def import_cat_dict():
+    print("Would you like to import a new catalogue dictionary? y/n")
+
+    answer = input()
+
+    if answer == "y":
+        print(f"Importing catalogue from {get_latest_file(biblioitems_marc_dir)}")
+
+        cat_dict = generate_catalogue_dict(get_latest_file(biblioitems_marc_dir))
+
+        dict2json(
+            cat_dict,
+            os.path.join(
+                batch_modifications_dir,"cat_dict", "cat_dict-" + get_current_date() + ".json"
+            ),
+        )
+
+        return cat_dict
+
+    else:
+        print(
+            f"Importing last catalogue dictionary from {get_latest_file(os.path.join(batch_modifications_dir,"cat_dict"))}"
+        )
+
+        cat_dict = json2dict(
+            get_latest_file(os.path.join(batch_modifications_dir, "cat_dict"))
+        )
+
+        return cat_dict
+
+def import_auth_dict():
+    print("Would you like to import a new authority dictionary? y/n")
+
+    answer = input()
+
+    if answer == "y":
+
+        print("1. From local MARC backup file. 2. From API (Very slow!):")
+        answer = int(input())
+        if answer == 1:
+            print(f"Importing authorities from {get_latest_file(authorities_marc_dir)}")
+
+            auth_dict = generate_authority_dict_from_marc(get_latest_file(authorities_marc_dir))
+        elif answer == 2:
+            start_time = time()
+            print("Importing authorities from API...")
+            auth_dict = generate_authority_dict_from_api(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
+            print(f"Authorities imported in {float(time() - start_time)/60} minutes")
+
+        dict2json(
+            auth_dict,
+            os.path.join(
+                batch_modifications_dir,"auth_dict", "auth_dict-" + get_current_date() + ".json"
+            ),
+        )
+
+        return auth_dict
+
+    else:
+        print(
+            f"Importing last authority dictionary from {get_latest_file(os.path.join(batch_modifications_dir,"auth_dict"))}"
+        )
+
+        auth_dict = json2dict(
+            get_latest_file(os.path.join(batch_modifications_dir, "auth_dict"))
+        )
+
+        return auth_dict
+
 
 ### CODE ###
 
-# api test
+# Wikidata test
 
-#print(get_biblionumber_marc(23445))
+qid = "Q2359145"
 
-print("Would you like to import a new catalogue dictionary? y/n")
+pid = "P53"
 
-answer = input()
 
-if answer == "y":
-    print(f"Importing catalogue from {get_latest_file(biblioitems_marc_dir)}")
+isbn = "9780674970472"
 
-    cat_dict = generate_catalogue_dict(get_latest_file(biblioitems_marc_dir))
-
-    dict2json(
-        cat_dict,
-        os.path.join(
-            batch_modifications_dir,"cat_dict", "cat_dict-" + get_current_date() + ".json"
-        ),
-    )
-
-else:
-    print(
-        f"Importing last catalogue dictionary from {get_latest_file(os.path.join(batch_modifications_dir,"cat_dict"))}"
-    )
-
-    cat_dict = json2dict(
-        get_latest_file(os.path.join(batch_modifications_dir, "cat_dict"))
-    )
-
-# cleaning malformatted indicators
-
-backup_records, changed_records = change_indicator_field_from_catalogue_dict(cat_dict,"ind1","490","1"," ")
-
-print(changed_records[0:15])
+get_metadata_from_isbn(isbn,google_api_key=credentials["google"]["api_key"])
 
 input()
 
-put_changes_via_koha_api(change_items=False,change_records=True)
+#returns a list of qid from Wikidata
+#print(wb_get_property_data(qid, pid))
+
+""" # Import authorities test: Internal server error...
+
+authorities_list = get_authorities_via_koha_report(mapping_reports_path=reports_mapping, report_id=67, public_report_url=credentials["koha"]["koha_public_report_url"])
+
+n = 10
+
+print(f"First {n} authorities: \n\n {authorities_list[0:n-1]}")
+
+"""
+
+""" # Authorities from MARC file """
+
+auth_dict = import_auth_dict()
+
+
+
+
+# api test
+
+#print(get_biblionumber_marc(1957))
+
+
+
+
+
+
+# cleaning malformatted indicators
+
+#backup_records, changed_records = change_indicator_field_from_catalogue_dict(cat_dict,"ind1","490","1"," ")
+
+#print(changed_records[0:15])
+
+#input()
+
+#put_changes_via_koha_api(change_items=False,change_records=True)
 
 # cleaning script
 
