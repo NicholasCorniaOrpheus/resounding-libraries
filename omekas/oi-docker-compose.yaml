@@ -14,47 +14,7 @@ services:
       MYSQL_PASSWORD: O1-rs-NAS
       MYSQL_DATABASE: omekas
       MYSQL_HOST: omekas_db
-      APPLICATION_ENV: development
-      OMEKA_THEMES: |
-        https://github.com/omeka-s-themes/default
-        https://github.com/indic-archive/bookshelf/releases/download/v2.0.1/bookshelf-v2.0.1.zip  
-        https://github.com/omeka-s-themes/freedom/releases/download/v1.1.0/freedom-v1.1.0.zip    
-        https://github.com/omeka-s-themes/lively/releases/download/v1.1.0/lively-v1.1.0.zip      
-      OMEKA_MODULES: |
-        https://github.com/Daniel-KM/Omeka-S-module-Access/releases/download/3.4.39/Access-3.4.39.zip 
-        https://github.com/Daniel-KM/Omeka-s-module-AdvancedResourceTemplate/releases/download/3.4.51/AdvancedResourceTemplate-3.4.51.zip 
-        https://github.com/Daniel-KM/Omeka-S-module-AdvancedSearch/releases/download/3.4.57/AdvancedSearch-3.4.57.zip                     
-        https://github.com/Daniel-KM/Omeka-S-module-Annotate/releases/download/3.4.10/Annotate-3.4.10.zip                                 
-        https://github.com/Daniel-KM/Omeka-s-module-ArchiveRepertory/releases/download/3.15.17/ArchiveRepertory-3.15.17.zip               
-        https://github.com/Daniel-KM/Omeka-S-module-BulkEdit/releases/download/3.4.38/BulkEdit-3.4.38.zip                                 
-        https://github.com/Daniel-KM/Omeka-s-module-BulkExport/releases/download/3.4.39/BulkExport-3.4.39.zip                             
-        https://github.com/Daniel-KM/Omeka-S-module-Bulkimport/releases/download/3.4.61/BulkImport-3.4.61.zip                             
-        https://github.com/Daniel-KM/Omeka-S-module-BulkImportFiles/releases/download/3.4.9/BulkImportFiles-3.4.9.zip                     
-        https://github.com/Daniel-KM/Omeka-S-module-Common/releases/download/3.4.80/Common-3.4.80.zip                                     
-        https://github.com/omeka-s-modules/CustomVocab/releases/download/v2.1.0/CustomVocab-2.1.0.zip                                     
-        https://github.com/Daniel-KM/Omeka-s-module-DataTypeRdf/releases/download/3.4.15/DataTypeRdf-3.4.15.zip                           
-        https://github.com/Daniel-KM/Omeka-s-module-DerivativeMedia/releases/download/3.4.13/DerivativeMedia-3.4.13.zip                   
-        https://github.com/ateeducacion/omeka-s-DiskQuota/releases/download/v1.0.2/DiskQuota-v1.0.2.zip                                   
-        https://github.com/Daniel-KM/Omeka-S-module-EasyAdmin/releases/download/3.4.42/EasyAdmin-3.4.42.zip                               
-        https://github.com/Daniel-KM/Omeka-S-module-Group/releases/download/3.4.7/Group-3.4.7.zip                                         
-        https://github.com/Daniel-KM/Omeka-S-module-ImageServer/releases/download/3.6.21/ImageServer-3.6.21.zip                           
-        https://github.com/omeka-s-modules/InverseProperties/releases/download/v1.1.1/InverseProperties-1.1.1.zip                         
-        https://github.com/biblibre/omeka-s-module-MarcXmlExport/releases/download/v0.2.0/MarcXmlExport-0.2.0.zip                         
-        https://github.com/Daniel-KM/Omeka-s-module-Menu/releases/download/3.4.12/Menu-3.4.12.zip                                         
-        https://github.com/Daniel-KM/Omeka-s-module-Mirador/releases/download/3.4.12/Mirador-3.4.12.zip                                   
-        https://github.com/biblibre/omeka-s-module-OctopusViewer/releases/download/v0.10.3/OctopusViewer-0.10.3.zip                       
-        https://github.com/Daniel-KM/Omeka-S-module-Reference/releases/download/3.4.58/Reference-3.4.58.zip                               
-        https://github.com/omeka-s-modules/Sharing/releases/download/v1.5.0/Sharing-1.5.0.zip                                             
-        https://github.com/rochester-rcl/show-more/releases/download/v1.5b/ShowMore.zip                                                   
-        https://github.com/biblibre/omeka-s-module-Solr/releases/download/v0.22.0/Solr-v0.22.0.zip                                        
-        https://github.com/Daniel-KM/Omeka-S-module-Sparql/releases/download/3.4.7/Sparql-3.4.7.zip                                       
-        https://github.com/Daniel-KM/Omeka-s-module-Statistics/releases/download/3.4.12/Statistics-3.4.12.zip                             
-        https://github.com/biblibre/omeka-s-module-Taxonomy/releases/download/v0.9.1/Taxonomy-0.9.1.zip                                   
-        https://github.com/Daniel-KM/Omeka-s-module-Timeline/releases/download/3.4.28/Timeline-3.4.28.zip                                 
-        https://github.com/Daniel-KM/Omeka-S-module-UniversalViewer/releases/download/3.6.11-4.2.1/UniversalViewer-3.6.11-4.2.1.zip       
-        https://github.com/omeka-s-modules/ValueSuggest/releases/download/v1.20.0/ValueSuggest-1.20.0.zip                                 
-        https://github.com/Daniel-KM/Omeka-s-module-Verovio/releases/download/3.4.9-6.0.1/Verovio-3.4.9-6.0.1.zip                         
-        https://github.com/nishad/omeka-s-wikidata/releases/download/v1.4.2/Wikidata.zip                                                  
+      APPLICATION_ENV: development                                                     
       PHP_MEMORY_LIMIT: 512M
       PHP_UPLOAD_MAX_FILESIZE: 64M
       PHP_POST_MAX_SIZE: 64M
@@ -64,11 +24,18 @@ services:
       OMEKA_ADMIN_PASSWORD: O1-rs-NAS
       OMEKA_SITE_TITLE: "Orpheus Instituut DAM"
     volumes:
-      - /volume1/docker/omekas/files:/var/www/html/files
-      - /volume1/docker/omekas/config:/var/www/html/config
-      - /volume1/docker/omekas/modules:/var/www/html/modules
-      - /volume1/docker/omekas/themes:/var/www/html/themes
-
+      - type: bind
+        source: ./files
+        target: /var/www/html/volume/files
+      - type: bind
+        source: ./config
+        target: /var/www/html/config
+      - type: bind
+        source: ./modules
+        target: /var/www/html/volume/modules
+      - type: bind
+        source: ./themes
+        target: /var/www/html/volume/themes
   omekas_db:
     image: mysql:latest
     container_name: omekas_db

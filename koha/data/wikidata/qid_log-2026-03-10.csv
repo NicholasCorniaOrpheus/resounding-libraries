@@ -1,0 +1,1311 @@
+qid,occurrence,label,description,instance_of,uri
+Q2277,2,Roman Empire,period of ancient Rome following the Republic,Q48349,http://wikidata.org/entity/Q2277
+Q110888,1,Kingdom of Essex,former kingdom on the island of Britain (527–825 CE),Q3024240,http://wikidata.org/entity/Q110888
+Q105092,1,Kingdom of Mercia,one of the kingdoms of the Anglo-Saxon Heptarchy,Q3024240,http://wikidata.org/entity/Q105092
+Q105313,2,Kingdom of Wessex,Anglo-Saxon kingdom in the south of Great Britain,Q3024240,http://wikidata.org/entity/Q105313
+Q179876,2,Kingdom of England,historic kingdom on the British Isles (927–1649; 1660–1707),Q3624078,http://wikidata.org/entity/Q179876
+Q161885,5,Kingdom of Great Britain,constitutional monarchy in Western Europe (1707–1800),Q3624078,http://wikidata.org/entity/Q161885
+Q174193,8,United Kingdom of Great Britain and Ireland,historical sovereign state (1801–1922),Q3624078,http://wikidata.org/entity/Q174193
+Q145,19,United Kingdom,island country in north-west Europe,Q3624078,http://wikidata.org/entity/Q145
+Q21885994,1,City of Nottingham,"district in Nottinghamshire, England",Q1136601,http://wikidata.org/entity/Q21885994
+Q101352,4,family name,"part of a naming scheme for individuals, used in many cultures worldwide",Q121493639,http://wikidata.org/entity/Q101352
+Q1549591,2,big city,"city with a population of at least 100,000",Q98966309,http://wikidata.org/entity/Q1549591
+Q42744322,4,urban municipality in Germany,"municipality with town privileges in Germany (may e.g. legally prepend ""Stadt"" to its name)",,http://wikidata.org/entity/Q42744322
+Q85635630,2,urban district of North Rhine-Westphalia,,,http://wikidata.org/entity/Q85635630
+Q3196771,14,art museum,institution (for buildings or spaces use Q207694),,http://wikidata.org/entity/Q3196771
+Q76267394,1,Hugo Ferdinand van Zuylen van Nijevelt,(1821-1872),Q5,http://wikidata.org/entity/Q76267394
+Q19883978,1,Jean Zacharie Mazel,Dutch lithographer (1792–1884),Q5,http://wikidata.org/entity/Q19883978
+Q3815630,1,David Bles,19th-century painter from the Northern Netherlands (1821-1899),Q5,http://wikidata.org/entity/Q3815630
+Q6689899,1,Louwrens Hanedoes,19th-century landscape painter from the Netherlands (1822-1905),Q5,http://wikidata.org/entity/Q6689899
+Q4885435,1,Carel Vosmaer,"Dutch lawyer, court clerk, art historian, art collector, writer and poet (1826-1888)",Q5,http://wikidata.org/entity/Q4885435
+Q2416994,1,Henri Camp,Dutch architect (1821–1875),Q5,http://wikidata.org/entity/Q2416994
+Q3929544,1,Agnites Vrolik,Dutch politician (1810–1894),Q5,http://wikidata.org/entity/Q3929544
+Q207694,109,art museum,"building or space for the exhibition of art (for institution, use Q3196771)",Q63982911,http://wikidata.org/entity/Q207694
+Q17431399,35,national museum,museum maintained by a national authority,Q63982911,http://wikidata.org/entity/Q17431399
+Q6255010,1,John Ritchie Findlay,British newspaper owner and philanthropist (1824-1898),Q5,http://wikidata.org/entity/Q6255010
+Q2379199,1,City of Edinburgh,council area in Scotland,Q15060255,http://wikidata.org/entity/Q2379199
+Q68826067,1,Edinburgh,Scottish parish,Q5124673,http://wikidata.org/entity/Q68826067
+Q504952,1,collective noun,collection of things taken as a whole,,http://wikidata.org/entity/Q504952
+Q13866185,4,museum library,library that is part of a museum,Q25397890,http://wikidata.org/entity/Q13866185
+Q846659,2,Jewish cemetery,cemetery for Jewish people,Q39614,http://wikidata.org/entity/Q846659
+Q162633,2,academy,institution of higher learning,Q17197366,http://wikidata.org/entity/Q162633
+Q4830453,10,business,"organization undertaking commercial, industrial, or professional activity",Q2135465,http://wikidata.org/entity/Q4830453
+Q5774403,2,historical society,"organization that collects, researches, interprets and preserves information or items of historical interest",,http://wikidata.org/entity/Q5774403
+Q18811582,2,fraternity,collegiate social organization for men,,http://wikidata.org/entity/Q18811582
+Q10549978,2,cultural association,association active within culture,Q17197366,http://wikidata.org/entity/Q10549978
+Q1337365,1,Emilij Laszowski,Croatian historian and archivist of Polish origin (1868-1949),Q5,http://wikidata.org/entity/Q1337365
+Q12644529,1,Velimir Deželić Sr.,Croatian writer and lexicographer (1864-1941),Q5,http://wikidata.org/entity/Q12644529
+Q22806,26,national library,library specifically established by the government,,http://wikidata.org/entity/Q22806
+Q1622062,2,university library,general library at an institution of higher education,Q25397890,http://wikidata.org/entity/Q1622062
+Q856234,10,academic library,library attached to a higher education institution,Q25397890,http://wikidata.org/entity/Q856234
+Q43229,28,organization,social entity established to meet needs or pursue goals,Q131362181,http://wikidata.org/entity/Q43229
+Q245065,2,intergovernmental organization,organization composed primarily of sovereign states,Q17197366,http://wikidata.org/entity/Q245065
+Q484652,2,international organization,organization established by treaty between governments,,http://wikidata.org/entity/Q484652
+Q163740,34,nonprofit organization,organization operated for a collective benefit,Q10541491,http://wikidata.org/entity/Q163740
+Q15180,1,Soviet Union,former country in Eurasia (1922–1991),Q512187,http://wikidata.org/entity/Q15180
+Q13426199,1,Republic of China,1912–1949 country in Asia,Q3024240,http://wikidata.org/entity/Q13426199
+Q133356,1,Ukrainian Soviet Socialist Republic,sovereign state (1919–1922) and a republic of the Soviet Union (1922–1991); one of the founding members of the UN in 1945,Q3024240,http://wikidata.org/entity/Q133356
+Q2895,1,Byelorussian Soviet Socialist Republic,one of fifteen constituent republics of the Soviet Union (USSR); founding member of the United Nations Organization in 1945; now Belarus,Q236036,http://wikidata.org/entity/Q2895
+Q115,1,Ethiopia,country in the Horn of Africa,Q3624078,http://wikidata.org/entity/Q115
+Q33946,1,Czechoslovakia,"country in Central Europe, 1918–1992",Q3624078,http://wikidata.org/entity/Q33946
+Q664,1,New Zealand,island country in the southwest Pacific Ocean,Q202686,http://wikidata.org/entity/Q664
+Q851,1,Saudi Arabia,country in West Asia,Q3624078,http://wikidata.org/entity/Q851
+Q796,1,Iraq,sovereign state in Western Asia,Q3624078,http://wikidata.org/entity/Q796
+Q822,1,Lebanon,country in West Asia,Q3624078,http://wikidata.org/entity/Q822
+Q750,1,Bolivia,sovereign state in South America,Q3624078,http://wikidata.org/entity/Q750
+Q739,1,Colombia,country in South America,Q3624078,http://wikidata.org/entity/Q739
+Q800,1,Costa Rica,country in Central America,Q3624078,http://wikidata.org/entity/Q800
+Q736,1,Ecuador,sovereign state in South America,Q3624078,http://wikidata.org/entity/Q736
+Q792,1,El Salvador,sovereign state in Central America,Q3624078,http://wikidata.org/entity/Q792
+Q774,1,Guatemala,sovereign state in Central America,Q3624078,http://wikidata.org/entity/Q774
+Q790,1,Haiti,country in the Caribbean Sea,Q3624078,http://wikidata.org/entity/Q790
+Q783,1,Honduras,sovereign state in Central America,Q3624078,http://wikidata.org/entity/Q783
+Q1014,1,Liberia,sovereign state in West Africa,Q7270,http://wikidata.org/entity/Q1014
+Q811,1,Nicaragua,sovereign state in Central America,Q3624078,http://wikidata.org/entity/Q811
+Q804,1,Panama,sovereign state in Central America,Q3624078,http://wikidata.org/entity/Q804
+Q733,1,Paraguay,sovereign state in South America,Q7270,http://wikidata.org/entity/Q733
+Q928,1,Philippines,archipelagic country in Southeast Asia,Q3624078,http://wikidata.org/entity/Q928
+Q717,1,Venezuela,country in South America,Q3624078,http://wikidata.org/entity/Q717
+Q166118,18,archives,agency or institution responsible for the preservation and communication of records selected for permanent preservation,,http://wikidata.org/entity/Q166118
+Q414147,6,academy of sciences,national academy or another learned society dedicated to sciences,,http://wikidata.org/entity/Q414147
+Q31855,8,research institute,organization whose primary purpose is research,Q17197366,http://wikidata.org/entity/Q31855
+Q902104,2,private university,higher education institution not operated by a government,Q130388971,http://wikidata.org/entity/Q902104
+Q15936437,2,research university,university committed to research as a central part of its mission,Q130388971,http://wikidata.org/entity/Q15936437
+Q1188663,2,Colonial Colleges,nine institutions of higher education in the United States,,http://wikidata.org/entity/Q1188663
+Q23002054,2,private not-for-profit educational institution,private educational institution,Q112872396,http://wikidata.org/entity/Q23002054
+Q1453540,1,Massachusetts General Court,"legislature of Massachusetts, USA",Q3270264,http://wikidata.org/entity/Q1453540
+Q32178211,7,music organization,type of organization linked with music,,http://wikidata.org/entity/Q32178211
+Q11834910,2,state public library,type of library in Italy,,http://wikidata.org/entity/Q11834910
+Q11422631,10,United Nations Depository Library,approved libraries that hold United Nations documents and publications,,http://wikidata.org/entity/Q11422631
+Q24699794,6,museum building,building housing a museum,Q811102,http://wikidata.org/entity/Q24699794
+Q53536964,4,royal palace,palace used by a royal family,,http://wikidata.org/entity/Q53536964
+Q15848826,2,city palace,urban residence for the nobility,,http://wikidata.org/entity/Q15848826
+Q2651004,4,Palazzo,"in Italian-speaking countries, the term for a building with large proportions",Q784969,http://wikidata.org/entity/Q2651004
+Q1497375,6,architectural ensemble,"group of multiple related objects, such as buildings",Q12379553,http://wikidata.org/entity/Q1497375
+Q19979289,3,birth house,"building where someone was deemed to be born, not a hospital. Add this in P31 in addition to properties about the architecture or function of the building. If it's the actual place of birth of the person, add the house in P19 of the person's item",Q811102,http://wikidata.org/entity/Q19979289
+Q157031,6,foundation,type of nonprofit organization,Q2135465,http://wikidata.org/entity/Q157031
+Q2087181,9,historic house museum,house that has been transformed into a museum,Q63982911,http://wikidata.org/entity/Q2087181
+Q2085381,16,publishing house,organization that prints and distributes pressed goods or electronic media,Q17197366,http://wikidata.org/entity/Q2085381
+Q6500733,1,printing company,company for printed products,,http://wikidata.org/entity/Q6500733
+Q11755880,3,residential building,building mainly used for residential purposes,Q811102,http://wikidata.org/entity/Q11755880
+Q2327632,2,city museum,"a museum that displays local history, art, or other collections",Q63982911,http://wikidata.org/entity/Q2327632
+Q48204,8,voluntary association,group of people with shared interests or aims,Q2135465,http://wikidata.org/entity/Q48204
+Q2061246,4,music library,library containing music-related materials for patron use,,http://wikidata.org/entity/Q2061246
+Q53759838,4,music archive,archive of musical recordings and documents,,http://wikidata.org/entity/Q53759838
+Q3950,2,villa,"house, generally of some pretension, and often including outbuildings and gardens",,http://wikidata.org/entity/Q3950
+Q2977,12,cathedral,"Christian church, which is seat of a bishop",Q811102,http://wikidata.org/entity/Q2977
+Q497893,2,literary society,Organization preserving and fostering literature,Q19610271,http://wikidata.org/entity/Q497893
+Q16735822,11,history museum,museum covering the knowledge of human history,Q63982911,http://wikidata.org/entity/Q16735822
+Q11396960,6,production company,company or studio that produces media,Q17197366,http://wikidata.org/entity/Q11396960
+Q2326815,6,municipal library,public library operated by a city or municipality,Q25397890,http://wikidata.org/entity/Q2326815
+Q2945282,2,documentation centre,organisation that deals with documentation,Q25397890,http://wikidata.org/entity/Q2945282
+Q56242215,14,Catholic cathedral,church that is the seat of the bishop of a diocese of the Catholic Church,Q811102,http://wikidata.org/entity/Q56242215
+Q20857065,2,United States federal agency,agency in the administrative division of the United States federal government,,http://wikidata.org/entity/Q20857065
+Q221096,2,public–private partnership,government service or private business venture which is funded and operated through a partnership of government and one or more private sector companies,Q17197366,http://wikidata.org/entity/Q221096
+Q446858,1,Andrew W. Mellon,"American diplomat, banker, businessman, industrialist, philanthropist, and art collector (1855–1937)",Q5,http://wikidata.org/entity/Q446858
+Q11268,1,United States Congress,bicameral legislature of the United States,Q189445,http://wikidata.org/entity/Q11268
+Q112258376,2,music society,association whose interest is music,Q988108,http://wikidata.org/entity/Q112258376
+Q7328910,13,art collection,set of purposefully gathered artworks,,http://wikidata.org/entity/Q7328910
+Q118130417,2,Shakespeariana,objects related to William Shakespeare,,http://wikidata.org/entity/Q118130417
+Q856584,14,library building,building housing a library,Q811102,http://wikidata.org/entity/Q856584
+Q5719487,2,Henry Clay Folger,"American Shakespeare collector, philanthropist, and co-founder of the Folger Shakespeare Library",Q5,http://wikidata.org/entity/Q5719487
+Q16957,1,German Democratic Republic,"1949–1990 country in central Europe, unified into modern Germany",Q3024240,http://wikidata.org/entity/Q16957
+Q327333,6,government agency,"organisational part of a government responsible for specific public services, such as health, judiciary, education, transportation, foreign affairs, etc",Q10541491,http://wikidata.org/entity/Q327333
+Q56037,1,East Berlin,former Soviet sector of Berlin and capital of the GDR,Q1549591,http://wikidata.org/entity/Q56037
+Q1655145,1,Nicolaihaus,house in Berlin,Q11755880,http://wikidata.org/entity/Q1655145
+Q3182579,1,John Taylor Johnston,American businessman (1820–1893),Q5,http://wikidata.org/entity/Q3182579
+Q7526834,1,"Sir George Beaumont, 7th Baronet",art patron and amateur painter (1753–1827),Q5,http://wikidata.org/entity/Q7526834
+Q179351,3,City of Westminster,"city and borough in London, England, UK",Q211690,http://wikidata.org/entity/Q179351
+Q2120466,2,pontifical university,university established or approved by the Roman Catholic Church,Q112872396,http://wikidata.org/entity/Q2120466
+Q45400320,10,open-access publisher,publisher which gives free online access to all its articles,,http://wikidata.org/entity/Q45400320
+Q2385804,8,educational institution,institution that provides education,Q104086571,http://wikidata.org/entity/Q2385804
+Q557206,2,Catholic university,type of university affiliated with the Catholic Church,Q112872396,http://wikidata.org/entity/Q557206
+Q11986619,2,lifestance organisation,organized group who share one view on life,,http://wikidata.org/entity/Q11986619
+Q124830213,6,museum of a public entity,museum belonging to a public entity,Q63982911,http://wikidata.org/entity/Q124830213
+Q3619199,1,Antonio Avena,Italian historian,Q5,http://wikidata.org/entity/Q3619199
+Q4671277,4,academic institution,educational institution dedicated to education and research,Q117023459,http://wikidata.org/entity/Q4671277
+Q15911314,4,association,group of individuals (natural persons) or entities (legal persons) of all kinds,Q10541491,http://wikidata.org/entity/Q15911314
+Q751876,10,château,type of manor house mostly built by noble families for representative purposes,Q811102,http://wikidata.org/entity/Q751876
+Q41176,5,building,"structure, typically enclosed with a roof and walls, standing more or less permanently in one place",,http://wikidata.org/entity/Q41176
+Q3918,14,university,academic institution for further education,Q112872396,http://wikidata.org/entity/Q3918
+Q991937,2,German Historical Institute,independent academic research institutes of the Max Weber Foundation,Q4671277,http://wikidata.org/entity/Q991937
+Q153562,4,opera house,theatre building used for opera performances,,http://wikidata.org/entity/Q153562
+Q62078547,4,public research university,type of higher learning institution; research university predominantly funded by public means,Q130388971,http://wikidata.org/entity/Q62078547
+Q615150,2,land-grant university,institution of higher education in the United States designated by a state to receive the benefits of the Morrill Acts of 1862 and 1890,,http://wikidata.org/entity/Q615150
+Q23002039,2,public educational institution of the United States,U.S. public educational institution,,http://wikidata.org/entity/Q23002039
+Q3867560,11,Italian national museum,Wikimedia list article,Q13406463,http://wikidata.org/entity/Q3867560
+Q108860593,7,museum of modern art,type of museum,Q63982911,http://wikidata.org/entity/Q108860593
+Q121076356,8,Istituto museale ad autonomia speciale,,,http://wikidata.org/entity/Q121076356
+Q740437,3,pinacotheca,public art gallery,Q63982911,http://wikidata.org/entity/Q740437
+Q124830411,10,Museum of the Italian Ministry of Culture,,Q63982911,http://wikidata.org/entity/Q124830411
+Q209465,2,campus,cluster of buildings and land used by an educational institution,,http://wikidata.org/entity/Q209465
+Q1767829,12,comprehensive university,type of university where it is possible to study the most basic scientific disciplines,Q130388971,http://wikidata.org/entity/Q1767829
+Q115427560,2,University of Excellence,University which is considered to be excellence according to the Excellence University Initiative,Q705657,http://wikidata.org/entity/Q115427560
+Q875538,25,public university,university predominantly funded by public means,Q130388971,http://wikidata.org/entity/Q875538
+Q63749,1,"Rupert I, Elector Palatine",Elector Palatine,Q5,http://wikidata.org/entity/Q63749
+Q114053,1,Johann Kirchmann,German librarian and writer (1575-1643),Q5,http://wikidata.org/entity/Q114053
+Q2642601,1,Alexander Lüneburg,German politician,Q5,http://wikidata.org/entity/Q2642601
+Q1717544,1,Jürgen Pavels,politician (1568-1645),Q5,http://wikidata.org/entity/Q1717544
+Q1323071,1,Georg Stampel,,Q5,http://wikidata.org/entity/Q1323071
+Q160742,14,abbey,"monastery or convent, under the authority of an abbot or an abbess",,http://wikidata.org/entity/Q160742
+Q304409,1,Leopold II,Margrave of Austria,Q5,http://wikidata.org/entity/Q304409
+Q2683710,1,,,Q11204,http://wikidata.org/entity/Q2683710
+Q124936,4,major basilica,title given to the four highest-ranking Catholic churches,Q3320743,http://wikidata.org/entity/Q124936
+Q2713379,4,papal basilica,,,http://wikidata.org/entity/Q2713379
+Q1492823,4,ecclesiastical district,Christian administrative territorial entity of any size or name,Q121144598,http://wikidata.org/entity/Q1492823
+Q840482,2,shrine of Our Lady,typically Catholic shrines,Q811102,http://wikidata.org/entity/Q840482
+Q167065,1,Sixtus III,Pope and bishop of Rome from 432 to 440,Q5,http://wikidata.org/entity/Q167065
+Q1156831,2,umbrella organization,"organization that consists of several thematically, professionally, or regionally related sub-organizations",Q17197366,http://wikidata.org/entity/Q1156831
+Q3152824,6,cultural institution,organization that works for the preservation or promotion of culture,Q117023459,http://wikidata.org/entity/Q3152824
+Q7315155,1,research center,facility dedicated to research,Q134496690,http://wikidata.org/entity/Q7315155
+Q43899662,1,Antonio Fanna,,Q5,http://wikidata.org/entity/Q43899662
+Q3052382,2,fonds,"aggregation of records, documents, or works originating from the same creator",Q59211454,http://wikidata.org/entity/Q3052382
+Q17105874,2,cultural history museum,type of museum,Q63982911,http://wikidata.org/entity/Q17105874
+Q18233199,2,state museum,museum owned by a state organization,Q63982911,http://wikidata.org/entity/Q18233199
+Q44530,1,Maximilian II of Bavaria,King of Bavaria between 1848 and 1864 (1811–1864),Q5,http://wikidata.org/entity/Q44530
+Q2088357,6,musical ensemble,"group of people who perform instrumental and/or vocal music, with the ensemble typically known by a distinct name",Q17197366,http://wikidata.org/entity/Q2088357
+Q2495568,6,universal library,library with universal collections,,http://wikidata.org/entity/Q2495568
+Q1438040,9,research library,library that collects materials on one or more subjects to support scholarly or scientific research,Q25397890,http://wikidata.org/entity/Q1438040
+Q1769139,4,reference library,collection of texts that can be consulted on site,Q25397890,http://wikidata.org/entity/Q1769139
+Q1386438,8,state library of Germany,,,http://wikidata.org/entity/Q1386438
+Q2577114,4,co-cathedral,type of church,,http://wikidata.org/entity/Q2577114
+Q120560,10,minor basilica,title given to some Roman Catholic churches,Q3320743,http://wikidata.org/entity/Q120560
+Q317557,8,parish church,church which acts as the religious centre of a parish,,http://wikidata.org/entity/Q317557
+Q2742167,2,religious community,group of people who practice the same religious faith,Q121144515,http://wikidata.org/entity/Q2742167
+Q817056,4,benedictine abbey,monastic community of monks of the Benedictine order,Q160742,http://wikidata.org/entity/Q817056
+Q20057682,1,regional library,type of library,,http://wikidata.org/entity/Q20057682
+Q166853,1,"Albert III, Duke of Austria",Duke of Austria,Q5,http://wikidata.org/entity/Q166853
+Q55876909,2,Catholic parish church,church building that acts as the religious center of a Catholic parish,Q811102,http://wikidata.org/entity/Q55876909
+Q1129743,2,filial church,church building that is not the main church of a parish,Q811102,http://wikidata.org/entity/Q1129743
+Q56395672,2,Jesuit church,"church founded by the Society of Jesus, generally attached to a school",Q811102,http://wikidata.org/entity/Q56395672
+Q1679899,2,,,,http://wikidata.org/entity/Q1679899
+Q14623646,4,fictional organization,organization which only appears in works of fiction,Q133091164,http://wikidata.org/entity/Q14623646
+Q641347,4,local Internet registry,"organization that has been allocated a block of IP addresses by a regional Internet registry, and assigns most parts of this block to its own customers",,http://wikidata.org/entity/Q641347
+Q170072,6,Dutch Republic,predecessor state of the Netherlands (1581–1795),Q3624078,http://wikidata.org/entity/Q170072
+Q1143635,2,business school,university-level institution granting degrees in business administration,Q112872396,http://wikidata.org/entity/Q1143635
+Q334383,2,abbey church,"church of an abbey (monastery), seat of an abbot",,http://wikidata.org/entity/Q334383
+Q2496382,2,university church,,,http://wikidata.org/entity/Q2496382
+Q58911074,2,Denkmalfachbehörde,cultural heritage office on state level in Germany,,http://wikidata.org/entity/Q58911074
+Q866133,4,university museum,museum run within a university,Q63982911,http://wikidata.org/entity/Q866133
+Q570116,8,tourist attraction,place of interest where tourists visit,,http://wikidata.org/entity/Q570116
+Q21713103,1,Cambridge,"district in Cambridgeshire, England",Q1187580,http://wikidata.org/entity/Q21713103
+Q349086,1,Leopold III,Margrave of Austria,Q5,http://wikidata.org/entity/Q349086
+Q5219006,1,Daniel Wadsworth,American artist and collector,Q5,http://wikidata.org/entity/Q5219006
+Q3889692,4,college of music,Higher education institution for the study of music,,http://wikidata.org/entity/Q3889692
+Q604177,2,municipal archive,accumulation of historical records of a town or city,Q636033,http://wikidata.org/entity/Q604177
+Q28564,2,public library,"free community resource offering access to books, media, and information, promoting literacy and education for all ages",Q25397890,http://wikidata.org/entity/Q28564
+Q11396180,2,library branch,"branch of a library organisation, e.g. in a city, town of village",Q25397890,http://wikidata.org/entity/Q11396180
+Q15823107,2,Carmelite monastery,house or foundation of the Carmelite friars,,http://wikidata.org/entity/Q15823107
+Q107591,1,Hans von und zu Aufseß,"German antiquarian (1801-1872), founder of the Germanisches Nationalmuseum, Nuremberg, Germany",Q5,http://wikidata.org/entity/Q107591
+Q32798322,2,,type of quango in the Netherlands,,http://wikidata.org/entity/Q32798322
+Q1966910,2,national academy,"organizational body, usually operating with state financial support and approval, that co-ordinates scholarly research activities and standards for academic disciplines, most frequently in the sciences but also the humanities",,http://wikidata.org/entity/Q1966910
+Q96888669,4,academic publisher,publisher whose works are primarily produced and consumed by academics,,http://wikidata.org/entity/Q96888669
+Q7729,1,Louis Bonaparte,"king of Holland, brother of Napoleon Bonaparte, member of the House of Buonaparte (1778-1846)",Q5,http://wikidata.org/entity/Q7729
+Q38723,6,higher education institution,"institution that provides higher education (e.g., universities, vocational universities, community colleges, liberal arts colleges, institutes of technology, and others)",Q112872396,http://wikidata.org/entity/Q38723
+Q1406569,2,leper colony,place to quarantine people with leprosy,,http://wikidata.org/entity/Q1406569
+Q2288140,2,Federal Scientific Institute,denotes Belgian scientific and cultural organisations,,http://wikidata.org/entity/Q2288140
+Q1789476,2,bibliographic database,database providing an authoritative source of bibliographic information,,http://wikidata.org/entity/Q1789476
+Q71084,1,First French Empire,"empire of Napoleon I of France, from 1804 to 1815",Q3024240,http://wikidata.org/entity/Q71084
+Q15864,1,United Kingdom of the Netherlands,Kingdom of the Netherlands from 1815 to 1839,Q3024240,http://wikidata.org/entity/Q15864
+Q16147981,2,royal chapel,"chapel associated with a monarch, a royal court, or in a royal palace",,http://wikidata.org/entity/Q16147981
+Q18654830,2,palatine chapel,chapel pertaining to a palace,,http://wikidata.org/entity/Q18654830
+Q243122,1,Ferdinand III of Castille,"13th-century saint and king of Castile, Leon and Galicia",Q5,http://wikidata.org/entity/Q243122
+Q56242063,2,Protestant church building,church building affiliated with a protestant denomination,Q811102,http://wikidata.org/entity/Q56242063
+Q29999,5,Kingdom of the Netherlands,transcontinental sovereign state and constitutional monarchy,Q3624078,http://wikidata.org/entity/Q29999
+Q15304003,2,country of the Kingdom of the Netherlands,constituent country of the Kingdom of the Netherlands,,http://wikidata.org/entity/Q15304003
+Q6256,8,country,distinct territorial body or political entity,Q15617994,http://wikidata.org/entity/Q6256
+Q117531692,2,creative residency,cultural venue promoting residency programmes,Q151885,http://wikidata.org/entity/Q117531692
+Q271676,1,Charles Le Brun,17th-century French painter and art theorist (1619—1690),Q5,http://wikidata.org/entity/Q271676
+Q1015103,2,castle chapel,chapel built within a castle,,http://wikidata.org/entity/Q1015103
+Q2772772,2,military museum,museum of military and war,Q63982911,http://wikidata.org/entity/Q2772772
+Q614316,3,private museum,a museum owned by an individual or organization,Q63982911,http://wikidata.org/entity/Q614316
+Q3914,2,school,institution for the education of students by teachers,Q122754124,http://wikidata.org/entity/Q3914
+Q2348743,2,Stiftsgymnasium,gymnasium supportet/operated by a foundation,,http://wikidata.org/entity/Q2348743
+Q28653,3,mendicant order,Type of religious lifestyle,Q23847174,http://wikidata.org/entity/Q28653
+Q315640,1,Francisco,"Italian mendicant friar, founder of the Order of Minims",Q5,http://wikidata.org/entity/Q315640
+Q98807406,2,oratory,church belonging to a community within the Congregation of the Oratory of Saint Philip Neri,Q811102,http://wikidata.org/entity/Q98807406
+Q375307,2,Ferenc Széchényi,Hungarian philanthropist (1754–1820),Q5,http://wikidata.org/entity/Q375307
+Q3624078,6,sovereign state,state that has the highest authority over a territory,,http://wikidata.org/entity/Q3624078
+Q20181813,6,colonial power,country that controls colonies,,http://wikidata.org/entity/Q20181813
+Q51576574,6,Mediterranean country,country located near the Mediterranean Sea,,http://wikidata.org/entity/Q51576574
+Q7270,6,republic,form of government where the head of state is elected,Q183039,http://wikidata.org/entity/Q7270
+Q730706,1,London Borough of Southwark,borough in the London Region in England,Q211690,http://wikidata.org/entity/Q730706
+Q132296770,2,Roman Catholic monastery,monastery held by Roman Catholic monks,Q811102,http://wikidata.org/entity/Q132296770
+Q907116,2,Monument (Spain),Spanish heritage structures of cultural interest and legal figure of protection for this kind of heritage. Subcategory of BIC,Q30634609,http://wikidata.org/entity/Q907116
+Q20819922,2,opera company,group or organization that produces and stages operas,Q105756498,http://wikidata.org/entity/Q20819922
+Q1666235,1,Johann I. von Egloffstein,,Q5,http://wikidata.org/entity/Q1666235
+Q59181052,1,Ugo Levi,Member of the Venetian jewish upper middle class of the 20th century.,Q5,http://wikidata.org/entity/Q59181052
+Q59644055,1,Olga Brunner,Middle class Venetian jewish of the XX Century,Q5,http://wikidata.org/entity/Q59644055
+Q2822241,2,academy of fine arts,academy specializing in fine arts,,http://wikidata.org/entity/Q2822241
+Q321520,1,Peter Strudel,Austrian artist (1660-1714),Q5,http://wikidata.org/entity/Q321520
+Q811979,4,architectural structure,human-designed and -made structure,Q111972893,http://wikidata.org/entity/Q811979
+Q1763828,2,multi-purpose hall,"building usable for various events (sports, culture, etc.)",,http://wikidata.org/entity/Q1763828
+Q135456436,2,musical society,organizations formed for the promotion or performance of music,,http://wikidata.org/entity/Q135456436
+Q2079957,1,William I of the Netherlands,King of the Netherlands and Grand Duke of Luxembourg 1815–1840 (1772-1843),Q5,http://wikidata.org/entity/Q2079957
+Q105763925,2,conservation library,type of library,Q25397890,http://wikidata.org/entity/Q105763925
+Q380829,2,private library,library held by individual(s) or private organisations for members only,Q25397890,http://wikidata.org/entity/Q380829
+Q4989906,4,monument,"imposing structure created to commemorate a person or event, or used for that purpose",,http://wikidata.org/entity/Q4989906
+Q3645846,1,Bruno Molajoli,Italian art historian (1905-1985),Q5,http://wikidata.org/entity/Q3645846
+Q868557,2,music festival,festival oriented towards music,Q108680062,http://wikidata.org/entity/Q868557
+Q112572558,2,Departments of the Roman Curia,department,Q118905629,http://wikidata.org/entity/Q112572558
+Q4002648,2,office of the Roman Curia,three specific departments of the Roman Curia,Q118905629,http://wikidata.org/entity/Q4002648
+Q15487029,2,patriarchal basilica,,,http://wikidata.org/entity/Q15487029
+Q162090,1,Miltiades,pope,Q5,http://wikidata.org/entity/Q162090
+Q15893266,1,former entity,entity that no longer operates or is terminated,Q86098365,http://wikidata.org/entity/Q15893266
+Q210588,1,umbrella term,term that brings a broad range of disparate cases under a single headword,Q137426749,http://wikidata.org/entity/Q210588
+Q2061186,1,religious order,subgroup within a larger confessional community with a distinctive high-religiosity lifestyle and clear membership,,http://wikidata.org/entity/Q2061186
+Q391009,1,Catholic order,catholic religious community living under solemn vows,Q1530022,http://wikidata.org/entity/Q391009
+Q676555,1,Francis of Assisi,"Italian Catholic saint, friar, deacon and preacher and founder of the Franciscan Order (1181/2–1226)",Q5,http://wikidata.org/entity/Q676555
+Q3167873,1,Jean-Marie de Silguy,French engineer and art collector (1785-1864),Q5,http://wikidata.org/entity/Q3167873
+Q1030034,3,GLAM,"acronym for ""galleries, libraries, archives, and museums"" that refers to cultural institutions that have access to knowledge as their mission",Q3958441,http://wikidata.org/entity/Q1030034
+Q18123390,2,exhibition area,area of a museum open to visitors,,http://wikidata.org/entity/Q18123390
+Q708676,2,charitable organization,nonprofit organization with charitable purpose,Q10541491,http://wikidata.org/entity/Q708676
+Q4287745,2,medical organization,organization which supports the field of medicine,,http://wikidata.org/entity/Q4287745
+Q3329412,9,archaeological museum,museum specializing in archaeological artefacts,Q63982911,http://wikidata.org/entity/Q3329412
+Q2668072,4,collection,set of purposely gathered physical or digital objects with some common characteristics,Q1128340,http://wikidata.org/entity/Q2668072
+Q1254933,2,astronomical observatory,location used for observing celestial events,,http://wikidata.org/entity/Q1254933
+Q879146,2,Christian denomination,identifiable Christian body with common characteristics,,http://wikidata.org/entity/Q879146
+Q29300714,2,international association,association at international level,,http://wikidata.org/entity/Q29300714
+Q829080,2,professional association,mission-driven organization seeking to further a particular profession,Q17197366,http://wikidata.org/entity/Q829080
+Q856564,2,library association,organization of libraries for a common goal,,http://wikidata.org/entity/Q856564
+Q17455058,3,music museum,museum specialising in the history of music and musical instruments,Q63982911,http://wikidata.org/entity/Q17455058
+Q124750618,4,library of an Italian territorial body,,Q25397890,http://wikidata.org/entity/Q124750618
+Q135713224,2,specialized museum,a museum with a collection about a specific theme,Q63982911,http://wikidata.org/entity/Q135713224
+Q152727,1,Frederick William of Brandenburg,Elector of Brandenburg and Duke of Prussia,Q5,http://wikidata.org/entity/Q152727
+Q62659,1,"William Ernest, Duke of Saxe-Weimar",German Duke (1662–1728),Q5,http://wikidata.org/entity/Q62659
+Q19860854,1,destroyed building or structure,building or structure that has been demolished or destroyed,Q55553838,http://wikidata.org/entity/Q19860854
+Q3343298,5,non-departmental public body,UK quasi-autonomous non-governmental organisation,Q10541491,http://wikidata.org/entity/Q3343298
+Q202088,2,London Borough of Camden,borough in the London Region in England,Q211690,http://wikidata.org/entity/Q202088
+Q1200701,4,design museum,type of museum that focuses on design,Q63982911,http://wikidata.org/entity/Q1200701
+Q17000320,2,theatre museum,type of museum,Q63982911,http://wikidata.org/entity/Q17000320
+Q188801,1,Royal Borough of Kensington and Chelsea,royal borough in the London Region in England,Q211690,http://wikidata.org/entity/Q188801
+Q726941,1,François-Xavier Fabre,"French painter, teacher & philanthropist (1766-1837)",Q5,http://wikidata.org/entity/Q726941
+Q3371051,1,Paul Deschamps,French historian (1888-1974),Q5,http://wikidata.org/entity/Q3371051
+Q3386503,1,Pierre Paquet,French architect (1875–1959),Q5,http://wikidata.org/entity/Q3386503
+Q5341295,4,educational organization,body with an aim of education,Q17197366,http://wikidata.org/entity/Q5341295
+Q161491,1,Reading,"historic market town in Berkshire, England",Q1357964,http://wikidata.org/entity/Q161491
+Q1758432,1,Wokingham,"unitary authority area in Berkshire, England, UK",Q1006876,http://wikidata.org/entity/Q1758432
+Q35112127,1,historic building,structure of historic nature,Q811102,http://wikidata.org/entity/Q35112127
+Q317710,1,Maurice of Saxony,Duke of Saxony and later Elector of Saxony (1521–1553),Q5,http://wikidata.org/entity/Q317710
+Q92755865,3,religious museum,type of museum that documents the history and culture of religion,Q63982911,http://wikidata.org/entity/Q92755865
+Q5,6,human,"any single member of Homo sapiens, unique extant species of the genus Homo",Q55983715,http://wikidata.org/entity/Q5
+Q13226541,2,human spaceflight program,type of space program,,http://wikidata.org/entity/Q13226541
+Q21605492,2,NASA program,series of space missions of NASA,,http://wikidata.org/entity/Q21605492
+Q170584,2,project,"collaborative enterprise, frequently involving research or design, that is carefully planned to achieve a particular aim",,http://wikidata.org/entity/Q170584
+Q8436,2,family,"group of people affiliated by consanguinity, law, affinity, or co-residence",Q112807602,http://wikidata.org/entity/Q8436
+Q1292111,2,family of artists,family,,http://wikidata.org/entity/Q1292111
+Q59629223,1,Giovanni Antonio Remondini,Italian printmaker (1634–1711),Q5,http://wikidata.org/entity/Q59629223
+Q93709,1,Henry Clay Frick,American industrialist (1849-1919),Q5,http://wikidata.org/entity/Q93709
+Q1200957,2,tourist destination,place attracting many tourists,Q29028649,http://wikidata.org/entity/Q1200957
+Q36234,1,Charles III of Spain,King of Spain from 1759 to 1788,Q5,http://wikidata.org/entity/Q36234
+Q1497649,2,memory institution,institution which has curatorial care over a collection and whose mission it is to preserve the collection for future generations,,http://wikidata.org/entity/Q1497649
+Q17620767,2,State Archive,Italian State Archives,,http://wikidata.org/entity/Q17620767
+Q1329623,1,cultural center,facility where culture and arts are promoted (wide definition),,http://wikidata.org/entity/Q1329623
+Q13358519,2,parish,"district, where a priest preaches and exercises ecclesiastical duties",,http://wikidata.org/entity/Q13358519
+Q68295960,4,Swedish government agency,state-controlled organization that act independently to carry out the policies of the Government of Sweden,,http://wikidata.org/entity/Q68295960
+Q1180262,2,residenz,building or town where a sovereign ruler resided,,http://wikidata.org/entity/Q1180262
+Q1401585,2,medium regional center,concept,Q151885,http://wikidata.org/entity/Q1401585
+Q134626,2,district capital,capital of a German rural district,,http://wikidata.org/entity/Q134626
+Q116621859,1,Greater district town in Baden-Württemberg,,,http://wikidata.org/entity/Q116621859
+Q1060829,4,concert hall,,Q115211517,http://wikidata.org/entity/Q1060829
+Q56242275,2,Lutheran church,religious building of the Lutheran church,,http://wikidata.org/entity/Q56242275
+Q105378,1,Henry the Lion,"Welf dynasty, Duke of Saxony, as Henry III, and Duke of Bavaria, as Henry XII (1129-1195)",Q5,http://wikidata.org/entity/Q105378
+Q19754035,1,Martin Brimmer,American politician and first director of the Boston Museum of Fine Arts (1829–1896),Q5,http://wikidata.org/entity/Q19754035
+Q5076048,1,Charles Callahan Perkins,American artist,Q5,http://wikidata.org/entity/Q5076048
+Q162157,2,chartered company,company created to colonize and trade,Q10541491,http://wikidata.org/entity/Q162157
+Q6881511,2,enterprise,"organizational unit producing goods or services, which benefits from a certain degree of autonomy in decision-making, especially for the allocation of its current resources",Q2135465,http://wikidata.org/entity/Q6881511
+Q26236686,2,East India company,company trading between Europe and India,Q1700154,http://wikidata.org/entity/Q26236686
+Q891723,2,public company,company that offers its securities for sale to the general public,Q10541491,http://wikidata.org/entity/Q891723
+Q2223310,1,Oost-Indisch Huis,former headquarters of the Dutch East India Company in Amsterdam,Q41176,http://wikidata.org/entity/Q2223310
+Q17426609,1,Oost-Indisch Huis,former headquarters of the Dutch East India Company in Rotterdam,Q41176,http://wikidata.org/entity/Q17426609
+Q17330391,1,Oost-Indisch Huis,former headquarters of the Dutch East India Company in Delft,Q41176,http://wikidata.org/entity/Q17330391
+Q107956765,1,Oost-Indisch Huis,"local department headquarters of the VOC, Middelburg, Netherlands",Q41176,http://wikidata.org/entity/Q107956765
+Q107970060,1,Oost-Indisch Huis,"local department headquarters of the VOC, Enkhuizen, Netherlands",Q41176,http://wikidata.org/entity/Q107970060
+Q107970292,1,Oost-Indisch Huis,former headquarters of the Dutch East India Company in Hoorn,Q41176,http://wikidata.org/entity/Q107970292
+Q2208411,2,heritage library,library that preserves specific elements from a collection permanently,,http://wikidata.org/entity/Q2208411
+Q454645,1,Titus Brandsma,"Dutch Carmelite friar, Catholic priest, professor of philosophy and saint (1881–1942)",Q5,http://wikidata.org/entity/Q454645
+Q1666019,2,pressure group,"class, group, or organization that wants to influence public policy and state action in its favor",,http://wikidata.org/entity/Q1666019
+Q53251146,2,parliamentary archives,political archives,,http://wikidata.org/entity/Q53251146
+Q115456878,2,legislative branch agency,public organization type in the U.S.,,http://wikidata.org/entity/Q115456878
+Q505976,1,"Christian Albert I, Duke of Schleswig-Holstein-Gottorp",duke of Schleswig-Holstein-Gottorp,Q5,http://wikidata.org/entity/Q505976
+Q583157,2,regional council,elected assembly of a French region,,http://wikidata.org/entity/Q583157
+Q1007870,2,art gallery,place where art is exhibited and sometimes also sold,,http://wikidata.org/entity/Q1007870
+Q223293,1,"Filippo I, Duke of Parma","Monarch of Parma, Piacenza",Q5,http://wikidata.org/entity/Q223293
+Q2917176,2,savings bank,type of financial institution in Spain,Q10541491,http://wikidata.org/entity/Q2917176
+Q22687,2,bank,financial institution that accepts deposits,,http://wikidata.org/entity/Q22687
+Q650241,2,financial institution,institution that provides financial services for its clients or members,Q17197366,http://wikidata.org/entity/Q650241
+Q64578911,2,former hospital,"building or architectural structure no longer used as a hospital, currently existing or not",,http://wikidata.org/entity/Q64578911
+Q180370,2,hospital,"building for pilgrims, travelers, or the needy; term originally reserved for similar establishments of the Knights Hospitallers",,http://wikidata.org/entity/Q180370
+Q1686006,2,summer residence,castle used mainly in Summer,,http://wikidata.org/entity/Q1686006
+Q18330146,2,cultural foundation,foundation for the promotion of culture,,http://wikidata.org/entity/Q18330146
+Q2586205,2,scientific library,research library,Q25397890,http://wikidata.org/entity/Q2586205
+Q180936,1,Saint Gall,Irish disciple and saint,Q5,http://wikidata.org/entity/Q180936
+Q34067897,1,Louis Hugot,"French archivist, librarian and historian",Q5,http://wikidata.org/entity/Q34067897
+Q17487523,2,conservatories with regional coverage,type of music school in France,,http://wikidata.org/entity/Q17487523
+Q3551775,2,university in France,public university in France,Q74817647,http://wikidata.org/entity/Q3551775
+Q3487903,1,Society of Bibliophiles,group of book hobbyists,,http://wikidata.org/entity/Q3487903
+Q18115193,1,Henri Helbig,Belgian historian and bibliophile (1813-1890),Q5,http://wikidata.org/entity/Q18115193
+Q20605499,1,Stanislas Bormans,Belgian archivist and historian,Q5,http://wikidata.org/entity/Q20605499
+Q3298839,1,Mathieu Lambert Polain,Belgian writer (1808–1872),Q5,http://wikidata.org/entity/Q3298839
+Q130279335,1,Épiphane Martial,belgian lawyer,Q5,http://wikidata.org/entity/Q130279335
+Q3548134,1,Ulysse Capitaine,Belgian historian (1828–1871),Q5,http://wikidata.org/entity/Q3548134
+Q748019,1,scientific society,society dealing with a special field of science,,http://wikidata.org/entity/Q748019
+Q1902446,2,plate glass university,group of universities established or expanded in the United Kingdom during the mid-twentieth century,,http://wikidata.org/entity/Q1902446
+Q3068077,1,Heslington,"village and civil parish within the City of York, in North Yorkshire, England",Q532,http://wikidata.org/entity/Q3068077
+Q66763728,1,Hinman B. Hurlbut,American businessman and a founder of the Cleveland Museum of Art,Q5,http://wikidata.org/entity/Q66763728
+Q80874005,1,John Huntington,American businessman and philanthropist (1832–1893),Q5,http://wikidata.org/entity/Q80874005
+Q66448841,1,Horace Kelley,American industrialist and philanthropist,Q5,http://wikidata.org/entity/Q66448841
+Q21794020,1,Jeptha Wade,"American entrepreneur, daguerreotypist and portrait painter (1811-1890)",Q5,http://wikidata.org/entity/Q21794020
+Q23954868,1,Jeptha Homer Wade II,"American financier, philanthropist, and art collector (1857–1926)",Q5,http://wikidata.org/entity/Q23954868
+Q105338594,2,diocesan library,type of library,Q25397890,http://wikidata.org/entity/Q105338594
+Q1700154,2,colonial society,,Q17197366,http://wikidata.org/entity/Q1700154
+Q219407,2,Ponzi scheme,fraudulent investment scheme that pays earlier investors with proceeds from later investors,Q130583773,http://wikidata.org/entity/Q219407
+Q51056,1,Franz Joseph I of Austria,Emperor of Austria and King of Hungary (1830-1916),Q5,http://wikidata.org/entity/Q51056
+Q18674739,2,event venue,"location suitable for hosting events, indoors or outdoors",,http://wikidata.org/entity/Q18674739
+Q1378975,2,convention center,building designed to hold a convention,,http://wikidata.org/entity/Q1378975
+Q52341833,4,state archives,archive of a state,Q636033,http://wikidata.org/entity/Q52341833
+Q27032392,2,regional archive,archive with a regional scope,Q636033,http://wikidata.org/entity/Q27032392
+Q1802122,2,German state agency,government agency of a German state,,http://wikidata.org/entity/Q1802122
+Q71738398,1,Johan Schoonderbeek,Dutch musician,Q5,http://wikidata.org/entity/Q71738398
+Q385994,2,special library,specialized library providing resources on a particular topic or discipline,Q25397890,http://wikidata.org/entity/Q385994
+Q9134984,2,secularized monastery,,,http://wikidata.org/entity/Q9134984
+Q445396,2,print room,"collection of prints, and sometimes drawings, watercolours and photographs",,http://wikidata.org/entity/Q445396
+Q44361,1,Ludwig I of Bavaria,King of Bavaria (1786-1868),Q5,http://wikidata.org/entity/Q44361
+Q2528876,1,Vittorio Cini,"Italian politician, entrepreneur and art collector (1885-1977)",Q5,http://wikidata.org/entity/Q2528876
+Q588140,1,science museum,museum devoted primarily to science,Q63982911,http://wikidata.org/entity/Q588140
+Q1970365,1,natural history museum,institution that displays exhibits of natural historical significance,Q63982911,http://wikidata.org/entity/Q1970365
+Q474430,1,Pieter Teyler van der Hulst,Dutch Mennonite cloth merchant and art collector (1702-1778),Q5,http://wikidata.org/entity/Q474430
+Q310326,1,Hans Sloane,"Irish botanist, doctor, and collector (1660-1753)",Q5,http://wikidata.org/entity/Q310326
+Q429834,1,Metropolitan Borough of Holborn,metropolitan borough in London,Q9046617,http://wikidata.org/entity/Q429834
+Q1664720,2,institute,organizational body created for a certain purpose,Q17197366,http://wikidata.org/entity/Q1664720
+Q223393,5,literary genre,category of literary composition,Q19478619,http://wikidata.org/entity/Q223393
+Q108329096,1,art genre by arts form,refers to a genre which is exactly the intersection between an art form and a more general art genre,Q19478619,http://wikidata.org/entity/Q108329096
+Q627436,4,field of work,particular area of activity in industry and science,Q19478619,http://wikidata.org/entity/Q627436
+Q15706467,1,biographical work,genre that dramatizes the life of an actual person or people,Q108466143,http://wikidata.org/entity/Q15706467
+Q20540385,1,non-fiction work,piece of literary work that consists in covering a specific subject in a plausible manner,Q110169000,http://wikidata.org/entity/Q20540385
+Q1047113,12,field of study,field limited to a specific area of ​​knowledge; specialization in an occupation or branch of learning; a specific use,Q110402867,http://wikidata.org/entity/Q1047113
+Q11862829,26,academic discipline,academic field of study or profession,Q110402867,http://wikidata.org/entity/Q11862829
+Q47728,3,hobby,regular leisure activity that is done usually for enjoyment,,http://wikidata.org/entity/Q47728
+Q82604,2,design,creation of a plan or convention for the construction of an object or a system; process of creation; act of creativity and innovation,Q1047113,http://wikidata.org/entity/Q82604
+Q862597,8,musical form,overall structure or plan of a piece of music,Q19478619,http://wikidata.org/entity/Q862597
+Q2001982,1,notation,system of symbols to represent facts or quantities,,http://wikidata.org/entity/Q2001982
+Q11177771,2,artistic technique,method by which art is produced,,http://wikidata.org/entity/Q11177771
+Q56055944,7,type of arts,"form of the arts distinguished by its medium of expression (e.g. literature, music, visual arts)",Q19478619,http://wikidata.org/entity/Q56055944
+Q268592,2,industry,"group of firms that produce a closely related set of raw materials, goods, or services",Q29028649,http://wikidata.org/entity/Q268592
+Q1914636,7,activity,series of actions done by an agent which results in an external change of state,Q116505632,http://wikidata.org/entity/Q1914636
+Q115211517,7,musical concept,type of artistic concept,,http://wikidata.org/entity/Q115211517
+Q2188189,1,musical work,"generic term for any work of art related to music, i.e. songs, compositions, groups of compositions, sheet music, melodies, albums, musical films, etc.",Q116474095,http://wikidata.org/entity/Q2188189
+Q2910675,1,unfinished creative work,creative work that has not been finished,,http://wikidata.org/entity/Q2910675
+Q30142173,1,sign of authenticity,,,http://wikidata.org/entity/Q30142173
+Q11341687,1,mark,medium of conveying meaning,,http://wikidata.org/entity/Q11341687
+Q2267705,7,field of study,field of study leading to a specific degree,,http://wikidata.org/entity/Q2267705
+Q173799,2,entertainment,activity that holds attention or gives pleasure,,http://wikidata.org/entity/Q173799
+Q2018526,2,arts,"group of creative disciplines in which human expression and creativity, usually influenced by culture (use Q2018526 for the general concept of art)",Q3958441,http://wikidata.org/entity/Q2018526
+Q188451,11,music genre,category that identifies pieces of music as belonging to a shared tradition or set of conventions,Q151885,http://wikidata.org/entity/Q188451
+Q7777573,2,theatrical genre,division and subdivisions of various forms of theater,Q19478619,http://wikidata.org/entity/Q7777573
+Q811102,1,type of building,Wikidata metaclass for building and architectural typology,Q5962346,http://wikidata.org/entity/Q811102
+Q57821,1,fortification,military constructions and buildings designed for defense in warfare and military bases,,http://wikidata.org/entity/Q57821
+Q96597597,1,castle courtyard,"inner courtyard of a castle, around which the different units are organized",Q391414,http://wikidata.org/entity/Q96597597
+Q91165,1,keep,type of fortified tower built within castles during the Middle Ages by European nobility,Q811102,http://wikidata.org/entity/Q91165
+Q57346,1,defensive wall,fortification used to protect an area from potential aggressors,,http://wikidata.org/entity/Q57346
+Q107487333,4,type of musical work/composition,Wikidata metaclass,Q19478619,http://wikidata.org/entity/Q107487333
+Q9730,2,classical music,broad tradition of Western art music,Q188451,http://wikidata.org/entity/Q9730
+Q207628,6,composed musical work,"original piece or work of music, either vocal or instrumental",Q116474095,http://wikidata.org/entity/Q207628
+Q115484611,2,music,"set of organized sounds considered melodic or, more generally, musical",,http://wikidata.org/entity/Q115484611
+Q108634029,1,gathering,act of bringing items together,,http://wikidata.org/entity/Q108634029
+Q60075825,1,Christian holy day,religious day within Christianity,Q134485872,http://wikidata.org/entity/Q60075825
+Q1197685,1,public holiday,"holiday generally established by law, usually a non-working day for most people",Q134485872,http://wikidata.org/entity/Q1197685
+Q5440532,1,federal holiday in the United States,federal holiday recognized by the Government of the USA,,http://wikidata.org/entity/Q5440532
+Q3010205,1,celebration,social event,,http://wikidata.org/entity/Q3010205
+Q106010,1,Christmas Eve,evening or entire day before Christmas Day,Q1197685,http://wikidata.org/entity/Q106010
+Q2703710,1,Christmas Day,Christian holiday occurring on 25 December,Q1445650,http://wikidata.org/entity/Q2703710
+Q1366863,1,Saint Stephen's Day,holiday occurring on 26 December,Q1445650,http://wikidata.org/entity/Q1366863
+Q15113728,1,Second Day of Christmas,holiday celebrated on 26 December,Q375011,http://wikidata.org/entity/Q15113728
+Q956699,1,Boxing Day,"bank or public holiday that occurs on 26 December, or the first or second weekday after Christmas Day",Q1197685,http://wikidata.org/entity/Q956699
+Q833053,2,theme,musical melody on which a composition is based,Q115211517,http://wikidata.org/entity/Q833053
+Q11019,2,machine,set of moving and fixed elements that uses energy to perform an intended action,Q104086571,http://wikidata.org/entity/Q11019
+Q4198689,1,metrological mechanism,,,http://wikidata.org/entity/Q4198689
+Q42622779,1,timepiece,device for measuring or recording the passage of time,,http://wikidata.org/entity/Q42622779
+Q115923123,1,decorative object,object used as decoration,,http://wikidata.org/entity/Q115923123
+Q33742,1,natural language,"language naturally spoken by humans, as opposed to ""constructed"" and ""formal"" languages",Q20829075,http://wikidata.org/entity/Q33742
+Q1288568,1,modern language,language in current use,Q20829075,http://wikidata.org/entity/Q1288568
+Q34770,2,language,"particular system of communication, often named for the region or peoples that use it",Q28923954,http://wikidata.org/entity/Q34770
+Q152559,1,macrolanguage,language scope defined in the ISO 639-3 standard,Q28923954,http://wikidata.org/entity/Q152559
+Q399495,1,standard language,language variety used by a population in their public discourse (for public purposes); standardized language that has at least one standard variety besides its other varieties; variety that has undergone standardization,Q20829075,http://wikidata.org/entity/Q399495
+Q1097949,1,literary language,"form of a language used in its literary writing, either a non-standard dialect or standardized variety of the language",Q20829075,http://wikidata.org/entity/Q1097949
+Q20162172,1,human language,"set of all languages currently or formerly spoken, written, or signed by humans (excluding computer languages and mathematical/logically-formal languages)",Q28923954,http://wikidata.org/entity/Q20162172
+Q1346342,1,Anglic,group of languages including English and Scots,Q25295,http://wikidata.org/entity/Q1346342
+Q5329170,1,Anglo-Frisian,group of West Germanic languages,Q25295,http://wikidata.org/entity/Q5329170
+Q7985,1,received pronunciation,standard accent for British English,Q16001535,http://wikidata.org/entity/Q7985
+Q7976,1,American English,set of dialects of the English language spoken in the United States,Q951873,http://wikidata.org/entity/Q7976
+Q44679,1,Australian English,set of varieties of the English language native to Australia,Q951873,http://wikidata.org/entity/Q44679
+Q1348800,1,Indian English,group of English dialects spoken primarily in the Indian subcontinent,Q33384,http://wikidata.org/entity/Q1348800
+Q44676,1,Canadian English,set of varieties of the English language native to Canada,Q34770,http://wikidata.org/entity/Q44676
+Q7979,1,British English,forms of the English language used in Britain,Q951873,http://wikidata.org/entity/Q7979
+Q1553250,1,Scottish English,varieties of English spoken in Scotland,Q33384,http://wikidata.org/entity/Q1553250
+Q665624,1,Hiberno-English,set of Irish-English dialects natively written and spoken within the island of Ireland,Q33384,http://wikidata.org/entity/Q665624
+Q2363292,1,Welsh English,dialect within the English language,Q33384,http://wikidata.org/entity/Q2363292
+Q7269768,1,Quebec English,form of the Germanic language as spoken in the Canadian province of Quebec,Q33384,http://wikidata.org/entity/Q7269768
+Q4567134,1,Caribbean English,varieties of English,Q1208380,http://wikidata.org/entity/Q4567134
+Q8002,1,African American Vernacular English,non-standard variety of English spoken by most working- and middle-class African Americans and some Black Canadians,Q4388326,http://wikidata.org/entity/Q8002
+Q23580217,1,European English,set of varieties of English used in Continental Europe,Q33384,http://wikidata.org/entity/Q23580217
+Q1156228,1,South African English,dialect and set of English dialects native to South Africans,Q33384,http://wikidata.org/entity/Q1156228
+Q12859294,1,Pakistani English,group of English language varieties spoken and written in Pakistan,Q33384,http://wikidata.org/entity/Q12859294
+Q7033019,1,Nigerian English,dialect of English spoken in Nigeria,Q33384,http://wikidata.org/entity/Q7033019
+Q44661,1,New Zealand English,dialect within the English language,Q33384,http://wikidata.org/entity/Q44661
+Q603200,1,Jamaican English,dialect,Q1288568,http://wikidata.org/entity/Q603200
+Q111911970,1,Belizean English,variety of English,Q33384,http://wikidata.org/entity/Q111911970
+Q1068863,1,Hong Kong English,variety of English,Q33384,http://wikidata.org/entity/Q1068863
+Q66724591,1,non-English,language is not English,,http://wikidata.org/entity/Q66724591
+Q110749524,1,show business profession,type of profession,Q24017414,http://wikidata.org/entity/Q110749524
+Q4801269,1,artistic director,person who directs a musical ensemble,Q66715801,http://wikidata.org/entity/Q4801269
+Q1776724,1,theatre manager,person who manages a theatre,Q28640,http://wikidata.org/entity/Q1776724
+Q2961975,1,business executive,"person responsible for running a business, or an aspect of it",Q28640,http://wikidata.org/entity/Q2961975
+Q47541952,1,producer,media and entertainment occupation,Q28640,http://wikidata.org/entity/Q47541952
+Q110295396,3,type of musical instrument,Wikidata metaclass,Q19478619,http://wikidata.org/entity/Q110295396
+Q34379,2,musical instrument,device created or adapted to make musical sounds,Q96251598,http://wikidata.org/entity/Q34379
+Q49447,2,world view,fundamental cognitive orientation of an individual or society encompassing the entirety of the individual or society's knowledge and point of view,Q151885,http://wikidata.org/entity/Q49447
+Q1387659,1,school of thought,group of people sharing common outlook on an academic issue or field,,http://wikidata.org/entity/Q1387659
+Q58927801,1,ethical theory,philosophically coherent set of propositions related to ethics or morality,Q33104279,http://wikidata.org/entity/Q58927801
+Q2198855,3,cultural movement,period and movement in cultural history,,http://wikidata.org/entity/Q2198855
+Q290509,1,antihumanism,"philosophical and social theory, critical of traditional humanism",Q5389993,http://wikidata.org/entity/Q290509
+Q71128988,1,pharmacological and toxicological phenomena and processes,"drug, toxin, and poison metabolism, and their interactions and effects on biological systems",,http://wikidata.org/entity/Q71128988
+Q851990,1,population group,demographic classification of people,Q112807602,http://wikidata.org/entity/Q851990
+Q134264207,1,class of human,collection of humans defined by common characteristics,Q19478619,http://wikidata.org/entity/Q134264207
+Q1516282,1,juvenile,"individual organism that has not yet reached its adult form, sexual maturity, size",Q1811014,http://wikidata.org/entity/Q1516282
+Q4263830,1,literary form,category of literary works distinguished by formal characteristics without consideration of content,Q19478619,http://wikidata.org/entity/Q4263830
+Q13136,1,reference work,genre of work to which one can refer for confirmed facts,Q223393,http://wikidata.org/entity/Q13136
+Q6423319,1,knowledge organization system,"generic term used in knowledge organization about authority files, classification schemes, thesauri, topic maps, ontologies etc.",Q96116695,http://wikidata.org/entity/Q6423319
+Q1063801,1,tertiary source,index or textual consolidation of primary and secondary sources,,http://wikidata.org/entity/Q1063801
+Q2217301,1,serial,"publication in any medium issued under the same title in a succession of discrete parts, usually numbered (or dated) and appearing at regular or irregular intervals with no predetermined conclusion",Q39725049,http://wikidata.org/entity/Q2217301
+Q18168594,1,lexicon,type of reference work,Q4263830,http://wikidata.org/entity/Q18168594
+Q1400264,1,artist collective,group of artists who create works together,Q16334295,http://wikidata.org/entity/Q1400264
+Q136653105,1,type of industry,metaclass for industry,Q24017414,http://wikidata.org/entity/Q136653105
+Q746359,1,music industry,companies and individuals that create and sell music and make money off of sales,Q136653105,http://wikidata.org/entity/Q746359
+Q839546,1,machine element,elementary component of a machine,Q44409287,http://wikidata.org/entity/Q839546
+Q239001,1,control panel,flat area where control or monitoring instruments are displayed,,http://wikidata.org/entity/Q239001
+Q88563556,1,,,,http://wikidata.org/entity/Q88563556
+Q4894405,1,journalism genre,"various journalism styles, fields or separate genres, in writing accounts of events",,http://wikidata.org/entity/Q4894405
+Q3059502,1,critique,"method of disciplined, systematic analysis of a written or oral discourse",Q483394,http://wikidata.org/entity/Q3059502
+Q107478770,1,type of document,type or class of documents,Q19478619,http://wikidata.org/entity/Q107478770
+Q110452794,2,form of creative work,Wikidata metaclass,Q19478619,http://wikidata.org/entity/Q110452794
+Q18593264,1,item of collection or exhibition,"defines an item, such as an object or document, that is a member of a collection or part of a repository",,http://wikidata.org/entity/Q18593264
+Q49848,1,document,form for preservation of structured and identified information,,http://wikidata.org/entity/Q49848
+Q3331189,1,"version, edition or translation","specific version of a work, resulting from its edition, adaptation, or translation; set of substantially similar copies of a work (use with P31 [""instance of""])",Q11723795,http://wikidata.org/entity/Q3331189
+Q110304307,1,two-dimensional visual artwork,"artwork primarily or entirely limited to two spatial dimensions; most paintings, drawings, prints, etc.",,http://wikidata.org/entity/Q110304307
+Q1668556,2,paper product,product made from paper,,http://wikidata.org/entity/Q1668556
+Q133492,1,letter,written message from one to another,Q223393,http://wikidata.org/entity/Q133492
+Q52560700,1,fold,sharp bend or curve in a material such that it lays over itself,,http://wikidata.org/entity/Q52560700
+Q686831,1,book design,"styling, formatting and designing the layout of a book's contents",Q1047113,http://wikidata.org/entity/Q686831
+Q998555,1,book illustration,illustration which appears in books,Q483394,http://wikidata.org/entity/Q998555
+Q116037313,1,arts and crafts toy,"toy that children can use to make things themselves, like drawings, paintings, works of crafts",Q63981612,http://wikidata.org/entity/Q116037313
+Q1523267,1,ephemera,things that are meant to exist or be used for only a short time,,http://wikidata.org/entity/Q1523267
+Q4671286,11,academic major,focus of academic study leading to a degree,,http://wikidata.org/entity/Q4671286
+Q2465832,3,branch of science,field of scientific study,Q110402867,http://wikidata.org/entity/Q2465832
+Q483394,2,genre,"category of creative works based on stylistic, thematic or technical criteria",Q19478619,http://wikidata.org/entity/Q483394
+Q105948247,1,knowledge system,systems of knowledge produced over time through interactions with other human beings,Q96116695,http://wikidata.org/entity/Q105948247
+Q24034552,1,mathematical concept,abstract entity in mathematics,Q23958852,http://wikidata.org/entity/Q24034552
+Q11696608,4,elements of music,"characteristic, dimension, or element taken as a part or component of music",Q115211517,http://wikidata.org/entity/Q11696608
+Q65313765,1,disharmony,opposite of harmony,Q115211517,http://wikidata.org/entity/Q65313765
+Q1824109,2,song form,"music form based on verse metrics (lines, stanzas) in common with the strophicity of dance music",Q862597,http://wikidata.org/entity/Q1824109
+Q5185279,1,poem,"form of literature, work of poetry, often composed of verses",Q4263830,http://wikidata.org/entity/Q5185279
+Q110592632,1,music of the Iberian Peninsula,music genre,Q75054287,http://wikidata.org/entity/Q110592632
+Q816264,1,formal science,"set of disciplines concerned with formal systems, such as logic, mathematics, and game theory",Q2465832,http://wikidata.org/entity/Q816264
+Q2878974,1,theoretical computer science,subfield of computer science and mathematics,Q123370638,http://wikidata.org/entity/Q2878974
+Q538722,1,applied computer science,"area of computer science that do not fall under the umbrella of theoretical computer science, but based on practical technical implementations",Q4671286,http://wikidata.org/entity/Q538722
+Q29431432,1,dyad,concrete group of 2 specific members,Q99469810,http://wikidata.org/entity/Q29431432
+Q1292119,1,style,"manner of expression particular to a specific period, group, or person",Q151885,http://wikidata.org/entity/Q1292119
+Q7777494,1,theatre music,"music for staged works, whether composed as an integral part of the work (e.g., operas) or to otherwise accompany or enhance it (e.g., incidental music)",Q188451,http://wikidata.org/entity/Q7777494
+Q6023295,2,funerary structure,ceremonial structure built for funerals or burials,,http://wikidata.org/entity/Q6023295
+Q5003624,1,memorial,"area or object, smaller than a monument, which serves as a focus for memory of something",,http://wikidata.org/entity/Q5003624
+Q108325,1,chapel,"small place, building or room of Christian fellowship or worship, may be attached or not to a larger institution or part of a building",Q811102,http://wikidata.org/entity/Q108325
+Q2196917,1,church chapel,part of church,Q50556809,http://wikidata.org/entity/Q2196917
+Q133575421,1,auxiliary chapel,all the chapels inside a church except the main chapel,Q50556809,http://wikidata.org/entity/Q133575421
+Q18783400,1,genre of sculpture,genre,Q19478619,http://wikidata.org/entity/Q18783400
+Q337060,1,perceptible physical object,entity that is physically perceptible,,http://wikidata.org/entity/Q337060
+Q11784425,1,physical model,tangible representation of an object or system,,http://wikidata.org/entity/Q11784425
+Q220659,1,archaeological artefact,something made or modified by humans and of archaeological interest,,http://wikidata.org/entity/Q220659
+Q8205328,1,artificial physical object,physical object made or shaped by humans,Q96251598,http://wikidata.org/entity/Q8205328
+Q11422,1,toy,object intended to be played with,Q63981612,http://wikidata.org/entity/Q11422
+Q17737,1,theory,"contemplative and rational type of abstract or generalizing thinking, or the results of such thinking",,http://wikidata.org/entity/Q17737
+Q3306516,1,pace,the tempo or rhythm that events happen,,http://wikidata.org/entity/Q3306516
+Q117898917,1,,,,http://wikidata.org/entity/Q117898917
+Q125542526,1,type of activity,meta class for activity,Q19478619,http://wikidata.org/entity/Q125542526
+Q9311671,1,residential child care community,type of residential care for children,,http://wikidata.org/entity/Q9311671
+Q217602,1,analysis,"process of applying analytical methods to existing data of a specific type, breaking a complex topic or substance into smaller parts in order to gain a better understanding of it",,http://wikidata.org/entity/Q217602
+Q33104279,1,philosophical concept,concept used in philosophy,Q137429456,http://wikidata.org/entity/Q33104279
+Q2146099,1,impersonation,taking on an identity that is not one's own,,http://wikidata.org/entity/Q2146099
+Q106238462,1,genre of piyyut,,Q19478619,http://wikidata.org/entity/Q106238462
+Q111972893,1,type of structure,Wikidata metaclass of arrangement and organization of interrelated elements in an object or system,Q19478619,http://wikidata.org/entity/Q111972893
+Q1639408,1,musical parameter,measurable aspect in music,Q115211517,http://wikidata.org/entity/Q1639408
+Q1254773,3,family of musical instruments,grouping of different but related types of instruments,Q24017414,http://wikidata.org/entity/Q1254773
+Q5307737,1,alcohol drinking establishment,business whose primary function is the serving of alcoholic beverages for consumption on the premises,,http://wikidata.org/entity/Q5307737
+Q1051772,1,chordophone,class of musical instruments that makes sound by way of a vibrating string or strings stretched between two points,Q1254773,http://wikidata.org/entity/Q1051772
+Q125092269,1,type of conflict,Wikidata metaclass for conflicts in various situations,Q19478619,http://wikidata.org/entity/Q125092269
+Q17524420,2,aspect of history,topic viewed from a historical point of view,Q19478619,http://wikidata.org/entity/Q17524420
+Q350604,1,armed conflict,conflict including violence where at least one of the acting groups is a state,Q125092269,http://wikidata.org/entity/Q350604
+Q1920219,3,social issue,problem that influences a considerable number of individuals within a society,Q130286945,http://wikidata.org/entity/Q1920219
+Q1190554,3,occurrence,occurrence of a fact or object in space-time; instantiation of a property in an object,,http://wikidata.org/entity/Q1190554
+Q15835236,1,military action,use of the armed forces as a means of executive power,,http://wikidata.org/entity/Q15835236
+Q17091170,1,group conflict,hostilities between different groups,Q125092269,http://wikidata.org/entity/Q17091170
+Q6428674,1,era,"span of time marked by people, events, geological periods, etc.",,http://wikidata.org/entity/Q6428674
+Q178561,1,battle,"part of a war which is well defined in duration, area and force commitment",Q125092269,http://wikidata.org/entity/Q178561
+Q105370834,1,war phase,,,http://wikidata.org/entity/Q105370834
+Q454,1,peace,state of harmony characterized by lack of violent conflict and freedom from fear of violence,Q129510955,http://wikidata.org/entity/Q454
+Q517596,1,mechanism,device designed to transform input forces and movement into a desired set of output forces and movement,,http://wikidata.org/entity/Q517596
+Q28640,4,profession,occupation requiring specialized training,Q19478619,http://wikidata.org/entity/Q28640
+Q11488158,2,corporate title,titles given in an organization to show what duties and responsibilities a person has,,http://wikidata.org/entity/Q11488158
+Q108290289,1,senior government officials,,Q108300140,http://wikidata.org/entity/Q108290289
+Q599151,1,official,someone who holds a high government office,Q12737077,http://wikidata.org/entity/Q599151
+Q372436,1,statesperson,civil servant or politician in high government offices,Q12737077,http://wikidata.org/entity/Q372436
+Q108163,1,proposition,idea that is true or false and may be expressed in a declarative sentence,Q33104279,http://wikidata.org/entity/Q108163
+Q321703,1,premise,statement that an argument claims will induce or justify a conclusion,,http://wikidata.org/entity/Q321703
+Q386724,1,work,intellectual or artistic creation,,http://wikidata.org/entity/Q386724
+Q96634632,1,psychology concept,concept used in psychology,Q137429456,http://wikidata.org/entity/Q96634632
+Q125161275,1,type of intelligence,Wikidata metaclass for intelligence or cleverness,Q19478619,http://wikidata.org/entity/Q125161275
+Q781413,1,cognitive process,,Q116505632,http://wikidata.org/entity/Q781413
+Q105756498,3,type of musical group,"Wikidata metaclass; type of musical group, band or ensemble, defined by genre, by instrumentation, or some other criteria",Q19478619,http://wikidata.org/entity/Q105756498
+Q108586636,1,form of event,"metaclass, grouping forms and types of events by specificity",Q19478619,http://wikidata.org/entity/Q108586636
+Q1656682,2,event,"temporary and scheduled happening, like a conference, festival, competition or similar",,http://wikidata.org/entity/Q1656682
+Q770723,1,auxiliary science of history,scholarly disciplines which help evaluate and use historical sources and are seen as auxiliary for historical research,Q11862829,http://wikidata.org/entity/Q770723
+Q1066186,2,study of history,academic discipline that studies past events,Q11862829,http://wikidata.org/entity/Q1066186
+Q216745,1,ostinato,"a melodic, rhythmic or harmonic motif that is constantly repeated in a composition or fragment",Q504514,http://wikidata.org/entity/Q216745
+Q466439,2,Extremism,ideology and behavior considered as extreme in a pejorative sense,Q7257,http://wikidata.org/entity/Q466439
+Q2571535,2,political crime,"offense against the state, its government, or the political system",,http://wikidata.org/entity/Q2571535
+Q86923152,2,risk source,"fundamental driver, circumstance or action that causes risks in a project, organization, or any other entity",Q112234259,http://wikidata.org/entity/Q86923152
+Q19890758,2,political activism,variety of activism focused on politics,Q179805,http://wikidata.org/entity/Q19890758
+Q909459,2,counter-terrorism,activity to defend against or prevent terrorist actions,,http://wikidata.org/entity/Q909459
+Q110401282,1,type of world view,Wikidata metaclass,Q19478619,http://wikidata.org/entity/Q110401282
+Q11042,2,culture,shared aspects of a society's way of life,Q151885,http://wikidata.org/entity/Q11042
+Q82821,2,tradition,custom passed down through generations,,http://wikidata.org/entity/Q82821
+Q5390013,1,belief system,set of mutually supportive beliefs,,http://wikidata.org/entity/Q5390013
+Q136485030,1,non-rational belief system,"a structured way of thinking and making sense of the world that is not primarily based on logic, empirical evidence, or scientific methods",Q2063340,http://wikidata.org/entity/Q136485030
+Q111133779,1,list of saints,a list of people noted for their holiness or virtue,,http://wikidata.org/entity/Q111133779
+Q565005,1,antireligion,"opposition to religion; used to describe opposition to organized religion, or to describe a broader opposition to any form of belief in the supernatural or the divine; distinct from atheism",Q49447,http://wikidata.org/entity/Q565005
+Q124490,1,violence,"destructive action characterized by lack of empathy and involving communication, manipulation, coercion and/or punishment",Q26256810,http://wikidata.org/entity/Q124490
+Q252000,1,oppression,control of people by others,,http://wikidata.org/entity/Q252000
+Q66715801,3,musical profession,musical vocation founded upon specialized musical training or mastery of an instrument,,http://wikidata.org/entity/Q66715801
+Q3529618,1,academic title,title to indicate the completion of a course of study or the extent of academic achievement,,http://wikidata.org/entity/Q3529618
+Q974144,1,educator,"occupation which teaches others knowledge, skills, and habits",Q28640,http://wikidata.org/entity/Q974144
+Q116751803,1,composing,cross-art creation of work of art,,http://wikidata.org/entity/Q116751803
+Q1745370,1,film stock,medium used for recording motion pictures,Q104481353,http://wikidata.org/entity/Q1745370
+Q830450,1,microform,"scaled-down reproductions of documents made for the purposes of transmission, storage, reading, and printing",,http://wikidata.org/entity/Q830450
+Q14632398,1,physical science,branch of natural science that studies non-living systems,Q2465832,http://wikidata.org/entity/Q14632398
+Q11351,1,organic chemistry,"subdiscipline within chemistry involving the scientific study of carbon-based compounds, hydrocarbons, and their derivatives",Q11790203,http://wikidata.org/entity/Q11351
+Q11372,1,physical chemistry,"study of macroscopic, atomic, subatomic, and particulate phenomena in chemical systems in terms of laws and concepts of physics",Q11790203,http://wikidata.org/entity/Q11372
+Q11165,1,inorganic chemistry,study of the synthesis and behavior of inorganic and organometallic compounds,Q11790203,http://wikidata.org/entity/Q11165
+Q369472,1,computational chemistry,branch of chemistry,Q11790203,http://wikidata.org/entity/Q369472
+Q321150,1,theoretical chemistry,branch of chemistry which develops and applies theoretical concepts,Q11790203,http://wikidata.org/entity/Q321150
+Q7094,1,biochemistry,study of chemical processes in living organisms,Q1665984,http://wikidata.org/entity/Q7094
+Q2346,1,analytical chemistry,"study of the separation, identification, and quantification of the chemical components of materials",Q11790203,http://wikidata.org/entity/Q2346
+Q910172,1,food chemistry,study of chemical processes and interactions of all biological and non-biological components of foods,Q11790203,http://wikidata.org/entity/Q910172
+Q321355,1,environmental chemistry,scientific study of the chemical and biochemical phenomena that occur in natural places,Q11790203,http://wikidata.org/entity/Q321355
+Q750446,1,polymer chemistry,"chemistry subdiscipline that deals with the structures, chemical synthesis and properties of polymers",Q11790203,http://wikidata.org/entity/Q750446
+Q4164871,2,position,social role with a set of powers and responsibilities within an organization,,http://wikidata.org/entity/Q4164871
+Q117023459,2,type of institution,Wikidata metaclass,Q24017414,http://wikidata.org/entity/Q117023459
+Q17587988,1,symmetry of music,,,http://wikidata.org/entity/Q17587988
+Q11072804,1,instrumental ensemble,musical ensemble consisting solely of instruments,Q105756498,http://wikidata.org/entity/Q11072804
+Q106834231,1,music by period of time,"overview of music from a historical perspective, where the described music cannot go beyond the historical scope",Q19478619,http://wikidata.org/entity/Q106834231
+Q3958441,1,economic sector,conceptual grouping of economic activities,Q5962346,http://wikidata.org/entity/Q3958441
+Q1801887,1,agriculture and forestry,industry combining agriculture and forestry,Q268592,http://wikidata.org/entity/Q1801887
+Q357279,1,cultivation,creation and maintenance of conditions that ensure the growth of certain organisms,,http://wikidata.org/entity/Q357279
+Q1792379,1,art genre,"form of art in terms of a medium, format or theme",Q19478619,http://wikidata.org/entity/Q1792379
+Q12737077,5,occupation,label applied to a person based on an activity they participate in,Q24017414,http://wikidata.org/entity/Q12737077
+Q215627,1,person,"being that has certain capacities or attributes constituting personhood (for humans, use Q5 [human] with P31 [instance of])",,http://wikidata.org/entity/Q215627
+Q3099911,1,scientific instrument,equipment specifically designed to facilitate the acquisition of scientific data,Q123588392,http://wikidata.org/entity/Q3099911
+Q628455,1,rite,ceremonial act marked by the liturgy of a religion,,http://wikidata.org/entity/Q628455
+Q331055,1,burial,ritual act of placing a dead person into the ground,Q1190554,http://wikidata.org/entity/Q331055
+Q207315,1,cremation,disposition of a dead body by burning,Q5282671,http://wikidata.org/entity/Q207315
+Q630013,1,burial at sea,method of burial,Q11621153,http://wikidata.org/entity/Q630013
+Q567603,1,unmarked grave,a grave without a marker or monument,,http://wikidata.org/entity/Q567603
+Q4998809,1,burial tree,tree or simple structure used for supporting corpses,Q201676,http://wikidata.org/entity/Q4998809
+Q124650093,1,funeral invoice,itemized expenses for a funeral,Q190581,http://wikidata.org/entity/Q124650093
+Q184418,1,coffin,"container for transport, laying out and the burial of a corpse",,http://wikidata.org/entity/Q184418
+Q203443,1,tombstone,"stele or marker, usually stone, that is placed over a grave",Q11028,http://wikidata.org/entity/Q203443
+Q855743,1,hearse,large funeral vehicle,,http://wikidata.org/entity/Q855743
+Q751982,1,funeral procession,public organized movement of mourners along a route as a funeral custom,Q25616502,http://wikidata.org/entity/Q751982
+Q12909644,1,political ideology,"ideology that advocates social, political and economic organization of human life",Q110401282,http://wikidata.org/entity/Q12909644
+Q3048444,1,school of economic thought,group of economic thinkers who share or shared a common perspective on the way economies work,Q130804054,http://wikidata.org/entity/Q3048444
+Q19659292,2,musical instrument part,component used in the construction of a musical instrument,,http://wikidata.org/entity/Q19659292
+Q131986441,1,pipe,name of a corps of musical instruments from the group of wind instruments,,http://wikidata.org/entity/Q131986441
+Q3689704,1,oral communication,communication using speech,,http://wikidata.org/entity/Q3689704
+Q4393922,1,vocal sound,sound produced by a human,,http://wikidata.org/entity/Q4393922
+Q29881373,1,vocal ensemble,musical ensemble consisting solely of singers,Q105756498,http://wikidata.org/entity/Q29881373
+Q106625143,1,choir singer,singer (male or female) in a choir made up of several people,Q12737077,http://wikidata.org/entity/Q106625143
+Q1076502,1,choir director,person who directs a choir,Q66715801,http://wikidata.org/entity/Q1076502
+Q181175,1,scalar quantity,quantity represented by a scalar: quantity having no direction,Q71758646,http://wikidata.org/entity/Q181175
+Q58415929,1,spatio-temporal entity,"object with a position in time and/or space, and possibly an extent in time and/or space",Q124711104,http://wikidata.org/entity/Q58415929
+Q2487752,1,independent variable,parameter that represents an arbitrary input of a mathematical expression,,http://wikidata.org/entity/Q2487752
+Q133250,1,sequence,ordered list of the same type of elements (finite or infinite),,http://wikidata.org/entity/Q133250
+Q3054889,1,measurable set,an element of the sigma-algebra of a measurable space,,http://wikidata.org/entity/Q3054889
+Q186081,1,time interval,"temporal extent having a beginning, an end and a duration",,http://wikidata.org/entity/Q186081
+Q216353,1,title,"qualified name, rank, or other indication of a class or role given to or inherited by a person, often affixed to a person's name",,http://wikidata.org/entity/Q216353
+Q17573152,1,believer,person who believes in religious doctrine,Q4392985,http://wikidata.org/entity/Q17573152
+Q4120621,1,rank,level in a hierarchy,,http://wikidata.org/entity/Q4120621
+Q2588761,1,tradesperson,worker that specializes in a particular trade or craft requiring skill,Q12737077,http://wikidata.org/entity/Q2588761
+Q44494,1,mill,"device that breaks solid materials into smaller pieces by grinding, crushing, or cutting",,http://wikidata.org/entity/Q44494
+Q2111778,1,production structure,general term that groups all structures built for the purpose of industry,Q29028649,http://wikidata.org/entity/Q2111778
+Q56822897,1,mill building,building that houses a mill,Q134496690,http://wikidata.org/entity/Q56822897
+Q2221906,1,geographic location,"point, line or area on or near Earth",Q96253971,http://wikidata.org/entity/Q2221906
+Q35825432,1,converter,"entity that converts, modifies, or transforms, producing an change of state, observable on the entity itself or on other objects",,http://wikidata.org/entity/Q35825432
+Q58635633,1,media profession,variety of occupations,Q29028649,http://wikidata.org/entity/Q58635633
+Q482980,2,author,writer of an original work,Q12737077,http://wikidata.org/entity/Q482980
+Q103810966,1,circus profession,,Q19478619,http://wikidata.org/entity/Q103810966
+Q483501,2,artist,person who engages in any form of artistic creation or practice,Q12737077,http://wikidata.org/entity/Q483501
+Q187588,1,social class,group of people categorized in a hierarchy based on socioeconomic factors,,http://wikidata.org/entity/Q187588
+Q127871326,1,estate of the realm,self-contained large social group in medieval and early modern Europe,,http://wikidata.org/entity/Q127871326
+Q874405,2,social group,two or more humans who interact with one another,Q33104129,http://wikidata.org/entity/Q874405
+Q16744001,1,noble,member of the nobility,Q189970,http://wikidata.org/entity/Q16744001
+Q113291098,1,noble women,women of the nobility,Q151885,http://wikidata.org/entity/Q113291098
+Q78088984,1,study type,"Wikidata metaclass and category of a research project, Wikidata metaclass for research",Q109542218,http://wikidata.org/entity/Q78088984
+Q2155640,1,empirical research,research using empirical evidence,Q78088984,http://wikidata.org/entity/Q2155640
+Q730675,1,quantitative research,all procedures for the numerical representation of empirical facts,Q1047113,http://wikidata.org/entity/Q730675
+Q3695082,1,sign,"semiotic concept; object, quality, event, or entity whose presence or occurrence indicates the probable presence or occurrence of something else; includes words, punctuation, expressions, gestures, notices, road signs, symbols, pictures, etc.",,http://wikidata.org/entity/Q3695082
+Q1272626,1,representation,"entity or process that portrays something else, usually in a simplified or approximated manner",Q151885,http://wikidata.org/entity/Q1272626
+Q6942574,1,music performance technique,ability of musicians to exert optimal control of their instruments and/or bodies,,http://wikidata.org/entity/Q6942574
+Q214961,1,improvisation,process of devising a solution to a requirement in an ad hoc fashion,,http://wikidata.org/entity/Q214961
+Q1792623,1,arts educational institution,educational institution of any level teaching any of the arts,Q112872396,http://wikidata.org/entity/Q1792623
+Q13226383,1,facility,"place, equipment, or service to support a specific function",Q12046615,http://wikidata.org/entity/Q13226383
+Q843227,1,trope,"use of figurative language – via word, phrase, or even an image – for artistic effect",,http://wikidata.org/entity/Q843227
+Q182545,1,stylistic device,"technique used to give an auxiliary meaning, idea, or feeling to a literal message, including assonance, consonance and alliteration",,http://wikidata.org/entity/Q182545
+Q1151067,2,rule,"prescription, including laws, regulations, instructions, guidelines, and social conventions; determinate method for performing any operation",,http://wikidata.org/entity/Q1151067
+Q6805989,1,media regulation,control or guidance of mass media by governments and other bodies,Q597339,http://wikidata.org/entity/Q6805989
+Q192581,1,job activity,activity done by a person to earn money,,http://wikidata.org/entity/Q192581
+Q22692,1,freedom of speech,right to communicate one's opinions and ideas and right to speak,Q29556,http://wikidata.org/entity/Q22692
+Q15831325,1,class used in Universal Decimal Classification,,,http://wikidata.org/entity/Q15831325
+Q33122512,2,social sciences and humanities,area of scholarly activity,Q2465832,http://wikidata.org/entity/Q33122512
+Q97929320,1,"humanities, arts and social sciences","group of humanities, arts and social sciences disciplines",,http://wikidata.org/entity/Q97929320
+Q8134,1,economics,"social science that studies the production, distribution, and consumption of goods and services",Q11862829,http://wikidata.org/entity/Q8134
+Q36442,1,political science,scientific study of politics,Q4671286,http://wikidata.org/entity/Q36442
+Q23404,2,anthropology,"scientific study of humans, human behavior, and societies",Q11862829,http://wikidata.org/entity/Q23404
+Q2729863,1,hostility,form of emotionally charged angry behavior,Q9332,http://wikidata.org/entity/Q2729863
+Q859781,1,bigotry,intolerance of different views or beliefs,Q31172650,http://wikidata.org/entity/Q859781
+Q169207,1,discrimination,differential treatment based on membership of a certain group,Q33104129,http://wikidata.org/entity/Q169207
+Q194189,1,sales,exchange of goods for money over a targeted time period,Q151885,http://wikidata.org/entity/Q194189
+Q15079592,1,strategic game,specific mathematical model of interactions and payoffs of optimizing agents,Q151885,http://wikidata.org/entity/Q15079592
+Q7915726,1,variable pricing,pricing strategy that relies on information exchange between buyers and sellers to set prices,,http://wikidata.org/entity/Q7915726
+Q3276328,1,bidding,"offer, often competitive in nature, to set a price for a product or service",,http://wikidata.org/entity/Q3276328
+Q1799072,2,method,planned path to reaching an objective,Q1047113,http://wikidata.org/entity/Q1799072
+Q189533,1,academic degree,status awarded for completion of a academic program of study and having an exam at the end,,http://wikidata.org/entity/Q189533
+Q136076495,1,musicking,act of using music,Q1914636,http://wikidata.org/entity/Q136076495
+Q944537,1,Geisteswissenschaften,set of human sciences that are traditional in German universities,Q11862829,http://wikidata.org/entity/Q944537
+Q1418771,1,culturology,"branch of social sciences concerned with the scientific understanding, description, analysis, and prediction of cultures as a whole",Q2465832,http://wikidata.org/entity/Q1418771
+Q108306867,1,tone (work),defined by the emotion the work tries to convey,,http://wikidata.org/entity/Q108306867
+Q622645,1,attitude,"psychological construct, a mental and emotional entity that inheres in, or characterizes a person",,http://wikidata.org/entity/Q622645
+Q1149305,1,disposition,tendency of a person to act in a specified way,,http://wikidata.org/entity/Q1149305
+Q9332,1,behavior,"range of actions by entities, living or not, within a system",Q96634632,http://wikidata.org/entity/Q9332
+Q968159,1,art movement,"tendency or style in art with a specific common philosophy or goal, possibly associated with a specific historical period",,http://wikidata.org/entity/Q968159
+Q11024,1,communication,act of conveying intended meaning,Q1413287,http://wikidata.org/entity/Q11024
+Q45762,1,dead language,"language that is no longer the native language of any community, even if it is still in use",Q20829075,http://wikidata.org/entity/Q45762
+Q436240,1,ancient language,language originated in times that may be referred to as ancient,Q20829075,http://wikidata.org/entity/Q436240
+Q839470,1,sacred language,language that is cultivated for religious reasons,Q2313235,http://wikidata.org/entity/Q839470
+Q33478,1,Latino-Faliscan,Italic language family consisting of Latin and Faliscan,Q25295,http://wikidata.org/entity/Q33478
+Q85380120,1,Southern European language,language group,Q941501,http://wikidata.org/entity/Q85380120
+Q78612407,1,Latin word,a word in Latin language,,http://wikidata.org/entity/Q78612407
+Q29448469,1,Latin or Greek word,word,,http://wikidata.org/entity/Q29448469
+Q133182,1,superstition,belief in irrational supernatural causality,,http://wikidata.org/entity/Q133182
+Q1752818,1,stylizing,adaptation of a shape or representation to a certain style or the abstract reduction of a template,,http://wikidata.org/entity/Q1752818
+Q17489659,2,group of works,any set of works,,http://wikidata.org/entity/Q17489659
+Q59220886,1,archaeological numismatics,,Q4785472,http://wikidata.org/entity/Q59220886
+Q819121,1,osteology,scientific study of bones,Q28598684,http://wikidata.org/entity/Q819121
+Q637284,1,archaeological science,archaeological sub-discipline based on natural science methodes,Q4785472,http://wikidata.org/entity/Q637284
+Q1345825,1,pseudoarchaeology,scientifically insubstantial theories interpreting archaeology,Q60031086,http://wikidata.org/entity/Q1345825
+Q129133491,1,ethnological term,technical term; word or phrase that is part of the terminology of ethnology,Q19478619,http://wikidata.org/entity/Q129133491
+Q11438,1,solid,solid matter; matter which does not deform easily under pressure,Q15831576,http://wikidata.org/entity/Q11438
+Q2424752,1,product,anything that can be offered to a market,Q29028649,http://wikidata.org/entity/Q2424752
+Q214609,2,material,"substance that can occur in different amounts, all with some similar [mixture of some] characteristics, and with which objects can be made",,http://wikidata.org/entity/Q214609
+Q125274801,1,fine ceramic,,Q1531349,http://wikidata.org/entity/Q125274801
+Q125275163,1,heavy clay ceramic,,Q1531349,http://wikidata.org/entity/Q125275163
+Q113145171,1,type of chemical entity,Wikidata metaclass that covers physical entities of interest in chemistry including molecular entities and pure chemical substances,Q19478619,http://wikidata.org/entity/Q113145171
+Q518350,1,copper-based alloy,metal alloy with copper as its principal component,Q214609,http://wikidata.org/entity/Q518350
+Q753,1,copper,chemical element with symbol Cu and atomic number 29,Q11344,http://wikidata.org/entity/Q753
+Q758,1,zinc,chemical element with symbol Zn and atomic number 30,Q11344,http://wikidata.org/entity/Q758
+Q11344,1,chemical element,"species of atoms having the same number of protons in the atomic nucleus and the same chemical properties, but not necessarily the same mass, or the same stability (or half-lifetime if they are unstable)",Q24017414,http://wikidata.org/entity/Q11344
+Q11426,1,metal,"element, compound, or alloy that is a good conductor of both electricity and heat",,http://wikidata.org/entity/Q11426
+Q12140,1,medication,"substance used to diagnose, cure, treat, or prevent disease",,http://wikidata.org/entity/Q12140
+Q3333419,1,primary metabolite,"intermediate or end product of metabolism which is directly involved in growth, development and reproduction",Q56256173,http://wikidata.org/entity/Q3333419
+Q124291,1,electrical conductor,material that allows the flow of electrical current,,http://wikidata.org/entity/Q124291
+Q161,1,fiber,natural or synthetic substance that is significantly longer than it is wide,Q19478619,http://wikidata.org/entity/Q161
+Q55721745,1,set of bells,class of musical instruments consisting of multiple bells,Q1254773,http://wikidata.org/entity/Q55721745
+Q7198871,1,melodic percussion instrument,percussion musical instrument that produces sounds with a definite pitch,Q1254773,http://wikidata.org/entity/Q7198871
+Q211606,1,social structure,aggregate of patterned social arrangements in society,Q111972893,http://wikidata.org/entity/Q211606
+Q106559804,1,person or organization,class of agents,,http://wikidata.org/entity/Q106559804
+Q1077064,1,charity,"voluntary act of giving help (short-term, emotional, immediate response, focused primarily on rescue and relief)",Q1914636,http://wikidata.org/entity/Q1077064
+Q265939,1,political patronage,support that one organization or individual bestows to another,,http://wikidata.org/entity/Q265939
+Q64513524,1,economic term,technical term; word or phrase that is part of economics terminology,Q137426749,http://wikidata.org/entity/Q64513524
+Q10541491,1,legal form,type of legal entity within certain legal system,Q24017414,http://wikidata.org/entity/Q10541491
+Q122898840,1,publicly owned company,company owned by any public body,Q64513524,http://wikidata.org/entity/Q122898840
+Q17990971,1,public enterprise,business organization wholly or partly owned by a government and controlled through a public authority,Q64513524,http://wikidata.org/entity/Q17990971
+Q56876011,1,private corporation,,,http://wikidata.org/entity/Q56876011
+Q836950,1,derivative work,work which incorporates or modifies a prior work,Q4897819,http://wikidata.org/entity/Q836950
+Q1213562,1,adaptation,"re-making of a work for a different purpose or audience, or in a different form",Q483394,http://wikidata.org/entity/Q1213562
+Q877729,1,handicraft,field of work where useful and decorative objects are made completely by hand or by using only simple tools,Q3958441,http://wikidata.org/entity/Q877729
+Q8187769,1,economic activity,human activity involving the transfer of goods or services,Q2976602,http://wikidata.org/entity/Q8187769
+Q31274273,1,bookbinding art,bookbinding as an art form,Q1792379,http://wikidata.org/entity/Q31274273
+Q12769393,1,end,termination of something,,http://wikidata.org/entity/Q12769393
+Q151885,2,concept,"semantic unit understood in different ways, e.g. as mental representation, ability or abstract object (philosophy)",Q23958852,http://wikidata.org/entity/Q151885
+Q937228,1,property,"predominant feature that characterizes a being, a thing, a phenomenon, etc. and which differentiates one being from another, one thing from another",Q19478619,http://wikidata.org/entity/Q937228
+Q2383867,1,cell death,biological processes that result in permanent cessation of all vital functions of a cell,Q2996394,http://wikidata.org/entity/Q2383867
+Q22269697,1,multi-organism process,biological process which involves another organism of the same or different species,Q2996394,http://wikidata.org/entity/Q22269697
+Q22269530,1,single-organism process,biological process that involves only one organism,,http://wikidata.org/entity/Q22269530
+Q113540506,1,philosophy of death,philosophical investigations regarding death,,http://wikidata.org/entity/Q113540506
+Q16889133,3,class,collection of items defined by common characteristics,Q19478619,http://wikidata.org/entity/Q16889133
+Q735,1,art,"general concept that creates expressive work for its beauty or emotional power (use Q838948 for the resulting work, use Q2018526 for the group of creative disciplines)",Q4671286,http://wikidata.org/entity/Q735
+Q7725634,1,literary work,written work read for enjoyment or edification,Q133449656,http://wikidata.org/entity/Q7725634
+Q355567,1,noble title,legal privilege given to some members in monarchial and princely societies,,http://wikidata.org/entity/Q355567
+Q3320743,1,title of honor,title bestowed upon individuals or organizations as an award in recognition of their merits,Q107467117,http://wikidata.org/entity/Q3320743
+Q2478141,1,aristocrat,a person who either possesses hereditary titles granted by a monarch or is related to such people,Q187588,http://wikidata.org/entity/Q2478141
+Q28495701,1,imperial prince,prince from an imperial family,Q28640,http://wikidata.org/entity/Q28495701
+Q3403409,1,royal prince,a prince from a royal family,Q355567,http://wikidata.org/entity/Q3403409
+Q294414,1,public office,elected or appointed political position,,http://wikidata.org/entity/Q294414
+Q82955,3,politician,person who holds or seeks positions in government,Q28640,http://wikidata.org/entity/Q82955
+Q48352,1,head of state,official who holds the highest-ranked protocol position in a sovereign state,Q136649946,http://wikidata.org/entity/Q48352
+Q1097498,1,ruler,person who reigns over a certain region or country,Q4164871,http://wikidata.org/entity/Q1097498
+Q5419944,1,executive president,president who exercises active executive power in an organization,,http://wikidata.org/entity/Q5419944
+Q4064242,1,American Enlightenment,intellectual thriving period in the United States,Q74817647,http://wikidata.org/entity/Q4064242
+Q1063038,1,Scottish Enlightenment,intellectual movement in 18th–19th century Scotland,Q74817647,http://wikidata.org/entity/Q1063038
+Q3796477,1,Polish Enlightenment,aspect of Polish history in the 18th-19th centuries,Q74817647,http://wikidata.org/entity/Q3796477
+Q3424747,1,Modern Greek Enlightenment,18th-century national revival and educational movement in Greece,Q2915955,http://wikidata.org/entity/Q3424747
+Q3560581,1,Russian Enlightenment,18th-century period of arts and sciences in Russia,Q74817647,http://wikidata.org/entity/Q3560581
+Q1322229,1,Spanish Enlightenment,intellectual and cultural movement in Spain,Q136329308,http://wikidata.org/entity/Q1322229
+Q472670,1,Haskalah,period of Jewish enlightenment (1770-1890),Q11514315,http://wikidata.org/entity/Q472670
+Q20574959,1,French Enlightenment,intellectual and cultural movement in 18th-century France,Q74817647,http://wikidata.org/entity/Q20574959
+Q855395,1,interpretation,"assignment of meanings to various concepts, symbols, or objects under consideration",Q33104279,http://wikidata.org/entity/Q855395
+Q2438541,2,manner of death,type of death (natural / not natural),Q24017414,http://wikidata.org/entity/Q2438541
+Q130583773,3,type of crime,Wikimedia metaclass for crime activities,Q19478619,http://wikidata.org/entity/Q130583773
+Q844482,2,killing,act of killing a living being,,http://wikidata.org/entity/Q844482
+Q74948922,2,violent death,death caused by violence,Q2438541,http://wikidata.org/entity/Q74948922
+Q29142,2,criminal attempt,occurs if a criminal has an intent to commit a crime and takes a substantial step toward completing the crime,Q11999303,http://wikidata.org/entity/Q29142
+Q17991521,1,tale,prose fiction that can be either rooted in oral tradition or created by an author,Q223393,http://wikidata.org/entity/Q17991521
+Q3306693,1,mirabilia,genre and tone in which the supernatural elements are accepted by the audience without questioning,Q20076756,http://wikidata.org/entity/Q3306693
+Q109588548,1,allegorical story,,Q223393,http://wikidata.org/entity/Q109588548
+Q109810475,1,customary folklore,sub-class of folklore,,http://wikidata.org/entity/Q109810475
+Q109810467,1,material folklore,sub-class of folklore,,http://wikidata.org/entity/Q109810467
+Q109810464,1,verbal folklore,cluster of words and phrases conforming to a traditional configuration recognized by both the speaker and the audience,,http://wikidata.org/entity/Q109810464
+Q44342,1,legend,genre of folklore featuring human actions within history,Q223393,http://wikidata.org/entity/Q44342
+Q2915955,1,philosophical movement,appearance or increased popularity of a specific school of philosophy,Q110401282,http://wikidata.org/entity/Q2915955
+Q50641,1,history of art,"history of human creation of works for aesthetic, communicative, or expressive purposes",Q17524420,http://wikidata.org/entity/Q50641
+Q659216,1,aerophone,musical instrument that produces sound from the vibration of a column of air within the instrument itself,Q1254773,http://wikidata.org/entity/Q659216
+Q16334295,1,group of humans,any set of human beings,,http://wikidata.org/entity/Q16334295
+Q10372568,1,society,group of animals who live together with some form of organisation,,http://wikidata.org/entity/Q10372568
+Q2990601,1,sexual risk behavior,sexual behavior risking contracting sexually transmitted disease or pregnancy,,http://wikidata.org/entity/Q2990601
+Q19862406,1,business activity,economic activity done by a businessperson,,http://wikidata.org/entity/Q19862406
+Q7833728,1,transactional sex,"sexual relationships involving gifts, money, or other services",,http://wikidata.org/entity/Q7833728
+Q859884,1,social exploitation,social relationship in which one agent takes unfair advantage of another agent,Q151885,http://wikidata.org/entity/Q859884
+Q181784,1,human trafficking,"trade of humans for the purpose of forced labor, sexual slavery, or commercial sexual exploitation for the trafficker or others",Q26256810,http://wikidata.org/entity/Q181784
+Q1741825,1,trafficking of children,"form of human trafficking defined as the ""recruitment, transportation, transfer, harboring, and/or receipt"" of a child for the purpose of exploitation",,http://wikidata.org/entity/Q1741825
+Q875521,1,sexual slavery,attachment of any ownership right over one or more people with the intent of coercing or otherwise forcing them to engage in sexual activities,,http://wikidata.org/entity/Q875521
+Q5801919,1,sex crime,crime of a sexual nature,Q130583773,http://wikidata.org/entity/Q5801919
+Q516367,1,André-Joseph Blavier,Belgian composer,Q5,http://wikidata.org/entity/Q516367
+Q1993558,1,Vergnies,"section of Froidchapelle, Belgium",Q2785216,http://wikidata.org/entity/Q1993558
+Q1241308,1,Passy,"neighborhood in Paris, France; originally a village on the outskirts of Paris, then a commune of Seine department",Q484170,http://wikidata.org/entity/Q1241308
+Q18528713,1,Thomas Arne,English upholsterer and theatre servant,Q5,http://wikidata.org/entity/Q18528713
+Q6232818,1,John Fawcett,British actor (1769-1793),Q5,http://wikidata.org/entity/Q6232818
+Q18674127,1,Margaret Kennedy,British singer and actress,Q5,http://wikidata.org/entity/Q18674127
+Q214917,22,playwright,person who writes plays,Q15839299,http://wikidata.org/entity/Q214917
+Q8178443,16,librettist,author of the libretto (words) of an opera or a similar extended musical composition,Q28640,http://wikidata.org/entity/Q8178443
+Q6581097,56,male,"to be used in ""sex or gender"" (P21) to indicate that the human subject is a male or ""semantic gender"" (P10339) to indicate that a word refers to a male person",Q48264,http://wikidata.org/entity/Q6581097
+Q281460,7,pipe organ,wind instrument that produces sound by driving pressurized air (called wind) through pipes selected via a keyboard,Q110295396,http://wikidata.org/entity/Q281460
+Q130191,2,Norwich,"city in Norfolk, England",Q515,http://wikidata.org/entity/Q130191
+Q81997,1,Boulogne-sur-Mer,"French commune in Pas-de-Calais, Hauts-de-France",Q484170,http://wikidata.org/entity/Q81997
+Q106311097,1,Henri Moreau,composer (1728-1803),Q5,http://wikidata.org/entity/Q106311097
+Q1525836,1,Giovanni Battista Casali,Italian composer,Q5,http://wikidata.org/entity/Q1525836
+Q3452020,1,Rue des Récollets,"thoroughfare in Liège, Belgium",Q83620,http://wikidata.org/entity/Q3452020
+Q316891,1,Montmorency,"commune in Val-d'Oise, France",Q484170,http://wikidata.org/entity/Q316891
+Q19974113,1,Fondation Lambert Darchis,Belgian foundation (created in 1699),Q157031,http://wikidata.org/entity/Q19974113
+Q19845384,1,Jean Marmontel,,Q5,http://wikidata.org/entity/Q19845384
+Q203182,1,Bort-les-Orgues,"commune in Corrèze, France",Q484170,http://wikidata.org/entity/Q203182
+Q544613,1,Saint-Aubin-sur-Gaillon,"commune in Eure, France",Q484170,http://wikidata.org/entity/Q544613
+Q788022,1,Bâtiments du Roi,French division of the Maison du Roi,Q327333,http://wikidata.org/entity/Q788022
+Q351733,1,House of Carafa,Italian noble family,Q13417114,http://wikidata.org/entity/Q351733
+Q28864754,1,Jérôme Guillard,French politician,Q5,http://wikidata.org/entity/Q28864754
+Q13144,1,Jesi,Italian comune,Q747074,http://wikidata.org/entity/Q13144
+Q72425,1,Pozzuoli,Italian comune,Q747074,http://wikidata.org/entity/Q72425
+Q170174,1,Papal States,territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870,Q3024240,http://wikidata.org/entity/Q170174
+Q333634,4,translator,person who translates written text from one language to another,Q137841866,http://wikidata.org/entity/Q333634
+Q32120,2,Martin Luther University Halle-Wittenberg,"university in the cities of Halle and Wittenberg, Germany",Q875538,http://wikidata.org/entity/Q32120
+Q309470,1,Johann Ambrosius Bach,"German musician, father to Johann Sebastian Bach (1645-1695)",Q5,http://wikidata.org/entity/Q309470
+Q1862395,1,Johann Christoph Bach III,Organist in Ohrdruf,Q5,http://wikidata.org/entity/Q1862395
+Q138197944,1,,,Q5,http://wikidata.org/entity/Q138197944
+Q108763503,1,Rust family,,Q8436,http://wikidata.org/entity/Q108763503
+Q551984,1,Steinbach-Hallenberg,municipality of Germany,Q42744322,http://wikidata.org/entity/Q551984
+Q1930990,1,Michèl Yost,French clarinetist,Q5,http://wikidata.org/entity/Q1930990
+Q708911,1,Bernhard Crusell,"Swedish-Finnish clarinetist, composer and translator (1775–1838)",Q5,http://wikidata.org/entity/Q708911
+Q17765219,1,colonial administrator,person who participates in administrating a colony,Q28640,http://wikidata.org/entity/Q17765219
+Q487596,3,dramaturge,"person fulfilling an advisory role regarding the literary or dramaturgical aspects of theatre, opera or dance productions or within a theatre, opera or dance organization",Q15839299,http://wikidata.org/entity/Q487596
+Q744738,2,encyclopédistes,contributors to the development of the Encyclopédie from June 1751 to December 1765,Q2198855,http://wikidata.org/entity/Q744738
+Q820042,1,Salins-les-Bains,"commune in Jura, France",Q484170,http://wikidata.org/entity/Q820042
+Q213307,1,Sainte-Menehould,"commune in Marne, France",Q484170,http://wikidata.org/entity/Q213307
+Q15967935,1,Angélique-Dorothée Babaud,French poet and salon-holder,Q5,http://wikidata.org/entity/Q15967935
+Q71560588,1,Charlotte Babaud de La Chaussade,,Q5,http://wikidata.org/entity/Q71560588
+Q1626130,1,homme de lettres,,Q28640,http://wikidata.org/entity/Q1626130
+Q47064,2,military personnel,people who serve in an organized armed military force,Q28640,http://wikidata.org/entity/Q47064
+Q1511216,1,courtier,person who is often in attendance at the court of a king or other royal personage,Q12737077,http://wikidata.org/entity/Q1511216
+Q3159509,1,Jacques Masson,French private banker of Genevan origin,Q5,http://wikidata.org/entity/Q3159509
+Q47528270,1,Marie Boësnier,,Q5,http://wikidata.org/entity/Q47528270
+Q7732,1,Louis XVI of France,"King of France and Navarre from 1774 to 1791, then King of the French from 1791 to 1792 (1754-1793)",Q5,http://wikidata.org/entity/Q7732
+Q2983728,1,collège d’Harcourt,college of the University of Paris,Q2983546,http://wikidata.org/entity/Q2983728
+Q137399087,1,,,Q5,http://wikidata.org/entity/Q137399087
+Q961325,1,Holešov,town in the Czech Republic,Q3957,http://wikidata.org/entity/Q961325
+Q486450,1,Baden,"municipality in Lower Austria, Austria",Q667509,http://wikidata.org/entity/Q486450
+Q153136,1,Habsburg monarchy,monarchy in Europe (1282–1918),Q5156764,http://wikidata.org/entity/Q153136
+Q131964,1,Austrian Empire,Central European multinational Empire from 1804 to 1867,Q3624078,http://wikidata.org/entity/Q131964
+Q55853412,1,Alois Ferdinand Kiesewetter,(1737-1793),Q5,http://wikidata.org/entity/Q55853412
+Q207145,1,Béthune,"commune in Pas-de-Calais, France",Q484170,http://wikidata.org/entity/Q207145
+Q1024881,1,Velvary,town in the Czech Republic,Q5153359,http://wikidata.org/entity/Q1024881
+Q673075,1,Rohrau,"municipality in Bruck/Leitha District, Lower Austria, Austria",Q562061,http://wikidata.org/entity/Q673075
+Q502662,1,Bad Salzungen,municipality of Germany,Q4946461,http://wikidata.org/entity/Q502662
+Q19279,1,Aversa,Italian comune,Q747074,http://wikidata.org/entity/Q19279
+Q661083,1,Claude Rameau,French organist,Q5,http://wikidata.org/entity/Q661083
+Q123281721,1,Collège des Godrans,"former college in Dijon, France",Q1459186,http://wikidata.org/entity/Q123281721
+Q10862983,2,etcher,artist who practices the art of etching,Q28640,http://wikidata.org/entity/Q10862983
+Q15296811,2,draftsperson,person who makes drawings (artist/cartoonist/drafter/illustrator),Q28640,http://wikidata.org/entity/Q15296811
+Q16947657,1,lithographer,person who primarily uses lithography for making prints,Q16335296,http://wikidata.org/entity/Q16947657
+Q75731871,1,type caster,person who casts type,Q28640,http://wikidata.org/entity/Q75731871
+Q2444286,1,Herman Frederik Carel ten Kate,Dutch painter (1822-1891),Q5,http://wikidata.org/entity/Q2444286
+Q18603266,1,Mari ten Kate,Dutch painter (1831-1910),Q5,http://wikidata.org/entity/Q18603266
+Q128031645,1,Jan Herman ten Kate,civil servant at the Ministry of the Navy,Q5,http://wikidata.org/entity/Q128031645
+Q128031655,1,Johanna de Witte van Haamstede,person,Q5,http://wikidata.org/entity/Q128031655
+Q686364,1,Wendemark,human settlement in Germany,Q253019,http://wikidata.org/entity/Q686364
+Q4282389,1,Friedrich Marpurg,German conductor and composer (1825–1884),Q5,http://wikidata.org/entity/Q4282389
+Q5990,2,Vercelli,Italian comune,Q747074,http://wikidata.org/entity/Q5990
+Q320042,1,Antiochus of Ascalon,ancient Greek philosopher,Q5,http://wikidata.org/entity/Q320042
+Q365110,1,Philo of Larissa,ancient Greek philosopher,Q5,http://wikidata.org/entity/Q365110
+Q462992,1,Apollonius Molon,1st-century BC Greek rhetorician,Q5,http://wikidata.org/entity/Q462992
+Q561367,1,Lucius Aelius Stilo Praeconinus,Roman philologist (c. 154 – 74 BC),Q5,http://wikidata.org/entity/Q561367
+Q695534,1,Tyrannion of Amisus,ancient Greek grammarian,Q5,http://wikidata.org/entity/Q695534
+Q316054,1,Quintus Tullius Cicero,brother of Marcus Tullius Cicero,Q5,http://wikidata.org/entity/Q316054
+Q116440,1,Arpino,Italian comune,Q747074,http://wikidata.org/entity/Q116440
+Q128086,1,Formia,Italian comune,Q747074,http://wikidata.org/entity/Q128086
+Q1747689,8,Ancient Rome,country that began growing on the Italian Peninsula from the 8th century BC,Q3024240,http://wikidata.org/entity/Q1747689
+Q3846543,1,Marcus Tullius Cicero,father of the orator Cicero,Q5,http://wikidata.org/entity/Q3846543
+Q92432276,1,Helvia,mother of the orator Cicero,Q5,http://wikidata.org/entity/Q92432276
+Q435163,1,Servius Sulpicius Rufus,"Roman orator, jurist and consul (c.105 BC–43 BC)",Q5,http://wikidata.org/entity/Q435163
+Q587621,1,Trebatius Testa,"1st-century BC Roman jurist, protégé of Cicero",Q5,http://wikidata.org/entity/Q587621
+Q11953381,1,Tullii Cicerones,branch of the gens Tullia,Q104258569,http://wikidata.org/entity/Q11953381
+Q3411612,1,Upper Paiania,ancient Athenian deme,Q672490,http://wikidata.org/entity/Q3411612
+Q724394,1,Poros,Greek island of the Saronic Gulf,Q23442,http://wikidata.org/entity/Q724394
+Q844930,5,Classical Athens,city-state in ancient Greece,Q148837,http://wikidata.org/entity/Q844930
+Q1555317,1,Kleobule,mother of orator Demosthenes,Q5,http://wikidata.org/entity/Q1555317
+Q29654265,1,Gylon,maternal grandfather of Demosthenes,Q5,http://wikidata.org/entity/Q29654265
+Q1186429,1,Demon,ancient attic Greek priest and rhetorician,Q5,http://wikidata.org/entity/Q1186429
+Q216993,1,Ios,Greek island,Q23442,http://wikidata.org/entity/Q216993
+Q1568260,1,Ionian League,confederation of thirteen ancient Greek city-states in the region Ionia on the western coast of Anatolia (present-day Turkey),Q1778834,http://wikidata.org/entity/Q1568260
+Q126709504,1,Kretheis,nymph (Nymphe),Q182037,http://wikidata.org/entity/Q126709504
+Q885122,1,piano maker,profession,Q28640,http://wikidata.org/entity/Q885122
+Q1937431,1,organ builder,"profession that designs, builds, and maintains pipe organs",Q28640,http://wikidata.org/entity/Q1937431
+Q566284,1,Holle,municipality of Germany,Q116457956,http://wikidata.org/entity/Q566284
+Q13418253,3,philologist,person who practices philology,Q66666607,http://wikidata.org/entity/Q13418253
+Q1231865,2,pedagogue,person working in the academic field of pedagogy,Q28640,http://wikidata.org/entity/Q1231865
+Q1751974,1,Neuhausen,"human settlement in Germany, part of Worms",Q253019,http://wikidata.org/entity/Q1751974
+Q3758,1,Kaiserslautern,"city in Rhineland-Palatinate, Germany",Q42744322,http://wikidata.org/entity/Q3758
+Q1234713,12,theologian,scholar of theology,Q28640,http://wikidata.org/entity/Q1234713
+Q530794,1,Sömmerda,municipality of Germany,Q42744322,http://wikidata.org/entity/Q530794
+Q94764146,1,Otto Röse,,Q5,http://wikidata.org/entity/Q94764146
+Q4938967,1,Caterina Bianconelli,Italian actress,Q5,http://wikidata.org/entity/Q4938967
+Q64689315,1,Isabella Biancolelli,,Q5,http://wikidata.org/entity/Q64689315
+Q2259451,2,stage actor,actor who performs live before an in-person audience,Q15839299,http://wikidata.org/entity/Q2259451
+Q2813792,1,Dominique Biancolelli,French actor,Q5,http://wikidata.org/entity/Q2813792
+Q863631,1,Bindersleben,human settlement in Germany,Q253019,http://wikidata.org/entity/Q863631
+Q134346,2,Angoulême,"commune in Charente, France",Q484170,http://wikidata.org/entity/Q134346
+Q661056,2,University of Poitiers,French university located in Poitiers,Q45400320,http://wikidata.org/entity/Q661056
+Q3260394,1,Louis-Camus Destouches,French military officer,Q5,http://wikidata.org/entity/Q3260394
+Q209842,2,University of Paris,French university (c. 1150–1970),Q15893266,http://wikidata.org/entity/Q209842
+Q979600,1,Collège des Quatre-Nations,educational institution in Paris (1661-1793),Q2385804,http://wikidata.org/entity/Q979600
+Q3383745,1,Pierre Antoine de Châteauneuf,French diplomat,Q5,http://wikidata.org/entity/Q3383745
+Q250867,5,Catholic priest,priest of the Catholic Church,Q63188808,http://wikidata.org/entity/Q250867
+Q6673651,2,literary scholar,person who works on literature,Q28640,http://wikidata.org/entity/Q6673651
+Q123439317,1,Jacques Louis de Castagnery,,Q5,http://wikidata.org/entity/Q123439317
+Q134892784,1,,,Q13417114,http://wikidata.org/entity/Q134892784
+Q517107,2,Rudolstadt,"town in Thuringia, Germany",Q42744322,http://wikidata.org/entity/Q517107
+Q695316,1,Schwarzburg-Rudolstadt,principality,Q208500,http://wikidata.org/entity/Q695316
+Q486945,1,Sotion,ancient Greek philosopher,Q5,http://wikidata.org/entity/Q486945
+Q897523,1,Papirius Fabianus,1st century AD Roman rhetorician and philosopher,Q5,http://wikidata.org/entity/Q897523
+Q452194,1,Lucius Junius Gallio Annaeanus,"Roman senator, brother of Seneca",Q5,http://wikidata.org/entity/Q452194
+Q19715687,2,Marcus Annaeus Mela,brother of Seneca,Q5,http://wikidata.org/entity/Q19715687
+Q2997165,2,Corduba,ancient Roman city of the Iberian Peninsula that corresponds to the current Córdoba (Spain),Q756780,http://wikidata.org/entity/Q2997165
+Q273671,1,Seneca the Elder,"Roman scholar, writer and historian (54 BC-c.39 AD)",Q5,http://wikidata.org/entity/Q273671
+Q11926234,1,Helvia,mother of Seneca,Q5,http://wikidata.org/entity/Q11926234
+Q805213,1,Ballersbach,human settlement in Germany,Q253019,http://wikidata.org/entity/Q805213
+Q774310,1,János Apáczai Csere,"Hungarian teacher, philosopher, Calvinist theologist (1625-1659)",Q5,http://wikidata.org/entity/Q774310
+Q556697,1,Metzels,former municipality of Germany,Q253019,http://wikidata.org/entity/Q556697
+Q489147,1,Schmalkalden,municipality of Thuringia,Q1547289,http://wikidata.org/entity/Q489147
+Q464573,1,Johann Christian Friedrich Hæffner,German-born Swedish composer (1759-1833),Q5,http://wikidata.org/entity/Q464573
+Q3106111,1,Gilles Boileau,French translator (1631-1669),Q5,http://wikidata.org/entity/Q3106111
+Q683410,1,Norbert Burgmüller,German composer (1810-1836),Q5,http://wikidata.org/entity/Q683410
+Q1458169,1,Johann August Franz Burgmüller,German composer and pianist,Q5,http://wikidata.org/entity/Q1458169
+Q1365842,1,Therese Burgmüller,German pianist and singer (1771-1858),Q5,http://wikidata.org/entity/Q1365842
+Q16742175,1,speleologist,person who specializes in speleology (caves),Q28640,http://wikidata.org/entity/Q16742175
+Q611644,2,Catholic bishop,"ordained minister in the Catholic Church (for other religious denominations, use Q29182)",Q138024519,http://wikidata.org/entity/Q611644
+Q507036,1,Lucius Annaeus Cornutus,1st century AD Roman Stoic philosopher,Q5,http://wikidata.org/entity/Q507036
+Q24548,1,Remmius Palaemon,Roman grammarian,Q5,http://wikidata.org/entity/Q24548
+Q11954893,1,Verginius Flavus,Roman rhetorician,Q5,http://wikidata.org/entity/Q11954893
+Q103305,1,Volterra,Italian comune,Q747074,http://wikidata.org/entity/Q103305
+Q16267607,1,classical philologist,person studying ancient Greek or Latin texts,Q28640,http://wikidata.org/entity/Q16267607
+Q9920,6,Haarlem,municipality in the Netherlands and capital city of North Holland,Q515,http://wikidata.org/entity/Q9920
+Q2202637,1,Theodorus Schrevelius,"Dutch writer (1572-1649), owner/creator of the album amicorum of Theodorus Schrevelius (1572–1649)",Q5,http://wikidata.org/entity/Q2202637
+Q136311063,1,Maria|Marijcke van Teylingen,15 Mar 1569/1570 Alkmaar - 26 Jul 1652 Leiden,Q5,http://wikidata.org/entity/Q136311063
+Q694947,1,Heudeber,human settlement in Germany,Q253019,http://wikidata.org/entity/Q694947
+Q1792450,1,art historian,humanist who is engaged in history of art,Q28640,http://wikidata.org/entity/Q1792450
+Q23090,1,Lincolnshire,ceremonial county in the east of England,Q180673,http://wikidata.org/entity/Q23090
+Q18880201,1,"Sir Richard Sutton, 2nd Baronet","sportsman, 1798–1855",Q5,http://wikidata.org/entity/Q18880201
+Q75304138,1,Mary Elizabeth Burton,(1797-1842),Q5,http://wikidata.org/entity/Q75304138
+Q1146700,1,Jesus College,"constituent college of the University of Cambridge, England",Q1055028,http://wikidata.org/entity/Q1146700
+Q23666,1,Great Britain,island in the North Atlantic Ocean off the northwest coast of continental Europe,Q23442,http://wikidata.org/entity/Q23666
+Q12191,1,Nantes,"city in Loire-Atlantique, Pays de la Loire, France",Q484170,http://wikidata.org/entity/Q12191
+Q201788,8,historian,scholar who deals with the exploration and presentation of history,Q28640,http://wikidata.org/entity/Q201788
+Q808967,2,barrister,lawyer specialized in court representation in certain jurisdictions,Q12737077,http://wikidata.org/entity/Q808967
+Q6731168,1,magistrate,legal office held by lay people in England and Wales,Q4164871,http://wikidata.org/entity/Q6731168
+Q937857,1,association football player,person who plays association football (soccer),Q28640,http://wikidata.org/entity/Q937857
+Q75292488,1,"Sir John William Pitt Muir Mackenzie of Delvine, 2nd Bt.",(1806-1855),Q5,http://wikidata.org/entity/Q75292488
+Q75735400,1,Sophia Matilda Johnstone,(1814-1900),Q5,http://wikidata.org/entity/Q75735400
+Q1067870,1,Charterhouse School,English collegiate independent boarding school,Q269770,http://wikidata.org/entity/Q1067870
+Q913,1,Socrates,5th-century BCE Greek philosopher,Q5,http://wikidata.org/entity/Q913
+Q297402,1,Prodicus,Greek philosopher (c. 465 – c. 395 BC),Q5,http://wikidata.org/entity/Q297402
+Q221182,1,Isocrates,Greek rhetorician and writer (436–338 BC),Q5,http://wikidata.org/entity/Q221182
+Q178197,1,mercenary,soldier who fights for hire,Q28640,http://wikidata.org/entity/Q178197
+Q13502175,1,Erchia,ancient Athenian deme,Q672490,http://wikidata.org/entity/Q13502175
+Q103011,1,Corinth,"seaside city in Peloponnese, Greece",Q515,http://wikidata.org/entity/Q103011
+Q42973,4,architect,"person trained to plan and design buildings, and oversee their construction",Q28640,http://wikidata.org/entity/Q42973
+Q185351,4,jurist,"legal scholar or academic, a professional who studies, teaches, and develops law",Q15987302,http://wikidata.org/entity/Q185351
+Q207463,1,Pergola,Italian comune,Q747074,http://wikidata.org/entity/Q207463
+Q69519417,1,Elisabeth-Josèphe de Laborde,French XVIIIth century aristocrat,Q5,http://wikidata.org/entity/Q69519417
+Q3165957,1,Jean-François de La Borde,French private banker,Q5,http://wikidata.org/entity/Q3165957
+Q16635758,1,,family,Q13417114,http://wikidata.org/entity/Q16635758
+Q1147614,1,Ferme générale,historical tax collection system in France,Q327333,http://wikidata.org/entity/Q1147614
+Q950303,2,Cratippus of Pergamon,ancient Greek philosopher,Q5,http://wikidata.org/entity/Q950303
+Q667385,2,Aristos of Ascalon,ancient Greek philosopher,Q5,http://wikidata.org/entity/Q667385
+Q52691,2,Venosa,Italian comune,Q747074,http://wikidata.org/entity/Q52691
+Q1650915,1,researcher,"person who engages in research, professionally or otherwise. If a more specific occupation is known, use that instead",Q4164871,http://wikidata.org/entity/Q1650915
+Q93239,1,Großnaundorf,municipality of Germany,Q116457956,http://wikidata.org/entity/Q93239
+Q1622272,9,university teacher,person teaching at a university or college,Q66666607,http://wikidata.org/entity/Q1622272
+Q505639,1,Athenaeum Illustre of Amsterdam,predecessor to university of Amsterdam,Q6005015,http://wikidata.org/entity/Q505639
+Q11914886,2,comedy writer,playwright specializing in humor,Q28640,http://wikidata.org/entity/Q11914886
+Q99956,1,Sarsina,Italian comune,Q747074,http://wikidata.org/entity/Q99956
+Q121594,1,professor,academic position at universities and other education and research institutions,Q480319,http://wikidata.org/entity/Q121594
+Q2468727,1,classical scholar,"person who studies classics, the culture of (mainly) Ancient Greece and Ancient Rome",Q28640,http://wikidata.org/entity/Q2468727
+Q18916625,1,hellenist,philologist in the field of Hellenic languages,Q28640,http://wikidata.org/entity/Q18916625
+Q9363889,1,literary translator,translator of literary works,Q28640,http://wikidata.org/entity/Q9363889
+Q213344,1,Montreuil-sur-Mer,"French commune in Pas-de-Calais, Hauts-de-France",Q484170,http://wikidata.org/entity/Q213344
+Q5818,1,Córdoba,"municipality in the province of Córdoba, Spain",Q2074737,http://wikidata.org/entity/Q5818
+Q64854646,1,Acilia,mother of Lucan,Q5,http://wikidata.org/entity/Q64854646
+Q47526365,1,Jacob Lasson,"classicist from Antwerp, Head Latin Schools in Holland",Q5,http://wikidata.org/entity/Q47526365
+Q2596609,1,Jan Cornets de Groot,Dutch politician (1554-1640),Q5,http://wikidata.org/entity/Q2596609
+Q110557871,1,Aeltje van Overschie,22 Oct 1561 - 20 Jan 1643,Q5,http://wikidata.org/entity/Q110557871
+Q14467526,5,linguist,language scholar specialized in linguistics,Q28640,http://wikidata.org/entity/Q14467526
+Q37226,4,teacher,"person who helps others to acquire knowledge, competences or values",Q28640,http://wikidata.org/entity/Q37226
+Q473302,1,John Whitgift,Archbishop of Canterbury from 1583 to 1604,Q5,http://wikidata.org/entity/Q473302
+Q777609,1,"Jean Hotman, Marquis de Villers-St-Paul",French diplomat and noble,Q5,http://wikidata.org/entity/Q777609
+Q16153254,1,Elizabeth Bacon,English Tudor gentlewoman,Q5,http://wikidata.org/entity/Q16153254
+Q358587,1,Anthony Bacon,English politician (1558-1601),Q5,http://wikidata.org/entity/Q358587
+Q6969488,1,Nathaniel Bacon,politician,Q5,http://wikidata.org/entity/Q6969488
+Q5341698,1,Edward Bacon,English politician,Q5,http://wikidata.org/entity/Q5341698
+Q7528375,1,"Sir Nicholas Bacon, 1st Baronet, of Redgrave",English politician,Q5,http://wikidata.org/entity/Q7528375
+Q56085905,1,Anne Bacon,Peerage person ID=663846,Q5,http://wikidata.org/entity/Q56085905
+Q8055471,1,"York House, Strand","former string of mansions on the Strand in London, England",Q811979,http://wikidata.org/entity/Q8055471
+Q608866,1,Nicholas Bacon,English politician (1510-1579),Q5,http://wikidata.org/entity/Q608866
+Q475067,1,Anne Bacon,English scholar,Q5,http://wikidata.org/entity/Q475067
+Q332342,1,Trinity College,constituent college of the University of Cambridge in England,Q1055028,http://wikidata.org/entity/Q332342
+Q43332,1,Pompeii,"ancient Roman city near modern Naples, Italy",Q839954,http://wikidata.org/entity/Q43332
+Q1734662,1,cartographer,person preparing geographical maps,Q28640,http://wikidata.org/entity/Q1734662
+Q901402,1,geographer,scholar whose area of study is geography,Q28640,http://wikidata.org/entity/Q901402
+Q215536,2,merchant,businessperson who trades in commodities that were produced by others,Q28640,http://wikidata.org/entity/Q215536
+Q108541642,1,Izaak Bilderdijk,M.D,Q5,http://wikidata.org/entity/Q108541642
+Q10084,2,Vlissingen,"municipality in Zeeland, the Netherlands",Q2039348,http://wikidata.org/entity/Q10084
+Q20748658,1,Federico Pendasio,Renaissance logician (-1603),Q5,http://wikidata.org/entity/Q20748658
+Q72672,1,Sorrento,Italian city,Q747074,http://wikidata.org/entity/Q72672
+Q823060,1,Bernardo Tasso,Italian poet,Q5,http://wikidata.org/entity/Q823060
+Q21425279,1,House of Tasso,Italian family,Q8436,http://wikidata.org/entity/Q21425279
+Q193510,1,University of Padua,university in Italy,Q3918,http://wikidata.org/entity/Q193510
+Q864503,2,biologist,scientist studying living organisms,Q28640,http://wikidata.org/entity/Q864503
+Q2998308,1,cosmologist,astronomer who studies cosmology,Q28640,http://wikidata.org/entity/Q2998308
+Q14565331,1,logician,person specializing in formal logic,Q28640,http://wikidata.org/entity/Q14565331
+Q350979,2,zoologist,someone who studies or practices zoology,Q28640,http://wikidata.org/entity/Q350979
+Q4263842,2,literary critic,cultural journalist who reviews new literary books,Q28640,http://wikidata.org/entity/Q4263842
+Q170790,3,mathematician,person with an extensive knowledge of mathematics,Q28640,http://wikidata.org/entity/Q170790
+Q5403434,1,ethicist,moral principle analyst,Q28640,http://wikidata.org/entity/Q5403434
+Q15632482,1,epistemologist,person with an extensive knowledge of epistemology,Q28640,http://wikidata.org/entity/Q15632482
+Q18930007,1,political philosopher,scholar of political philosophy,Q28640,http://wikidata.org/entity/Q18930007
+Q270141,1,polymath,individual whose knowledge spans a significant number of subjects,Q12737077,http://wikidata.org/entity/Q270141
+Q18930236,1,philosopher of language,,Q28640,http://wikidata.org/entity/Q18930236
+Q846127,1,Stageira,"ancient city in Macedonia, Greece",Q839954,http://wikidata.org/entity/Q846127
+Q21235810,2,Chalcis,ancient polis of Euboea,Q148837,http://wikidata.org/entity/Q21235810
+Q193093,1,Platonic Academy,"ancient philosophical, research and educative center, founded by Plato in Athens",Q3914,http://wikidata.org/entity/Q193093
+Q11924294,1,Giuniano Maio,Italian humanist,Q5,http://wikidata.org/entity/Q11924294
+Q714946,1,Iovianus Pontanus,Italian poet (1426-1503),Q5,http://wikidata.org/entity/Q714946
+Q3619505,1,Antonio de Ferraris,Italian physician and man of letters (1444–1517),Q5,http://wikidata.org/entity/Q3619505
+Q143886,1,Accademia Pontaniana,academy of sciences,Q414147,http://wikidata.org/entity/Q143886
+Q156023,1,Franz Xaver Wolfgang Mozart,"Austrian composer, teacher and performer; youngest son of Wolfgang Amadeus Mozart (1791-1844)",Q5,http://wikidata.org/entity/Q156023
+Q713451,1,Franz Lachner,German composer and conductor (1803-1890),Q5,http://wikidata.org/entity/Q713451
+Q1144673,1,Royal Academy of Music,conservatoire in London,Q184644,http://wikidata.org/entity/Q1144673
+Q2490358,2,choreographer,person who creates choreographies,Q28640,http://wikidata.org/entity/Q2490358
+Q3268638,1,Lycée Pierre-Corneille,"public school in Rouen, France",Q41176,http://wikidata.org/entity/Q3268638
+Q207575,1,Riom,"commune in Puy-de-Dôme, France",Q484170,http://wikidata.org/entity/Q207575
+Q125500905,1,Louis de la Grange-Chancel,1678-1747,Q5,http://wikidata.org/entity/Q125500905
+Q1076734,2,Razac-sur-l'Isle,"commune in Dordogne, France",Q484170,http://wikidata.org/entity/Q1076734
+Q288,2,Tours,"city and commune in Indre-et-Loire, Centre-Val de Loire, France",Q484170,http://wikidata.org/entity/Q288
+Q83712177,1,Fortoiseau Castle,,Q751876,http://wikidata.org/entity/Q83712177
+Q152002,5,pastor,ordained leader of a Christian congregation,Q63188683,http://wikidata.org/entity/Q152002
+Q477766,1,Sauve,"commune in Gard, France",Q484170,http://wikidata.org/entity/Q477766
+Q3064032,1,fabulist,writer of fables,Q28640,http://wikidata.org/entity/Q3064032
+Q194145,1,Château-Thierry,"commune in Aisne, France",Q484170,http://wikidata.org/entity/Q194145
+Q47118457,1,Charles de La fontaine,1594 - 1658,Q5,http://wikidata.org/entity/Q47118457
+Q47010281,1,Françoise Pidoux,14 Oct 1582 - 1644,Q5,http://wikidata.org/entity/Q47010281
+Q2983769,1,College of Juilly,Catholic teaching seminary in France,Q3914,http://wikidata.org/entity/Q2983769
+Q883533,1,Muggendorf,district of Wiesenttal,Q253019,http://wikidata.org/entity/Q883533
+Q502450,1,Burgbernheim,municipality of Germany,Q42744322,http://wikidata.org/entity/Q502450
+Q700388,1,Benneckenstein,settlement in the German town of Oberharz am Brocken,Q253019,http://wikidata.org/entity/Q700388
+Q322361,1,Ribe,town in Denmark,Q3957,http://wikidata.org/entity/Q322361
+Q756617,1,Kingdom of Denmark,transcontinental sovereign state and constitutional monarchy,Q3624078,http://wikidata.org/entity/Q756617
+Q186285,1,University of Copenhagen,"public research university in Copenhagen, Denmark",Q62078547,http://wikidata.org/entity/Q186285
+Q209344,1,Sapienza University of Rome,Italian university founded in Rome in 1303,Q875538,http://wikidata.org/entity/Q209344
+Q131262,1,University of Bologna,"university in Bologna, Italy",Q875538,http://wikidata.org/entity/Q131262
+Q1985029,1,Frederik Willem van Eeden,Dutch botanist (1829-1901),Q5,http://wikidata.org/entity/Q1985029
+Q214341,1,University of Amsterdam,"public university in Amsterdam, Netherlands",Q3918,http://wikidata.org/entity/Q214341
+Q88288866,1,Marie-Hortense Racot de Grandval,French stage actress,Q5,http://wikidata.org/entity/Q88288866
+Q104577495,1,Daniel Racot,,Q5,http://wikidata.org/entity/Q104577495
+Q22517,1,Erstein,"French commune in Bas-Rhin, Alsace, Grand Est",Q484170,http://wikidata.org/entity/Q22517
+Q22737,1,Sélestat,"commune in Bas-Rhin, France",Q484170,http://wikidata.org/entity/Q22737
+Q27660160,1,Nicolina Giordani,Italian singer,Q5,http://wikidata.org/entity/Q27660160
+Q15710617,1,Borgo Virgilio,Italian comune,Q747074,http://wikidata.org/entity/Q15710617
+Q491753,1,Andes,ancient village near Mantua in the Roman province of Cisalpine Gallia,Q532,http://wikidata.org/entity/Q491753
+Q60841634,1,Magia Polla,mother of Virgil,Q5,http://wikidata.org/entity/Q60841634
+Q17172850,2,voice,human voice as musical instrument,Q110295396,http://wikidata.org/entity/Q17172850
+Q2384,1,Bergedorf,"quarter of Hamburg, Germany",Q15830667,http://wikidata.org/entity/Q2384
+Q81162,1,Magdalen College,constituent college of the University of Oxford in England,Q2581649,http://wikidata.org/entity/Q81162
+Q117326472,1,Vincent Cavaillé-Coll,"19th century French organ builder, elder brother of the famous Aristide with whom he worked in Paris before settling personally in Nîmes",Q5,http://wikidata.org/entity/Q117326472
+Q6441,1,Montpellier,"city in Hérault, France",Q484170,http://wikidata.org/entity/Q6441
+Q117327403,1,Dominique Cavaillé-Coll,"French organ builder of the last quarter of the 18th century and the first half of the 19th century, father of the famous Aristide with whom he worked in Paris for 20 years",Q5,http://wikidata.org/entity/Q117327403
+Q71482,1,Friedrich Ladegast,German pipe organ builder (1818–1905),Q5,http://wikidata.org/entity/Q71482
+Q47545883,1,Jean-Pierre Cavaillé,"18th century French organ builder, grandfather of the famous Aristide Cavaillé-Coll",Q5,http://wikidata.org/entity/Q47545883
+Q106274,1,Legnica,city with powiat rights of Poland,Q925381,http://wikidata.org/entity/Q106274
+Q242926,2,Marino,"comune in Lazio, Italy",Q747074,http://wikidata.org/entity/Q242926
+Q3778,1,Zwickau,"town in Saxony, Germany",Q448801,http://wikidata.org/entity/Q3778
+Q13570226,1,literary historian,humanist who is engaged in history of literature,Q28640,http://wikidata.org/entity/Q13570226
+Q797892,1,Emmanuel College,college of the University of Cambridge,Q1055028,http://wikidata.org/entity/Q797892
+Q29245,1,Hastings,"town in East Sussex, on the south coast of England",Q3957,http://wikidata.org/entity/Q29245
+Q17152,1,Central Macedonia Region,one of the 13 administrative regions of Greece,Q207299,http://wikidata.org/entity/Q17152
+Q15875412,1,François van Hoogstraten,Dutch publisher and poet (1632-1696),Q5,http://wikidata.org/entity/Q15875412
+Q107305567,1,Hester de Koningh,24 Dec 1628 Rotterdam -,Q5,http://wikidata.org/entity/Q107305567
+Q157324,1,François Guizot,"French historian, orator and statesman (1787–1874)",Q5,http://wikidata.org/entity/Q157324
+Q318337,1,Abel-François Villemain,French politician and writer (1790-1870),Q5,http://wikidata.org/entity/Q318337
+Q6625963,1,novelist,writer of novels,Q28640,http://wikidata.org/entity/Q6625963
+Q748307,2,Lycée Charlemagne,Parisian high-school,Q20860083,http://wikidata.org/entity/Q748307
+Q3064259,1,Paris Law Faculty,Paris Law Faculty of the former University of Paris,Q180958,http://wikidata.org/entity/Q3064259
+Q1809792,1,Le Charivari,French satirical periodical,Q11032,http://wikidata.org/entity/Q1809792
+Q3212830,1,La Silhouette,newspaper,Q11032,http://wikidata.org/entity/Q3212830
+Q949749,1,La Caricature,magazine,Q41298,http://wikidata.org/entity/Q949749
+Q544646,1,Léon Cogniet,French painter (1794-1880),Q5,http://wikidata.org/entity/Q544646
+Q1281618,1,sculptor,artist specializing in sculpture,Q88789639,http://wikidata.org/entity/Q1281618
+Q724148,1,Édouard Detaille,French painter (1848-1912),Q5,http://wikidata.org/entity/Q724148
+Q52550243,1,Gabriel Coffinières de Nordeck,French officer and artist (1844-1898),Q5,http://wikidata.org/entity/Q52550243
+Q4521641,1,Vyacheslav Schwarz,Russian painter and academician (1838-1869),Q5,http://wikidata.org/entity/Q4521641
+Q1528171,1,Giuseppe Besozzi,oboist,Q5,http://wikidata.org/entity/Q1528171
+Q7132198,1,Paolo Girolamo Besozzi,Oboist and bassoonist,Q5,http://wikidata.org/entity/Q7132198
+Q5186476,1,Cristoforo Besozzi,Oboist and bassoonist,Q5,http://wikidata.org/entity/Q5186476
+Q326582,1,Kwidzyn,city in northern Poland on the Liwa River,Q2616791,http://wikidata.org/entity/Q326582
+Q54096,1,University of Cologne,university in Germany,Q875538,http://wikidata.org/entity/Q54096
+Q30247850,1,Jacob Luther,son of Hans Luther,Q5,http://wikidata.org/entity/Q30247850
+Q20494923,1,Hans Luther,father of Martin Luther,Q5,http://wikidata.org/entity/Q20494923
+Q28657970,1,Margarethe Luther,mother of Martin Luther,Q5,http://wikidata.org/entity/Q28657970
+Q75667,1,Martin Helwig,German cartographer of Silesia (1516–1574),Q5,http://wikidata.org/entity/Q75667
+Q98742,1,Jacob Heerbrand,German theologian (1521-1600),Q5,http://wikidata.org/entity/Q98742
+Q105649,1,Michael Neander,German educationist and philologist (1525-1585),Q5,http://wikidata.org/entity/Q105649
+Q316592,2,University of Wittenberg,German university (1502–1814),Q3918,http://wikidata.org/entity/Q316592
+Q1585513,1,University of Erfurt (1392-1816),former university,Q123602198,http://wikidata.org/entity/Q1585513
+Q1399977,1,Schwiegershausen,human settlement in Germany,Q253019,http://wikidata.org/entity/Q1399977
+Q958049,1,Crete,"city in Saline County, Nebraska, United States",Q1093829,http://wikidata.org/entity/Q958049
+Q27306,2,Kingdom of Prussia,"former European state (1701–1918), part of the German Empire after 1871",Q3024240,http://wikidata.org/entity/Q27306
+Q116415,1,Aquino,"comune in Lazio, Italy",Q747074,http://wikidata.org/entity/Q116415
+Q1662737,2,Rehestädt,human settlement in Germany,Q253019,http://wikidata.org/entity/Q1662737
+Q77336,1,Maria Josepha of Bavaria,Holy Roman empress,Q5,http://wikidata.org/entity/Q77336
+Q85021,1,Duchess Maria Anna Josepha of Bavaria,German princess (1734-1776),Q5,http://wikidata.org/entity/Q85021
+Q16740105,1,Theresa Benedicta of Bavaria,German princess,Q5,http://wikidata.org/entity/Q16740105
+Q18411753,1,Franz Ludwig von Holnstein,(1723-1780),Q5,http://wikidata.org/entity/Q18411753
+Q57841,1,"Maximilian III Joseph, Elector of Bavaria",Duke of Bavaria (1727-1777),Q5,http://wikidata.org/entity/Q57841
+Q76736,1,"Charles VII, Holy Roman Emperor",Holy Roman Emperor,Q5,http://wikidata.org/entity/Q76736
+Q231441,1,Maria Amalia of Austria,queen of Bohemia,Q5,http://wikidata.org/entity/Q231441
+Q350587,1,Adam Pantke,German church historian,Q5,http://wikidata.org/entity/Q350587
+Q182436,2,librarian,"person who works professionally in a library, and is usually trained in librarianship",Q12737077,http://wikidata.org/entity/Q182436
+Q17486330,1,historian of mathematics,humanist who is engaged in history of mathematics,Q28640,http://wikidata.org/entity/Q17486330
+Q1209498,1,poet lawyer,poet with legal training,Q28640,http://wikidata.org/entity/Q1209498
+Q169470,2,physicist,scientist who does research in physics,Q28640,http://wikidata.org/entity/Q169470
+Q11063,2,astronomer,scientist who studies celestial bodies,Q28640,http://wikidata.org/entity/Q11063
+Q94877553,1,Abraham Kästner,,Q5,http://wikidata.org/entity/Q94877553
+Q2374149,1,botanist,person who practices botany,Q28640,http://wikidata.org/entity/Q2374149
+Q740241,1,Chojnice,city and urban gmina of Poland,Q2616791,http://wikidata.org/entity/Q740241
+Q6837,2,Lutherstadt Wittenberg,town in Germany,Q42744322,http://wikidata.org/entity/Q6837
+Q73014,1,Erhard Weigel,"Mathematician, astronomer and philosopher",Q5,http://wikidata.org/entity/Q73014
+Q118711,1,Johannes Musaeus,German Protestant theologian (1613-1681),Q5,http://wikidata.org/entity/Q118711
+Q1281017,1,Johann Ernst Gerhard,German theologian,Q5,http://wikidata.org/entity/Q1281017
+Q432386,2,preacher,person who delivers sermons or gives homilies,Q28640,http://wikidata.org/entity/Q432386
+Q18805,1,naturalist,"person who studies and knows a lot about plants, animals and natural history (esp in the field)",Q28640,http://wikidata.org/entity/Q18805
+Q154561,1,Friedrich Schiller University Jena,"university located in Jena, Thuringia, Germany",Q875538,http://wikidata.org/entity/Q154561
+Q2865819,1,opera singer,singer who sings in operas,Q66715801,http://wikidata.org/entity/Q2865819
+Q1209,3,Bremen,federated state of Germany,Q1221156,http://wikidata.org/entity/Q1209
+Q21546571,1,Philippus,father of Aristophanes,Q5,http://wikidata.org/entity/Q21546571
+Q134929,1,Pindar,ancient Greek lyric poet,Q5,http://wikidata.org/entity/Q134929
+Q23670612,2,Roman Carthage,city of Ancient Rome,Q15661340,http://wikidata.org/entity/Q23670612
+Q113438302,1,Joseph Campra,"(b Aix-en-Provence, Sept 10, 1662; d Versailles, March 31, 1744). French composer, younger brother of André Campra. Joseph Campra was not, as described by the brothers Parfaict, a ‘fort honnête homme’ who never knew a note of music (Histoire de",Q5,http://wikidata.org/entity/Q113438302
+Q47465,1,Aix-en-Provence,"French commune in Bouches-du-Rhône, Provence-Alpes-Côte d'Azur",Q484170,http://wikidata.org/entity/Q47465
+Q2920855,1,Académie royale de musique,official name given to the Paris Opera in 1671; founded in 1669 as Académie d'Opéra,Q162633,http://wikidata.org/entity/Q2920855
+Q3172862,1,Jean Julien Michel Savary,French politician (1753-1839),Q5,http://wikidata.org/entity/Q3172862
+Q234704,1,Vitré,"commune in Ille-et-Vilaine, France",Q484170,http://wikidata.org/entity/Q234704
+Q485990,1,Félix Savary,French astronomer (1797-1841),Q5,http://wikidata.org/entity/Q485990
+Q1341516,1,Westminster School,"public school in Westminster, London, England",Q269770,http://wikidata.org/entity/Q1341516
+Q15991187,1,grammarian,student or scholar of grammar,Q66666607,http://wikidata.org/entity/Q15991187
+Q525612,1,Braunfels,"town in Lahn-Dill-Kreis in Hesse, Germany",Q3957,http://wikidata.org/entity/Q525612
+Q1694555,1,Johan Henrich Reitz,German translator and theologian,Q5,http://wikidata.org/entity/Q1694555
+Q110611569,1,Anna Maria Meerman,"31 Aug 1667 Frankfurt, Germany - 10 Oct 1734 Goes, Zeeland",Q5,http://wikidata.org/entity/Q110611569
+Q11774202,1,essayist,person who writes essays,Q28640,http://wikidata.org/entity/Q11774202
+Q70744319,1,theatre historian,person who studies the history of theatre arts,Q28640,http://wikidata.org/entity/Q70744319
+Q61943885,1,Achille Guillard,French botanist (1799-1876),Q5,http://wikidata.org/entity/Q61943885
+Q860500,2,Augusta Bilbilis,city of Ancient Rome in Hispania,Q213468,http://wikidata.org/entity/Q860500
+Q121305813,1,Flaccilla,mother of Martial,Q5,http://wikidata.org/entity/Q121305813
+Q243133,1,Palestrina,"comune in Lazio, Italy",Q747074,http://wikidata.org/entity/Q243133
+Q9149093,1,mountaineer,person who climbs mountains,Q28640,http://wikidata.org/entity/Q9149093
+Q642604,1,Jakob Gronovius,Dutch classical scholar (1645–1716),Q5,http://wikidata.org/entity/Q642604
+Q82372,1,Kirchberg an der Jagst,municipality in Germany,Q42744322,http://wikidata.org/entity/Q82372
+Q2743689,1,auctioneer,person who runs a sale by auction,Q28640,http://wikidata.org/entity/Q2743689
+Q10732476,2,art collector,person who collects art,Q12737077,http://wikidata.org/entity/Q10732476
+Q3145483,1,Hôtel Drouot,Paris auction house,Q11755959,http://wikidata.org/entity/Q3145483
+Q1998354,1,Hoxton,"district in the East End of London, England",Q3957,http://wikidata.org/entity/Q1998354
+Q8018208,1,William Scott,English High Church clergyman,Q5,http://wikidata.org/entity/Q8018208
+Q1902016,1,Marlborough College,"school in Wiltshire, England, UK",Q3238833,http://wikidata.org/entity/Q1902016
+Q1164598,1,Wormerveer,"village in Zaanstad, Netherlands",Q1852859,http://wikidata.org/entity/Q1164598
+Q272243,1,Saint-Josse-ten-Noode,"municipality in the Brussels-Capital Region, Belgium",Q493522,http://wikidata.org/entity/Q272243
+Q137375515,1,,,Q5,http://wikidata.org/entity/Q137375515
+Q20738928,1,Douwe Simons Gorter,Dutch publisher,Q5,http://wikidata.org/entity/Q20738928
+Q12027957,1,canon law jurist,jurist or lawyer specialised in church law and guidelines,Q15987302,http://wikidata.org/entity/Q12027957
+Q4479442,1,founder,person who creates an institution intended to perpetuate itself after the founder's association ends,Q4164871,http://wikidata.org/entity/Q4479442
+Q170062,1,Pannonia,province of the Roman Empire (20 - 107 AD),Q182547,http://wikidata.org/entity/Q170062
+Q83247,1,Braga,municipality in Portugal,Q13217644,http://wikidata.org/entity/Q83247
+Q1553052,1,Nusaybin,"district and town in Mardin, Turkey",Q149621,http://wikidata.org/entity/Q1553052
+Q570801,1,Hugues Doneau,French lawyer,Q5,http://wikidata.org/entity/Q570801
+Q5052948,1,Catherine Tishem,,Q5,http://wikidata.org/entity/Q5052948
+Q714921,1,Jean Daurat,French writer and scholar (1508-1588),Q5,http://wikidata.org/entity/Q714921
+Q376210,1,Adrianus Turnebus,French classical scholar,Q5,http://wikidata.org/entity/Q376210
+Q36697320,1,Juan Gelida,,Q5,http://wikidata.org/entity/Q36697320
+Q707285,1,Jacques Cujas,French jurist (1522–1590),Q5,http://wikidata.org/entity/Q707285
+Q6625,1,Agen,"commune in Lot-et-Garonne, France",Q484170,http://wikidata.org/entity/Q6625
+Q503473,1,University of Geneva,"public research university located in Geneva, Switzerland",Q62078547,http://wikidata.org/entity/Q503473
+Q10079,1,Schouwen-Duiveland,municipality in the Netherlands,Q2039348,http://wikidata.org/entity/Q10079
+Q108410348,1,Adriaen Cornelisz. Cats,,Q5,http://wikidata.org/entity/Q108410348
+Q108410349,1,Leenken Jacob Janszdr. Breyde,,Q5,http://wikidata.org/entity/Q108410349
+Q110423893,1,Mr. Pieter Feith,Est 1729 - 19 May 1802 's-Gravenhage,Q5,http://wikidata.org/entity/Q110423893
+Q110423908,1,Elsabé Spaer,Est 1724 - 31 Oct 1778 Zwolle,Q5,http://wikidata.org/entity/Q110423908
+Q543891,1,Vincenzo Albrici,Italian composer,Q5,http://wikidata.org/entity/Q543891
+Q572891,1,Geising,"municipal district of Altenberg, Saxony",Q532,http://wikidata.org/entity/Q572891
+Q1526368,1,Kreuzschule,school,Q3914,http://wikidata.org/entity/Q1526368
+Q4991371,1,soldier,member of the armed forces,Q6857706,http://wikidata.org/entity/Q4991371
+Q79980,1,Varanasi,city on the banks of the Ganges in the Uttar Pradesh state of India,Q515,http://wikidata.org/entity/Q79980
+Q1348,1,Kolkata,"capital city of West Bengal, India",Q105074756,http://wikidata.org/entity/Q1348
+Q16069,2,Biberach an der Riss,town and district capital in the Upper Swabia region of the German state of Baden-Württemberg,Q134626,http://wikidata.org/entity/Q16069
+Q159631,1,Kingdom of Württemberg,"kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire",Q3024240,http://wikidata.org/entity/Q159631
+Q51240726,1,Anne Marie van Deventer-Busken Huet,Dutch author,Q5,http://wikidata.org/entity/Q51240726
+Q97668127,1,Charles Busken Huet,Dutch politician,Q5,http://wikidata.org/entity/Q97668127
+Q367203,1,Gymnasium Haganum,school in The Hague,Q55043,http://wikidata.org/entity/Q367203
+Q326123,1,Drawsko Pomorskie,city of Poland,Q515,http://wikidata.org/entity/Q326123
+Q931871,1,Franciscus Gomarus,Dutch theologian (1563-1641),Q5,http://wikidata.org/entity/Q931871
+Q219477,1,missionary,member of a religious group sent to do evangelism,Q28640,http://wikidata.org/entity/Q219477
+Q9845,1,Heusden,municipality in the Netherlands,Q2039348,http://wikidata.org/entity/Q9845
+Q39297398,1,Utrecht,"capital city of the province of Utrecht, Netherlands",Q515,http://wikidata.org/entity/Q39297398
+Q1510259,1,Gerardus de Vries,Dutch theologian and philosopher,Q5,http://wikidata.org/entity/Q1510259
+Q444858,1,Martin Schoock,Dutch historian (1614-1669),Q5,http://wikidata.org/entity/Q444858
+Q454594,1,Sixtinus Amama,Dutch Reformed theologian and orientalist,Q5,http://wikidata.org/entity/Q454594
+Q635734,1,archivist,"professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value",Q28640,http://wikidata.org/entity/Q635734
+Q98833883,1,Protestant theologian,Christian theologian who is Protestant,Q28640,http://wikidata.org/entity/Q98833883
+Q1743122,1,church historian,humanist who is engaged in history of Church,Q28640,http://wikidata.org/entity/Q1743122
+Q5758653,1,secondary school teacher,teacher of high school (12-18 years),Q28640,http://wikidata.org/entity/Q5758653
+Q137178813,1,,,,http://wikidata.org/entity/Q137178813
+Q388107,1,Oisemont,"commune in Somme, France",Q484170,http://wikidata.org/entity/Q388107
+Q41976,1,Dokkum,"city in Noardeast-Fryslân, Netherlands",Q13539802,http://wikidata.org/entity/Q41976
+Q24262584,1,Bible translator,person translating the Bible,Q12737077,http://wikidata.org/entity/Q24262584
+Q52101,4,Middelburg,"capital city of Zeeland, the Netherlands",Q515,http://wikidata.org/entity/Q52101
+Q131372967,1,Karl von Wolzogen,,Q5,http://wikidata.org/entity/Q131372967
+Q95191623,1,Louise Sophie Charlotte Henriette von Wolzogen,,Q5,http://wikidata.org/entity/Q95191623
+Q19238855,1,Wilhelm von Wolzogen,25 Nov 1762 - 17 Dec 1809,Q5,http://wikidata.org/entity/Q19238855
+Q94849875,1,Ernst Ludwig I von Wolzogen,,Q5,http://wikidata.org/entity/Q94849875
+Q55897735,1,Wilhelmine Christine Henriette Johanna von Wolzogen Marschalk von Ostheim,,Q5,http://wikidata.org/entity/Q55897735
+Q1558133,1,Gymnasium Hammonense,gymnasium,Q55043,http://wikidata.org/entity/Q1558133
+Q1766218,1,Reformierte Kirche Lübeck,"church building in Lübeck's Old City, Schleswig-Holstein, Germany",Q16970,http://wikidata.org/entity/Q1766218
+Q1610477,1,Hermann Tast School,High school in Husum,Q3914,http://wikidata.org/entity/Q1610477
+Q100111,1,Vignola,Italian comune,Q747074,http://wikidata.org/entity/Q100111
+Q175566,1,Giacomo della Porta,Italian architect and sculptor (1532-1602),Q5,http://wikidata.org/entity/Q175566
+Q177213,1,Baldassare Peruzzi,Italian painter (1481–1536),Q5,http://wikidata.org/entity/Q177213
+Q33439340,1,Gouda,"city in South Holland, the Netherlands",Q1852859,http://wikidata.org/entity/Q33439340
+Q116471848,1,Johan van Alphen,(1710–1750),Q5,http://wikidata.org/entity/Q116471848
+Q116471867,1,Wilhelmina Lucia van Alphen,13 Apr 1713 's-Gravenhage - 15 Dec 1779 Utrecht,Q5,http://wikidata.org/entity/Q116471867
+Q173950,1,art dealer,person that buys and sells works of art,Q28640,http://wikidata.org/entity/Q173950
+Q9777,1,Venlo,municipality in southern Netherlands,Q2039348,http://wikidata.org/entity/Q9777
+Q889413,1,SS Bodegraven,ship,Q11446,http://wikidata.org/entity/Q889413
+Q127324830,1,Eduard Jacques Goudstikker,Dutch art gallerist (1866-1924),Q5,http://wikidata.org/entity/Q127324830
+Q14972848,1,lexicographer,"writer, editor, or compiler of dictionaries",Q28640,http://wikidata.org/entity/Q14972848
+Q627941,1,Jacopo Zabarella,Italian philosopher (1533-1589),Q5,http://wikidata.org/entity/Q627941
+Q250089,1,Alessandro Piccolomini,"Italian writer and philosopher, titular archbishop of Patrae",Q5,http://wikidata.org/entity/Q250089
+Q435296,1,Hieronymus Fabricius,"Italian physician, anatomist and surgeon (1533–1619)",Q5,http://wikidata.org/entity/Q435296
+Q116094,1,Theodor Zwinger,Swiss physician,Q5,http://wikidata.org/entity/Q116094
+Q1348126,2,Pierre-Joseph-Guillaume Zimmermann,French pianist,Q5,http://wikidata.org/entity/Q1348126
+Q706096,1,Victor Dourlen,French composer and pedagogue,Q5,http://wikidata.org/entity/Q706096
+Q42168,1,Clermont-Ferrand,"commune in Puy-de-Dôme, France",Q484170,http://wikidata.org/entity/Q42168
+Q275118,1,9th arrondissement of Paris,"one of the 20 administrative districts of Paris, France",Q702842,http://wikidata.org/entity/Q275118
+Q280936,1,,French engraver (1707-1783),Q5,http://wikidata.org/entity/Q280936
+Q20658591,1,Johann Ernst Mansfeld,copperplate engraver,Q5,http://wikidata.org/entity/Q20658591
+Q329439,3,engraver,craftsman with the profession of engraving,Q28640,http://wikidata.org/entity/Q329439
+Q13365770,1,copper engraver,"artisan or artist who uses the technique of engraving images or text into a copper plate, which is then used to produce prints",Q28640,http://wikidata.org/entity/Q13365770
+Q2516866,1,publisher,person heading a publishing company or who publishes media,Q28640,http://wikidata.org/entity/Q2516866
+Q21543081,1,Johannes Christiaan Bendorp,"Dutch printmaker, draftsperson and graphic artist (1766-1849)",Q5,http://wikidata.org/entity/Q21543081
+Q4947332,1,Sophia Wilhelmina Evans,,Q5,http://wikidata.org/entity/Q4947332
+Q17391638,1,art theorist,profession that works in the field of art theory,Q28640,http://wikidata.org/entity/Q17391638
+Q116923588,1,Haagsche Teekenacademie,Dutch art school,Q383092,http://wikidata.org/entity/Q116923588
+Q1934922,1,Noël Gallon,French composer (1891-1966),Q5,http://wikidata.org/entity/Q1934922
+Q154949,1,Jean Gallon,"French composer, choir conductor, and music educator (1878–1959)",Q5,http://wikidata.org/entity/Q154949
+Q40898,2,Nancy,"city and commune in Meurthe-et-Moselle, Grand Est, France",Q484170,http://wikidata.org/entity/Q40898
+Q2958620,1,Charles Broche,French composer (1752-1803),Q5,http://wikidata.org/entity/Q2958620
+Q13391399,1,chansonnier,"type of poet songwriter in France and Quebec, Canada",Q66715801,http://wikidata.org/entity/Q13391399
+Q57575075,1,Aeghje Hooft,,Q5,http://wikidata.org/entity/Q57575075
+Q1133564,1,Cornelis Hooft,Dutch mayor (1547-1626),Q5,http://wikidata.org/entity/Q1133564
+Q1871628,1,Louis De Geer,"Dutch politician, industrialist, gun merchant (1587-1652)",Q5,http://wikidata.org/entity/Q1871628
+Q58900,1,Doncaster,"city in South Yorkshire, England, UK",Q7897276,http://wikidata.org/entity/Q58900
+Q956501,1,Pembroke College,college of the University of Cambridge,Q1055028,http://wikidata.org/entity/Q956501
+Q4821037,1,Auguste-Siméon Garneray,French painter (1785-1824),Q5,http://wikidata.org/entity/Q4821037
+Q155545,1,Eugène de Beauharnais,French statesman and military officer (1781–1824),Q5,http://wikidata.org/entity/Q155545
+Q456122,1,Alexandre de Beauharnais,French general; president of the National Constituent Assembly in 1791 (1760–1794),Q5,http://wikidata.org/entity/Q456122
+Q277700,1,House of Beauharnais,French noble family,Q13417114,http://wikidata.org/entity/Q277700
+Q112581,1,House of Bonaparte,imperial and royal European dynasty,Q164950,http://wikidata.org/entity/Q112581
+Q75960528,1,Walter Scott,(1729-1799),Q5,http://wikidata.org/entity/Q75960528
+Q75960529,1,Anne Rutherford,(1739-1819),Q5,http://wikidata.org/entity/Q75960529
+Q623398,1,King James Version,1611 English translation of the Christian Bible,Q655192,http://wikidata.org/entity/Q623398
+Q312562,1,James Macpherson,"British writer, poet, translator and politician (1736-1796)",Q5,http://wikidata.org/entity/Q312562
+Q15460165,1,François-Hippolyte Barthélémon,French composer,Q5,http://wikidata.org/entity/Q15460165
+Q7225843,1,Polly Young,"Soprano, composer and harpsichordist",Q5,http://wikidata.org/entity/Q7225843
+Q60149588,1,Anton Albrechtsberger,,Q5,http://wikidata.org/entity/Q60149588
+Q487522,1,Klosterneuburg,"municipality in Tulln District, Lower Austria, Austria",Q3957,http://wikidata.org/entity/Q487522
+Q260581,1,Stiftsgymnasium Melk,Austrian monastic school,Q2348743,http://wikidata.org/entity/Q260581
+Q3501329,1,Osiek Łużycki,village of Poland,Q3558970,http://wikidata.org/entity/Q3501329
+Q57944,1,Annaberg-Buchholz,German town,Q448801,http://wikidata.org/entity/Q57944
+Q2360795,1,Stötteritz,"quarter in Leipzig, Germany",Q79423884,http://wikidata.org/entity/Q2360795
+Q94761054,1,Christian Heinrich Weiße,German high school teacher and classical philologist (1688-1730),Q5,http://wikidata.org/entity/Q94761054
+Q1693594,1,Johann Friedrich Jünger,German author,Q5,http://wikidata.org/entity/Q1693594
+Q3933,1,Celle,"city in Lower Saxony, Germany",Q1548525,http://wikidata.org/entity/Q3933
+Q494299,2,Landsberg am Lech,"city in Bavaria, Germany",Q448801,http://wikidata.org/entity/Q494299
+Q64990775,1,François d'Arouet,French lawyer,Q5,http://wikidata.org/entity/Q64990775
+Q21177229,1,Marguerite d'Aumard,mother of Voltaire,Q5,http://wikidata.org/entity/Q21177229
+Q1059546,1,Lycée Louis-le-Grand,"public school in Paris, France",Q20860083,http://wikidata.org/entity/Q1059546
+Q1844562,1,University of Pont-à-Mousson,former French university,Q3918,http://wikidata.org/entity/Q1844562
+Q9005,1,Brussels metropolitan area,"metropolitan area of Brussels, in Belgium",Q1907114,http://wikidata.org/entity/Q9005
+Q21512299,1,,,Q2385804,http://wikidata.org/entity/Q21512299
+Q368998,1,University of Trnava,"university founded in 1635, which continued to operate in Pest (now Budapest) from 1777. The predecessor of three modern universities",Q3918,http://wikidata.org/entity/Q368998
+Q6999082,1,Giovanni Gherardi,Italian actor,Q5,http://wikidata.org/entity/Q6999082
+Q5140793,1,Coenraet Decker,Dutch Golden Age engraver,Q5,http://wikidata.org/entity/Q5140793
+Q6776939,1,Martin Zaagmolen,Dutch painter,Q5,http://wikidata.org/entity/Q6776939
+Q628304,1,Schöningen,"town in the District of Helmstedt, Germany",Q42744322,http://wikidata.org/entity/Q628304
+Q365463,1,Cornelis Drebbel,Dutch inventor and submarine pioneer,Q5,http://wikidata.org/entity/Q365463
+Q97340217,1,Adriaen Rottermont,Netherlandish goldsmith and mintmaster (1579–1652),Q5,http://wikidata.org/entity/Q97340217
+Q926814,1,Hendrik Hondius I,"engraver, cartographer and publisher from the Netherlands",Q5,http://wikidata.org/entity/Q926814
+Q108823172,1,Johan Dedel,,Q5,http://wikidata.org/entity/Q108823172
+Q52154034,1,Maurits Huygens,secretary in the Hague (1595-1642),Q5,http://wikidata.org/entity/Q52154034
+Q17418337,1,Christiaan Huygens,Dutch politician (1551-1624),Q5,http://wikidata.org/entity/Q17418337
+Q20031904,1,Susanna Hoefnagel,(1561-1633),Q5,http://wikidata.org/entity/Q20031904
+Q21544862,1,Lambert Barlaeus,"Dutch pastor, assistant headmaster of the Amsterdam Grammar Schools and professor of Greek language (1592-1655)",Q5,http://wikidata.org/entity/Q21544862
+Q559010,2,Parchim,"town and administrative center of the Ludwigslust-Parchim district in Mecklenburg-Vorpommern, Germany",Q42744322,http://wikidata.org/entity/Q559010

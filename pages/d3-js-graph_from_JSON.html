@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Orpheus Graph — Dynamic JSON feed (D3)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    html,body { height:100%; margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f8f7f6; }
+    #controls { padding:8px; display:flex; gap:8px; align-items:center; background:rgba(255,255,255,0.9); border-bottom:1px solid #eee; z-index:2; }
+    #graph-container { height: calc(100vh - 48px); width:100%; position:relative; }
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      background:#222;
+      color:#fff;
+      padding:6px 8px;
+      border-radius:6px;
+      font-size:13px;
+      opacity:0;
+      transition: opacity 120ms ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      max-width:320px;
+      line-height:1.2;
+    }
+    .node text { font-family: inherit; }
+    .link { stroke:#999; stroke-opacity:0.6; }
+    .node circle { stroke:#fff; stroke-width:1.5; cursor:grab; }
+    .node.pinned circle { stroke:#333; stroke-width:2.5; }
+    input[type="search"]{ padding:6px 8px; border-radius:6px; border:1px solid #ddd; }
+    .legend { display:flex; gap:12px; align-items:center; font-size:13px; color:#333; }
+    .legend .item { display:flex; gap:6px; align-items:center; }
+    .legend .swatch { width:14px; height:14px; border-radius:3px; display:inline-block; box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset; }
+    .controls-right { margin-left:auto; display:flex; gap:8px; align-items:center; }
+
+    /* Modal (pop-up) */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .modal {
+      position: relative;
+      background: #fff;
+      border-radius: 10px;
+      max-width: 760px;
+      width: calc(100% - 48px);
+      max-height: 90vh;
+      overflow: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+      padding: 18px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+    .modal .media {
+      min-width: 220px;
+      max-width: 40%;
+      height: auto;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #f0f0f0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .modal .media img {
+      width: 100%;
+      height: auto;
+      display:block;
+      object-fit: cover;
+      max-height: 60vh;
+    }
+    .modal .content {
+      flex: 1 1 auto;
+      min-width: 180px;
+    }
+    .modal h2 { margin: 0 0 8px 0; font-size: 20px; }
+    .modal p { margin: 0 0 8px 0; color:#333; line-height:1.4; }
+    .modal .url { margin-top: 8px; display:inline-block; color:#0a66c2; text-decoration:none; }
+    .modal .close {
+      position: absolute;
+      right: 14px;
+      top: 10px;
+      background: transparent;
+      border: 0;
+      font-size: 26px;
+      cursor: pointer;
+      line-height: 1;
+      color: #444;
+    }
+
+    /* loading overlay */
+    #loading {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.95);
+      padding: 12px 16px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      display: none;
+      z-index: 1000;
+    }
+
+    @media (max-width:640px) {
+      .modal { flex-direction: column; padding: 12px; }
+      .modal .media { width: 100%; max-width: 100%; min-width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label>
+      <input id="toggleLabels" type="checkbox" checked /> labels
+    </label>
+    <input id="search" type="search" placeholder="Search node label or id and press Enter" />
+    <div class="controls-right">
+      <div class="legend" id="legend"></div>
+    </div>
+  </div>
+
+  <div id="graph-container"></div>
+
+  <div id="tooltip" class="tooltip" aria-hidden="true"></div>
+
+  <!-- Modal for pop-up with heading + image -->
+  <div id="modal-backdrop" class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document" aria-labelledby="modal-title">
+      <button id="modal-close" class="close" aria-label="Close">&times;</button>
+      <div class="media" id="modal-media"></div>
+      <div class="content">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <a id="modal-link" class="url" href="#" target="_blank" rel="noopener">Open page</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading">Loading graph data…</div>
+
+  <script>
+  /******************************************************************************
+   * Dynamic D3 graph that fetches nodes from a JSON file (GitHub or any URL)
+   *
+   * How to use:
+   *  - Host a JSON file with the same structure as `rawNodes` (array of objects).
+   *  - Provide the raw file URL in DATA_URL below (use raw.githubusercontent.com for GitHub-hosted file).
+   *  - Example GitHub raw URL:
+   *      https://raw.githubusercontent.com/<owner>/<repo>/<branch>/data/nodes.json
+   *
+   * CORS:
+   *  - The server hosting the JSON must allow cross-origin requests (CORS).
+   *  - raw.githubusercontent.com supports CORS; GitHub Pages also works.
+   *
+   ******************************************************************************/
+
+  // Replace with your JSON file URL (raw.githubusercontent.com recommended)
+  // Example placeholder URL (replace with the actual one)
+  const DATA_URL = "https://raw.githubusercontent.com/your-username/your-repo/main/data/nodes.json";
+
+  // UI elements
+  const loadingEl = document.getElementById("loading");
+  const container = document.getElementById('graph-container');
+  const tooltip = d3.select("#tooltip");
+
+  // show/hide loading
+  function setLoading(on, text = "Loading graph data…") {
+    loadingEl.style.display = on ? "block" : "none";
+    loadingEl.textContent = text;
+  }
+
+  setLoading(true, "Fetching JSON from " + DATA_URL);
+
+  // fetch JSON, then initialize graph
+  fetch(DATA_URL, { cache: "no-store" })
+    .then(resp => {
+      if (!resp.ok) throw new Error(`Failed to fetch ${DATA_URL}: ${resp.status} ${resp.statusText}`);
+      return resp.json();
+    })
+    .then(data => {
+      // data should be an array of node objects (same shape as previously embedded rawNodes)
+      if (!Array.isArray(data)) throw new Error("JSON must be an array of nodes");
+      setLoading(true, "Preparing graph...");
+      initGraphFromNodes(data);
+    })
+    .catch(err => {
+      console.error("Error loading JSON:", err);
+      setLoading(false);
+      // show an error message in the container
+      container.innerHTML = `<div style="padding:18px;color:#a00">Error loading data: ${escapeHtml(err.message)}<br/>Check the DATA_URL, CORS headers, or open the console for details.</div>`;
+    });
+
+  // ---- Graph builder (initializes the D3 visualization) ----
+  function initGraphFromNodes(rawNodes) {
+    setLoading(false);
+
+    // Build links from parent relationships.
+    const rawLinks = [];
+    rawNodes.forEach(n => {
+      if (n.parent && String(n.parent).trim() !== "") {
+        // parent may contain multiple parents separated by |
+        const parents = String(n.parent).split("|").map(p => p.trim()).filter(Boolean);
+        parents.forEach(p => rawLinks.push({ source: p, target: String(n.id) }));
+      }
+    });
+
+    // --- Setup visual container & sizes ---
+    let { width, height } = container.getBoundingClientRect();
+
+    // clear previous svg if any
+    d3.select(container).selectAll("svg").remove();
+
+    const svg = d3.select(container).append("svg")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+
+    const defs = svg.append("defs");
+    defs.append("marker")
+        .attr("id", "arrow")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 18)
+        .attr("refY", 0)
+        .attr("markerWidth", 7)
+        .attr("markerHeight", 7)
+        .attr("orient", "auto")
+      .append("path")
+        .attr("d", "M0,-5L10,0L0,5")
+        .attr("fill", "#999");
+
+    const g = svg.append("g");
+
+    // zoom & pan
+    const zoom = d3.zoom()
+        .scaleExtent([0.2, 4])
+        .on("zoom", (event) => g.attr("transform", event.transform));
+    svg.call(zoom);
+
+    // Use type for color scale domain
+    const types = Array.from(new Set(rawNodes.map(n => n.type))).sort();
+    const palette = ["#d4a373", "#a3b18a", "#f2e8cf", "#c6d6ff", "#ffd6cc", "#e7d8ff", "#c7f0d0"];
+    const color = d3.scaleOrdinal().domain(types).range(palette.slice(0, types.length));
+
+    // clone nodes & links into structures d3 expects
+    const nodes = rawNodes.map(n => {
+      // ensure id is string
+      const clone = Object.assign({}, n);
+      clone.id = String(clone.id);
+      return clone;
+    });
+    const links = rawLinks.map(l => ({ source: String(l.source), target: String(l.target) }));
+
+    // build adjacency map
+    const adj = new Map();
+    nodes.forEach(n => adj.set(n.id, new Set()));
+    links.forEach(l => {
+      if (!adj.has(l.source)) adj.set(l.source, new Set());
+      if (!adj.has(l.target)) adj.set(l.target, new Set());
+      adj.get(l.source).add(l.target);
+      adj.get(l.target).add(l.source);
+    });
+
+    // node radius by degree
+    nodes.forEach(n => {
+      const k = adj.get(n.id) ? adj.get(n.id).size : 0;
+      n.radius = 8 + Math.min(20, k * 3);
+      if (n.type === "orpheus") n.radius = Math.max(n.radius, 20);
+      if (n.type === "cluster") n.radius = Math.max(n.radius, 12);
+      if (n.type === "researcher") n.radius = Math.max(n.radius, 9);
+    });
+
+    // simulation
+    const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id).distance(d => 90 + ( (adj.get(d.source.id)?.size||0) + (adj.get(d.target.id)?.size||0) ) * 6 ))
+      .force("charge", d3.forceManyBody().strength(-450))
+      .force("collision", d3.forceCollide().radius(d => d.radius + 6).iterations(2))
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .alphaDecay(0.03);
+
+    // links as curved paths
+    const link = g.append("g").attr("class", "links")
+      .selectAll("path")
+      .data(links)
+      .enter().append("path")
+      .attr("class", "link")
+      .attr("fill", "none")
+      .attr("stroke-width", 1.25)
+      .attr("stroke-linecap", "round")
+      .attr("marker-end", "url(#arrow)");
+
+    // nodes
+    const node = g.append("g").attr("class", "nodes")
+      .selectAll("g")
+      .data(nodes, d => d.id)
+      .enter().append("g")
+      .attr("class", d => "node " + (d.type || ""))
+      .on("mouseover", (event, d) => {
+        highlight(d);
+        tooltip.style("opacity", 1)
+               .html(`<strong>${escapeHtml(d.label)}</strong><div style="margin-top:6px;font-size:13px;color:#ddd">${escapeHtml(d.type || "")}${d.description ? "<br/><small style='color:#ccc'>" + escapeHtml(d.description) + "</small>" : ""}</div>`)
+               .style("left", (event.pageX + 10) + "px")
+               .style("top", (event.pageY + 6) + "px");
+      })
+      .on("mousemove", (event) => {
+        tooltip.style("left", (event.pageX + 10) + "px").style("top", (event.pageY + 6) + "px");
+      })
+      .on("mouseout", () => {
+        resetHighlight();
+        tooltip.style("opacity", 0);
+      })
+      .on("click", (event, d) => {
+        showModal(d);
+      })
+      .call(d3.drag()
+        .on("start", (event, d) => {
+          if (!event.active) simulation.alphaTarget(0.2).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on("drag", (event, d) => {
+          d.fx = event.x;
+          d.fy = event.y;
+        })
+        .on("end", (event, d) => {
+          if (!event.active) simulation.alphaTarget(0);
+        }));
+
+    node.append("circle")
+      .attr("r", d => d.radius)
+      .attr("fill", d => color(d.type))
+      .attr("stroke-opacity", 0.95);
+
+    const labels = node.append("text")
+        .attr("dx", d => d.radius + 8)
+        .attr("dy", ".35em")
+        .text(d => d.label)
+        .style("font-size", d => d.type === "orpheus" ? "18px" : "13px")
+        .style("pointer-events", "none")
+        .style("font-weight", "500")
+        .style("fill", "#222");
+
+    simulation.on("tick", () => {
+      node.attr("transform", d => `translate(${d.x},${d.y})`);
+      link.attr("d", d => {
+        const sx = d.source.x, sy = d.source.y;
+        const tx = d.target.x, ty = d.target.y;
+        const dx = tx - sx, dy = ty - sy;
+        const dr = Math.sqrt(dx*dx + dy*dy) || 1;
+        const mx = (sx + tx) / 2;
+        const my = (sy + ty) / 2;
+        const offset = Math.min(40, dr * 0.12);
+        const px = -dy / dr;
+        const py = dx / dr;
+        const cx = mx + px * offset;
+        const cy = my + py * offset;
+        return `M${sx},${sy} Q${cx},${cy} ${tx},${ty}`;
+      });
+    });
+
+    // highlight helpers
+    function highlight(d) {
+      node.selectAll("circle").style("opacity", n => (n.id === d.id || (adj.get(d.id) && adj.get(d.id).has(n.id))) ? 1 : 0.12);
+      labels.style("opacity", n => (n.id === d.id || (adj.get(d.id) && adj.get(d.id).has(n.id))) ? 1 : 0.12);
+      link.style("stroke-opacity", l => (String(l.source.id) === d.id || String(l.target.id) === d.id) ? 1 : 0.06)
+          .style("stroke", l => (String(l.source.id) === d.id || String(l.target.id) === d.id) ? "#666" : "#bbb");
+      d3.selectAll(".node").sort((a) => a.id === d.id ? 1 : -1);
+    }
+
+    function resetHighlight() {
+      node.selectAll("circle").style("opacity", 1);
+      labels.style("opacity", 1);
+      link.style("stroke-opacity", 0.6).style("stroke", "#999");
+    }
+
+    // --- Search to center on node ---
+    const search = document.getElementById("search");
+    search.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        const term = search.value.trim().toLowerCase();
+        if (!term) return;
+        const found = nodes.find(n => n.id.toLowerCase() === term || n.label.toLowerCase() === term || n.label.toLowerCase().includes(term));
+        if (found) focusNode(found);
+      }
+    });
+
+    function focusNode(d, scale = 1.8) {
+      const x = d.x, y = d.y;
+      const k = scale;
+      const tx = width / 2 - x * k;
+      const ty = height / 2 - y * k;
+      svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+      highlight(d);
+      setTimeout(resetHighlight, 1200);
+    }
+
+    // toggle labels
+    document.getElementById("toggleLabels").addEventListener("change", (e) => {
+      labels.style("display", e.target.checked ? "block" : "none");
+    });
+
+    // legend
+    const legendEl = d3.select("#legend");
+    legendEl.selectAll("*").remove();
+    types.forEach(t => {
+      const item = legendEl.append("div").attr("class", "item");
+      item.append("div").attr("class", "swatch").style("background", color(t));
+      item.append("div").text(t);
+    });
+
+    // resize support
+    function resize() {
+      const rect = container.getBoundingClientRect();
+      width = rect.width; height = rect.height;
+      svg.attr("viewBox", `0 0 ${width} ${height}`);
+      simulation.force("center", d3.forceCenter(width / 2, height / 2));
+      simulation.alpha(0.3).restart();
+    }
+    window.addEventListener("resize", resize);
+
+    // stop simulation after it cools
+    setTimeout(() => simulation.alphaTarget(0).stop(), 6000);
+
+    // --- Modal handling (pop-up) ---
+    const modalBackdrop = document.getElementById("modal-backdrop");
+    const modalTitle = document.getElementById("modal-title");
+    const modalDesc = document.getElementById("modal-desc");
+    const modalMedia = document.getElementById("modal-media");
+    const modalLink = document.getElementById("modal-link");
+    const modalClose = document.getElementById("modal-close");
+
+    function showModal(d) {
+      modalTitle.textContent = d.label || "";
+      modalDesc.textContent = d.description || "";
+      modalLink.href = d.url || "#";
+      modalLink.style.display = (d.url && d.url.trim() !== "") ? "inline-block" : "none";
+
+      modalMedia.innerHTML = "";
+      if (d.img_url && d.img_url.trim() !== "") {
+        const img = document.createElement("img");
+        // optionally set crossOrigin if your server supports it; remove if it causes CORS errors
+        img.crossOrigin = "anonymous";
+        img.src = d.img_url;
+        img.alt = d.label || "Image";
+        img.loading = "lazy";
+
+        // debug handlers
+        img.onload = () => {
+          console.log("Modal image loaded:", d.img_url);
+        };
+        img.onerror = (ev) => {
+          console.warn("Modal image failed to load:", d.img_url, ev);
+          img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23eee'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23999' font-size='18'%3ENo image%3C/text%3E%3C/svg%3E";
+        };
+
+        modalMedia.appendChild(img);
+      } else {
+        modalMedia.innerHTML = `<div style="padding:36px;text-align:center;color:#888">No image</div>`;
+      }
+
+      modalBackdrop.style.display = "flex";
+      modalBackdrop.setAttribute("aria-hidden", "false");
+    }
+
+    function hideModal() {
+      modalBackdrop.style.display = "none";
+      modalBackdrop.setAttribute("aria-hidden", "true");
+    }
+
+    modalBackdrop.addEventListener("click", (e) => {
+      if (e.target === modalBackdrop || e.target === modalClose) hideModal();
+    });
+    modalClose.addEventListener("click", hideModal);
+    window.addEventListener("keydown", (e) => { if (e.key === "Escape") hideModal(); });
+
+    // expose for debugging
+    window.graph = { svg, simulation, nodes, links, focusNode, showModal };
+  }
+
+  // small helper: escape HTML for tooltip content
+  function escapeHtml(str) {
+    if (!str) return "";
+    return String(str).replace(/[&<>"]/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
+  }
+
+  </script>
+</body>
+</html>

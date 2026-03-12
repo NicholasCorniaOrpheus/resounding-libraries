@@ -3,11 +3,12 @@ Basic utilities scripts
 """
 import json, csv
 import pandas as pd
-from time import gmtime, strftime, time
+from time import gmtime, strftime, time, sleep
 import math
 import os
 from pymarc import MARCReader, Record, Field, Subfield
 import requests
+from copy import deepcopy
 
 
 def csv2dict(csv_filename):  # imports a CSV file as dictionary

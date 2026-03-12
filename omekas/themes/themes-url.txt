@@ -1,4 +1,0 @@
-https://github.com/omeka-s-themes/default
-        https://github.com/indic-archive/bookshelf/releases/download/v2.0.1/bookshelf-v2.0.1.zip  
-        https://github.com/omeka-s-themes/freedom/releases/download/v1.1.0/freedom-v1.1.0.zip    
-        https://github.com/omeka-s-themes/lively/releases/download/v1.1.0/lively-v1.1.0.zip

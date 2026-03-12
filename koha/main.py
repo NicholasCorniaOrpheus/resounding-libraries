@@ -14,6 +14,7 @@ from modules.digitized_material import *
 from modules.wikidata import *
 from modules.isbn import *
 
+
 # Import credentials, assuming you are running the code from the `koha` directory
 credentials = json2dict("../credentials/credentials.json")
 
@@ -42,6 +43,8 @@ reports_mapping = os.path.join("data", "mappings", "mapping_reports.json")
 items_json_marc_mapping = csv2dict(
     os.path.join("data", "mappings", "mapping_api_item_marc_json.csv")
 )
+
+wikidata_koha_properties_mapping = csv2dict(os.path.join("data","mappings","wikidata-koha-properties.csv"))
 
 
 def export_biblioitems_and_authorities():
@@ -417,7 +420,28 @@ def put_changes_via_koha_api(change_items,change_records):
             print(get_biblionumber_marc(record[1]["biblio_id"]))
 
             print(f"Progress: {i} / {num_changes}")
-            i += 1    
+            i += 1   
+
+def put_changes_authorities_via_koha_api(changed_authorites):
+    print("Applying changes via Koha API...")
+    num_changes = len(changed_authorites)
+
+    i = 1
+    print("Changing authorities...")
+    for auth in changed_authorites:
+        print(f"Current auth_id: {auth["auth_id"]}")
+        # PUT modified record via API
+        if i <= 5:
+            put_authority_marc(auth["auth_id"], auth["record"])
+            input()
+
+            print(get_authority_marc(auth["auth_id"]))
+        else:
+            put_authority_marc(auth["auth_id"], auth["record"])
+
+        print(f"Progress: {i} / {num_changes}")
+        i += 1   
+
 
 def get_latest_changed_records():
     backup_records = json2dict(
@@ -467,7 +491,7 @@ def import_auth_dict():
 
     if answer == "y":
 
-        print("1. From local MARC backup file. 2. From API (Very slow!):")
+        print("1. From local MARC backup file. 2. From API):")
         answer = int(input())
         if answer == 1:
             print(f"Importing authorities from {get_latest_file(authorities_marc_dir)}")
@@ -476,7 +500,8 @@ def import_auth_dict():
         elif answer == 2:
             start_time = time()
             print("Importing authorities from API...")
-            auth_dict = generate_authority_dict_from_api(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
+            #auth_dict = generate_authority_dict_from_api(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
+            auth_dict = generate_authority_dict_from_api_parallel(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
             print(f"Authorities imported in {float(time() - start_time)/60} minutes")
 
         dict2json(
@@ -499,21 +524,85 @@ def import_auth_dict():
 
         return auth_dict
 
+def fix_missing_9_subfield_in_authorities(auth_dict):
+
+    backup_authorities, changed_authorities = add_auth_id_in_authority_field(auth_dict)
+
+    # save backup of original records
+
+    backup_filename = os.path.join(
+        batch_modifications_dir,
+        "backup",
+        "backup_fix_subfield_9-" + get_current_date() + ".json",
+    )
+
+    dict2json(backup_authorities, backup_filename)
+
+    changed_filename = os.path.join(
+        batch_modifications_dir,
+        "changed",
+        "changed_fix_subfield_9-" + get_current_date() + ".json",
+    )
+
+    dict2json(changed_authorities, changed_filename)
+
+    print(f"Number of authorities to be changed: {len(changed_authorities)}")
+
+    print("Putting changes via API...")
+
+    put_changes_authorities_via_koha_api(changed_authorites)
+
+def wikidata_enhancing(auth_dict):
+
+    qid_log_dir = os.path.join("data","wikidata")
+
+    wikidata_koha_mapping = csv2dict(os.path.join("data","mappings","wikidata-koha-properties.csv"))
+
+    print(f"Number of authorities: {len(auth_dict)}")
+
+    backup_authorities, changed_authorities = enhance_authorities_via_wikidata(auth_dict,qid_log_dir,wikidata_koha_mapping,batch_modifications_dir)
+
+    # Saving to JSON...
+    dict2json(
+        backup_authorities,
+        os.path.join(
+            batch_modifications_dir,"backup", "backup_authorities_wikidata-" + get_current_date() + ".json"
+        ),
+    )
+    dict2json(
+        changed_authorities,
+        os.path.join(
+            batch_modifications_dir,"changed", "changed_authorities_wikidata-" + get_current_date() + ".json"
+        ),
+    )
+
+
+# NOT WORKING
+def import_thumbs():
+    ### TESTING ###
+
+    biblio_item = 1637
+
+    image_path = os.path.join("tmp","thumbs","20134135_009.jpg")
+
+    upload_image_to_record(image_path,biblio_item,my_session,upload_url)
+
 
 ### CODE ###
 
-# Wikidata test
-
-qid = "Q2359145"
-
-pid = "P53"
+"""# Wikidata enhancing """
 
 
-isbn = "9780674970472"
+auth_dict = import_auth_dict()
 
-get_metadata_from_isbn(isbn,google_api_key=credentials["google"]["api_key"])
+wikidata_enhancing(auth_dict)
 
-input()
+
+#isbn = "9780674970472"
+
+#print(get_metadata_from_google_api(isbn,google_api_key=credentials["google"]["api_key"]))
+
+#input()
 
 #returns a list of qid from Wikidata
 #print(wb_get_property_data(qid, pid))
@@ -530,8 +619,19 @@ print(f"First {n} authorities: \n\n {authorities_list[0:n-1]}")
 
 """ # Authorities from MARC file """
 
-auth_dict = import_auth_dict()
+#auth_dict = import_auth_dict()
 
+"""fix_missing_9_subfield_in_authorities(auth_dict)
+
+#changed_authorites_file = get_latest_file(os.path.join(batch_modifications_dir, "changed"))
+
+#print(f"Imported {changed_authorites_file}")
+
+#changed_authorites = json2dict(changed_authorites_file)
+
+#put_changes_authorities_via_koha_api(changed_authorites)
+
+"""
 
 
 

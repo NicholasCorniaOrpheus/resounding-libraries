@@ -38,6 +38,8 @@ def basicAuth():
     )
     requests.get(base_url, auth=basic)
 
+    return basic
+
 
 # create Oath2 session
 my_session = oauth2_session(
@@ -188,6 +190,7 @@ def put_authority_marc(
             marc_json
         ),  # dumps serializes the Python dictionary into JSON string
     )
+
     return response.json()
 
 
