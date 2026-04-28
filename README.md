@@ -2,7 +2,35 @@
 Repository for the Resounding Libraries research cluster at Orpheus Instituut.
 
 
-## Credentials
+## Installation and Setup
+
+### Setting up virtual enviroment
+
+Generate the virtual enviroment on your project folder:
+
+```bash
+# Generate local python binaries in folder
+python3 -m venv $rl-env
+```
+
+Activate virtual enviroment in order to invoke the package:
+
+```bash
+# activate the enviroment for this terminal
+source $rl-env/bin/activate
+```
+
+
+### Installation via pip
+
+```bash
+pip install py-resouding-libraries
+```
+
+Dependencies listed in `requirements.txt`.
+
+
+### Setting up Credentials
 
 After cloning this repository, you should create a `credentials` folder to store all your sensible data. All credentials are stored in `credentials.json` file in this form:
 
@@ -33,43 +61,35 @@ After cloning this repository, you should create a `credentials` folder to store
 }
 ```
 
-## ResourceSpace
+## Modules
+
+### Koha
+
+This folder collects a series of Python scripts, build upon [pyMARC](https://pymarc.readthedocs.io/en/latest/) and the [Koha REST API](https://api.koha-community.org/),  to allow batch operation for your library catalogue and enriching metadata scripts with external linked open data information from [Wikidata](https://www.wikidata.org/).
+
+### ResourceSpace
 [Resourcespace](https://www.resourcespace.com/) is an open source digital assets management system.
 
 In the folder `resourcespace` you can find some useful Python scripts to dynamically interact with your Resourcespace instance. 
 Metadata for each record are pulled through Koha and ingested to Resource Space fields, collections and resources.
 
-### Pipeline
+### Transkribus
 
-## Koha
+...
 
-This folder collects a series of Python scripts, build upon [pyMARC](https://pymarc.readthedocs.io/en/latest/),  to allow batch operation for your library catalogue, Koha API and other mappings useful for enriching metadata with external, linked open data information.
+### Research Output
 
-### Pipeline
+...
 
-- Koha reports enhancement to JSON.
-- MARC authorities and biblioitems conversion to JSON.
-- MARC abbreviations conversion.
-- ...
+### Omeka S
 
-## ORCID
+**NOTE**: Still in development.
 
-[ORCID](https://orcid.org/) is a non-profit organization that provides a persistent digital identifier (an ORCID iD) that distinguishes you from every other researcher.
-Since 2023, Orpheus Instituut registers the research output of its members through the Koha catalogue. Each research output is stored as record and a plugin has been developed to batch export the data to [FRIS](https://researchportal.be/en).
+
+### ORCiD
+
+[ORCID](https://orcid.org/) is a non-profit organization that provides a persistent digital identifier (an ORCID iD) that distinguishes you from every other researcher. Since 2023, Orpheus Instituut registers the research output of its members through the Koha catalogue. Each research output is stored as record and a plugin has been developed to batch export the data to [FRIS](https://researchportal.be/en).
 
 In the folder `orcid` you can find some useful Python scripts, build upon [pyOrcid](https://github.com/sri0606/PyOrcid)to dynamically interact with your ORCID instance.
 
-### Pipeline
-
-- [ ] Connect researchers' ORCID records to Koha via API
-- [ x ] Generate a mapping between MARC fields and BibTex
-- [ ] Import Koha research output records back to ORCID
-
-### TO-DO
-
-- [ x ] Connect to ORCID API
-- [ x ] Try mapping in YAML between MARC fields and BibTex. No 1-1 relations...
-- [ x ] Import ORCID ID works as JSON from API
-- [ ] Create a script for more reliable mapping between MARC and BibTex
-- [ ] Get research output records form Koha (API,report,batch import)
-- [ ] Convert records to BibTex and send them to ORCID.
+**NOTE**: Still in development...

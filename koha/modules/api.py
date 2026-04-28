@@ -19,15 +19,19 @@ oauth_credentials = credentials["koha"]["oauth_credentials"]
 basic_credentials = credentials["koha"]["basic_credentials"]
 
 
-def oauth2_session(client_id, client_secret, base_url, scope="all"):
+def oauth2_session(client_id, client_secret,user_agent, base_url, scope="all"):
     token_url = f"{base_url}/oauth/token"  # This may be different for your endpoint
 
     oauth2client = OAuth2Client(
         token_endpoint=token_url, client_id=client_id, client_secret=client_secret
     )
+    if user_agent is not None:
+        oauth2client.session.headers.update({'User-Agent': user_agent})
     auth = OAuth2ClientCredentialsAuth(oauth2client, scope=scope, resource=base_url)
     session = requests.Session()
     session.auth = auth
+    if user_agent is not None:
+        session.headers.update({'User-Agent': user_agent})
     return session
 
 
@@ -45,9 +49,9 @@ def basicAuth():
 my_session = oauth2_session(
     client_id=oauth_credentials["client_id"],
     client_secret=oauth_credentials["secret_key"],
+    user_agent=oauth_credentials["user_agent"],
     base_url=base_url,
 )
-
 
 def convert_authority_marc_response(
     response_json, mapping_marc_fields_dict
@@ -108,16 +112,22 @@ def convert_authority_marc_response(
 
 def get_framework_id_biblioitem(biblio_id):
     # get the JSON response of the biblionumber
-    return get_biblionumber_json(biblio_id)["framework_id"]
+    try:
+        return get_biblionumber_json(biblio_id)["framework_id"]
+    except KeyError:
+        return ""
 
 
 def get_framework_id_authority(auth_id):
     # get the JSON response of the authority
-    return get_authority_json(auth_id)["framework_id"]
+    try:
+        return get_authority_json(auth_id)["framework_id"]
+    except KeyError:
+        return ""
 
 
 def get_authority_json(auth_id):  # returns a JSON response according to Koha fields
-    headers = {"Accept": "application/json"}
+    headers = {"Accept": "application/json", "User-Agent": "biblibre-api/1ac5fea6-bc37-4aee-8868-80fe1b245266"}
     response = my_session.get(f"{base_url}/authorities/{str(auth_id)}", headers=headers)
     return response.json()
 
@@ -125,15 +135,6 @@ def get_authority_json(auth_id):  # returns a JSON response according to Koha fi
 def get_authority_marc(auth_id):  # returns a JSON response with MARC fields.
     headers = {"Accept": "application/marc-in-json"}
     response = my_session.get(f"{base_url}/authorities/{str(auth_id)}", headers=headers)
-    """ # Debugging
-    print("REQUEST URL:", response.request.url)
-    print("REQUEST HEADERS:", response.request.headers)
-    print("REQUEST BODY (bytes):", response.request.body)
-    print("STATUS:", response.status_code)
-    print("RESPONSE HEADERS:", response.headers)
-    print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
-    input()
-    """
     return response.json()
 
 
@@ -237,6 +238,8 @@ def put_items_from_biblio_json(
         #input()
 
     return response.json()
+
+
 
 
 """ TO DO

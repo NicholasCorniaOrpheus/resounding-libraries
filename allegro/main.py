@@ -25,6 +25,17 @@ allegro_koha_mapping = csv2dict(
 
 #### TEST
 
-read_adt_file(get_latest_file(adt_filepath), allegro_koha_mapping)
+adt_filename = "kast48-Bussem-20251217.adt"
+
+allegro_records = read_adt_file(
+    os.path.join(adt_filepath, adt_filename), allegro_koha_mapping
+)
+
+print(f"Saving {adt_filename} as JSON... ")
+
+dict2json(
+    allegro_records, os.path.join("data", "json", adt_filename.replace(".adt", ".json"))
+)
+
 
 #### CODE

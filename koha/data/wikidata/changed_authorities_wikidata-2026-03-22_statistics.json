@@ -1,0 +1,153 @@
+{
+  "authorities": {
+    "n_changed_authorities": 13560,
+    "authority_types": [
+      {
+        "PERSO_NAME": 10985
+      },
+      {
+        "CORPO_NAME": 1588
+      },
+      {
+        "CHRON_TERM": 0
+      },
+      {
+        "TOPIC_TERM": 509
+      },
+      {
+        "GEOGR_NAME": 478
+      }
+    ]
+  },
+  "wikidata_properties": [
+    {
+      "http://wikidata.org/entity/P1066": 868
+    },
+    {
+      "http://wikidata.org/entity/P3373": 139
+    },
+    {
+      "http://wikidata.org/entity/P1303": 2126
+    },
+    {
+      "http://wikidata.org/entity/P1056": 1
+    },
+    {
+      "http://wikidata.org/entity/P176": 0
+    },
+    {
+      "http://wikidata.org/entity/P106": 7364
+    },
+    {
+      "http://wikidata.org/entity/P19": 4263
+    },
+    {
+      "http://wikidata.org/entity/P20": 1915
+    },
+    {
+      "http://wikidata.org/entity/P27": 2940
+    },
+    {
+      "http://wikidata.org/entity/P21": 1228
+    },
+    {
+      "http://wikidata.org/entity/P22": 126
+    },
+    {
+      "http://wikidata.org/entity/P25": 9
+    },
+    {
+      "http://wikidata.org/entity/P802": 203
+    },
+    {
+      "http://wikidata.org/entity/P1038": 44
+    },
+    {
+      "http://wikidata.org/entity/P53": 39
+    },
+    {
+      "http://wikidata.org/entity/P108": 1436
+    },
+    {
+      "http://wikidata.org/entity/P69": 921
+    },
+    {
+      "http://wikidata.org/entity/P937": 91
+    },
+    {
+      "http://wikidata.org/entity/P737": 167
+    },
+    {
+      "http://wikidata.org/entity/P17": 1726
+    },
+    {
+      "http://wikidata.org/entity/P361": 2
+    },
+    {
+      "http://wikidata.org/entity/P17": 0
+    },
+    {
+      "http://wikidata.org/entity/P361": 0
+    },
+    {
+      "http://wikidata.org/entity/P131": 2
+    },
+    {
+      "http://wikidata.org/entity/P31": 866
+    },
+    {
+      "http://wikidata.org/entity/P31": 0
+    },
+    {
+      "http://wikidata.org/entity/P31": 0
+    },
+    {
+      "http://wikidata.org/entity/P112": 103
+    },
+    {
+      "http://wikidata.org/entity/P131": 0
+    },
+    {
+      "http://wikidata.org/entity/P159": 6
+    },
+    {
+      "http://wikidata.org/entity/P279": 70
+    },
+    {
+      "http://wikidata.org/entity/P527": 10
+    },
+    {
+      "http://wikidata.org/entity/P461": 9
+    },
+    {
+      "http://wikidata.org/entity/P921": 0
+    },
+    {
+      "http://wikidata.org/entity/P144": 0
+    },
+    {
+      "http://wikidata.org/entity/P136": 0
+    },
+    {
+      "http://wikidata.org/entity/P136": 0
+    },
+    {
+      "http://wikidata.org/entity/P1343": 0
+    },
+    {
+      "http://wikidata.org/entity/P1343": 0
+    },
+    {
+      "http://wikidata.org/entity/P1343": 0
+    },
+    {
+      "http://wikidata.org/entity/P2860": 0
+    },
+    {
+      "http://wikidata.org/entity/P825": 0
+    },
+    {
+      "http://wikidata.org/entity/P7137": 0
+    }
+  ]
+}

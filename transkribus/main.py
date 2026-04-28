@@ -7,7 +7,7 @@ sys.path.append("./modules")
 from modules.utilities import *
 from modules.transkribus import *
 from modules.relations_spotting import *
-
+from modules.authority_recognition import *
 
 
 page_xml_data_directory = os.path.join("data", "page_xml")
@@ -90,7 +90,6 @@ def save_transkribus_collections_metadata(metadata_directory):
 		dict2json(transkribus_metadata,os.path.join(metadata_directory,f"{collection_id}.json"))
 
 
-
 def transkribus_indices_to_csv():
 	pass
 
@@ -111,63 +110,31 @@ def import_collection_metadata(collection_id=257292):
 
 
 ### TEST ####
+auth_dict_file = get_latest_file(os.path.join("data","auth_dict"))
+print(f"Importing latest Koha Authorities dictionary: {auth_dict_file} ...")
+auth_dict = json2dict(auth_dict_file)
 
-#transkribus_pages_directory = os.path.join("data", "page_xml")
+print("Filtering authorities for word-matching algorithm...")
+filtered_auth = import_koha_authorities(auth_dict)
 
-#transkribus_pages_directory = os.path.join("tmp")
+word = "viool"
+match_with_threshold(word,filtered_auth)
 
-#test_page_xml = os.path.join(transkribus_pages_directory, "12D02-1", "12D02-1_002.xml")
-
-#test_page_xml = os.path.join(transkribus_pages_directory,"20124686_002.xml")
-
-
-
-
-
-
-#get_page_xml_transkribus_api(collection_id,document_id,page_number)
-
-#relations_spotting_from_page_xml(test_page_xml)
-
-#get_page_xml_transkribus_api(collection_id,document_id,page_number)
-#input()
-
-#post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xml.replace(".xml","_with_relations.xml"))
-
-#post_page_xml_transkribus_api(collection_id,document_id,page_number,test_page_xml)
-
-
-
-
-# TO BE CONTINUED
-
-"""
-- Save coordinates and centroids in JSON serialization file
-- Get from Transkribus API pages that are not Ground Truth, but have regional labels (In Progress)
-- Match keyword with pages-keywords regions accoring to their centroids x coordinate, according to minimal distance criterium.
-- Parse relations back to PAGE XML
-- PUT modified PAGE XML back to Transkribus
-
-"""
-
+output_file = os.path.join("data","filtered_auth","filtered_auth-"+get_current_date()+".json")
+print(f"Save filtered authorities to {output_file} ...")
+dict2json(filtered_auth,output_file)
 
 ### CODE
 
 collection_id = 257292
 
-#document_id = 1860507 # facsimiles-scans 2024-
-
-document_id = 8184307 # bach
-
-page_number = 3
 
 print(f"Ton Koopman Indices collection id: {collection_id}")
 collection_metadata = import_collection_metadata(collection_id=collection_id)
 
-#get_jpg_image(collection_metadata,document_id,page_number)
 
-print(f"Current document: {document_id}")
-
+print("Insert document id to be processed: ")
+document_id = int(input())
 
 keep_editing = True 
 

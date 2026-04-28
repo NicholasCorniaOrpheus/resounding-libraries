@@ -38,6 +38,8 @@ external_sources_mapping = os.path.join(
     "data", "mappings", "mapping_external_sources.json"
 )
 
+external_ids_mapping = json2dict(os.path.join("data", "mappings", "mapping_external_ids.json"))
+
 reports_mapping = os.path.join("data", "mappings", "mapping_reports.json")
 
 items_json_marc_mapping = csv2dict(
@@ -422,25 +424,34 @@ def put_changes_via_koha_api(change_items,change_records):
             print(f"Progress: {i} / {num_changes}")
             i += 1   
 
-def put_changes_authorities_via_koha_api(changed_authorites):
+def put_changes_authorities_via_koha_api(changed_authorities):
     print("Applying changes via Koha API...")
-    num_changes = len(changed_authorites)
+    num_changes = len(changed_authorities)
 
     i = 1
     print("Changing authorities...")
-    for auth in changed_authorites:
-        print(f"Current auth_id: {auth["auth_id"]}")
-        # PUT modified record via API
-        if i <= 5:
-            put_authority_marc(auth["auth_id"], auth["record"])
-            input()
 
-            print(get_authority_marc(auth["auth_id"]))
-        else:
-            put_authority_marc(auth["auth_id"], auth["record"])
+    print("Would you like to recover an interrupted pull? (y/n)")
+    answer = input()
+    if  answer == "y":
+        start_auth = int(input("Provide the auth_id where you wish to recover the pull:"))
+    else:
+        start_auth = 0
 
-        print(f"Progress: {i} / {num_changes}")
-        i += 1   
+    for auth in changed_authorities:
+        if int(auth["auth_id"]) >= start_auth:
+            print(f"Current auth_id: {auth["auth_id"]}")
+            # PUT modified record via API
+            if i <= 5:
+                put_authority_marc(auth["auth_id"], auth["record"])
+                input()
+
+                print(get_authority_marc(auth["auth_id"]))
+            else:
+                put_authority_marc(auth["auth_id"], auth["record"])
+
+            print(f"Progress: {i} / {num_changes}")
+            i += 1   
 
 
 def get_latest_changed_records():
@@ -500,7 +511,6 @@ def import_auth_dict():
         elif answer == 2:
             start_time = time()
             print("Importing authorities from API...")
-            #auth_dict = generate_authority_dict_from_api(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
             auth_dict = generate_authority_dict_from_api_parallel(mapping_reports_path=reports_mapping,report_id=84, public_report_url=credentials["koha"]["koha_public_report_url"])
             print(f"Authorities imported in {float(time() - start_time)/60} minutes")
 
@@ -550,9 +560,9 @@ def fix_missing_9_subfield_in_authorities(auth_dict):
 
     print("Putting changes via API...")
 
-    put_changes_authorities_via_koha_api(changed_authorites)
+    put_changes_authorities_via_koha_api(changed_authorities)
 
-def wikidata_enhancing(auth_dict):
+def wikidata_enhancing(auth_dict,in_progress):
 
     qid_log_dir = os.path.join("data","wikidata")
 
@@ -560,7 +570,7 @@ def wikidata_enhancing(auth_dict):
 
     print(f"Number of authorities: {len(auth_dict)}")
 
-    backup_authorities, changed_authorities = enhance_authorities_via_wikidata(auth_dict,qid_log_dir,wikidata_koha_mapping,batch_modifications_dir)
+    backup_authorities, changed_authorities = enhance_authorities_via_wikidata(auth_dict,qid_log_dir,wikidata_koha_mapping,batch_modifications_dir,in_progress=in_progress)
 
     # Saving to JSON...
     dict2json(
@@ -576,6 +586,79 @@ def wikidata_enhancing(auth_dict):
         ),
     )
 
+    print(f"Backup and changed records JSON saved. Have a look at them before pushing the changes via API.")
+
+    input()
+
+    generate_authorities_wikidata_statistics()
+
+    put_changes_authorities_via_koha_api(changed_authorities)
+
+def generate_authorities_wikidata_statistics():
+    #Import latest changed json file
+    latest_changed_authorities_filepath = get_latest_file(os.path.join(batch_modifications_dir,"changed"))
+    print(f"Getting latest changed authorities file {latest_changed_authorities_filepath}...")
+    changed_authorities = json2dict(latest_changed_authorities_filepath)
+    statistics = generate_statistics_authorities_wikidata_enhancement(changed_authorities,wikidata_koha_properties_mapping)
+
+    # save to JSON
+    statistic_filepath = f"{latest_changed_authorities_filepath.split(".")[0]}_statistics.json"
+    print(f"Saving statistics in {statistic_filepath}...")
+    dict2json(statistics,statistic_filepath)
+
+def external_sources_labels(auth_dict):
+    print("Adding external identifier metadata to authorities...")
+    backup_authorities, changed_authorities = external_sources_metadata_authorities(auth_dict,external_ids_mapping)
+
+    print(f"Number of changes: {len(changed_authorities)}")
+
+    # Saving to JSON...
+    dict2json(
+        backup_authorities,
+        os.path.join(
+            batch_modifications_dir,"backup", "backup_authorities_external_ids-" + get_current_date() + ".json"
+        ),
+    )
+    dict2json(
+        changed_authorities,
+        os.path.join(
+            batch_modifications_dir,"changed", "changed_authorities_external_ids-" + get_current_date() + ".json"
+        ),
+    )
+
+    print(f"Backup and changed records JSON saved. Have a look at them before pushing the changes via API.")
+
+    input()
+
+    put_changes_authorities_via_koha_api(changed_authorities)
+
+# TESTED. It works nicely.
+def cleanup_main_headings(auth_dict):
+
+    backup_authorities, changed_authorities = cleanup_parenthesis_location_from_main_heading(
+        auth_dict,wikidata_koha_properties_mapping,batch_modifications_dir)
+
+    # Saving to JSON...
+    dict2json(
+        backup_authorities,
+        os.path.join(
+            batch_modifications_dir,"backup", "backup_authorities_cleanup_main_heading-" + get_current_date() + ".json"
+        ),
+    )
+    dict2json(
+        changed_authorities,
+        os.path.join(
+            batch_modifications_dir,"changed", "cleanup_main_heading-" + get_current_date() + ".json"
+        ),
+    )
+
+    print(f"Backup and changed records JSON saved. Have a look at them before pushing the changes via API.")
+
+    input()
+
+    put_changes_authorities_via_koha_api(changed_authorities)
+
+
 
 # NOT WORKING
 def import_thumbs():
@@ -590,150 +673,28 @@ def import_thumbs():
 
 ### CODE ###
 
-"""# Wikidata enhancing """
-
+### IMPORT Authority and Catalogue dictionaries
 
 auth_dict = import_auth_dict()
 
-wikidata_enhancing(auth_dict)
+#cat_dict = import_cat_dict()
 
 
-#isbn = "9780674970472"
+### Apply changes
 
-#print(get_metadata_from_google_api(isbn,google_api_key=credentials["google"]["api_key"]))
+#cleanup_main_headings(auth_dict)
 
-#input()
+#external_sources_labels(auth_dict)
 
-#returns a list of qid from Wikidata
-#print(wb_get_property_data(qid, pid))
+#wikidata_enhancing(auth_dict,in_progress=False)
 
-""" # Import authorities test: Internal server error...
+## Put last authorities changes
 
-authorities_list = get_authorities_via_koha_report(mapping_reports_path=reports_mapping, report_id=67, public_report_url=credentials["koha"]["koha_public_report_url"])
+#changed_authorities = json2dict(os.path.join(batch_modifications_dir,"changed","changed_authorities_wikidata-2026-03-22.json"))
 
-n = 10
-
-print(f"First {n} authorities: \n\n {authorities_list[0:n-1]}")
-
-"""
-
-""" # Authorities from MARC file """
-
-#auth_dict = import_auth_dict()
-
-"""fix_missing_9_subfield_in_authorities(auth_dict)
-
-#changed_authorites_file = get_latest_file(os.path.join(batch_modifications_dir, "changed"))
-
-#print(f"Imported {changed_authorites_file}")
-
-#changed_authorites = json2dict(changed_authorites_file)
-
-#put_changes_authorities_via_koha_api(changed_authorites)
-
-"""
-
-
-
-# api test
-
-#print(get_biblionumber_marc(1957))
+#put_changes_authorities_via_koha_api(changed_authorities)
 
 
 
 
 
-
-# cleaning malformatted indicators
-
-#backup_records, changed_records = change_indicator_field_from_catalogue_dict(cat_dict,"ind1","490","1"," ")
-
-#print(changed_records[0:15])
-
-#input()
-
-#put_changes_via_koha_api(change_items=False,change_records=True)
-
-# cleaning script
-
-# backup_records, changed_records = clean_field_336_cat_dict()
-
-#backup_records, changed_records = change_subfield_date_acquisiton_koopman()
-
-#backup_records, changed_records = get_latest_changed_records()
-
-#backup_records, changed_records = change_leader6_if_material_type_score()
-
-#backup_records, changed_records = change_leader6_if_material_type_book()
-
-#backup_records, change_records = change_leader7_if_cells()
-
-# leader scripts
-
-#prob_leaders_filename = "problematic_leaders_leader6_942$c_BOO-2025-12-05.csv"
-
-#update_problematic_leaders(prob_leaders_filename,leader_position=6,value="a")
-
-# apply changes via Koha API
-
-#restore_backup_records_via_koha_api()
-
-#put_changes_via_koha_api(change_items=False,change_records=True)
-
-
-
-
-
-
-# the API format marc-in-JSON is identical to record.as_marc()
-
-# Reinsert metadata in case of errors:
-# extract_marc_id(get_latest_file(biblioitems_marc_dir), 3)
-
-# Try to update the record directly via API!
-# marc_json = get_biblionumber_marc(3)
-# print(marc_json)
-# input()
-# print(put_biblionumber_marc(3, marc_json))
-
-# auth_marc = get_authority_marc(39271)
-# auth_json = get_authority_json(39271)
-# print(get_framework_id_authority(39271))
-
-# print(put_authority_marc(39271, auth_marc))
-
-
-# print(get_framework_id_biblioitem(3))
-
-"""
-# If Material type = Score -> leader[6]=c
-change_leader_from_record(
-    get_latest_file(biblioitems_marc_dir),
-    leader_position=6,
-    filter_field=["942", "c"],
-    criterium="SCO",
-    value="c",
-    output_name="SCO_to_leader6_c",
-)
-
-# If material type = book -> leader[6]=a
-change_leader_from_record(
-    get_latest_file(biblioitems_marc_dir),
-    leader_position=6,
-    filter_field=["942", "c"],
-    criterium="BOO",
-    value="a",
-    output_name="BOO_to_leader6_a",
-)
-
-# If item in cells -> leader[7]=m
-change_leader_from_record(
-    get_latest_file(biblioitems_marc_dir),
-    leader_position=6,
-    filter_field=["952", "o"],
-    criterium="KTS1 C",
-    value="a",
-    output_name="Cellen_to_leader7_m",
-)
-
-"""

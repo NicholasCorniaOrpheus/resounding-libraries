@@ -56,12 +56,6 @@ def read_adt_file(adt_filepath, allegro_koha_mapping, new_record_code="#00"):
         try:
             # print(f"Current line: {line}")
             if line[0:3] == new_record_code:  # create new record
-                # print("Adding new record")
-                try:
-                    print(f"Record added: {allegro_records[-1]}")
-
-                except IndexError:
-                    pass
                 allegro_records.append({})
             elif line[0] == "#":  # new field
                 # print("Adding field:")
@@ -90,3 +84,5 @@ def read_adt_file(adt_filepath, allegro_koha_mapping, new_record_code="#00"):
                 pass
         except IndexError:
             pass
+
+    return allegro_records

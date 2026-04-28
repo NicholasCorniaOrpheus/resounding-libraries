@@ -35,11 +35,20 @@ oauth_credentials = credentials["koha"]["oauth_credentials"]
 basic_credentials = credentials["koha"]["basic_credentials"]
 
 # create Oath2 session
-my_session = oauth2_session(
-    client_id=oauth_credentials["client_id"],
-    client_secret=oauth_credentials["secret_key"],
-    base_url=base_url,
-)
+
+if oauth_credentials["user_agent"] is not None:
+	my_session = oauth2_session(
+	    client_id=oauth_credentials["client_id"],
+	    client_secret=oauth_credentials["secret_key"],
+	    user_agent=oauth_credentials["user_agent"],
+	    base_url=base_url,
+	)
+else:
+	my_session = oauth2_session(
+	    client_id=oauth_credentials["client_id"],
+	    client_secret=oauth_credentials["secret_key"],
+	    base_url=base_url,
+	)
 
 def generate_thumbs_upload_list(cat_dict,digitization_fields=[{"field": "553","subfield": "a","string": "Digitized by Iguana"},{"field": "856","subfield": "3","string": "Koopman Digital"}]):
 

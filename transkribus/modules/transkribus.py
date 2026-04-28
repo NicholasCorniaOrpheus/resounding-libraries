@@ -168,9 +168,9 @@ def post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml
 			headers=headers,
 			data=page_xml_data
 		)
-	print("STATUS:", page_xml_response.status_code)
-	print("RESPONSE HEADERS:", page_xml_response.headers)
-	print("RESPONSE TEXT :", (page_xml_response.text or ""))
+	#print("STATUS:", page_xml_response.status_code)
+	#print("RESPONSE HEADERS:", page_xml_response.headers)
+	#print("RESPONSE TEXT :", (page_xml_response.text or ""))
 	return page_xml_response
 
 def relations_spotting_from_page_xml(page_xml_file):
@@ -181,7 +181,7 @@ def relations_spotting_from_page_xml(page_xml_file):
 
 	root = tree.getroot()
 
-	regions = get_regions_from_xml(root,baseline=True)
+	regions = get_regions_from_xml(root,baseline=False)
 	# Generate relations dictionary according to clustering method
 	"""
 	print("Which clustering algorithm would you like to use? 1 = simple, 2 = complex multicolumns, 3 = minimal x value, 4 = k-mean:")

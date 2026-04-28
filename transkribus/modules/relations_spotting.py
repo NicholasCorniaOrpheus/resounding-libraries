@@ -118,7 +118,7 @@ def find_region_polygonal_coordinates(
             return coordinates
 
 
-def get_regions_from_xml(root, baseline=True):
+def get_regions_from_xml(root, baseline=False):
     regions = []
 
     # Get data from each region, including centroids and coordinates
@@ -148,11 +148,14 @@ def get_regions_from_xml(root, baseline=True):
             "./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextLine"
         )
         for xml_line in xml_textlines:
-            regions[-1]["text"].append(
-                xml_line.find(
-                    "./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode"
-                ).text
-            )
+            try:
+                regions[-1]["text"].append(
+                    xml_line.find(
+                        "./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode"
+                    ).text
+                )
+            except AttributeError:
+                regions[-1]["text"].append("$UNKNOWN$")
 
     return regions
 
@@ -298,7 +301,7 @@ def k_mean_relations_matching(
         clusters[target_clustering[i]]["target_regions"].append(target_regions[i])
     """
 
-    print(f"Generated clusters: {clusters} \n")
+    #print(f"Generated clusters: {clusters} \n")
 
     # Apply y-centroid matching for each cluster
 
@@ -325,7 +328,7 @@ def k_mean_relations_matching(
                 }
             )
 
-    print(f"\n Relations: {relations}")      
+    #print(f"\n Relations: {relations}")      
 
     return relations        
         
@@ -403,7 +406,7 @@ def vertical_clustering_relations_matching_v1(
             }
         )
 
-    print(f"Number of source regions: {len(source_regions)}")
+    #print(f"Number of source regions: {len(source_regions)}")
 
     # Get threshold based on the Otsu x-gaps trimmed mean
     threshold = 0
@@ -420,7 +423,7 @@ def vertical_clustering_relations_matching_v1(
 
     threshold = stats.trim_mean(x_gaps, trim_cut)
 
-    print(f"threshold value: {threshold} ")
+    #print(f"threshold value: {threshold} ")
 
     # Iterate until the culsters aggregate according to threshold value
     loop_condition = True
@@ -468,9 +471,9 @@ def vertical_clustering_relations_matching_v1(
                 # remove source_cluster
                 clusters.remove(source_cluster)
 
-    print(f"Number of clusters: {len(clusters)}")
+    #print(f"Number of clusters: {len(clusters)}")
     #print(f"Clusters: {clusters}")
-    input()
+    #input()
 
     # Initiate target_regions
     target_regions = [
