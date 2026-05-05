@@ -9,7 +9,7 @@ This script implements a named entity recognition of Koha Authorities on the tra
 
 """
 
-from rapidfuzz import fuzz, process
+from rapidfuzz import fuzz, process, distance
 import re
 
 
@@ -25,7 +25,7 @@ def preprocess_dutch(text):
 
 
 def match_with_threshold(
-    query: str, filtered_auth: list, threshold=80, limit_results=20
+    query: str, filtered_auth: list, threshold=80, limit_results=20, preprocess=False
 ) -> list:
     """Find matches above similarity threshold. Made with Copilot.
     Args:
@@ -33,39 +33,70 @@ def match_with_threshold(
     filtered_auth (list): List of authorities to be matched with.
     threshold (int): Similarity threshold between 0-100.
     limit_results (int): Maximal number of results. Default is 20.
+    preprocess (bool): Apply preprocessing string. Default is `False`.
 
     Returns:
-    matches (list): List of matches of the form (m_heading,similarity_score,auth_index)
+    matches (list): Sorted list of matches based on the average of fuzz.ratio, fuzz.partial_ratio and Levenshtein's normalized similarity.
+
 
     Examples:
     >>> word = "viool"
     >>> match_with_threshold(word,filtered_auth)
-    >>>
+    >>> [{'m_heading': 'viool', 'auth_id': '37605', 'average_score': 1.0, 'fuzz_ratio': 100.0, 'levenshtein': 1.0, 'partial_ratio': 100.0}, {'m_heading': 'altviool', 'auth_id': '28631', 'average_score': 0.798076923076923, 'fuzz_ratio': 76.92307692307692, 'levenshtein': 0.625, 'partial_ratio': 100.0}, {'m_heading': 'basviool', 'auth_id': '29210', 'average_score': 0.798076923076923, 'fuzz_ratio': 76.92307692307692, 'levenshtein': 0.625, 'partial_ratio': 100.0}, {'m_heading': 'viola', 'auth_id': '37578', 'average_score': 0.762962962962963, 'fuzz_ratio': 80.0, 'levenshtein': 0.6, 'partial_ratio': 88.88888888888889} ...]
     """
+    if preprocess:
+        matches = []
+        for auth in filtered_auth:
+            query = preprocess_dutch(query)
+            auth_heading = preprocess_dutch(auth["m_heading"])
+            fuzz_ratio = fuzz.ratio(query, auth_heading)
+            levenshtein = distance.Levenshtein.normalized_similarity(
+                query, auth_heading
+            )
+            partial_ratio = fuzz.partial_ratio(query, auth_heading)
 
-    query_clean = preprocess_dutch(query)
+            if partial_ratio > threshold:
+                matches.append(
+                    {
+                        "m_heading": auth["m_heading"],
+                        "auth_id": auth["auth_id"],
+                        "average_score": (
+                            fuzz_ratio / 100 + levenshtein + partial_ratio / 100
+                        )
+                        / 3,
+                        "fuzz_ratio": fuzz_ratio,
+                        "levenshtein": levenshtein,
+                        "partial_ratio": partial_ratio,
+                    }
+                )
 
-    # UNDERSTAND scoring systems: https://rapidfuzz.github.io/RapidFuzz/Usage/fuzz.html
+    else:
+        matches = []
+        for auth in filtered_auth:
+            fuzz_ratio = fuzz.ratio(query, auth["m_heading"])
+            levenshtein = distance.Levenshtein.normalized_similarity(
+                query, auth["m_heading"]
+            )
+            partial_ratio = fuzz.partial_ratio(query, auth["m_heading"])
 
-    # NOT WORKING PROPERLY!
+            if partial_ratio > threshold:
+                matches.append(
+                    {
+                        "m_heading": auth["m_heading"],
+                        "auth_id": auth["auth_id"],
+                        "average_score": (
+                            fuzz_ratio / 100 + levenshtein + partial_ratio / 100
+                        )
+                        / 3,
+                        "fuzz_ratio": fuzz_ratio,
+                        "levenshtein": levenshtein,
+                        "partial_ratio": partial_ratio,
+                    }
+                )
 
-    exact_matches = process.extract(
-        query_clean,
-        [preprocess_dutch(auth["m_heading"]) for auth in filtered_auth],
-        scorer=fuzz.ratio,  # Exact match
-        limit=limit_results,
-        score_cutoff=threshold,
-    )
-
-    partial_matches = exact_matches = process.extract(
-        query_clean,
-        [preprocess_dutch(auth["m_heading"]) for auth in filtered_auth],
-        scorer=fuzz.partial_ratio,  # Find word in sentence
-        limit=limit_results,
-        score_cutoff=threshold,
-    )
-
-    print(f"Exact matches: \n {exact_matches} \n Partial matches: {partial_matches}")
+    return sorted(matches, key=lambda x: x["average_score"], reverse=True)[
+        0 : limit_results - 1
+    ]
 
 
 def get_authority_type(record: dict, auth_type_field=["942", "a"]) -> str:

@@ -8,6 +8,7 @@ from modules.utilities import *
 from modules.transkribus import *
 from modules.relations_spotting import *
 from modules.authority_recognition import *
+from modules.digital_images import *
 
 
 page_xml_data_directory = os.path.join("data", "page_xml")
@@ -15,6 +16,24 @@ page_xml_data_directory = os.path.join("data", "page_xml")
 json_data_directory = os.path.join("data", "json")
 
 indices_tk_training_id = 257292
+
+credentials = json2dict("../credentials/credentials.json")
+
+oauth_credentials = credentials["koha"]["oauth_credentials"]
+
+client_id = oauth_credentials["client_id"]
+
+client_secret = oauth_credentials["secret_key"]
+
+user_agent = oauth_credentials["user_agent"]
+
+base_url = credentials["koha"]["koha_api_url"]
+
+session = oauth2_session(client_id, client_secret, user_agent, base_url)
+
+biblionumber_mapping_filepath = os.path.join("data","mappings","call_number-barcode.csv")
+
+biblionumber_mapping = import_biblionumber_shelfmark_barcode_mapping(biblionumber_mapping_filepath)
 
 # get_transkribus_collections()
 
@@ -105,27 +124,79 @@ def import_collection_metadata(collection_id=257292):
 
 	return json2dict(os.path.join("metadata",f"{collection_id}.json"))
 
+def convert_pdfs_to_images_bulk():
+	directories_path = os.path.join(
+	"data", "digital_images", "special_collections-shelfmark"
+	)
+	print(f"Digital images parent directory: {directories_path}")
 
+	output_path = os.path.join("data", "digital_images", "special_collections-barcode")
 
+	print(f"Digital images output parent directory: {output_path}")
+
+	convert_pdfs_to_images(directories_path, output_path,os.path.join("data","mappings","call_number-barcode.csv"))
+
+	
 
 
 ### TEST ####
-auth_dict_file = get_latest_file(os.path.join("data","auth_dict"))
-print(f"Importing latest Koha Authorities dictionary: {auth_dict_file} ...")
-auth_dict = json2dict(auth_dict_file)
 
-print("Filtering authorities for word-matching algorithm...")
-filtered_auth = import_koha_authorities(auth_dict)
+def extract_keywords_from_barcode(barcode: str, mapping: list) -> list:
+	"""
+	Given a barcode, extracts a list of keywords.
 
-word = "viool"
-match_with_threshold(word,filtered_auth)
+	Args:
+	barcode (str): Barcode string.
+	mapping (list): Biblionumber-shelfmark-barcode mapping from CSV.
+	Returns:
+	keywords (list): List of dictionaries for keywords.
 
-output_file = os.path.join("data","filtered_auth","filtered_auth-"+get_current_date()+".json")
-print(f"Save filtered authorities to {output_file} ...")
-dict2json(filtered_auth,output_file)
+	Examples:
+	>>>
+
+	"""
+	# get biblionumber from barcode
+	biblionumber = None 
+	for item in mapping:
+		if item["barcode"] == barcode:
+			biblionumber = item["biblionumber"]
+			break
+	if biblionumber is not None:
+
+		biblio = get_biblionumber_marc(session,base_url,biblionumber)
+
+		keywords = get_koopman_keywords(biblio,barcode)
+
+	else:
+		print(f"Barcode {barcode} not found! Skip...")
+
+	print(keywords)
+
+	return keywords
+
+
+def match_keyword_with_authority():
+
+	auth_dict_file = get_latest_file(os.path.join("data","auth_dict"))
+	print(f"Importing latest Koha Authorities dictionary: {auth_dict_file} ...")
+	auth_dict = json2dict(auth_dict_file)
+
+	print("Filtering authorities for word-matching algorithm...")
+	filtered_auth = import_koha_authorities(auth_dict)
+
+	word = "viool"
+	match_with_threshold(word,filtered_auth)
+
+	output_file = os.path.join("data","filtered_auth","filtered_auth-"+get_current_date()+".json")
+	print(f"Save filtered authorities to {output_file} ...")
+	dict2json(filtered_auth,output_file)
 
 ### CODE
 
+extract_keywords_from_barcode(barcode="20122119",mapping=biblionumber_mapping)
+
+#match_keyword_with_authority()
+	
 collection_id = 257292
 
 
