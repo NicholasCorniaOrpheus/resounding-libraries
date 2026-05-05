@@ -141,6 +141,68 @@ def convert_pdfs_to_images_bulk():
 
 ### TEST ####
 
+def match_keywords_fron_barcode(collection_id=257292,zfill=3):
+	"""
+	1. User provides barcode of index manually | document_id + page_number
+	2. Get keywords from index via barcode
+	3. Retrieve PAGEXML file from Transkribus API
+	4. Fuzz matching transcription with keywords list
+	5. Update XML and push it back to  Transkribus via API
+	"""
+	# Import collection metadata
+	print(f"Ton Koopman Indices collection id: {collection_id}")
+	collection_metadata = import_collection_metadata(collection_id=collection_id)
+
+	# User provides document ID and page number
+	print("Insert document id to be processed: ")
+	document_id = int(input())
+	print("Choose page:")
+	page_number = int(input())
+	# Get page_metadata
+	document_pages = get_transkribus_pages_list(collection_id,document_id,allow_filter=False)
+
+	page_metadata = list(filter(lambda x: x["pageNr"] == page_number,document_pages))[0]
+
+
+	# Get keywords from index via barcode
+	barcode = page_metadata["library_identifier"]
+
+	keywords = extract_keywords_from_barcode(barcode=barcode,mapping=biblionumber_mapping)
+
+	# TO BE CONTINUED...
+	# create a list for the fuzz matching
+
+
+	#Get automatic transcripts from Transkribus API
+	xml_url = page_metadata["xml_url"]
+
+	layout = get_regions_and_relations_from_xml(xml_url,session)
+
+	"""
+	- for each region extract text
+	- match text against keywords list and return best match, or None based on heuristic threshold.
+	- if not None overwrite string back to XML region (using region_id)
+	- DON'T forget to add ":" back to keyword if needed.
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+	#get_page_xml_transkribus_api()
+
+
 def extract_keywords_from_barcode(barcode: str, mapping: list) -> list:
 	"""
 	Given a barcode, extracts a list of keywords.
@@ -170,7 +232,6 @@ def extract_keywords_from_barcode(barcode: str, mapping: list) -> list:
 	else:
 		print(f"Barcode {barcode} not found! Skip...")
 
-	print(keywords)
 
 	return keywords
 
@@ -193,9 +254,13 @@ def match_keyword_with_authority():
 
 ### CODE
 
-extract_keywords_from_barcode(barcode="20122119",mapping=biblionumber_mapping)
+#extract_keywords_from_barcode(barcode="20122119",mapping=biblionumber_mapping)
 
 #match_keyword_with_authority()
+
+match_keywords_fron_barcode()
+
+input()
 	
 collection_id = 257292
 

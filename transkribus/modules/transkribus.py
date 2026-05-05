@@ -119,7 +119,10 @@ def get_transkribus_pages_list(collection_id,document_id,allow_filter=True,crite
 			if not allow_filter: # no specific filters
 				latest_xml_version = page["tsList"]["transcripts"][0]["url"]
 				pages_metadata.append({
+					"collection_id": collection_id,
+					"document_id": document_id,
 					"pageId": page["pageId"],
+					"pageNr": page["pageNr"],
 					"filename": page["imgFileName"],
 					"library_identifier": page["imgFileName"].split("_")[0],
 					"page_number": page["imgFileName"].split("_")[1].split(".")[0],
@@ -135,6 +138,7 @@ def get_transkribus_pages_list(collection_id,document_id,allow_filter=True,crite
 						"collection_id": collection_id,
 						"document_id": document_id,
 						"pageId": page["pageId"],
+						"pageNr": page["pageNr"],
 						"filename": page["imgFileName"],
 						"library_identifier": page["imgFileName"].split("_")[0],
 						"page_number": page["imgFileName"].split("_")[1].split(".")[0],
@@ -144,7 +148,7 @@ def get_transkribus_pages_list(collection_id,document_id,allow_filter=True,crite
 		except IndexError:
 			print(f"Formatting errors for current page: {page["pageNr"]} ")
 
-	print(f"Number of pages imported: {len(pages_metadata)}")
+	#print(f"Number of pages imported: {len(pages_metadata)}")
 
 
 	return pages_metadata
