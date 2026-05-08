@@ -8,9 +8,50 @@ This script implements a named entity recognition of Koha Authorities on the tra
 5. Import new keywords in biblioitem.
 
 """
+import sys
+
+sys.path.append("./modules")
+
+from modules.koha import *
+
 
 from rapidfuzz import fuzz, process, distance
 import re
+
+
+def extract_keywords_from_barcode(
+    session, base_url: str, barcode: str, mapping: list
+) -> list:
+    """
+    Given a barcode, extracts a list of keywords.
+
+    Args:
+    session (str): Koha API session.
+    base_url (str): Koha API base URL.
+    barcode (str): Barcode string.
+    mapping (list): Biblionumber-shelfmark-barcode mapping from CSV.
+    Returns:
+    keywords (list): List of dictionaries for keywords.
+
+    Examples:
+    >>>
+
+    """
+    # get biblionumber from barcode
+    biblionumber = None
+    for item in mapping:
+        if item["barcode"] == barcode:
+            biblionumber = item["biblionumber"]
+            break
+    if biblionumber is not None:
+        biblio = get_biblionumber_marc(session, base_url, biblionumber)
+
+        keywords = get_koopman_keywords(biblio, barcode)
+
+    else:
+        print(f"Barcode {barcode} not found! Skip...")
+
+    return keywords
 
 
 def preprocess_dutch(text):
@@ -25,7 +66,7 @@ def preprocess_dutch(text):
 
 
 def match_with_threshold(
-    query: str, filtered_auth: list, threshold=80, limit_results=20, preprocess=False
+    query: str, filtered_auth: list, threshold=40, limit_results=20, preprocess=False
 ) -> list:
     """Find matches above similarity threshold. Made with Copilot.
     Args:

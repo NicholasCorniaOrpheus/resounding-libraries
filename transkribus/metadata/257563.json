@@ -29,6 +29,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=HYWKJRRTJFLDLJUATVRTIQCF",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_1706161",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -58,6 +59,7 @@
             "imageId": 50488155,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=HYWKJRRTJFLDLJUATVRTIQCF",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=HYWKJRRTJFLDLJUATVRTIQCF",
+            "storeId": 1,
             "md5Sum": "487436ac866ae30c77dbe031ca143c58",
             "fileSize": 1251859,
             "imgFileName": "p001.jpg",
@@ -67,6 +69,7 @@
                 {
                   "tsId": 143067087,
                   "parentTsId": 143061386,
+                  "storeId": 1,
                   "key": "WYOMCQUUXCGLCFITDUJAUAEA",
                   "pageId": 62536760,
                   "docId": 1706161,
@@ -96,6 +99,7 @@
                 {
                   "tsId": 143061386,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OQMZGVKXYCTQQRIPVKDQCSBZ",
                   "pageId": 62536760,
                   "docId": 1706161,
@@ -157,6 +161,7 @@
             "imageId": 50488156,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KPUDNMDKRJUDBIFQXIJUMHCP",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KPUDNMDKRJUDBIFQXIJUMHCP",
+            "storeId": 1,
             "md5Sum": "5e8346939e37aa98fddf45d64c48b3da",
             "fileSize": 1213305,
             "imgFileName": "p002.jpg",
@@ -166,6 +171,7 @@
                 {
                   "tsId": 143067091,
                   "parentTsId": 143061387,
+                  "storeId": 1,
                   "key": "DAMSYSADDAYYVQGEDWINGAJJ",
                   "pageId": 62536761,
                   "docId": 1706161,
@@ -195,6 +201,7 @@
                 {
                   "tsId": 143061387,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DIAQAQVJZCVSRMVWJQCDAXMK",
                   "pageId": 62536761,
                   "docId": 1706161,
@@ -256,6 +263,7 @@
             "imageId": 50488157,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=NTPHSCBPOXECIKEYYDBSDKEL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=NTPHSCBPOXECIKEYYDBSDKEL",
+            "storeId": 1,
             "md5Sum": "b646ed707637c444aee5714c6720129f",
             "fileSize": 893241,
             "imgFileName": "p003.jpg",
@@ -265,6 +273,7 @@
                 {
                   "tsId": 143067092,
                   "parentTsId": 143061389,
+                  "storeId": 1,
                   "key": "XBZAHHRYRKHTFDHNQPDNXUHG",
                   "pageId": 62536762,
                   "docId": 1706161,
@@ -294,6 +303,7 @@
                 {
                   "tsId": 143061389,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DKWCCLMUHPTVKFFQSANDWJVS",
                   "pageId": 62536762,
                   "docId": 1706161,
@@ -355,6 +365,7 @@
             "imageId": 50488158,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=LLINZJPRKQPFWZDPBTBVLRKB",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=LLINZJPRKQPFWZDPBTBVLRKB",
+            "storeId": 1,
             "md5Sum": "c5522a7eaed868ffe899abefb38eb3b1",
             "fileSize": 874445,
             "imgFileName": "p004.jpg",
@@ -364,6 +375,7 @@
                 {
                   "tsId": 143067095,
                   "parentTsId": 143061391,
+                  "storeId": 1,
                   "key": "BJNJZZTWTOLBLSBAOVBGWRYP",
                   "pageId": 62536763,
                   "docId": 1706161,
@@ -393,6 +405,7 @@
                 {
                   "tsId": 143061391,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "FBNCOGCVEOGFFZSVZSFJLZGH",
                   "pageId": 62536763,
                   "docId": 1706161,
@@ -454,6 +467,7 @@
             "imageId": 50488159,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=XLICPEQTFREXPIZVMEHMBXLZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=XLICPEQTFREXPIZVMEHMBXLZ",
+            "storeId": 1,
             "md5Sum": "1b026d420c0b83f825d207142433c370",
             "fileSize": 961676,
             "imgFileName": "p005.jpg",
@@ -463,6 +477,7 @@
                 {
                   "tsId": 143067098,
                   "parentTsId": 143061392,
+                  "storeId": 1,
                   "key": "RWSJJBYSTTTKVLQIPEALSSPO",
                   "pageId": 62536764,
                   "docId": 1706161,
@@ -492,6 +507,7 @@
                 {
                   "tsId": 143061392,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "HUWTLOPKMHNGKDWFHZQRFZAJ",
                   "pageId": 62536764,
                   "docId": 1706161,
@@ -553,6 +569,7 @@
             "imageId": 50488160,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=GVOLABGQTEMVRKYEHQCXKNVH",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=GVOLABGQTEMVRKYEHQCXKNVH",
+            "storeId": 1,
             "md5Sum": "e0c854784ea55b36eb9a6e701a933c99",
             "fileSize": 635494,
             "imgFileName": "p006.jpg",
@@ -562,6 +579,7 @@
                 {
                   "tsId": 143067100,
                   "parentTsId": 143061394,
+                  "storeId": 1,
                   "key": "SXZUYNIDAZSVEEDACGGGGYBW",
                   "pageId": 62536765,
                   "docId": 1706161,
@@ -591,6 +609,7 @@
                 {
                   "tsId": 143061394,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "TJLVBYWCROTQNNVCNJVUIVIJ",
                   "pageId": 62536765,
                   "docId": 1706161,
@@ -652,6 +671,7 @@
             "imageId": 50488161,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=NNXEOGNNHDTYVGSOBGUMBXDC",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=NNXEOGNNHDTYVGSOBGUMBXDC",
+            "storeId": 1,
             "md5Sum": "da760b6a3c2f77c98bbcdd8821a3e3cd",
             "fileSize": 804812,
             "imgFileName": "p007.jpg",
@@ -661,6 +681,7 @@
                 {
                   "tsId": 143067102,
                   "parentTsId": 143061396,
+                  "storeId": 1,
                   "key": "SSMQUXKUMSJYLUCYIKDJTKDR",
                   "pageId": 62536766,
                   "docId": 1706161,
@@ -690,6 +711,7 @@
                 {
                   "tsId": 143061396,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "GNHTZTMNMAQQAIKOQOYOZCGU",
                   "pageId": 62536766,
                   "docId": 1706161,
@@ -751,6 +773,7 @@
             "imageId": 50488162,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UGNGIIXAEXQJEAZSZTFQACQO",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UGNGIIXAEXQJEAZSZTFQACQO",
+            "storeId": 1,
             "md5Sum": "1af55f2de4ffbe518abdee09a0129071",
             "fileSize": 1113137,
             "imgFileName": "p008.jpg",
@@ -760,6 +783,7 @@
                 {
                   "tsId": 143067103,
                   "parentTsId": 143061398,
+                  "storeId": 1,
                   "key": "EGODIIEZIETWWBETMCSBOJYS",
                   "pageId": 62536767,
                   "docId": 1706161,
@@ -789,6 +813,7 @@
                 {
                   "tsId": 143061398,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "YGJJWSSMXNQRJGUGQVPNXPXH",
                   "pageId": 62536767,
                   "docId": 1706161,
@@ -850,6 +875,7 @@
             "imageId": 50488163,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=JTSVOLUDRJQAZIMQMKMJCXSA",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=JTSVOLUDRJQAZIMQMKMJCXSA",
+            "storeId": 1,
             "md5Sum": "9fa7cbb3b5239ed20aeca8f93a67e595",
             "fileSize": 1284565,
             "imgFileName": "p009.jpg",
@@ -859,6 +885,7 @@
                 {
                   "tsId": 143067105,
                   "parentTsId": 143061400,
+                  "storeId": 1,
                   "key": "NJZBUPRCUVHSTNNRVPZRICIA",
                   "pageId": 62536768,
                   "docId": 1706161,
@@ -888,6 +915,7 @@
                 {
                   "tsId": 143061400,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "CUDMCETNEVDBCUDFEGXFOUYN",
                   "pageId": 62536768,
                   "docId": 1706161,
@@ -949,6 +977,7 @@
             "imageId": 50488164,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=YWINYTXXSFMVESZNPIWZIHTV",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=YWINYTXXSFMVESZNPIWZIHTV",
+            "storeId": 1,
             "md5Sum": "921d84b6fad96a4cb64b4fbd04bd713d",
             "fileSize": 1261564,
             "imgFileName": "p010.jpg",
@@ -958,6 +987,7 @@
                 {
                   "tsId": 143067108,
                   "parentTsId": 143061404,
+                  "storeId": 1,
                   "key": "IVZJBTGNFCLKHDCILQCWZLIH",
                   "pageId": 62536769,
                   "docId": 1706161,
@@ -987,6 +1017,7 @@
                 {
                   "tsId": 143061404,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DOURPLAAYUOQIDRDRWBKBJCS",
                   "pageId": 62536769,
                   "docId": 1706161,
@@ -1048,6 +1079,7 @@
             "imageId": 50488165,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=TZLUKVHUZMVDDBMVSURRKSXE",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=TZLUKVHUZMVDDBMVSURRKSXE",
+            "storeId": 1,
             "md5Sum": "7fb1f1101a99ca9d9dbf35309f32a733",
             "fileSize": 1241152,
             "imgFileName": "p011.jpg",
@@ -1057,6 +1089,7 @@
                 {
                   "tsId": 143067109,
                   "parentTsId": 143061406,
+                  "storeId": 1,
                   "key": "QHPQQXEPHRGQXVVASLEAYSYZ",
                   "pageId": 62536770,
                   "docId": 1706161,
@@ -1086,6 +1119,7 @@
                 {
                   "tsId": 143061406,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "UZOHEEZIWDMFTGTXLIGKUOTC",
                   "pageId": 62536770,
                   "docId": 1706161,
@@ -1147,6 +1181,7 @@
             "imageId": 50488166,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=OGRHYHZEWUJMEGLTKWCGBZDH",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=OGRHYHZEWUJMEGLTKWCGBZDH",
+            "storeId": 1,
             "md5Sum": "9306d5d22553f60ca51d67729840db5d",
             "fileSize": 1270640,
             "imgFileName": "p012.jpg",
@@ -1156,6 +1191,7 @@
                 {
                   "tsId": 143067110,
                   "parentTsId": 143061407,
+                  "storeId": 1,
                   "key": "YWGFRGTSSIUSDKVSNTTGQESQ",
                   "pageId": 62536771,
                   "docId": 1706161,
@@ -1185,6 +1221,7 @@
                 {
                   "tsId": 143061407,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "HSLDMVMLFHIGZMHVNXLWWNOA",
                   "pageId": 62536771,
                   "docId": 1706161,
@@ -1246,6 +1283,7 @@
             "imageId": 50488167,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=SGSVXWIKQDOAMOBYZLFAURZC",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=SGSVXWIKQDOAMOBYZLFAURZC",
+            "storeId": 1,
             "md5Sum": "b1a1c62be1d1b180c5a1e919667cf10c",
             "fileSize": 1158835,
             "imgFileName": "p013.jpg",
@@ -1255,6 +1293,7 @@
                 {
                   "tsId": 143067112,
                   "parentTsId": 143061409,
+                  "storeId": 1,
                   "key": "ZKNYASCHEFTIZFUVEUWQFSJJ",
                   "pageId": 62536772,
                   "docId": 1706161,
@@ -1284,6 +1323,7 @@
                 {
                   "tsId": 143061409,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "QGUPIXIPDEYLUOMMYANDWHCO",
                   "pageId": 62536772,
                   "docId": 1706161,
@@ -1345,6 +1385,7 @@
             "imageId": 50488168,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=WXVMKMEGCWEXYMNDHWCSGDFR",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=WXVMKMEGCWEXYMNDHWCSGDFR",
+            "storeId": 1,
             "md5Sum": "929b3a25b8b686d23f19dbd3807547be",
             "fileSize": 1266047,
             "imgFileName": "p014.jpg",
@@ -1354,6 +1395,7 @@
                 {
                   "tsId": 143067113,
                   "parentTsId": 143061410,
+                  "storeId": 1,
                   "key": "UEUDDGZXHDMIYTJCMQWITTIR",
                   "pageId": 62536773,
                   "docId": 1706161,
@@ -1383,6 +1425,7 @@
                 {
                   "tsId": 143061410,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "CQJDYRACSGBAALCTGJZPDEMT",
                   "pageId": 62536773,
                   "docId": 1706161,
@@ -1444,6 +1487,7 @@
             "imageId": 50488169,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=FAICEFQAZKSCMIGOGJTQJZGD",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=FAICEFQAZKSCMIGOGJTQJZGD",
+            "storeId": 1,
             "md5Sum": "78396838b09eb237910613620479413c",
             "fileSize": 1271505,
             "imgFileName": "p015.jpg",
@@ -1453,6 +1497,7 @@
                 {
                   "tsId": 143067114,
                   "parentTsId": 143061412,
+                  "storeId": 1,
                   "key": "NOXVCUXKPPBOUFUKEILYYLKI",
                   "pageId": 62536774,
                   "docId": 1706161,
@@ -1482,6 +1527,7 @@
                 {
                   "tsId": 143061412,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "VZDZJDPXMCGLUELSRVBKVWXE",
                   "pageId": 62536774,
                   "docId": 1706161,
@@ -1543,6 +1589,7 @@
             "imageId": 50488170,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UYWRELTSKFSJMQTRXATTQLQH",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UYWRELTSKFSJMQTRXATTQLQH",
+            "storeId": 1,
             "md5Sum": "367e235692d4e0d81b3ac7433fa41b90",
             "fileSize": 981697,
             "imgFileName": "p016.jpg",
@@ -1552,6 +1599,7 @@
                 {
                   "tsId": 143067116,
                   "parentTsId": 143061414,
+                  "storeId": 1,
                   "key": "WLDYDBWCYHIUHMVBSOJISOUJ",
                   "pageId": 62536775,
                   "docId": 1706161,
@@ -1581,6 +1629,7 @@
                 {
                   "tsId": 143061414,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NSWAWZPJHZGJKPONKVFZDBOG",
                   "pageId": 62536775,
                   "docId": 1706161,
@@ -1642,6 +1691,7 @@
             "imageId": 50488171,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=YESUDMFAXVBMTENXXCIFBYJM",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=YESUDMFAXVBMTENXXCIFBYJM",
+            "storeId": 1,
             "md5Sum": "3f7003ff27f43fc315d6875703085b55",
             "fileSize": 1493596,
             "imgFileName": "p017.jpg",
@@ -1651,6 +1701,7 @@
                 {
                   "tsId": 143067117,
                   "parentTsId": 143061416,
+                  "storeId": 1,
                   "key": "USQIKVRMFHZLVZPBESGBHOAQ",
                   "pageId": 62536776,
                   "docId": 1706161,
@@ -1680,6 +1731,7 @@
                 {
                   "tsId": 143061416,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NWXJKZJPZVESKXKGAWGIVCTP",
                   "pageId": 62536776,
                   "docId": 1706161,
@@ -1741,6 +1793,7 @@
             "imageId": 50488172,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ELZUDWUDOPQLLCMWOTQTBPOB",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ELZUDWUDOPQLLCMWOTQTBPOB",
+            "storeId": 1,
             "md5Sum": "604f8390f1148d4644d62158187ac88f",
             "fileSize": 1767563,
             "imgFileName": "p018.jpg",
@@ -1750,6 +1803,7 @@
                 {
                   "tsId": 143067119,
                   "parentTsId": 143061421,
+                  "storeId": 1,
                   "key": "ZYQZSBPLNUYUDRQHURZZIFFE",
                   "pageId": 62536777,
                   "docId": 1706161,
@@ -1779,6 +1833,7 @@
                 {
                   "tsId": 143061421,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "IRSVMBXPBTESVLXVZHJACGSL",
                   "pageId": 62536777,
                   "docId": 1706161,
@@ -1840,6 +1895,7 @@
             "imageId": 50488173,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UJJOVQNIBOAYNXHRDJQFRSGD",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UJJOVQNIBOAYNXHRDJQFRSGD",
+            "storeId": 1,
             "md5Sum": "1e3ff72634cd90b1fdd2da4f787d2530",
             "fileSize": 793614,
             "imgFileName": "p019.jpg",
@@ -1849,6 +1905,7 @@
                 {
                   "tsId": 143067120,
                   "parentTsId": 143061423,
+                  "storeId": 1,
                   "key": "DBUTVBILAYCGQOALLWOJNETQ",
                   "pageId": 62536778,
                   "docId": 1706161,
@@ -1878,6 +1935,7 @@
                 {
                   "tsId": 143061423,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "MFKJWMBHIMJXJNAKRBVYXLOC",
                   "pageId": 62536778,
                   "docId": 1706161,
@@ -1939,6 +1997,7 @@
             "imageId": 50488174,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UBECPVWKAJQNRHWRDQFHOFRP",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UBECPVWKAJQNRHWRDQFHOFRP",
+            "storeId": 1,
             "md5Sum": "bdb141ec6ebe666e213040bd749fe339",
             "fileSize": 561830,
             "imgFileName": "p020.jpg",
@@ -1948,6 +2007,7 @@
                 {
                   "tsId": 143067122,
                   "parentTsId": 143061424,
+                  "storeId": 1,
                   "key": "TUMJJNATIRKWSMPNPMWPBPZY",
                   "pageId": 62536779,
                   "docId": 1706161,
@@ -1977,6 +2037,7 @@
                 {
                   "tsId": 143061424,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "FWIHMDBRUFIFSVKXPDOUCSZE",
                   "pageId": 62536779,
                   "docId": 1706161,
@@ -2038,6 +2099,7 @@
             "imageId": 50488175,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=WJPCZQCZDWZBTURIXBMYYFJZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=WJPCZQCZDWZBTURIXBMYYFJZ",
+            "storeId": 1,
             "md5Sum": "dc4920407deec83cf9503a030a24e463",
             "fileSize": 1954372,
             "imgFileName": "p021.jpg",
@@ -2047,6 +2109,7 @@
                 {
                   "tsId": 143067123,
                   "parentTsId": 143061426,
+                  "storeId": 1,
                   "key": "HGKVHBOJPVCGWBEOYGTRKKYI",
                   "pageId": 62536780,
                   "docId": 1706161,
@@ -2076,6 +2139,7 @@
                 {
                   "tsId": 143061426,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "GXCRPTDPPESKWDERDONMMSYS",
                   "pageId": 62536780,
                   "docId": 1706161,
@@ -2170,6 +2234,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UIIMHTDEOEDAPVMBSEXJSZTZ",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_1706180",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -2199,6 +2264,7 @@
             "imageId": 50488220,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UIIMHTDEOEDAPVMBSEXJSZTZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UIIMHTDEOEDAPVMBSEXJSZTZ",
+            "storeId": 1,
             "md5Sum": "0ece3b6fd3efe8de765a5bfb9439a022",
             "fileSize": 1303469,
             "imgFileName": "p001.jpg",
@@ -2208,6 +2274,7 @@
                 {
                   "tsId": 143068560,
                   "parentTsId": 143065377,
+                  "storeId": 1,
                   "key": "CVVBNOSXEZLOZLCXXQVDABOM",
                   "pageId": 62536827,
                   "docId": 1706180,
@@ -2237,6 +2304,7 @@
                 {
                   "tsId": 143065377,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NSLFOQNIDUXLPWANWRTYXCWX",
                   "pageId": 62536827,
                   "docId": 1706180,
@@ -2298,6 +2366,7 @@
             "imageId": 50488221,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=EYSLOLUURTSXJBRZEZTSQXAJ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=EYSLOLUURTSXJBRZEZTSQXAJ",
+            "storeId": 1,
             "md5Sum": "b52e1b1d5dd6ccaf951ea0841831ec9c",
             "fileSize": 1104796,
             "imgFileName": "p002.jpg",
@@ -2307,6 +2376,7 @@
                 {
                   "tsId": 143068561,
                   "parentTsId": 143065379,
+                  "storeId": 1,
                   "key": "GUBFPDOYWSNTBSTSCHOYJTZU",
                   "pageId": 62536828,
                   "docId": 1706180,
@@ -2336,6 +2406,7 @@
                 {
                   "tsId": 143065379,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "XBPLCWKBCECFQPEKBVSVZVVA",
                   "pageId": 62536828,
                   "docId": 1706180,
@@ -2397,6 +2468,7 @@
             "imageId": 50488222,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=FCHXIGDOGYCJFRUABQVLIYUS",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=FCHXIGDOGYCJFRUABQVLIYUS",
+            "storeId": 1,
             "md5Sum": "ddc676931564551f929aebc6ba58d90a",
             "fileSize": 1449484,
             "imgFileName": "p003.jpg",
@@ -2406,6 +2478,7 @@
                 {
                   "tsId": 151034256,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OPTDVZSNGZQFFQMWTWFTGEES",
                   "pageId": 62536829,
                   "docId": 1706180,
@@ -2433,6 +2506,7 @@
                 {
                   "tsId": 143068564,
                   "parentTsId": 143065381,
+                  "storeId": 1,
                   "key": "COLUEHOKXYULROOWQWEQYBFS",
                   "pageId": 62536829,
                   "docId": 1706180,
@@ -2462,6 +2536,7 @@
                 {
                   "tsId": 143065381,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "LRIFAALAADFULQAWWDGFTJWB",
                   "pageId": 62536829,
                   "docId": 1706180,
@@ -2521,6 +2596,7 @@
             "imageId": 50488223,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=GFVGACBEHTRRYUCLBUJSVYQZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=GFVGACBEHTRRYUCLBUJSVYQZ",
+            "storeId": 1,
             "md5Sum": "d9a39fd1aebfd366e8d365b0ea3ed45b",
             "fileSize": 1005817,
             "imgFileName": "p004.jpg",
@@ -2530,6 +2606,7 @@
                 {
                   "tsId": 143068565,
                   "parentTsId": 143065382,
+                  "storeId": 1,
                   "key": "ISRDFMFAIOOLFZXQZVDRCDXK",
                   "pageId": 62536830,
                   "docId": 1706180,
@@ -2559,6 +2636,7 @@
                 {
                   "tsId": 143065382,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "ITHPCWJJKHDZPLXKFYNRUMTF",
                   "pageId": 62536830,
                   "docId": 1706180,
@@ -2620,6 +2698,7 @@
             "imageId": 50488224,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=WQQFYZGSSDINRAHEGXZFZZHV",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=WQQFYZGSSDINRAHEGXZFZZHV",
+            "storeId": 1,
             "md5Sum": "35fffd9191af8280ab70914d1671a83c",
             "fileSize": 1285892,
             "imgFileName": "p005.jpg",
@@ -2629,6 +2708,7 @@
                 {
                   "tsId": 143068566,
                   "parentTsId": 143065388,
+                  "storeId": 1,
                   "key": "NGFBDZNXLOWHRUGQPZYIRSUV",
                   "pageId": 62536831,
                   "docId": 1706180,
@@ -2658,6 +2738,7 @@
                 {
                   "tsId": 143065388,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "GANUXSQUJJLDUKWCNLDXPYWM",
                   "pageId": 62536831,
                   "docId": 1706180,
@@ -2719,6 +2800,7 @@
             "imageId": 50488225,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=CTKEYSPEWACDYUJARYBNPMKB",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=CTKEYSPEWACDYUJARYBNPMKB",
+            "storeId": 1,
             "md5Sum": "5e1e26030d4140db098c7d7e568d04e4",
             "fileSize": 1338678,
             "imgFileName": "p006.jpg",
@@ -2728,6 +2810,7 @@
                 {
                   "tsId": 151031393,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OCDNNHVWURAFUEAIHNPRTVHJ",
                   "pageId": 62536832,
                   "docId": 1706180,
@@ -2755,6 +2838,7 @@
                 {
                   "tsId": 143068567,
                   "parentTsId": 143065391,
+                  "storeId": 1,
                   "key": "BUHVFBMZYLXSWKKROUOPLWVB",
                   "pageId": 62536832,
                   "docId": 1706180,
@@ -2784,6 +2868,7 @@
                 {
                   "tsId": 143065391,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "YPCPIUZBFFJBIZOLWRYPSPDW",
                   "pageId": 62536832,
                   "docId": 1706180,
@@ -2843,6 +2928,7 @@
             "imageId": 50488226,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=HTAYHNPSITSTBVSPAUAPIPMX",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=HTAYHNPSITSTBVSPAUAPIPMX",
+            "storeId": 1,
             "md5Sum": "4b017ff30fd3520493eed405c3beeda9",
             "fileSize": 1351492,
             "imgFileName": "p007.jpg",
@@ -2852,6 +2938,7 @@
                 {
                   "tsId": 151031425,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "ZOYPYQDNPRNNODPDCOQUFCBC",
                   "pageId": 62536833,
                   "docId": 1706180,
@@ -2879,6 +2966,7 @@
                 {
                   "tsId": 143068572,
                   "parentTsId": 143065393,
+                  "storeId": 1,
                   "key": "KKBNJTCWFQBTEJAFSTCYLWOF",
                   "pageId": 62536833,
                   "docId": 1706180,
@@ -2908,6 +2996,7 @@
                 {
                   "tsId": 143065393,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "VQHLFSEKUTYLVPRXDUUBFCXA",
                   "pageId": 62536833,
                   "docId": 1706180,
@@ -2967,6 +3056,7 @@
             "imageId": 50488227,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KSEGQVXRHCIGXUSRSQUSKBOZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KSEGQVXRHCIGXUSRSQUSKBOZ",
+            "storeId": 1,
             "md5Sum": "ba63353909c4090740bc5c9b348552b3",
             "fileSize": 1482557,
             "imgFileName": "p008.jpg",
@@ -2976,6 +3066,7 @@
                 {
                   "tsId": 151031470,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NBKVFWMVNFJIKYQQGMQWFRYC",
                   "pageId": 62536834,
                   "docId": 1706180,
@@ -3003,6 +3094,7 @@
                 {
                   "tsId": 143068574,
                   "parentTsId": 143065395,
+                  "storeId": 1,
                   "key": "SGIYFFGAHQECCDVFZBGIFJDL",
                   "pageId": 62536834,
                   "docId": 1706180,
@@ -3032,6 +3124,7 @@
                 {
                   "tsId": 143065395,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "FUIBIJPHHOVTYHZIQTRTBAMK",
                   "pageId": 62536834,
                   "docId": 1706180,
@@ -3091,6 +3184,7 @@
             "imageId": 50488228,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=OQCHMHUBOTQXEOILRPUOFJOB",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=OQCHMHUBOTQXEOILRPUOFJOB",
+            "storeId": 1,
             "md5Sum": "ba1ec2633e53b0709876b576abf09c28",
             "fileSize": 1585855,
             "imgFileName": "p009.jpg",
@@ -3100,6 +3194,7 @@
                 {
                   "tsId": 151031496,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "ROSVEQTAWOIWSYOANPGUFNAK",
                   "pageId": 62536835,
                   "docId": 1706180,
@@ -3127,6 +3222,7 @@
                 {
                   "tsId": 143068576,
                   "parentTsId": 143065397,
+                  "storeId": 1,
                   "key": "JBIVKKYGGNEVXLSFVKRYIPDD",
                   "pageId": 62536835,
                   "docId": 1706180,
@@ -3156,6 +3252,7 @@
                 {
                   "tsId": 143065397,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "BYXKQNTNZJDWROFFEAKNEMAV",
                   "pageId": 62536835,
                   "docId": 1706180,
@@ -3215,6 +3312,7 @@
             "imageId": 50488229,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=GFBDHHUEAPUNOEUBRXTFJECA",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=GFBDHHUEAPUNOEUBRXTFJECA",
+            "storeId": 1,
             "md5Sum": "83e72e9438e65ffaaa07382f2b264080",
             "fileSize": 1459325,
             "imgFileName": "p010.jpg",
@@ -3224,6 +3322,7 @@
                 {
                   "tsId": 151031528,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EZTAQZJBEBWWBBWQYKZBPPPX",
                   "pageId": 62536836,
                   "docId": 1706180,
@@ -3251,6 +3350,7 @@
                 {
                   "tsId": 143068577,
                   "parentTsId": 143065398,
+                  "storeId": 1,
                   "key": "UCTUFJDYHCQASWLBIDXXTHZY",
                   "pageId": 62536836,
                   "docId": 1706180,
@@ -3280,6 +3380,7 @@
                 {
                   "tsId": 143065398,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "LAQOESPARKIIXPGARALZDQSC",
                   "pageId": 62536836,
                   "docId": 1706180,
@@ -3339,6 +3440,7 @@
             "imageId": 50488230,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=QVRMJIJOHSDITTMFYJVKHLIL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=QVRMJIJOHSDITTMFYJVKHLIL",
+            "storeId": 1,
             "md5Sum": "b7367e6b2265977998a3415a9c00d4c5",
             "fileSize": 1429483,
             "imgFileName": "p011.jpg",
@@ -3348,6 +3450,7 @@
                 {
                   "tsId": 151031558,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "KBLRDCAJGJSQYAZTEBAMPERR",
                   "pageId": 62536837,
                   "docId": 1706180,
@@ -3375,6 +3478,7 @@
                 {
                   "tsId": 143068578,
                   "parentTsId": 143065400,
+                  "storeId": 1,
                   "key": "UTYVFRRXGBHVFSAMCUOLVBQA",
                   "pageId": 62536837,
                   "docId": 1706180,
@@ -3404,6 +3508,7 @@
                 {
                   "tsId": 143065400,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "XXKXTMMEQIWNBNHXAMKXGSYC",
                   "pageId": 62536837,
                   "docId": 1706180,
@@ -3463,6 +3568,7 @@
             "imageId": 50488231,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=OGRNYJLFSDOTRYQJFWKTFWSS",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=OGRNYJLFSDOTRYQJFWKTFWSS",
+            "storeId": 1,
             "md5Sum": "b9eb0aaaf9c56f1acf615751046c3be4",
             "fileSize": 1438845,
             "imgFileName": "p012.jpg",
@@ -3472,6 +3578,7 @@
                 {
                   "tsId": 143068579,
                   "parentTsId": 143065402,
+                  "storeId": 1,
                   "key": "PCCJFMIEDOCODPVCBSDWQPZB",
                   "pageId": 62536838,
                   "docId": 1706180,
@@ -3501,6 +3608,7 @@
                 {
                   "tsId": 143065402,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "MASMEKZNWUMOVUAFWDMELBCI",
                   "pageId": 62536838,
                   "docId": 1706180,
@@ -3562,6 +3670,7 @@
             "imageId": 50488232,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=EUABHOIDFKAXUFOQGTHMHVTE",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=EUABHOIDFKAXUFOQGTHMHVTE",
+            "storeId": 1,
             "md5Sum": "585e9e9fc76314035f58af1f6481adc5",
             "fileSize": 1310670,
             "imgFileName": "p013.jpg",
@@ -3571,6 +3680,7 @@
                 {
                   "tsId": 143068581,
                   "parentTsId": 143065405,
+                  "storeId": 1,
                   "key": "XWZXUHYQAZAXHMHDSCVLQZHH",
                   "pageId": 62536839,
                   "docId": 1706180,
@@ -3600,6 +3710,7 @@
                 {
                   "tsId": 143065405,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EFMIYZSPJGWXVQQKCPNJXFEC",
                   "pageId": 62536839,
                   "docId": 1706180,
@@ -3661,6 +3772,7 @@
             "imageId": 50488233,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=GOUDHUJOWAQELBYEDPWODVSK",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=GOUDHUJOWAQELBYEDPWODVSK",
+            "storeId": 1,
             "md5Sum": "5529d33deb712bbcf4cee2172b662ff4",
             "fileSize": 1029249,
             "imgFileName": "p014.jpg",
@@ -3670,6 +3782,7 @@
                 {
                   "tsId": 143068582,
                   "parentTsId": 143065409,
+                  "storeId": 1,
                   "key": "GFYREWKJTURUPQRGTYJGXLUC",
                   "pageId": 62536840,
                   "docId": 1706180,
@@ -3699,6 +3812,7 @@
                 {
                   "tsId": 143065409,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "XBYMTFNSUVNEYPORWYUGOMWX",
                   "pageId": 62536840,
                   "docId": 1706180,
@@ -3760,6 +3874,7 @@
             "imageId": 50488234,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=JHGLFKJFBAJLSHRGRBBDBAQM",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=JHGLFKJFBAJLSHRGRBBDBAQM",
+            "storeId": 1,
             "md5Sum": "55dc0e5bf9e23ad9cfb9f5265f19adb1",
             "fileSize": 1109492,
             "imgFileName": "p015.jpg",
@@ -3769,6 +3884,7 @@
                 {
                   "tsId": 143068583,
                   "parentTsId": 143065411,
+                  "storeId": 1,
                   "key": "NHCFIKLBAGRFTOOIPBOFATTS",
                   "pageId": 62536841,
                   "docId": 1706180,
@@ -3798,6 +3914,7 @@
                 {
                   "tsId": 143065411,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "LENSBPLOQEZGVZGVIUEFDWER",
                   "pageId": 62536841,
                   "docId": 1706180,
@@ -3859,6 +3976,7 @@
             "imageId": 50488235,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=IEQQCETXTFZNZKWLHTBFYDIV",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=IEQQCETXTFZNZKWLHTBFYDIV",
+            "storeId": 1,
             "md5Sum": "36811ffe85edcee8d332fd4542f99f05",
             "fileSize": 1110653,
             "imgFileName": "p016.jpg",
@@ -3868,6 +3986,7 @@
                 {
                   "tsId": 151032103,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "FVIUUEMIPFKQNOJTXCHPVSKN",
                   "pageId": 62536842,
                   "docId": 1706180,
@@ -3895,6 +4014,7 @@
                 {
                   "tsId": 143068584,
                   "parentTsId": 143065412,
+                  "storeId": 1,
                   "key": "IKEZJVCEURTDTPUFUNBZIWUU",
                   "pageId": 62536842,
                   "docId": 1706180,
@@ -3924,6 +4044,7 @@
                 {
                   "tsId": 143065412,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "MPODJXHLTYPIABBEAPDCGCYS",
                   "pageId": 62536842,
                   "docId": 1706180,
@@ -3983,6 +4104,7 @@
             "imageId": 50488236,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZSJGZRIDQSSZNJBNREMLXJMU",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZSJGZRIDQSSZNJBNREMLXJMU",
+            "storeId": 1,
             "md5Sum": "4651efd56bc8ad3a243585a4fe789556",
             "fileSize": 1260198,
             "imgFileName": "p017.jpg",
@@ -3992,6 +4114,7 @@
                 {
                   "tsId": 143068586,
                   "parentTsId": 143065414,
+                  "storeId": 1,
                   "key": "UTSQPNPFXHGXSMYIXTOXQYIP",
                   "pageId": 62536843,
                   "docId": 1706180,
@@ -4021,6 +4144,7 @@
                 {
                   "tsId": 143065414,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "YXKISYLPMWWBTMMWBGRJHMEO",
                   "pageId": 62536843,
                   "docId": 1706180,
@@ -4082,6 +4206,7 @@
             "imageId": 50488237,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=WBTRRUTHTATPPDVAJHYNFRDX",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=WBTRRUTHTATPPDVAJHYNFRDX",
+            "storeId": 1,
             "md5Sum": "87e74d03702d59f9f0de63c4c13ebf2c",
             "fileSize": 1110679,
             "imgFileName": "p018.jpg",
@@ -4091,6 +4216,7 @@
                 {
                   "tsId": 143068587,
                   "parentTsId": 143065415,
+                  "storeId": 1,
                   "key": "ZCAWOPFOHZPPXXACRAWUNUYG",
                   "pageId": 62536844,
                   "docId": 1706180,
@@ -4120,6 +4246,7 @@
                 {
                   "tsId": 143065415,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NEMJLXQPWDKAGHAKUQHHPKDN",
                   "pageId": 62536844,
                   "docId": 1706180,
@@ -4181,6 +4308,7 @@
             "imageId": 50488238,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KGSDBUKGAPBFKUEAVFAAVXPA",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KGSDBUKGAPBFKUEAVFAAVXPA",
+            "storeId": 1,
             "md5Sum": "f2c438cc0ca4b35e4a23a665e5142d49",
             "fileSize": 1215854,
             "imgFileName": "p019.jpg",
@@ -4190,6 +4318,7 @@
                 {
                   "tsId": 143068588,
                   "parentTsId": 143065417,
+                  "storeId": 1,
                   "key": "RRAPFBUMYQALBQRTEICMDWAQ",
                   "pageId": 62536845,
                   "docId": 1706180,
@@ -4219,6 +4348,7 @@
                 {
                   "tsId": 143065417,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "TBZGWORLSZLNSQUSKIKLVOOW",
                   "pageId": 62536845,
                   "docId": 1706180,
@@ -4280,6 +4410,7 @@
             "imageId": 50488239,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=MXURQURAQPJIQSQVGGEIQYYV",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=MXURQURAQPJIQSQVGGEIQYYV",
+            "storeId": 1,
             "md5Sum": "a7d6f08abf994c92860c5cf8bdb3c0e8",
             "fileSize": 1211184,
             "imgFileName": "p020.jpg",
@@ -4289,6 +4420,7 @@
                 {
                   "tsId": 143068589,
                   "parentTsId": 143065418,
+                  "storeId": 1,
                   "key": "RNLKOTOLEGDQVZDXGWVGWANW",
                   "pageId": 62536846,
                   "docId": 1706180,
@@ -4318,6 +4450,7 @@
                 {
                   "tsId": 143065418,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NGBDQVPAQMCRSCOLSVTQBNHM",
                   "pageId": 62536846,
                   "docId": 1706180,
@@ -4379,6 +4512,7 @@
             "imageId": 50488240,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ROTAEXTRPMKKRJCHFYFGBBWQ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ROTAEXTRPMKKRJCHFYFGBBWQ",
+            "storeId": 1,
             "md5Sum": "d1a34906d77293877f9f36bcbd6b7e5a",
             "fileSize": 1256254,
             "imgFileName": "p021.jpg",
@@ -4388,6 +4522,7 @@
                 {
                   "tsId": 143068591,
                   "parentTsId": 143065420,
+                  "storeId": 1,
                   "key": "ZOKGMEDUZMRHLEHMDPHGHRJO",
                   "pageId": 62536847,
                   "docId": 1706180,
@@ -4417,6 +4552,7 @@
                 {
                   "tsId": 143065420,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "IZNUEEPKRRUDRWJXLNDQUERK",
                   "pageId": 62536847,
                   "docId": 1706180,
@@ -4478,6 +4614,7 @@
             "imageId": 50488241,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=LKIOMGIXDEZGKBQHWQDPXEJG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=LKIOMGIXDEZGKBQHWQDPXEJG",
+            "storeId": 1,
             "md5Sum": "b2228c26fe9e6fa66efb24119b430c9f",
             "fileSize": 1262512,
             "imgFileName": "p022.jpg",
@@ -4487,6 +4624,7 @@
                 {
                   "tsId": 143068592,
                   "parentTsId": 143065421,
+                  "storeId": 1,
                   "key": "XILIQSBKKKCLEXDWTVDMSMFZ",
                   "pageId": 62536848,
                   "docId": 1706180,
@@ -4516,6 +4654,7 @@
                 {
                   "tsId": 143065421,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "WSBPVJOMQCPQZDVDOHKLMYUR",
                   "pageId": 62536848,
                   "docId": 1706180,
@@ -4577,6 +4716,7 @@
             "imageId": 50488242,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=RTWUTTSKIGQSPOCWRDVILLEI",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=RTWUTTSKIGQSPOCWRDVILLEI",
+            "storeId": 1,
             "md5Sum": "9ea3ce09bc5516c1bf83ef6bca8f399f",
             "fileSize": 1296744,
             "imgFileName": "p023.jpg",
@@ -4586,6 +4726,7 @@
                 {
                   "tsId": 143068593,
                   "parentTsId": 143065423,
+                  "storeId": 1,
                   "key": "EARDPOGQRSYCVSYJJAMTGWCJ",
                   "pageId": 62536849,
                   "docId": 1706180,
@@ -4615,6 +4756,7 @@
                 {
                   "tsId": 143065423,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OJBVJQJLECGGDXKKHCTZJTEZ",
                   "pageId": 62536849,
                   "docId": 1706180,
@@ -4676,6 +4818,7 @@
             "imageId": 50488243,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=QYNZNRCGAJVNKIMYQBOJAGYY",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=QYNZNRCGAJVNKIMYQBOJAGYY",
+            "storeId": 1,
             "md5Sum": "fc44ba956d51c81ab22873c9e136c76b",
             "fileSize": 1303369,
             "imgFileName": "p024.jpg",
@@ -4685,6 +4828,7 @@
                 {
                   "tsId": 143068595,
                   "parentTsId": 143065427,
+                  "storeId": 1,
                   "key": "TDWOFQNHDFSGIOWHPLIDXMYX",
                   "pageId": 62536850,
                   "docId": 1706180,
@@ -4714,6 +4858,7 @@
                 {
                   "tsId": 143065427,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "ZWDYKNKQAVRZDTYCEPTBBVHF",
                   "pageId": 62536850,
                   "docId": 1706180,
@@ -4775,6 +4920,7 @@
             "imageId": 50488244,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ANOMCNUNGGYOIRQXGCMNWIZH",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ANOMCNUNGGYOIRQXGCMNWIZH",
+            "storeId": 1,
             "md5Sum": "a0540a75b4fdb3f86f7e67b0b4196384",
             "fileSize": 1288124,
             "imgFileName": "p025.jpg",
@@ -4784,6 +4930,7 @@
                 {
                   "tsId": 143068596,
                   "parentTsId": 143065432,
+                  "storeId": 1,
                   "key": "PEVVJPQISJNIADMKEGFHNJCE",
                   "pageId": 62536851,
                   "docId": 1706180,
@@ -4813,6 +4960,7 @@
                 {
                   "tsId": 143065432,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "APYZSFGIMICPUAXKXUKDXJDW",
                   "pageId": 62536851,
                   "docId": 1706180,
@@ -4874,6 +5022,7 @@
             "imageId": 50488245,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=MEDWHNSAEKWJPUTTGZUXZUOF",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=MEDWHNSAEKWJPUTTGZUXZUOF",
+            "storeId": 1,
             "md5Sum": "ece08a315b3d9b491e57e0bb18a1c220",
             "fileSize": 1311996,
             "imgFileName": "p026.jpg",
@@ -4883,6 +5032,7 @@
                 {
                   "tsId": 143068597,
                   "parentTsId": 143065434,
+                  "storeId": 1,
                   "key": "HOJJBVVOHFATIUYKHQSEVTQH",
                   "pageId": 62536852,
                   "docId": 1706180,
@@ -4912,6 +5062,7 @@
                 {
                   "tsId": 143065434,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "GHTUYEJDBMKUSAQBJKJNUKAS",
                   "pageId": 62536852,
                   "docId": 1706180,
@@ -4973,6 +5124,7 @@
             "imageId": 50488246,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=WELQXWTEVCHKKQYUVCGOSPJD",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=WELQXWTEVCHKKQYUVCGOSPJD",
+            "storeId": 1,
             "md5Sum": "c3dfa6155889eeb2063a4cecbc93db24",
             "fileSize": 1348137,
             "imgFileName": "p027.jpg",
@@ -4982,6 +5134,7 @@
                 {
                   "tsId": 143068599,
                   "parentTsId": 143065435,
+                  "storeId": 1,
                   "key": "GFDCQRKALQHYPZHMLQCJSNKU",
                   "pageId": 62536853,
                   "docId": 1706180,
@@ -5011,6 +5164,7 @@
                 {
                   "tsId": 143065435,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "XOGQONZRSRNWZAZZZRHXRVGV",
                   "pageId": 62536853,
                   "docId": 1706180,
@@ -5072,6 +5226,7 @@
             "imageId": 50488247,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KFWXICHKGTMUBUAISLBQAPNE",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KFWXICHKGTMUBUAISLBQAPNE",
+            "storeId": 1,
             "md5Sum": "f809d51413e45b14429de1bc08723770",
             "fileSize": 1354124,
             "imgFileName": "p028.jpg",
@@ -5081,6 +5236,7 @@
                 {
                   "tsId": 143068600,
                   "parentTsId": 143065437,
+                  "storeId": 1,
                   "key": "XWLOMQFCEYOSYBTEPJTQAYOP",
                   "pageId": 62536854,
                   "docId": 1706180,
@@ -5110,6 +5266,7 @@
                 {
                   "tsId": 143065437,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "TPTENYICZWVSUXLQIORDKEZC",
                   "pageId": 62536854,
                   "docId": 1706180,
@@ -5171,6 +5328,7 @@
             "imageId": 50488248,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ONAECQMZNUUOGITDFAKWIWWZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ONAECQMZNUUOGITDFAKWIWWZ",
+            "storeId": 1,
             "md5Sum": "ef5a4fe8b1f6b839ff9374af5fa37f5b",
             "fileSize": 1307988,
             "imgFileName": "p029.jpg",
@@ -5180,6 +5338,7 @@
                 {
                   "tsId": 143068603,
                   "parentTsId": 143065439,
+                  "storeId": 1,
                   "key": "AOBYNXKJUPSKBTPDLPMFFJHE",
                   "pageId": 62536855,
                   "docId": 1706180,
@@ -5209,6 +5368,7 @@
                 {
                   "tsId": 143065439,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EVWCHPCXVOITIIEROEBCZURK",
                   "pageId": 62536855,
                   "docId": 1706180,
@@ -5270,6 +5430,7 @@
             "imageId": 50488249,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=LGWWKKBGDJZSJGFGFFGJFMBG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=LGWWKKBGDJZSJGFGFFGJFMBG",
+            "storeId": 1,
             "md5Sum": "9cbe05e7c9d39c6843e2f4993045b0fc",
             "fileSize": 1301865,
             "imgFileName": "p030.jpg",
@@ -5279,6 +5440,7 @@
                 {
                   "tsId": 143068605,
                   "parentTsId": 143065440,
+                  "storeId": 1,
                   "key": "YNGQVTHROFBNVRQYTEJLLTGO",
                   "pageId": 62536856,
                   "docId": 1706180,
@@ -5308,6 +5470,7 @@
                 {
                   "tsId": 143065440,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "IBZMBKZSEMDEZOLYXRUFHHDU",
                   "pageId": 62536856,
                   "docId": 1706180,
@@ -5369,6 +5532,7 @@
             "imageId": 50488250,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UMZYRMEUBKBPIRKFZVRXRPKG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UMZYRMEUBKBPIRKFZVRXRPKG",
+            "storeId": 1,
             "md5Sum": "d6c3d6452af909803974f048e2ea4ac3",
             "fileSize": 1270039,
             "imgFileName": "p031.jpg",
@@ -5378,6 +5542,7 @@
                 {
                   "tsId": 143068607,
                   "parentTsId": 143065442,
+                  "storeId": 1,
                   "key": "LNNHNXBQPPPDAHSHUFHFOCUN",
                   "pageId": 62536857,
                   "docId": 1706180,
@@ -5407,6 +5572,7 @@
                 {
                   "tsId": 143065442,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "JUIGLJCKNHQNDSELOEPGVEON",
                   "pageId": 62536857,
                   "docId": 1706180,
@@ -5468,6 +5634,7 @@
             "imageId": 50488251,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KBUYEIVDEEQWIPCYMAJQCNMG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KBUYEIVDEEQWIPCYMAJQCNMG",
+            "storeId": 1,
             "md5Sum": "1cfc7b2f9fff476965ecf4412266434d",
             "fileSize": 1270952,
             "imgFileName": "p032.jpg",
@@ -5477,6 +5644,7 @@
                 {
                   "tsId": 143068608,
                   "parentTsId": 143065443,
+                  "storeId": 1,
                   "key": "KQJNUOINUGZLHOPIZBUVFOPF",
                   "pageId": 62536858,
                   "docId": 1706180,
@@ -5506,6 +5674,7 @@
                 {
                   "tsId": 143065443,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "NLVTWNCOAAZTPVURHLCOWNZQ",
                   "pageId": 62536858,
                   "docId": 1706180,
@@ -5567,6 +5736,7 @@
             "imageId": 50488252,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=RZQVZIYFLLISYXKQHATHNFUG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=RZQVZIYFLLISYXKQHATHNFUG",
+            "storeId": 1,
             "md5Sum": "4e6d269590e7642cfa46a3245fc17f94",
             "fileSize": 1157271,
             "imgFileName": "p033.jpg",
@@ -5576,6 +5746,7 @@
                 {
                   "tsId": 143068610,
                   "parentTsId": 143065445,
+                  "storeId": 1,
                   "key": "SLLEZLNUTPPQFUACPTMEUKNN",
                   "pageId": 62536859,
                   "docId": 1706180,
@@ -5605,6 +5776,7 @@
                 {
                   "tsId": 143065445,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "YXARCAFLDBLFGSHMABGSLUGZ",
                   "pageId": 62536859,
                   "docId": 1706180,
@@ -5666,6 +5838,7 @@
             "imageId": 50488253,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=JKUMZQASBXMHMXJTETLMDQEE",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=JKUMZQASBXMHMXJTETLMDQEE",
+            "storeId": 1,
             "md5Sum": "b921de21256c1c882aa997e1457785d5",
             "fileSize": 1434009,
             "imgFileName": "p034.jpg",
@@ -5675,6 +5848,7 @@
                 {
                   "tsId": 143068611,
                   "parentTsId": 143065447,
+                  "storeId": 1,
                   "key": "QDAWFICQPYOENBZYVEQKNRCZ",
                   "pageId": 62536860,
                   "docId": 1706180,
@@ -5704,6 +5878,7 @@
                 {
                   "tsId": 143065447,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "BOEYLUJOHLOHXXGVTNLSNZNV",
                   "pageId": 62536860,
                   "docId": 1706180,
@@ -5765,6 +5940,7 @@
             "imageId": 50488254,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=QOQBYINYTSAPPZGIRTKDWEDZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=QOQBYINYTSAPPZGIRTKDWEDZ",
+            "storeId": 1,
             "md5Sum": "39bb7bc784cd9e278cd8762f2282b31e",
             "fileSize": 1280082,
             "imgFileName": "p035.jpg",
@@ -5774,6 +5950,7 @@
                 {
                   "tsId": 143068613,
                   "parentTsId": 143065451,
+                  "storeId": 1,
                   "key": "SHYPTIJOFKJSZLENRTENBHFS",
                   "pageId": 62536861,
                   "docId": 1706180,
@@ -5803,6 +5980,7 @@
                 {
                   "tsId": 143065451,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "INSBNLFPBZRCATVLHNSDFMXM",
                   "pageId": 62536861,
                   "docId": 1706180,
@@ -5897,6 +6075,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZZPNVUEMXJQOGTCRHVOOAUIY",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_1831173",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -5926,6 +6105,7 @@
             "imageId": 52305598,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZZPNVUEMXJQOGTCRHVOOAUIY",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZZPNVUEMXJQOGTCRHVOOAUIY",
+            "storeId": 1,
             "md5Sum": "4b71579b074477dbe2298ae867a8310b",
             "fileSize": 852350,
             "imgFileName": "cpbach-einfall_001.png",
@@ -5935,6 +6115,7 @@
                 {
                   "tsId": 149058722,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DRYDBNAVGADFPOAMDUDSIUJT",
                   "pageId": 65423905,
                   "docId": 1831173,
@@ -5991,6 +6172,7 @@
             "imageId": 52305599,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZECJSLAJWCEVNZHGMACRXMPM",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZECJSLAJWCEVNZHGMACRXMPM",
+            "storeId": 1,
             "md5Sum": "cf740839830540f90934656ebfc03e33",
             "fileSize": 1093707,
             "imgFileName": "cpbach-einfall_002.png",
@@ -6000,6 +6182,7 @@
                 {
                   "tsId": 149058723,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "HACKXWEJFPRMTDREADFXLSKF",
                   "pageId": 65423906,
                   "docId": 1831173,
@@ -6056,6 +6239,7 @@
             "imageId": 52305600,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=MMMMXBZHXUTMGIOWHOEKGNDE",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=MMMMXBZHXUTMGIOWHOEKGNDE",
+            "storeId": 1,
             "md5Sum": "521dd5e4fd2ade9c0284dc31af645692",
             "fileSize": 1203603,
             "imgFileName": "cpbach-einfall_003.png",
@@ -6065,6 +6249,7 @@
                 {
                   "tsId": 149058724,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DPRJLXECDYKVNQLKYSKXERFG",
                   "pageId": 65423907,
                   "docId": 1831173,
@@ -6121,6 +6306,7 @@
             "imageId": 52305601,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=IJSVCXETGBNZUXGFHMXYOBUQ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=IJSVCXETGBNZUXGFHMXYOBUQ",
+            "storeId": 1,
             "md5Sum": "8dd10d3d4342097d349ec83c63491265",
             "fileSize": 1088912,
             "imgFileName": "cpbach-einfall_004.png",
@@ -6130,6 +6316,7 @@
                 {
                   "tsId": 149058725,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "XSYIIAIRAPRJMJLGFRBRSMFT",
                   "pageId": 65423908,
                   "docId": 1831173,
@@ -6186,6 +6373,7 @@
             "imageId": 52305602,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=UPUTIHYJXBVDSZGJPSDOYLBK",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=UPUTIHYJXBVDSZGJPSDOYLBK",
+            "storeId": 1,
             "md5Sum": "90321a4bb48299101018510fba4eb8bb",
             "fileSize": 1078128,
             "imgFileName": "cpbach-einfall_005.png",
@@ -6195,6 +6383,7 @@
                 {
                   "tsId": 149058727,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "BMDCKLNSQELPAGEREWADLCQS",
                   "pageId": 65423909,
                   "docId": 1831173,
@@ -6251,6 +6440,7 @@
             "imageId": 52305604,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=AKXGQRGBMUILTYZZXHNAVGHS",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=AKXGQRGBMUILTYZZXHNAVGHS",
+            "storeId": 1,
             "md5Sum": "7be422979754bda6ba3f954f4f69eb46",
             "fileSize": 1121421,
             "imgFileName": "cpbach-einfall_006.png",
@@ -6260,6 +6450,7 @@
                 {
                   "tsId": 149058734,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "UPKBRSUSXVNYLQZRMCHCXGCU",
                   "pageId": 65423911,
                   "docId": 1831173,
@@ -6316,6 +6507,7 @@
             "imageId": 52305607,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KSKLFQDJKXNIAWJXPZYIRDCS",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KSKLFQDJKXNIAWJXPZYIRDCS",
+            "storeId": 1,
             "md5Sum": "43c9260f8c408509e559544123348d0d",
             "fileSize": 1189268,
             "imgFileName": "cpbach-einfall_007.png",
@@ -6325,6 +6517,7 @@
                 {
                   "tsId": 149058740,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OOWSKFHVZUSDVMQKJYPBKVLU",
                   "pageId": 65423914,
                   "docId": 1831173,
@@ -6381,6 +6574,7 @@
             "imageId": 52305611,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=DNHWGSKYPEDCYARMYRNYWJUG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=DNHWGSKYPEDCYARMYRNYWJUG",
+            "storeId": 1,
             "md5Sum": "e3f10c27cde12c03f0932c27f0a4b846",
             "fileSize": 1101467,
             "imgFileName": "cpbach-einfall_008.png",
@@ -6390,6 +6584,7 @@
                 {
                   "tsId": 149058744,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "RNCXYGUHHWJYTHYTFVCPRJBC",
                   "pageId": 65423918,
                   "docId": 1831173,
@@ -6446,6 +6641,7 @@
             "imageId": 52305615,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=AYVPSILPRKJISVYDHOACIZFC",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=AYVPSILPRKJISVYDHOACIZFC",
+            "storeId": 1,
             "md5Sum": "3c9c11f0c890fbf8d34ca59d88023b06",
             "fileSize": 1046649,
             "imgFileName": "cpbach-einfall_009.png",
@@ -6455,6 +6651,7 @@
                 {
                   "tsId": 149058748,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DSUAWNGUHFBFBTZQGJSFEQCI",
                   "pageId": 65423922,
                   "docId": 1831173,
@@ -6511,6 +6708,7 @@
             "imageId": 52305617,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=OUWTNILVVJTOFIPYRBLHKJVV",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=OUWTNILVVJTOFIPYRBLHKJVV",
+            "storeId": 1,
             "md5Sum": "827f488982d62081c1cbd072ca0990ed",
             "fileSize": 949961,
             "imgFileName": "cpbach-einfall_010.png",
@@ -6520,6 +6718,7 @@
                 {
                   "tsId": 149058751,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "WAWZGCVEFVBHQFEUZCJCOOKM",
                   "pageId": 65423924,
                   "docId": 1831173,
@@ -6576,6 +6775,7 @@
             "imageId": 52305620,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=YEOFNLVJLKOUUODQVALIMGKJ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=YEOFNLVJLKOUUODQVALIMGKJ",
+            "storeId": 1,
             "md5Sum": "f60fba6da89790b27c7f2f307dd73e2f",
             "fileSize": 1072824,
             "imgFileName": "cpbach-einfall_011.png",
@@ -6585,6 +6785,7 @@
                 {
                   "tsId": 149058753,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "OELZLBUCXUJZSSAQYUULAQAJ",
                   "pageId": 65423927,
                   "docId": 1831173,
@@ -6641,6 +6842,7 @@
             "imageId": 52305622,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZSWJPETDBPIIXINUBYIJMUDF",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZSWJPETDBPIIXINUBYIJMUDF",
+            "storeId": 1,
             "md5Sum": "16c7b9348d2ded06bec015ee21fbf8ab",
             "fileSize": 1148343,
             "imgFileName": "cpbach-einfall_012.png",
@@ -6650,6 +6852,7 @@
                 {
                   "tsId": 149058757,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "THUTVENAQFVSMXOOMRVWLQQE",
                   "pageId": 65423929,
                   "docId": 1831173,
@@ -6706,6 +6909,7 @@
             "imageId": 52305625,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=VSYOQPFVXLGXWUWAEWIOXYUL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=VSYOQPFVXLGXWUWAEWIOXYUL",
+            "storeId": 1,
             "md5Sum": "54895c1a21cda87c322e2e5452d8c43e",
             "fileSize": 893819,
             "imgFileName": "cpbach-einfall_013.png",
@@ -6715,6 +6919,7 @@
                 {
                   "tsId": 149058760,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "UXATNHNYWXDXOPKGNYZIXGET",
                   "pageId": 65423932,
                   "docId": 1831173,
@@ -6771,6 +6976,7 @@
             "imageId": 52305627,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZRBVQXUIYHHJGNWVRJUMOJQL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZRBVQXUIYHHJGNWVRJUMOJQL",
+            "storeId": 1,
             "md5Sum": "ebdd476ee0b7275190cd02e2dbf14a9b",
             "fileSize": 1124795,
             "imgFileName": "cpbach-einfall_014.png",
@@ -6780,6 +6986,7 @@
                 {
                   "tsId": 149058763,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "ZYDSXPFJJFEUIZJEXGBWMGFV",
                   "pageId": 65423934,
                   "docId": 1831173,
@@ -6836,6 +7043,7 @@
             "imageId": 52305630,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZIZLHMSVBUGSSIGALSCUZGUT",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZIZLHMSVBUGSSIGALSCUZGUT",
+            "storeId": 1,
             "md5Sum": "509f63608c02c9397a610ef87176434f",
             "fileSize": 1088684,
             "imgFileName": "cpbach-einfall_015.png",
@@ -6845,6 +7053,7 @@
                 {
                   "tsId": 149058765,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EAOCDNFJXOCXVQUVQPVKOMHH",
                   "pageId": 65423937,
                   "docId": 1831173,
@@ -6901,6 +7110,7 @@
             "imageId": 52305632,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=NHUTEBNPRACXGOSUZVIYRICZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=NHUTEBNPRACXGOSUZVIYRICZ",
+            "storeId": 1,
             "md5Sum": "e340e9e713562c9c7bfbd816ad028c69",
             "fileSize": 1036403,
             "imgFileName": "cpbach-einfall_016.png",
@@ -6910,6 +7120,7 @@
                 {
                   "tsId": 149058769,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "MGPAHHVYDNMCIKGUPRTSQPMO",
                   "pageId": 65423939,
                   "docId": 1831173,
@@ -6966,6 +7177,7 @@
             "imageId": 52305634,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=TRBGZPVEROGNEJOZGOTGRUIU",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=TRBGZPVEROGNEJOZGOTGRUIU",
+            "storeId": 1,
             "md5Sum": "2580f33edbe83b2b211e24239d60b7bf",
             "fileSize": 827428,
             "imgFileName": "cpbach-einfall_017.png",
@@ -6975,6 +7187,7 @@
                 {
                   "tsId": 149058773,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "FMBHZKKYKXLJDUDCVFSLNDVS",
                   "pageId": 65423941,
                   "docId": 1831173,
@@ -7031,6 +7244,7 @@
             "imageId": 52305636,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KAKUVAEYREKXTMTHTZIKODWN",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KAKUVAEYREKXTMTHTZIKODWN",
+            "storeId": 1,
             "md5Sum": "0d923bb895fec433f3b28b43b915760a",
             "fileSize": 995623,
             "imgFileName": "cpbach-einfall_018.png",
@@ -7040,6 +7254,7 @@
                 {
                   "tsId": 149058777,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "BCVNHASVZALJUDZIYDGBDFZN",
                   "pageId": 65423943,
                   "docId": 1831173,
@@ -7096,6 +7311,7 @@
             "imageId": 52305639,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZAVEBBGBDLIRPCCUWJLIMWEJ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZAVEBBGBDLIRPCCUWJLIMWEJ",
+            "storeId": 1,
             "md5Sum": "7b03524f395a31f0055ead7244ba5d6d",
             "fileSize": 952437,
             "imgFileName": "cpbach-einfall_019.png",
@@ -7105,6 +7321,7 @@
                 {
                   "tsId": 149058780,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "TVSJZLSQEIUZOMWFMXFHNCLD",
                   "pageId": 65423946,
                   "docId": 1831173,
@@ -7161,6 +7378,7 @@
             "imageId": 52305641,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=SYIOZPEWEXVHRWFCCYYYKQQM",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=SYIOZPEWEXVHRWFCCYYYKQQM",
+            "storeId": 1,
             "md5Sum": "895fadd5ce2167e5c43e28a627bb2279",
             "fileSize": 931930,
             "imgFileName": "cpbach-einfall_020.png",
@@ -7170,6 +7388,7 @@
                 {
                   "tsId": 149058783,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "DFETFUICKHMBHWVJWBPSCYNI",
                   "pageId": 65423948,
                   "docId": 1831173,
@@ -7226,6 +7445,7 @@
             "imageId": 52305644,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=KZIHYJBPXEPNMBAZQMWNWEWP",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=KZIHYJBPXEPNMBAZQMWNWEWP",
+            "storeId": 1,
             "md5Sum": "a50836a110eccf72f7fd83e6b5c308a2",
             "fileSize": 855999,
             "imgFileName": "cpbach-einfall_021.png",
@@ -7235,6 +7455,7 @@
                 {
                   "tsId": 149058786,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "RCTDWEGQAIMFVLSBNMIMZTIF",
                   "pageId": 65423951,
                   "docId": 1831173,
@@ -7324,6 +7545,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=IHDRFUPTCAYXBSIJQLMUWTYY",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_1831187",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -7353,6 +7575,7 @@
             "imageId": 52305999,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=IHDRFUPTCAYXBSIJQLMUWTYY",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=IHDRFUPTCAYXBSIJQLMUWTYY",
+            "storeId": 1,
             "md5Sum": "ae5b22f17e59334a69400b2954c9f521",
             "fileSize": 781133,
             "imgFileName": "output001.jpg",
@@ -7362,6 +7585,7 @@
                 {
                   "tsId": 149059377,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EETUXWMNVPKIBXKKPOSIXJCA",
                   "pageId": 65424314,
                   "docId": 1831187,
@@ -7418,6 +7642,7 @@
             "imageId": 52306004,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=RSPHJYLYGDNHKBSPGLYZAZWQ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=RSPHJYLYGDNHKBSPGLYZAZWQ",
+            "storeId": 1,
             "md5Sum": "090bda98fc76bf16e3b4df95d4e57796",
             "fileSize": 1010410,
             "imgFileName": "output002.jpg",
@@ -7427,6 +7652,7 @@
                 {
                   "tsId": 149059382,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "IRUFKVQHOLVVZRRPNBMKNRCI",
                   "pageId": 65424319,
                   "docId": 1831187,
@@ -7483,6 +7709,7 @@
             "imageId": 52306009,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=POLZNTCKXFWVCPSYZREJNCIO",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=POLZNTCKXFWVCPSYZREJNCIO",
+            "storeId": 1,
             "md5Sum": "513be22471b7decc902f0e307eaf6ca1",
             "fileSize": 1148720,
             "imgFileName": "output003.jpg",
@@ -7492,6 +7719,7 @@
                 {
                   "tsId": 149059386,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "QCMCKNDDPWDQDZLWZSVGDLIW",
                   "pageId": 65424324,
                   "docId": 1831187,
@@ -7548,6 +7776,7 @@
             "imageId": 52306013,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZUBQRCJKYBFXRTDUWUUWYMNK",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZUBQRCJKYBFXRTDUWUUWYMNK",
+            "storeId": 1,
             "md5Sum": "cf5404e3b80fbfcce6bc6fb9683047ea",
             "fileSize": 1206087,
             "imgFileName": "output004.jpg",
@@ -7557,6 +7786,7 @@
                 {
                   "tsId": 149059391,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "QYADITHPKGDCUCVXNDDTKANC",
                   "pageId": 65424328,
                   "docId": 1831187,
@@ -7613,6 +7843,7 @@
             "imageId": 52306017,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=EEJLHWQGBZWVPKDGZERCBACY",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=EEJLHWQGBZWVPKDGZERCBACY",
+            "storeId": 1,
             "md5Sum": "cbbca015c5bbafda82894f85b01b1cc1",
             "fileSize": 1200787,
             "imgFileName": "output005.jpg",
@@ -7622,6 +7853,7 @@
                 {
                   "tsId": 149059396,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "RBDMOCLIYRBPBZTJOTWJESWQ",
                   "pageId": 65424333,
                   "docId": 1831187,
@@ -7678,6 +7910,7 @@
             "imageId": 52306022,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=JRAINDKDARJVNYZCAOXFYQFL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=JRAINDKDARJVNYZCAOXFYQFL",
+            "storeId": 1,
             "md5Sum": "669b7bf105a21bac722c90f8d7c06916",
             "fileSize": 1159371,
             "imgFileName": "output006.jpg",
@@ -7687,6 +7920,7 @@
                 {
                   "tsId": 149059401,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "TJJEZMBDYTXFDIGVYZUWSTTH",
                   "pageId": 65424338,
                   "docId": 1831187,
@@ -7743,6 +7977,7 @@
             "imageId": 52306026,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=XUTUQKMQQQQNNEUMKBZHTLIC",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=XUTUQKMQQQQNNEUMKBZHTLIC",
+            "storeId": 1,
             "md5Sum": "68cad713fe0c6e1baecb9dc8339e920b",
             "fileSize": 1237155,
             "imgFileName": "output007.jpg",
@@ -7752,6 +7987,7 @@
                 {
                   "tsId": 149059405,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "VEEOOUBFZSNTIIPACZWWUUNG",
                   "pageId": 65424342,
                   "docId": 1831187,
@@ -7808,6 +8044,7 @@
             "imageId": 52306030,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=TQIJAOPMEBUMDAUTTHLBQEZD",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=TQIJAOPMEBUMDAUTTHLBQEZD",
+            "storeId": 1,
             "md5Sum": "5fac8cca53504b71ff76012eb4c3784e",
             "fileSize": 1158730,
             "imgFileName": "output008.jpg",
@@ -7817,6 +8054,7 @@
                 {
                   "tsId": 149059409,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "HNTZNAZFQSOGLNKHHFIPKVIL",
                   "pageId": 65424346,
                   "docId": 1831187,
@@ -7873,6 +8111,7 @@
             "imageId": 52306034,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=MNOWCKSEBVTUYRDZJSMKDRPL",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=MNOWCKSEBVTUYRDZJSMKDRPL",
+            "storeId": 1,
             "md5Sum": "2932ccf8db931c35f1063728ac1c1171",
             "fileSize": 625229,
             "imgFileName": "output009.jpg",
@@ -7882,6 +8121,7 @@
                 {
                   "tsId": 149059413,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "MEBWNAVUBXQIQVIGPGUCTESX",
                   "pageId": 65424350,
                   "docId": 1831187,
@@ -7938,6 +8178,7 @@
             "imageId": 52306038,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=HVXOAKUUFOUSTWNRSDYJFDLP",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=HVXOAKUUFOUSTWNRSDYJFDLP",
+            "storeId": 1,
             "md5Sum": "ea7727366b987ac78d648f8ecb7e8ce6",
             "fileSize": 528902,
             "imgFileName": "output010.jpg",
@@ -7947,6 +8188,7 @@
                 {
                   "tsId": 149059417,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "CHYWKFNYDURGHXYKZMMCBPJG",
                   "pageId": 65424354,
                   "docId": 1831187,
@@ -8003,6 +8245,7 @@
             "imageId": 52306042,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=QEZIRNMSZUQSJWRLDKCWDMNO",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=QEZIRNMSZUQSJWRLDKCWDMNO",
+            "storeId": 1,
             "md5Sum": "a8cbe1305b6b19951dd87f6d04cb4d88",
             "fileSize": 884143,
             "imgFileName": "output011.jpg",
@@ -8012,6 +8255,7 @@
                 {
                   "tsId": 149059421,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "RUECXSEWXFUUWUQEPOXITDSO",
                   "pageId": 65424358,
                   "docId": 1831187,
@@ -8068,6 +8312,7 @@
             "imageId": 52306046,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=GEFLJPBGBWDRUMWYOXRHSSMQ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=GEFLJPBGBWDRUMWYOXRHSSMQ",
+            "storeId": 1,
             "md5Sum": "08b049c767d7379eeed6bf8946a771ea",
             "fileSize": 862678,
             "imgFileName": "output012.jpg",
@@ -8077,6 +8322,7 @@
                 {
                   "tsId": 149059425,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "AMFDDWRVILSWHGKGYXHVCCWY",
                   "pageId": 65424362,
                   "docId": 1831187,
@@ -8166,6 +8412,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZONTJKKWDJSGZVSXKIQEAHIZ",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_1899817",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -8195,6 +8442,7 @@
             "imageId": 53756215,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=ZONTJKKWDJSGZVSXKIQEAHIZ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=ZONTJKKWDJSGZVSXKIQEAHIZ",
+            "storeId": 1,
             "md5Sum": "859274d21a352c58ac917ea2bdb767cd",
             "fileSize": 1730712,
             "imgFileName": "Screenshot from 2024-03-26 11-28-55.png",
@@ -8204,6 +8452,7 @@
                 {
                   "tsId": 155046623,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "EGXCNRIBOWDBSAFUSODQDTDX",
                   "pageId": 67270846,
                   "docId": 1899817,
@@ -8231,6 +8480,7 @@
                 {
                   "tsId": 155042884,
                   "parentTsId": 155042495,
+                  "storeId": 1,
                   "key": "MGGEIJYTLYALTHXVKOEIJCCS",
                   "pageId": 67270846,
                   "docId": 1899817,
@@ -8260,6 +8510,7 @@
                 {
                   "tsId": 155042495,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "VRETVYKKFTIHYEGTESYWUEEU",
                   "pageId": 67270846,
                   "docId": 1899817,
@@ -8319,6 +8570,7 @@
             "imageId": 53756216,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=LTWJPYWNFSEJNIQUHDFEWIOH",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=LTWJPYWNFSEJNIQUHDFEWIOH",
+            "storeId": 1,
             "md5Sum": "59d09c46a0c39e8174b0dc13fb12fabb",
             "fileSize": 1797253,
             "imgFileName": "Screenshot from 2024-03-26 11-28-15.png",
@@ -8328,6 +8580,7 @@
                 {
                   "tsId": 155048585,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "GCSPGOXHSXTTUGFFZIZGFLIW",
                   "pageId": 67270847,
                   "docId": 1899817,
@@ -8355,6 +8608,7 @@
                 {
                   "tsId": 155047590,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "KJNBDXPAIYHQFTBJOCXUKBVW",
                   "pageId": 67270847,
                   "docId": 1899817,
@@ -8382,6 +8636,7 @@
                 {
                   "tsId": 155042887,
                   "parentTsId": 155042502,
+                  "storeId": 1,
                   "key": "TBTMGDXUFOJTNUBRFQJMRWCJ",
                   "pageId": 67270847,
                   "docId": 1899817,
@@ -8411,6 +8666,7 @@
                 {
                   "tsId": 155042502,
                   "parentTsId": -1,
+                  "storeId": 1,
                   "key": "UIJRCSJLBPNBXTGVQGXSQPGF",
                   "pageId": 67270847,
                   "docId": 1899817,

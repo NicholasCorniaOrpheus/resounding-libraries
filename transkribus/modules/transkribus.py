@@ -26,31 +26,30 @@ client_secret = credentials["transkribus"]["password"]
 auth_url = credentials["transkribus"]["auth_url"]
 
 
-
-# Authentication using requests
-transkribus_session = requests.Session()
-transkribus_session.post(
-	"https://transkribus.eu/TrpServer/rest/auth/login",
-	data={"user": client_id, "pw": client_secret},
-)
-
-
-def transkribus_login():
-	r = requests.post(
+def transkribus_api_login(user: str, pw: str):
+	"""
+	Args:
+	user (user): Client Username
+	pw (str): Client secret Password
+	Returns:
+	session: requests.Session() for Transkribus API
+	"""
+	session = requests.Session()
+	session.post(
 		"https://transkribus.eu/TrpServer/rest/auth/login",
 		data={"user": client_id, "pw": client_secret},
 	)
-	if r.status_code == requests.codes.ok:
-		return r.text
-	else:
-		print(r)
-		print("Login failed.")
-		return None
+
+	return session
 
 
-def get_transkribus_collections():
+# Authentication using requests
+transkribus_session = transkribus_api_login(client_id,client_secret)
+
+
+def get_transkribus_collections(session):
 	headers = {"Accept": "application/json"}
-	response = transkribus_session.get(
+	response = session.get(
 		"https://transkribus.eu/TrpServer/rest/collections", headers=headers
 	)
 	# print("REQUEST URL:", response.request.url)
@@ -69,17 +68,10 @@ def get_transkribus_documents(collection_id): # Returns a dictionary of document
 		f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/list",
 		headers=headers,
 	)
-	# print("REQUEST URL:", response.request.url)
-	# print("REQUEST HEADERS:", response.request.headers)
-	# print("REQUEST BODY (bytes):", response.request.body)
-	#print("STATUS:", response.status_code)
-	# print("RESPONSE HEADERS:", response.headers)
-	# print("RESPONSE TEXT (truncated):", (response.text or "")[:1000])
-	# input()
 	return response.json()
 
 
-def get_transkribus_complete_documents(collection_id): # Returns a full dictionary of documents, including pages metadata
+def get_transkribus_complete_documents(collection_id:int): # Returns a full dictionary of documents, including pages metadata
 	headers = {"Accept": "application/json"}
 	collection = transkribus_session.get(
 		f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/list",
@@ -93,13 +85,6 @@ def get_transkribus_complete_documents(collection_id): # Returns a full dictiona
 			f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/{document["docId"]}/fulldoc",
 			headers=headers,
 		)
-
-		# print("REQUEST URL:", response.request.url)
-		# print("REQUEST HEADERS:", response.request.headers)
-		# print("REQUEST BODY (bytes):", response.request.body)
-		#print("STATUS:", document.status_code)
-		# print("RESPONSE HEADERS:", response.headers)
-		#print("RESPONSE TEXT :", (document.text or ""))
 
 		documents.append(document.json())
 
@@ -172,9 +157,6 @@ def post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml
 			headers=headers,
 			data=page_xml_data
 		)
-	#print("STATUS:", page_xml_response.status_code)
-	#print("RESPONSE HEADERS:", page_xml_response.headers)
-	#print("RESPONSE TEXT :", (page_xml_response.text or ""))
 	return page_xml_response
 
 def relations_spotting_from_page_xml(page_xml_file):
@@ -238,6 +220,65 @@ def spot_relations_to_api(collection_metadata,collection_id,document_id,page_num
 
 	print("Saving relations via Transkribus API")
 	post_page_xml_transkribus_api(collection_id,document_id,page_number,page_xml_filepath.replace(".xml","_with_relations.xml"))
+
+def get_regions_and_relations_from_xml(xml_url:str, session) -> dict:
+	"""
+	Args:
+	xml_url (str): XML url from Transkribus API
+	session: Oauth2 session for requests
+
+	Returns:
+	transcription (dict): {"regions": [...], "relations": [...]}
+	""" 	
+	headers = {"Accept": "application/xml"}
+	page_xml_response = session.get(xml_url,headers=headers)
+	# Parse XML string from response using ETree
+	#print(str(page_xml_response.text))
+	root = ET.fromstring(str(page_xml_response.text).encode('utf-8'))
+	regions = []
+	relations = []
+	# get relations
+	xml_relations = root.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Page/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Relations/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Relation")
+	# I am assuming multiple links
+	for child in xml_relations:
+		try:
+			relations.append({"type": child.attrib["custom"].split("value:")[1].split(";")[0]})
+			xml_regions = child.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}RegionRef")
+			try:
+				for xml_region in enumerate(xml_regions): 
+					if xml_region[0] == 0: # get source
+						relations[-1]["source"] = xml_region[1].attrib["regionRef"]
+					else:
+						relations[-1]["target"] = xml_region[1].attrib["regionRef"]
+			except Exception:
+				print(f"Malformatted relation {page_filename}")
+				print(f"xml_relations: {xml_relations.text}")
+				print(f"xml_regions: {xml_regions.text}")
+				input()
+		except AttributeError:
+			pass
+	# get text_regions with type,id and text value
+	xml_regions = root.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Page/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextRegion")
+	for xml_region in xml_regions:
+		try:
+			region_type = xml_region.attrib["custom"].split("type:")[1].split(";")[0]
+		except IndexError:
+			region_type = ""
+		# extract coordinates for polygon
+		xml_coordinates = xml_region.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Coords")	
+		regions.append({
+				"region_id": xml_region.attrib["id"],
+				"type": region_type,
+				"coordinates": xml_coordinates.attrib["points"].split(" "),
+				"keyword": {},
+				"text": []
+				}
+				)
+		xml_textlines = xml_region.findall("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextLine")
+		for  xml_line in xml_textlines:
+			regions[-1]["text"].append(xml_line.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode").text)
+
+	return {"regions": regions, "relations": relations}
 
 	
 def get_page_xml(pages_metadata,page_xml_directory,json_directory): # this script get the PAGE XML file of a page and converts it into JSON

@@ -57,6 +57,43 @@ def get_polygonal_centroids(
     else:
         return (0, 0)
 
+def get_polygonal_side_y(coordinate_list: list,side: str) -> float:
+    """
+    Args:
+    coordinate_list (list): List of (x,y) coordinates
+    side (str): Either left or right
+
+    Returns:
+    y_side (float): Average y value of polygonal side
+    """
+    if side == "left":
+        # get 2 lowest x values
+        side_points = []
+        for point in coordinate_list:
+            if len(side_points) < 2:
+                side_points.append(point)
+            else:
+                if point[0] < side_points[0][0]:
+                    # replace value
+                    side_points[0] = point
+                elif point[0] < side_points[1][0]:
+                    # replace value
+                    side_points[1] = point
+    else: # right case
+        # get 2 highest x values
+        side_points = []
+        for point in coordinate_list:
+            if len(side_points) < 2:
+                side_points.append(point)
+            else:
+                if point[0] > side_points[0][0]:
+                    # replace value
+                    side_points[0] = point
+                elif point[0] > side_points[1][0]:
+                    # replace value
+                    side_points[1] = point
+    return (sum([side_point[1] for side_point in side_points]))/2
+
 def get_polygonal_x_min(coordinate_list):
 
     n = len(coordinate_list)
@@ -140,7 +177,9 @@ def get_regions_from_xml(root, baseline=False):
                 "text": [],
                 "coordinates": coordinates,
                 "centroids": get_polygonal_centroids(coordinates),
-                "min_x": get_polygonal_x_min(coordinates)
+                "min_x": get_polygonal_x_min(coordinates),
+                "y_left": get_polygonal_side_y(coordinates,side="left"),
+                "y_right": get_polygonal_side_y(coordinates,side="right")
             }
         )
         # Get text lines
@@ -315,10 +354,17 @@ def k_mean_relations_matching(
                 if min_region is None:
                     min_region = target_region
                 else:
+                    #standard version
+                    # if abs(
+                    #     source_region["centroids"][1] - target_region["centroids"][1]
+                    # ) < abs(source_region["centroids"][1] - min_region["centroids"][1]):
+                    #     min_region = target_region
+                    # version using y_side values only
                     if abs(
-                        source_region["centroids"][1] - target_region["centroids"][1]
-                    ) < abs(source_region["centroids"][1] - min_region["centroids"][1]):
-                        min_region = target_region
+                         source_region["y_right"] - target_region["y_left"]
+                    ) < abs(source_region["y_right"] - min_region["y_left"]):
+                         min_region = target_region
+
 
             relations.append(
                 {

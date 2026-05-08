@@ -30,6 +30,7 @@
         "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=CUOTCSGRVSDAJXXEZBSRILLQ",
         "status": 0,
         "fimgStoreColl": "TrpDoc_DEA_11908777",
+        "storeType": 0,
         "origDocId": 0,
         "collectionList": {
           "colList": [
@@ -59,6 +60,7 @@
             "imageId": 88488088,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=CUOTCSGRVSDAJXXEZBSRILLQ",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=CUOTCSGRVSDAJXXEZBSRILLQ",
+            "storeId": 1,
             "md5Sum": "a2c3dc973d97cc10bb729c67fa8d6e2f",
             "fileSize": 1252738,
             "imgFileName": "rheinlande1914_0189.jpg",
@@ -68,6 +70,7 @@
                 {
                   "tsId": 259650150,
                   "parentTsId": 259650097,
+                  "storeId": 1,
                   "key": "DIUFQGHKTGTUXOHJHJIMEMQC",
                   "pageId": 105409454,
                   "docId": 11908777,
@@ -136,6 +139,7 @@
             "imageId": 88488089,
             "url": "https://files.transkribus.eu/Get?fileType=view&id=BUANZIZPUKWEXFPBMEXHBOFG",
             "thumbUrl": "https://files.transkribus.eu/Get?fileType=thumb&id=BUANZIZPUKWEXFPBMEXHBOFG",
+            "storeId": 1,
             "md5Sum": "6c9ad38e89568a461ebdd8766b911e5c",
             "fileSize": 1307256,
             "imgFileName": "rheinlande1914_0190.jpg",
@@ -145,6 +149,7 @@
                 {
                   "tsId": 259650151,
                   "parentTsId": 259650098,
+                  "storeId": 1,
                   "key": "DTLEFUOZZOMFMHLHMPQDPUYK",
                   "pageId": 105409295,
                   "docId": 11908777,

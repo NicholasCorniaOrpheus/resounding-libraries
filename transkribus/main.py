@@ -9,7 +9,7 @@ from modules.transkribus import *
 from modules.relations_spotting import *
 from modules.authority_recognition import *
 from modules.digital_images import *
-
+from modules.koha import *
 
 page_xml_data_directory = os.path.join("data", "page_xml")
 
@@ -29,7 +29,13 @@ user_agent = oauth_credentials["user_agent"]
 
 base_url = credentials["koha"]["koha_api_url"]
 
-session = oauth2_session(client_id, client_secret, user_agent, base_url)
+transkribus_user = credentials["transkribus"]["user"]
+
+transkribus_password = credentials["transkribus"]["password"]
+
+koha_session = oauth2_session(client_id, client_secret, user_agent, base_url)
+
+transkribus_session = transkribus_api_login(transkribus_user,transkribus_password)
 
 biblionumber_mapping_filepath = os.path.join("data","mappings","call_number-barcode.csv")
 
@@ -86,8 +92,8 @@ def import_transkribus_tk_indices(
 
 		print(f"{float(i)/n_doc*100}%")
 
-def save_transkribus_collections_metadata(metadata_directory):
-	collections_api = get_transkribus_collections()
+def save_transkribus_collections_metadata(metadata_directory:str, session):
+	collections_api = get_transkribus_collections(session)
 	collection_list = []
 	for collection in collections_api["trpCollection"]:
 		collection_list.append({"collection_id": collection["colId"],
@@ -115,12 +121,12 @@ def transkribus_indices_to_csv():
 def transkribus_indices_to_koha():
 	pass
 
-def import_collection_metadata(collection_id=257292):
+def import_collection_metadata(collection_id=257292,session=transkribus_session):
 	print("Would you like to update the local metadata? y/n")
 	answer = input()
 	if answer == "y":
 		print("Importing latest collections metadata from Transkribus API...")
-		save_transkribus_collections_metadata("./metadata")
+		save_transkribus_collections_metadata("./metadata",session)
 
 	return json2dict(os.path.join("metadata",f"{collection_id}.json"))
 
@@ -141,7 +147,7 @@ def convert_pdfs_to_images_bulk():
 
 ### TEST ####
 
-def match_keywords_fron_barcode(collection_id=257292,zfill=3):
+def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=transkribus_session,output_directory="./data/authority_matching",collection_id=257292,zfill=3):
 	"""
 	1. User provides barcode of index manually | document_id + page_number
 	2. Get keywords from index via barcode
@@ -151,7 +157,7 @@ def match_keywords_fron_barcode(collection_id=257292,zfill=3):
 	"""
 	# Import collection metadata
 	print(f"Ton Koopman Indices collection id: {collection_id}")
-	collection_metadata = import_collection_metadata(collection_id=collection_id)
+	collection_metadata = import_collection_metadata(collection_id=collection_id,session=koha_session)
 
 	# User provides document ID and page number
 	print("Insert document id to be processed: ")
@@ -162,79 +168,39 @@ def match_keywords_fron_barcode(collection_id=257292,zfill=3):
 	document_pages = get_transkribus_pages_list(collection_id,document_id,allow_filter=False)
 
 	page_metadata = list(filter(lambda x: x["pageNr"] == page_number,document_pages))[0]
+	print(page_metadata)
 
 
 	# Get keywords from index via barcode
 	barcode = page_metadata["library_identifier"]
 
-	keywords = extract_keywords_from_barcode(barcode=barcode,mapping=biblionumber_mapping)
-
-	# TO BE CONTINUED...
+	keywords = extract_keywords_from_barcode(session=koha_session,base_url=base_url,barcode=barcode,mapping=biblionumber_mapping)
 	# create a list for the fuzz matching
-
 
 	#Get automatic transcripts from Transkribus API
 	xml_url = page_metadata["xml_url"]
+	layout = get_regions_and_relations_from_xml(xml_url,transkribus_session)
 
-	layout = get_regions_and_relations_from_xml(xml_url,session)
+	for region in layout["regions"]:
+		# combine text list into unique string
+		if region["type"] == "keyword":
+			# consider only one baseline region
+			if len(region["text"]) <= 1:
+				text = region["text"][0]
+				scores = match_with_threshold(text.replace(":",""),keywords)
+				# get the best result and substitute it to the text region
+				if len(scores) >0:
+					region["keyword"] = {"m_heading": scores[0]["m_heading"],"auth_id": scores[0]["auth_id"], "score": scores[0]["average_score"] }
+					if ":" in text:
+						# combine keyword value and :
+						region["text"][0] = f"{scores[0]["m_heading"]} :"
 
-	"""
-	- for each region extract text
-	- match text against keywords list and return best match, or None based on heuristic threshold.
-	- if not None overwrite string back to XML region (using region_id)
-	- DON'T forget to add ":" back to keyword if needed.
 
-
-
-
-
-
+	# export result to JSON
+	print(f"Exporting JSON to {os.path.join(output_directory,page_metadata["filename"].replace(".jpg",".json"))}")
+	dict2json(layout,os.path.join(output_directory,page_metadata["filename"].replace(".jpg",".json")))
 
 	
-
-
-
-
-	
-
-
-
-
-	#get_page_xml_transkribus_api()
-
-
-def extract_keywords_from_barcode(barcode: str, mapping: list) -> list:
-	"""
-	Given a barcode, extracts a list of keywords.
-
-	Args:
-	barcode (str): Barcode string.
-	mapping (list): Biblionumber-shelfmark-barcode mapping from CSV.
-	Returns:
-	keywords (list): List of dictionaries for keywords.
-
-	Examples:
-	>>>
-
-	"""
-	# get biblionumber from barcode
-	biblionumber = None 
-	for item in mapping:
-		if item["barcode"] == barcode:
-			biblionumber = item["biblionumber"]
-			break
-	if biblionumber is not None:
-
-		biblio = get_biblionumber_marc(session,base_url,biblionumber)
-
-		keywords = get_koopman_keywords(biblio,barcode)
-
-	else:
-		print(f"Barcode {barcode} not found! Skip...")
-
-
-	return keywords
-
 
 def match_keyword_with_authority():
 
@@ -254,13 +220,11 @@ def match_keyword_with_authority():
 
 ### CODE
 
-#extract_keywords_from_barcode(barcode="20122119",mapping=biblionumber_mapping)
 
 #match_keyword_with_authority()
 
-match_keywords_fron_barcode()
+#match_keywords_from_barcode()
 
-input()
 	
 collection_id = 257292
 

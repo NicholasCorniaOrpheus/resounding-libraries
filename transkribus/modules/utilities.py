@@ -29,7 +29,7 @@ def json2dict(json_filename):  # imports a JSON file as dictionary
 
 
 def dict2json(d, json_filename):  # export a dictionary to JSON file
-    json_file = open(json_filename, "w")
+    json_file = open(json_filename, "w", encoding="utf-8")
     json.dump(d, json_file, indent=2, ensure_ascii=False)
 
 
