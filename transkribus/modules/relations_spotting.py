@@ -31,6 +31,7 @@ import statistics
 import math
 from scipy import stats  # trimmed_mean
 
+import numpy as np
 from sklearn.cluster import KMeans #k-means algorithm
 
 
@@ -292,31 +293,11 @@ def k_mean_relations_matching(
 
     n_columns = int(input())
 
-    # Split regions in two ordered list (one for source and one for target) according to centroids y coordinate.
-    source_regions = sorted(
-        [region for region in regions if region["type"] == source_region_type],
-        key=lambda k: k["centroids"][1],
-    )
-    target_regions = sorted(
-        [region for region in regions if region["type"] == target_region_type],
-        key=lambda k: k["centroids"][1],
-    )
+    kmeans = KMeans(n_clusters=n_columns,random_state=42,n_init=10)
 
-    #print(f"Source regions: {source_regions}")
+    centroids_array = np.array([region["centroids"] for region in regions])
 
-    kmeans = KMeans(n_clusters=n_columns)
-
-    #kmeans.fit([source_region["centroids"] for source_region in source_regions])
-
-    #print("Result of the K-mean algorithm for sources:")
-
-    #source_clustering = kmeans.labels_ # the algorithm returns the cluster_id of each region.
-
-    #kmeans.fit([target_region["centroids"] for target_region in target_regions])
-
-    kmeans.fit([region["centroids"] for region in regions])
-
-    #target_clustering = kmeans.labels_ 
+    kmeans.fit(centroids_array)
 
     region_clustering = kmeans.labels_
 
@@ -326,12 +307,13 @@ def k_mean_relations_matching(
 
     for i in range(len(region_clustering)):
         current_region = regions[i]
+        cluster_number = region_clustering[i]
         if current_region["type"] == source_region_type:
-            clusters[region_clustering[i]]["source_regions"].append(current_region)
+            clusters[cluster_number]["source_regions"].append(current_region)
         elif current_region["type"] == target_region_type:
-            clusters[region_clustering[i]]["target_regions"].append(current_region)
+            clusters[cluster_number]["target_regions"].append(current_region)
         else:
-            pass 
+            pass   
 
     """
     for i in range(len(source_clustering)):
@@ -922,7 +904,7 @@ def vertical_clustering_relations_matching_x_min(
     return relations
 
 
-def weighted_euclidean_distance(p,q,w=[0.05,1]): # d_w = \sqrt(w_x*(p_x-q_x)^2 + ... )
+def weighted_euclidean_distance(p,q,w=[0,1]): # d_w = \sqrt(w_x*(p_x-q_x)^2 + ... )
     d = 0
     for i in range(len(p)):
         d += w[i]*pow((p[i]-q[i]),2)
