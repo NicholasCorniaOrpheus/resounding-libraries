@@ -147,7 +147,7 @@ def convert_pdfs_to_images_bulk():
 
 ### TEST ####
 
-def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=transkribus_session,output_directory="./data/authority_matching",collection_id=257292,zfill=3):
+def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=transkribus_session,output_directory="./data/authority_matching",collection_id=257292,zfill=3,pages=True):
 	"""
 	1. User provides barcode of index manually | document_id + page_number
 	2. Get keywords from index via barcode
@@ -157,7 +157,7 @@ def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=tr
 	"""
 	# Import collection metadata
 	print(f"Ton Koopman Indices collection id: {collection_id}")
-	collection_metadata = import_collection_metadata(collection_id=collection_id,session=koha_session)
+	collection_metadata = import_collection_metadata(collection_id=collection_id,session=transkribus_session)
 
 	# User provides document ID and page number
 	print("Insert document id to be processed: ")
@@ -168,32 +168,91 @@ def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=tr
 	document_pages = get_transkribus_pages_list(collection_id,document_id,allow_filter=False)
 
 	page_metadata = list(filter(lambda x: x["pageNr"] == page_number,document_pages))[0]
-	print(page_metadata)
+	#print(page_metadata)
 
 
 	# Get keywords from index via barcode
 	barcode = page_metadata["library_identifier"]
 
-	keywords = extract_keywords_from_barcode(session=koha_session,base_url=base_url,barcode=barcode,mapping=biblionumber_mapping)
 	# create a list for the fuzz matching
+	keywords = extract_keywords_from_barcode(session=koha_session,base_url=base_url,barcode=barcode,mapping=biblionumber_mapping)
+	
 
 	#Get automatic transcripts from Transkribus API
 	xml_url = page_metadata["xml_url"]
-	layout = get_regions_and_relations_from_xml(xml_url,transkribus_session)
+	layout = get_regions_and_relations_from_xml(xml_url=xml_url,session=transkribus_session)
+
+	# Parse PAGEXML 
+	headers = {"Accept": "application/xml"}
+	page_xml_response = transkribus_session.get(page_metadata["xml_url"],headers=headers)
+	xml_string = page_xml_response.text
+	root = ET.fromstring(xml_string.encode('utf-8'))
 
 	for region in layout["regions"]:
 		# combine text list into unique string
-		if region["type"] == "keyword":
+		if region["type"] in ["keyword","keyword_auth"]:
 			# consider only one baseline region
 			if len(region["text"]) <= 1:
 				text = region["text"][0]
 				scores = match_with_threshold(text.replace(":",""),keywords)
 				# get the best result and substitute it to the text region
-				if len(scores) >0:
+				if len(scores) > 0:
 					region["keyword"] = {"m_heading": scores[0]["m_heading"],"auth_id": scores[0]["auth_id"], "score": scores[0]["average_score"] }
 					if ":" in text:
 						# combine keyword value and :
 						region["text"][0] = f"{scores[0]["m_heading"]} :"
+					else:
+						region["text"][0] = scores[0]["m_heading"]
+
+					# pull back the new keyword to the PAGEXML file
+					# get region by id
+					xml_region = root.findall(f'''.//*[@id="{region["region_id"]}"]''')[0]
+					# change structural tag type to keyword_auth
+					xml_region.set("custom",xml_region.get("custom").replace("keyword;","keyword_auth;"))
+					# get text
+					xml_textline = xml_region.findall(".//{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextLine")[0]
+					xml_unicode = xml_textline.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode")
+					# update text value
+					xml_unicode.text = region["text"][0]
+					#print(f"Updated region {region['region_id']} with keyword {region['keyword']['m_heading']} with score {region['keyword']['score']}")
+
+		### TO BE CHECKED!!!!!
+		elif region["type"] in ["pages-keyword","pages-keyword_auth"]:
+				# consider only one baseline region
+				if len(region["text"]) <= 1:
+					text = region["text"][0]
+					scores = match_with_threshold(text.replace(":",""),keywords,list_field="pages")
+					# get the best result and substitute it to the text region
+					if len(scores) > 0:
+						region["keyword"] = {"pages": scores[0]["pages"],"auth_id": scores[0]["auth_id"], "score": scores[0]["average_score"] }
+						if ":" in text:
+							# combine keyword value and :
+							region["text"][0] = f"{scores[0]["pages"]} :"
+						else:
+							region["text"][0] = scores[0]["pages"]
+
+						# pull back the new keyword to the PAGEXML file
+						# get region by id
+						xml_region = root.findall(f'''.//*[@id="{region["region_id"]}"]''')[0]
+						# change structural tag type to keyword_auth
+						xml_region.set("custom",xml_region.get("custom").replace("pages-keyword;","pages-keyword_auth;"))
+						# get text
+						xml_textline = xml_region.findall(".//{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextLine")[0]
+						xml_unicode = xml_textline.find("./{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}TextEquiv/{http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15}Unicode")
+						# update text value
+						xml_unicode.text = region["text"][0]
+						#print(f"Updated region {region['region_id']} with keyword {region['keyword']['m_heading']} with score {region['keyword']['score']}")
+
+	# update PAGEXML back to Transkribus API
+	new_xml = ET.tostring(root, encoding="utf-8")
+
+	page_xml_response = transkribus_session.post(
+			f"https://transkribus.eu/TrpServer/rest/collections/{collection_id}/{document_id}/{page_number}/text",
+			headers=headers,
+			data=new_xml
+		)
+
+	print(page_xml_response.status_code)
 
 
 	# export result to JSON
@@ -202,7 +261,7 @@ def match_keywords_from_barcode(koha_session=koha_session,transkribus_session=tr
 
 	
 
-def match_keyword_with_authority():
+def save_filtered_authorities():
 
 	auth_dict_file = get_latest_file(os.path.join("data","auth_dict"))
 	print(f"Importing latest Koha Authorities dictionary: {auth_dict_file} ...")
@@ -210,9 +269,6 @@ def match_keyword_with_authority():
 
 	print("Filtering authorities for word-matching algorithm...")
 	filtered_auth = import_koha_authorities(auth_dict)
-
-	word = "viool"
-	match_with_threshold(word,filtered_auth)
 
 	output_file = os.path.join("data","filtered_auth","filtered_auth-"+get_current_date()+".json")
 	print(f"Save filtered authorities to {output_file} ...")

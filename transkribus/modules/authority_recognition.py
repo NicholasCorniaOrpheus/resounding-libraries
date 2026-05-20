@@ -3,7 +3,7 @@ This script implements a named entity recognition of Koha Authorities on the tra
 
 1. Import PAGEXML transcript from Transkribus API, associated to a specific barcode -> biblioitem.
 2. Convert the XML file in dictionary
-3. Word-matching algorithm against list of Koha AUthorities.
+3. Word-matching algorithm against list of Koha Authorities.
 4. Export result in marc-in-json format for each biblioitem.
 5. Import new keywords in biblioitem.
 
@@ -66,7 +66,12 @@ def preprocess_dutch(text):
 
 
 def match_with_threshold(
-    query: str, filtered_auth: list, threshold=40, limit_results=20, preprocess=False
+    query: str,
+    filtered_auth: list,
+    list_field="m_heading",
+    threshold=70,
+    limit_results=20,
+    preprocess=False,
 ) -> list:
     """Find matches above similarity threshold. Made with Copilot.
     Args:
@@ -89,7 +94,7 @@ def match_with_threshold(
         matches = []
         for auth in filtered_auth:
             query = preprocess_dutch(query)
-            auth_heading = preprocess_dutch(auth["m_heading"])
+            auth_heading = preprocess_dutch(auth[list_field])
             fuzz_ratio = fuzz.ratio(query, auth_heading)
             levenshtein = distance.Levenshtein.normalized_similarity(
                 query, auth_heading
@@ -99,7 +104,7 @@ def match_with_threshold(
             if partial_ratio > threshold:
                 matches.append(
                     {
-                        "m_heading": auth["m_heading"],
+                        list_field: auth[list_field],
                         "auth_id": auth["auth_id"],
                         "average_score": (
                             fuzz_ratio / 100 + levenshtein + partial_ratio / 100
@@ -338,13 +343,13 @@ def get_wikidata_entities(
     This function returns a list of wikidata entities linked with a given record.
 
     Args:
-                                                    record (dict): MARC-in-JSON record of the authority, conform with Koha API.
-                                                    wikidata_field (str): Default is "024", according to MARC21 guidelines.
-                                                    wikidata_subfields (str): label and authority id for each umbrella term. Default is {"label": "a","id": "9"}.
+    record (dict): MARC-in-JSON record of the authority, conform with Koha API.
+    wikidata_field (str): Default is "024", according to MARC21 guidelines.
+    wikidata_subfields (str): label and authority id for each umbrella term. Default is {"label": "a","id": "9"}.
 
 
     Returns:
-                                                    wikidata_entities (list): List of Wikidata entities.
+    wikidata_entities (list): List of Wikidata entities.
 
     Examples:
     """
